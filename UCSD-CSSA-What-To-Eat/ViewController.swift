@@ -10,8 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     var shaked = true
+
     //@IBOutlet weak var shakeLabel: UILabel!
     @IBOutlet var shakeLabel: UILabel!
+    
+    @IBOutlet weak var button: UIButton!
+    
+    var i = Int(arc4random_uniform(10))
+    var nameArray = ["Shogun", "Panda", "Tapioca", "Bombay Coast","Pines","Santorini","Lemon Grass","Shogun","Shogun","Shogun"]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -28,7 +36,17 @@ class ViewController: UIViewController {
     
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         if motion == .MotionShake {
+            
+            
+            i = Int(arc4random_uniform(10))
+            button.setTitle(nameArray[i], forState: .Normal)
+            
+            /*
             shaked = !shaked;
+            
+            
+            
+            
             if(!shaked){
                 self.shakeLabel.text = "╯' - ')╯︵ ┻━┻"
             }
@@ -36,6 +54,7 @@ class ViewController: UIViewController {
                 self.shakeLabel.text = " ┬─┬ ノ( ' - 'ノ)"
                 
             }
+            */
         }
     }
 }
