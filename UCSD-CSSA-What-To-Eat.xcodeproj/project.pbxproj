@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906801BD2D3B6007B43FB /* AppDelegate.swift */; };
+		AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906821BD2D3B6007B43FB /* ViewController.swift */; };
+		AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5906841BD2D3B6007B43FB /* Main.storyboard */; };
+		AA5906891BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5906871BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodeld */; };
+		AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA59068A1BD2D3B6007B43FB /* Assets.xcassets */; };
+		AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */; };
+		AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906981BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift */; };
+		AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5906951BD2D3B6007B43FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5906751BD2D3B6007B43FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA59067C1BD2D3B6007B43FB;
+			remoteInfo = "UCSD-CSSA-What-To-Eat";
+		};
+		AA5906A01BD2D3B6007B43FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5906751BD2D3B6007B43FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA59067C1BD2D3B6007B43FB;
+			remoteInfo = "UCSD-CSSA-What-To-Eat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5906801BD2D3B6007B43FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA5906821BD2D3B6007B43FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA5906851BD2D3B6007B43FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA5906881BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UCSD_CSSA_What_To_Eat.xcdatamodel; sourceTree = "<group>"; };
+		AA59068A1BD2D3B6007B43FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA59068D1BD2D3B6007B43FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA59068F1BD2D3B6007B43FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5906941BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCSD-CSSA-What-To-EatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5906981BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSD_CSSA_What_To_EatTests.swift; sourceTree = "<group>"; };
+		AA59069A1BD2D3B6007B43FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA59069F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCSD-CSSA-What-To-EatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSD_CSSA_What_To_EatUITests.swift; sourceTree = "<group>"; };
+		AA5906A51BD2D3B6007B43FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA59067A1BD2D3B6007B43FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5906911BD2D3B6007B43FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA59069C1BD2D3B6007B43FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5906741BD2D3B6007B43FB = {
+			isa = PBXGroup;
+			children = (
+				AA59067F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */,
+				AA5906971BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests */,
+				AA5906A21BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests */,
+				AA59067E1BD2D3B6007B43FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA59067E1BD2D3B6007B43FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */,
+				AA5906941BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests.xctest */,
+				AA59069F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA59067F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */ = {
+			isa = PBXGroup;
+			children = (
+				AA5906801BD2D3B6007B43FB /* AppDelegate.swift */,
+				AA5906821BD2D3B6007B43FB /* ViewController.swift */,
+				AA5906841BD2D3B6007B43FB /* Main.storyboard */,
+				AA59068A1BD2D3B6007B43FB /* Assets.xcassets */,
+				AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */,
+				AA59068F1BD2D3B6007B43FB /* Info.plist */,
+				AA5906871BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodeld */,
+			);
+			path = "UCSD-CSSA-What-To-Eat";
+			sourceTree = "<group>";
+		};
+		AA5906971BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5906981BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift */,
+				AA59069A1BD2D3B6007B43FB /* Info.plist */,
+			);
+			path = "UCSD-CSSA-What-To-EatTests";
+			sourceTree = "<group>";
+		};
+		AA5906A21BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */,
+				AA5906A51BD2D3B6007B43FB /* Info.plist */,
+			);
+			path = "UCSD-CSSA-What-To-EatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA59067C1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5906A81BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-Eat" */;
+			buildPhases = (
+				AA5906791BD2D3B6007B43FB /* Sources */,
+				AA59067A1BD2D3B6007B43FB /* Frameworks */,
+				AA59067B1BD2D3B6007B43FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UCSD-CSSA-What-To-Eat";
+			productName = "UCSD-CSSA-What-To-Eat";
+			productReference = AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA5906931BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5906AB1BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-EatTests" */;
+			buildPhases = (
+				AA5906901BD2D3B6007B43FB /* Sources */,
+				AA5906911BD2D3B6007B43FB /* Frameworks */,
+				AA5906921BD2D3B6007B43FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5906961BD2D3B6007B43FB /* PBXTargetDependency */,
+			);
+			name = "UCSD-CSSA-What-To-EatTests";
+			productName = "UCSD-CSSA-What-To-EatTests";
+			productReference = AA5906941BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA59069E1BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5906AE1BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-EatUITests" */;
+			buildPhases = (
+				AA59069B1BD2D3B6007B43FB /* Sources */,
+				AA59069C1BD2D3B6007B43FB /* Frameworks */,
+				AA59069D1BD2D3B6007B43FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5906A11BD2D3B6007B43FB /* PBXTargetDependency */,
+			);
+			name = "UCSD-CSSA-What-To-EatUITests";
+			productName = "UCSD-CSSA-What-To-EatUITests";
+			productReference = AA59069F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5906751BD2D3B6007B43FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ruiqing Qiu";
+				TargetAttributes = {
+					AA59067C1BD2D3B6007B43FB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					AA5906931BD2D3B6007B43FB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AA59067C1BD2D3B6007B43FB;
+					};
+					AA59069E1BD2D3B6007B43FB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AA59067C1BD2D3B6007B43FB;
+					};
+				};
+			};
+			buildConfigurationList = AA5906781BD2D3B6007B43FB /* Build configuration list for PBXProject "UCSD-CSSA-What-To-Eat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5906741BD2D3B6007B43FB;
+			productRefGroup = AA59067E1BD2D3B6007B43FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA59067C1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */,
+				AA5906931BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests */,
+				AA59069E1BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA59067B1BD2D3B6007B43FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */,
+				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
+				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5906921BD2D3B6007B43FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA59069D1BD2D3B6007B43FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5906791BD2D3B6007B43FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5906891BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodeld in Sources */,
+				AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */,
+				AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5906901BD2D3B6007B43FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA59069B1BD2D3B6007B43FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA5906961BD2D3B6007B43FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA59067C1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */;
+			targetProxy = AA5906951BD2D3B6007B43FB /* PBXContainerItemProxy */;
+		};
+		AA5906A11BD2D3B6007B43FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA59067C1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */;
+			targetProxy = AA5906A01BD2D3B6007B43FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5906841BD2D3B6007B43FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5906851BD2D3B6007B43FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA59068D1BD2D3B6007B43FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5906A61BD2D3B6007B43FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA5906A71BD2D3B6007B43FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5906A91BD2D3B6007B43FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA5906AA1BD2D3B6007B43FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA5906AC1BD2D3B6007B43FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSD-CSSA-What-To-Eat.app/UCSD-CSSA-What-To-Eat";
+			};
+			name = Debug;
+		};
+		AA5906AD1BD2D3B6007B43FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSD-CSSA-What-To-Eat.app/UCSD-CSSA-What-To-Eat";
+			};
+			name = Release;
+		};
+		AA5906AF1BD2D3B6007B43FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UCSD-CSSA-What-To-Eat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA5906B01BD2D3B6007B43FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UCSD-CSSA-What-To-Eat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5906781BD2D3B6007B43FB /* Build configuration list for PBXProject "UCSD-CSSA-What-To-Eat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5906A61BD2D3B6007B43FB /* Debug */,
+				AA5906A71BD2D3B6007B43FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5906A81BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-Eat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5906A91BD2D3B6007B43FB /* Debug */,
+				AA5906AA1BD2D3B6007B43FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA5906AB1BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-EatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5906AC1BD2D3B6007B43FB /* Debug */,
+				AA5906AD1BD2D3B6007B43FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA5906AE1BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-EatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5906AF1BD2D3B6007B43FB /* Debug */,
+				AA5906B01BD2D3B6007B43FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA5906871BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA5906881BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodel */,
+			);
+			currentVersion = AA5906881BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodel */;
+			path = UCSD_CSSA_What_To_Eat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA5906751BD2D3B6007B43FB /* Project object */;
+}
