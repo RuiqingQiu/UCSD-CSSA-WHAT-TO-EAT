@@ -40,9 +40,20 @@ class ViewController: UIViewController {
         "Roots",
         "The Bistro at The Strand"]
     
+    //@IBOutlet var pc_on: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //pc_on.addTarget(self, action: Selector("PcSwitchOn:"), forControlEvents: UIControlEvents.ValueChanged)
+    }
+    
+    
+    func PcSwitchOn(mySwitch: UISwitch) {
+        if mySwitch.on {
+            print("UISwitch is ON")
+        } else {
+            print("UISwitch is OFF")
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -69,7 +80,7 @@ class ViewController: UIViewController {
             i = Int(arc4random_uniform(UInt32(pc_rest.count)))
             button.setTitle(pc_rest[i], forState: .Normal)
             Rest_Image.setImage(UIImage(named: pc_rest[i] + ".png"), forState: UIControlState.Normal)
-
+            
         }
 
     }

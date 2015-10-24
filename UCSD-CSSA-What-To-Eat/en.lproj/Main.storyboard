@@ -16,14 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Shake me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KA3-uT-n0t">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shake me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KA3-uT-n0t">
                                 <rect key="frame" x="113" y="54" width="375" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdk-Se-vqq" userLabel="Result">
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-HZ-PdZ" userLabel="Rest_Image">
+                                <rect key="frame" x="175" y="54" width="250" height="250"/>
+                                <animations/>
+                                <state key="normal" image="Subway.png"/>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdk-Se-vqq" userLabel="Result">
                                 <rect key="frame" x="110" y="300" width="380" height="143"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
@@ -31,22 +36,9 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-HZ-PdZ" userLabel="Rest_Image">
-                                <rect key="frame" x="175" y="54" width="250" height="250"/>
-                                <animations/>
-                                <state key="normal" image="Subway.png"/>
-                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-121" id="3Lz-Kk-7J2"/>
-                            <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4nU-4d-kBp"/>
-                            <constraint firstItem="KA3-uT-n0t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FrB-i5-x0V"/>
-                            <constraint firstItem="Xdk-Se-vqq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hMq-W9-oHj"/>
-                            <constraint firstItem="Xdk-Se-vqq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="71.5" id="sX9-Ay-UGw"/>
-                            <constraint firstItem="KA3-uT-n0t" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-235.5" id="tdf-cx-452"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="Rest_Image" destination="aSz-HZ-PdZ" id="F6I-4m-s1o"/>
