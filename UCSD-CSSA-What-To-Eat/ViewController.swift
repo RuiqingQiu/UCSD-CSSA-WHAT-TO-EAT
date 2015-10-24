@@ -17,9 +17,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     
     var i = Int(arc4random_uniform(10))
+    
     var nameArray = ["Shogun", "Panda", "Tapioca", "Bombay Coast","Pines","Santorini","Lemon Grass","Shogun","Shogun","Shogun"]
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,28 +34,23 @@ class ViewController: UIViewController {
         return true
     }
     
+    //For detect motion start event
+    override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        if motion == .MotionShake{
+        }
+    }
+    
+    //For detecting motion end evenet
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        
         if motion == .MotionShake {
             
             
             i = Int(arc4random_uniform(10))
             button.setTitle(nameArray[i], forState: .Normal)
-            
-            /*
-            shaked = !shaked;
-            
-            
-            
-            
-            if(!shaked){
-                self.shakeLabel.text = "╯' - ')╯︵ ┻━┻"
-            }
-            else{
-                self.shakeLabel.text = " ┬─┬ ノ( ' - 'ノ)"
-                
-            }
-            */
+        
         }
+
     }
 }
 
