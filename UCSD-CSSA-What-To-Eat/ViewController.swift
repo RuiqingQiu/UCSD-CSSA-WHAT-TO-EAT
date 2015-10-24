@@ -20,8 +20,12 @@ class ViewController: UIViewController {
     //For displaying the result resturant image
 
     @IBOutlet var Rest_Image: UIButton!
-    var i = Int(arc4random_uniform(10))
     
+    
+    @IBOutlet var pc_on: UISwitch!
+    
+    var i = Int(arc4random_uniform(10))
+    var using_pc = true
     var pc_rest = ["Shogun", "Panda", "Tapioca", "Bombay Coast","Lemon Grass","Subway","Santorini","Burger King","Jumba Juice","Dlush"]
     
     var other_rest = ["Perks", "Art of Espresso Café", "Bella Vista Social Club and Caffé",
@@ -40,21 +44,20 @@ class ViewController: UIViewController {
         "Roots",
         "The Bistro at The Strand"]
     
-    //@IBOutlet var pc_on: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //pc_on.addTarget(self, action: Selector("PcSwitchOn:"), forControlEvents: UIControlEvents.ValueChanged)
+        pc_on.addTarget(self, action: Selector("switchIsChanged:"), forControlEvents: UIControlEvents.ValueChanged)
     }
     
-    
-    func PcSwitchOn(mySwitch: UISwitch) {
+    func switchIsChanged(mySwitch: UISwitch) {
         if mySwitch.on {
-            print("UISwitch is ON")
+            using_pc = true
         } else {
-            print("UISwitch is OFF")
+            using_pc = false
         }
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -76,10 +79,17 @@ class ViewController: UIViewController {
         
         if motion == .MotionShake {
             
-            
-            i = Int(arc4random_uniform(UInt32(pc_rest.count)))
-            button.setTitle(pc_rest[i], forState: .Normal)
-            Rest_Image.setImage(UIImage(named: pc_rest[i] + ".png"), forState: UIControlState.Normal)
+            if(using_pc){
+                i = Int(arc4random_uniform(UInt32(pc_rest.count)))
+                button.setTitle(pc_rest[i], forState: .Normal)
+                Rest_Image.setImage(UIImage(named: pc_rest[i] + ".png"), forState: UIControlState.Normal)
+            }
+            else{
+                i = Int(arc4random_uniform(UInt32(other_rest.count)))
+                button.setTitle(other_rest[i], forState: .Normal)
+                Rest_Image.setImage(UIImage(named: other_rest[i] + ".png"), forState: UIControlState.Normal)
+ 
+            }
             
         }
 
