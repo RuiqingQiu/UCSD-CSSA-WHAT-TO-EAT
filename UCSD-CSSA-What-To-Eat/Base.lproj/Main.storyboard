@@ -18,55 +18,72 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Shake me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KA3-uT-n0t">
-                                <rect key="frame" x="113" y="54" width="375" height="21"/>
+                                <rect key="frame" x="104" y="486" width="375" height="44"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="1" green="0.7281881262148896" blue="0.27006717106483535" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-HZ-PdZ" userLabel="Rest_Image">
-                                <rect key="frame" x="175" y="54" width="250" height="250"/>
-                                <animations/>
-                                <state key="normal" image="Subway.png"/>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdk-Se-vqq" userLabel="Result">
-                                <rect key="frame" x="110" y="300" width="380" height="143"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QFP-ZJ-kOV">
-                                <rect key="frame" x="376" y="549" width="51" height="31"/>
+                                <rect key="frame" x="376" y="397" width="51" height="31"/>
                                 <animations/>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Eat in Price Center?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f20-2C-xMw">
-                                <rect key="frame" x="207" y="554" width="154" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Eat in Price Center?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f20-2C-xMw">
+                                <rect key="frame" x="214" y="402" width="154" height="21"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O0s-ek-Zw3">
+                                <rect key="frame" x="376" y="431" width="51" height="31"/>
+                                <animations/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EmW-ky-elT">
+                                <rect key="frame" x="240" y="570" width="102" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                <state key="normal" title="Details"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dining Dollor?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-iU-hK2">
+                                <rect key="frame" x="214" y="436" width="154" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-HZ-PdZ" userLabel="Rest_Image">
+                                <rect key="frame" x="175" y="0.0" width="250" height="250"/>
+                                <animations/>
+                                <state key="normal" image="Subway.png"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-121" id="3Lz-Kk-7J2"/>
-                            <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4nU-4d-kBp"/>
-                            <constraint firstItem="f20-2C-xMw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="264.5" id="F75-7k-ESb"/>
-                            <constraint firstItem="KA3-uT-n0t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FrB-i5-x0V"/>
-                            <constraint firstItem="QFP-ZJ-kOV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100.5" id="Jz1-za-FSS"/>
-                            <constraint firstItem="QFP-ZJ-kOV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="264.5" id="QYr-1d-3Mf"/>
-                            <constraint firstItem="Xdk-Se-vqq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hMq-W9-oHj"/>
-                            <constraint firstItem="f20-2C-xMw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-16" id="oer-ZT-dK8"/>
-                            <constraint firstItem="Xdk-Se-vqq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="71.5" id="sX9-Ay-UGw"/>
-                            <constraint firstItem="KA3-uT-n0t" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-236" id="tdf-cx-452"/>
+                            <constraint firstItem="QFP-ZJ-kOV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100.5" id="7aL-oX-yWT"/>
+                            <constraint firstItem="O0s-ek-Zw3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100.5" id="9Ed-fe-b0M"/>
+                            <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-175" id="Akv-sj-uV9"/>
+                            <constraint firstItem="TCf-iU-hK2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="146.5" id="Arq-3A-e80"/>
+                            <constraint firstItem="TCf-iU-hK2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="Cq4-tx-Jys"/>
+                            <constraint firstItem="f20-2C-xMw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="112.5" id="Eh6-jx-gQk"/>
+                            <constraint firstItem="KA3-uT-n0t" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="208" id="Hyw-tx-Z1m"/>
+                            <constraint firstItem="f20-2C-xMw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="112.5" id="K2f-dq-85t"/>
+                            <constraint firstItem="TCf-iU-hK2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="146.5" id="QBo-hh-QOb"/>
+                            <constraint firstItem="f20-2C-xMw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="QuA-v2-i3j"/>
+                            <constraint firstItem="EmW-ky-elT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="XmF-Bl-dD6"/>
+                            <constraint firstItem="EmW-ky-elT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="285" id="cUN-hU-SwN"/>
+                            <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hgX-wV-kp3"/>
+                            <constraint firstItem="QFP-ZJ-kOV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="112.5" id="jCB-lN-fsk"/>
+                            <constraint firstItem="KA3-uT-n0t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-8.5" id="neY-tE-FIm"/>
+                            <constraint firstItem="TCf-iU-hK2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="pE5-g3-LlS"/>
+                            <constraint firstItem="O0s-ek-Zw3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="146.5" id="q94-9A-XE0"/>
+                            <constraint firstItem="f20-2C-xMw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="sAJ-ww-OYk"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="Rest_Image" destination="aSz-HZ-PdZ" id="F6I-4m-s1o"/>
-                        <outlet property="button" destination="Xdk-Se-vqq" id="wLT-Dq-SRS"/>
                         <outlet property="pc_on" destination="QFP-ZJ-kOV" id="zR9-ao-ByB"/>
                         <outlet property="shakeLabel" destination="KA3-uT-n0t" id="0du-rk-bWR"/>
                     </connections>

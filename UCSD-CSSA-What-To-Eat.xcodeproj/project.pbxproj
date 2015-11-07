@@ -37,6 +37,7 @@
 		AAD745F61BDC1FA8003511FB /* Sixty-Four North.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745E01BDC1FA8003511FB /* Sixty-Four North.png */; };
 		AAD745F71BDC1FA8003511FB /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745E11BDC1FA8003511FB /* Subway.png */; };
 		AAD745F81BDC1FA8003511FB /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745E21BDC1FA8003511FB /* Tapioca.png */; };
+		AAD745FC1BDC22CF003511FB /* WTE_120.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745FB1BDC22CF003511FB /* WTE_120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		AAD745E01BDC1FA8003511FB /* Sixty-Four North.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four North.png"; path = "Images/Sixty-Four North.png"; sourceTree = "<group>"; };
 		AAD745E11BDC1FA8003511FB /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
 		AAD745E21BDC1FA8003511FB /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
+		AAD745FB1BDC22CF003511FB /* WTE_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WTE_120.png; path = Images/WTE_120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 		AAD745B11BDC0589003511FB /* Rest_Image */ = {
 			isa = PBXGroup;
 			children = (
+				AAD745FB1BDC22CF003511FB /* WTE_120.png */,
 				AAD745CD1BDC1FA8003511FB /* Bistro.png */,
 				AAD745CE1BDC1FA8003511FB /* Bombay Coast.png */,
 				AAD745CF1BDC1FA8003511FB /* Burger King.png */,
@@ -315,6 +318,7 @@
 				AAD745EC1BDC1FA8003511FB /* Jumba Juice.png in Resources */,
 				AAD745F11BDC1FA8003511FB /* Round Table.png in Resources */,
 				AAD745F81BDC1FA8003511FB /* Tapioca.png in Resources */,
+				AAD745FC1BDC22CF003511FB /* WTE_120.png in Resources */,
 				AAD745F41BDC1FA8003511FB /* Shogun.png in Resources */,
 				AAD745F51BDC1FA8003511FB /* Sixty-Four Degrees.png in Resources */,
 				AAD745E51BDC1FA8003511FB /* Burger King.png in Resources */,
