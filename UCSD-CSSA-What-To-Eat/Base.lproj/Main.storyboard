@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,65 +17,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Shake me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KA3-uT-n0t">
-                                <rect key="frame" x="113" y="54" width="375" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdk-Se-vqq" userLabel="Result">
-                                <rect key="frame" x="110" y="300" width="380" height="143"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-HZ-PdZ" userLabel="Rest_Image">
                                 <rect key="frame" x="175" y="54" width="250" height="250"/>
                                 <animations/>
                                 <state key="normal" image="Subway.png"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dining Dollar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yci-NM-zd4">
+                                <rect key="frame" x="136" y="327" width="103" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q0S-m8-SIb" userLabel="http://www.douyutv.com/cms/zt/blizzcon.html">
+                                <rect key="frame" x="300" y="322" width="51" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="diningDollarSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="sVI-5f-72T"/>
+                                </connections>
+                            </switch>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pae-f6-b1Z">
+                                <rect key="frame" x="180" y="409" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-121" id="3Lz-Kk-7J2"/>
                             <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4nU-4d-kBp"/>
-                            <constraint firstItem="KA3-uT-n0t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FrB-i5-x0V"/>
-                            <constraint firstItem="Xdk-Se-vqq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hMq-W9-oHj"/>
-                            <constraint firstItem="Xdk-Se-vqq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="71.5" id="sX9-Ay-UGw"/>
-                            <constraint firstItem="KA3-uT-n0t" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-235.5" id="tdf-cx-452"/>
+                            <constraint firstItem="pae-f6-b1Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ssi-84-wDg"/>
+                            <constraint firstItem="Yci-NM-zd4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="nh7-XW-fIj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q0S-m8-SIb" secondAttribute="trailing" constant="90" id="wOc-2c-6em"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="Rest_Image" destination="aSz-HZ-PdZ" id="F6I-4m-s1o"/>
-                        <outlet property="button" destination="Xdk-Se-vqq" id="wLT-Dq-SRS"/>
-                        <outlet property="shakeLabel" destination="KA3-uT-n0t" id="0du-rk-bWR"/>
+                        <outlet property="descriptionTextView" destination="pae-f6-b1Z" id="EIt-ON-1Dq"/>
+                        <outlet property="diningDollarSelector" destination="q0S-m8-SIb" id="6Ke-Mw-Jrc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="242.5" y="267.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="3Zd-hI-UNL">
-            <objects>
-                <viewController id="h7p-Qx-h3k" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cVM-8e-LYt"/>
-                        <viewControllerLayoutGuide type="bottom" id="6Qw-Ft-Se8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="brl-3H-msX">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gf3-3H-JeV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
+            <point key="canvasLocation" x="242" y="267"/>
         </scene>
     </scenes>
     <resources>

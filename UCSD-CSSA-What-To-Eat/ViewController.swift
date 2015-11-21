@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     //For displaying "shake me"
     @IBOutlet var shakeLabel: UILabel!
     
+    @IBOutlet weak var descriptionTextView: UITextView!
+    @IBOutlet weak var diningDollarSelector: UISwitch!
     //For displaying the result resturant name
     @IBOutlet weak var button: UIButton!
     //For displaying the result resturant image
@@ -43,18 +45,26 @@ class ViewController: UIViewController {
     //@IBOutlet var pc_on: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
+        descriptionTextView.text = "Shake Me!"
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
         //pc_on.addTarget(self, action: Selector("PcSwitchOn:"), forControlEvents: UIControlEvents.ValueChanged)
     }
     
+
     
-    func PcSwitchOn(mySwitch: UISwitch) {
-        if mySwitch.on {
+
+    
+    @IBAction func diningDollarSwitch(sender: AnyObject) {
+        
+        if diningDollarSelector.on {
             print("UISwitch is ON")
         } else {
             print("UISwitch is OFF")
         }
     }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
