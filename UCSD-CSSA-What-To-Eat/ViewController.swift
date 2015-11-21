@@ -6,9 +6,15 @@
 //  Copyright © 2015 Ruiqing Qiu. All rights reserved.
 
 import UIKit
+import GLKit
 
 
 class ViewController: UIViewController {
+    
+    var subl = CALayer()
+    var icons = [icon]()
+
+    
     var shaked = true
 
     //@IBOutlet weak var shakeLabel: UILabel!
@@ -46,8 +52,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        pc_on.addTarget(self, action: Selector("switchIsChanged:"), forControlEvents: UIControlEvents.ValueChanged)
-        json_helper();
+        //pc_on.addTarget(self, action: Selector("switchIsChanged:"), forControlEvents: UIControlEvents.ValueChanged)
+        //json_helper();
+        initMyLayer()
     }
     
     func switchIsChanged(mySwitch: UISwitch) {
@@ -125,6 +132,84 @@ class ViewController: UIViewController {
             
         }
 
+    }
+    
+    
+    func initMyLayer() -> Void
+    {
+        subl.frame = self.view.frame
+        
+        self.view.layer.addSublayer(subl)
+        
+        for x in -10...10
+        {
+            for y in -10...10
+            {
+                let i = icon(superframe: self.view.frame)
+                let n = Int(arc4random_uniform(12)+1)
+                let s = String(format: "Images/%d.png", n)
+                i.setImageWithFile(s)
+                i.x = x
+                i.y = y
+                icons.append(i)
+                subl.addSublayer(i.view)
+            }
+        }
+        NSLog(NSStringFromCGRect(self.subl.frame))
+        
+        /*let img = UIImage(named: "Images/1.png")
+        /*let view = UIImageView(image: img)
+        view.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
+        self.view.addSubview(view)*/
+        let blurFilter = GPUImageGaussianBlurFilter()
+        blurFilter.blurRadiusInPixels = 0
+        
+        let outputImage = blurFilter.imageByFilteringImage(img)
+        /*let view2 = UIImageView(image: outputImage)
+        view2.frame = CGRect(x: 0, y: 300, width: 300, height: 300)
+        self.view.addSubview(view2)*/
+        
+        sublu.contents=img!.CGImage
+        sublu.frame = CGRect(x: 0.5*self.view.frame.width-125, y: 0.5*self.view.frame.height-125, width: 250, height: 250)
+        //sublu.frame = self.view.frame
+        //subl.frame = CGRect(x: 0, y: 0, width: 250, height: 250)*/
+        subl.allowsEdgeAntialiasing = true
+        //subl.addSublayer(sublu)
+        //sublu.addSublayer(subl)
+        
+        //subl.transform = CATransform3DMakeRotation(3.14,0,0,1)
+        //subl.transform = CATransform3DMakeAffineTransform(CGAffineTransformMake(1.0, 0.0, 0.2, 0.9, 0.0, 0.0));
+        
+        /*NSLog("view")
+        var RESULT:GLKMatrix4! = view
+        NSLog("    %f %f %f %f",RESULT.m00,RESULT.m01,RESULT.m02,RESULT.m03);
+        NSLog("    %f %f %f %f",RESULT.m10,RESULT.m11,RESULT.m12,RESULT.m13);
+        NSLog("    %f %f %f %f",RESULT.m20,RESULT.m21,RESULT.m22,RESULT.m23);
+        NSLog("    %f %f %f %f",RESULT.m30,RESULT.m31,RESULT.m32,RESULT.m33);*/
+        
+        
+        let model:GLKMatrix4! = GLKMatrix4MakeTranslation(0, 0, 0)
+        let view:GLKMatrix4! = GLKMatrix4MakeLookAt(-100, 300, 400, 0, 0, 0, 0, 0, -1)
+        let perspective:GLKMatrix4! = GLKMatrix4MakePerspective(Float(0.3 * M_PI), 1, 0.1, 10.0)
+        var ts:GLKMatrix4!
+        ts = GLKMatrix4MakeScale(2.0/Float(self.view.frame.width), 2.0/Float(self.view.frame.width), 2.0/Float(self.view.frame.width))
+        let tsi:GLKMatrix4! = GLKMatrix4Invert(ts, nil)
+        var mvp:GLKMatrix4! = GLKMatrix4Identity
+        
+        
+        mvp = GLKMatrix4Multiply(model, mvp)
+        mvp = GLKMatrix4Multiply(view, mvp)
+        
+        mvp = GLKMatrix4Multiply(ts, mvp)
+        
+        mvp = GLKMatrix4Multiply(perspective, mvp)
+        mvp = GLKMatrix4Multiply(tsi, mvp)
+        
+        var cat:CATransform3D!
+        
+        cat = CATransform3D(m11: CGFloat(mvp.m00), m12: CGFloat(mvp.m01), m13: CGFloat(mvp.m02), m14: CGFloat(mvp.m03), m21: CGFloat(mvp.m10), m22: CGFloat(mvp.m11), m23: CGFloat(mvp.m12), m24: CGFloat(mvp.m13), m31: CGFloat(mvp.m20), m32: CGFloat(mvp.m21), m33: CGFloat(mvp.m22), m34: CGFloat(mvp.m23), m41: CGFloat(mvp.m30), m42: CGFloat(mvp.m31), m43: CGFloat(mvp.m32), m44: CGFloat(mvp.m33))
+        
+        subl.transform = cat
     }
 }
 
