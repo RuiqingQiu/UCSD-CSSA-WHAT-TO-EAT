@@ -15,18 +15,29 @@
 		AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */; };
 		AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906981BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift */; };
 		AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */; };
-		AAD745BE1BDC0C8D003511FB /* Bombay Coast.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745B21BDC0C8D003511FB /* Bombay Coast.png */; };
-		AAD745BF1BDC0C8D003511FB /* Burger King.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745B31BDC0C8D003511FB /* Burger King.png */; };
-		AAD745C01BDC0C8D003511FB /* Dlush.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745B41BDC0C8D003511FB /* Dlush.png */; };
-		AAD745C11BDC0C8D003511FB /* Hi Thai.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745B51BDC0C8D003511FB /* Hi Thai.png */; };
-		AAD745C21BDC0C8D003511FB /* Jumba Juice.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745B61BDC0C8D003511FB /* Jumba Juice.png */; };
-		AAD745C31BDC0C8D003511FB /* Panda.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745B71BDC0C8D003511FB /* Panda.png */; };
-		AAD745C41BDC0C8D003511FB /* Round Table.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745B81BDC0C8D003511FB /* Round Table.png */; };
-		AAD745C51BDC0C8D003511FB /* Rubios.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745B91BDC0C8D003511FB /* Rubios.png */; };
-		AAD745C61BDC0C8D003511FB /* Santorini.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745BA1BDC0C8D003511FB /* Santorini.png */; };
-		AAD745C71BDC0C8D003511FB /* Shogun.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745BB1BDC0C8D003511FB /* Shogun.png */; };
-		AAD745C81BDC0C8D003511FB /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745BC1BDC0C8D003511FB /* Subway.png */; };
-		AAD745C91BDC0C8D003511FB /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745BD1BDC0C8D003511FB /* Tapioca.png */; };
+		AAD745E31BDC1FA8003511FB /* Bistro.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745CD1BDC1FA8003511FB /* Bistro.png */; };
+		AAD745E41BDC1FA8003511FB /* Bombay Coast.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745CE1BDC1FA8003511FB /* Bombay Coast.png */; };
+		AAD745E51BDC1FA8003511FB /* Burger King.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745CF1BDC1FA8003511FB /* Burger King.png */; };
+		AAD745E61BDC1FA8003511FB /* Cafe Vetena.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D01BDC1FA8003511FB /* Cafe Vetena.png */; };
+		AAD745E71BDC1FA8003511FB /* Canyon Vista.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D11BDC1FA8003511FB /* Canyon Vista.png */; };
+		AAD745E81BDC1FA8003511FB /* Dlush.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D21BDC1FA8003511FB /* Dlush.png */; };
+		AAD745E91BDC1FA8003511FB /* FoodWorx.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D31BDC1FA8003511FB /* FoodWorx.png */; };
+		AAD745EA1BDC1FA8003511FB /* Goodys.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D41BDC1FA8003511FB /* Goodys.png */; };
+		AAD745EB1BDC1FA8003511FB /* Hi Thai.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D51BDC1FA8003511FB /* Hi Thai.png */; };
+		AAD745EC1BDC1FA8003511FB /* Jumba Juice.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D61BDC1FA8003511FB /* Jumba Juice.png */; };
+		AAD745ED1BDC1FA8003511FB /* Lemon Grass.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D71BDC1FA8003511FB /* Lemon Grass.png */; };
+		AAD745EE1BDC1FA8003511FB /* Panda.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D81BDC1FA8003511FB /* Panda.png */; };
+		AAD745EF1BDC1FA8003511FB /* Pines.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D91BDC1FA8003511FB /* Pines.png */; };
+		AAD745F01BDC1FA8003511FB /* Roots.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DA1BDC1FA8003511FB /* Roots.png */; };
+		AAD745F11BDC1FA8003511FB /* Round Table.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DB1BDC1FA8003511FB /* Round Table.png */; };
+		AAD745F21BDC1FA8003511FB /* Rubios.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DC1BDC1FA8003511FB /* Rubios.png */; };
+		AAD745F31BDC1FA8003511FB /* Santorini.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DD1BDC1FA8003511FB /* Santorini.png */; };
+		AAD745F41BDC1FA8003511FB /* Shogun.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DE1BDC1FA8003511FB /* Shogun.png */; };
+		AAD745F51BDC1FA8003511FB /* Sixty-Four Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DF1BDC1FA8003511FB /* Sixty-Four Degrees.png */; };
+		AAD745F61BDC1FA8003511FB /* Sixty-Four North.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745E01BDC1FA8003511FB /* Sixty-Four North.png */; };
+		AAD745F71BDC1FA8003511FB /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745E11BDC1FA8003511FB /* Subway.png */; };
+		AAD745F81BDC1FA8003511FB /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745E21BDC1FA8003511FB /* Tapioca.png */; };
+		AAD745FC1BDC22CF003511FB /* WTE_120.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745FB1BDC22CF003511FB /* WTE_120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,18 +72,29 @@
 		AA59069F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCSD-CSSA-What-To-EatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSD_CSSA_What_To_EatUITests.swift; sourceTree = "<group>"; };
 		AA5906A51BD2D3B6007B43FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAD745B21BDC0C8D003511FB /* Bombay Coast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bombay Coast.png"; path = "Images/Bombay Coast.png"; sourceTree = "<group>"; };
-		AAD745B31BDC0C8D003511FB /* Burger King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Burger King.png"; path = "Images/Burger King.png"; sourceTree = "<group>"; };
-		AAD745B41BDC0C8D003511FB /* Dlush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dlush.png; path = Images/Dlush.png; sourceTree = "<group>"; };
-		AAD745B51BDC0C8D003511FB /* Hi Thai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hi Thai.png"; path = "Images/Hi Thai.png"; sourceTree = "<group>"; };
-		AAD745B61BDC0C8D003511FB /* Jumba Juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jumba Juice.png"; path = "Images/Jumba Juice.png"; sourceTree = "<group>"; };
-		AAD745B71BDC0C8D003511FB /* Panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda.png; path = Images/Panda.png; sourceTree = "<group>"; };
-		AAD745B81BDC0C8D003511FB /* Round Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Round Table.png"; path = "Images/Round Table.png"; sourceTree = "<group>"; };
-		AAD745B91BDC0C8D003511FB /* Rubios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rubios.png; path = Images/Rubios.png; sourceTree = "<group>"; };
-		AAD745BA1BDC0C8D003511FB /* Santorini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Santorini.png; path = Images/Santorini.png; sourceTree = "<group>"; };
-		AAD745BB1BDC0C8D003511FB /* Shogun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shogun.png; path = Images/Shogun.png; sourceTree = "<group>"; };
-		AAD745BC1BDC0C8D003511FB /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
-		AAD745BD1BDC0C8D003511FB /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
+		AAD745CD1BDC1FA8003511FB /* Bistro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bistro.png; path = Images/Bistro.png; sourceTree = "<group>"; };
+		AAD745CE1BDC1FA8003511FB /* Bombay Coast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bombay Coast.png"; path = "Images/Bombay Coast.png"; sourceTree = "<group>"; };
+		AAD745CF1BDC1FA8003511FB /* Burger King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Burger King.png"; path = "Images/Burger King.png"; sourceTree = "<group>"; };
+		AAD745D01BDC1FA8003511FB /* Cafe Vetena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cafe Vetena.png"; path = "Images/Cafe Vetena.png"; sourceTree = "<group>"; };
+		AAD745D11BDC1FA8003511FB /* Canyon Vista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Canyon Vista.png"; path = "Images/Canyon Vista.png"; sourceTree = "<group>"; };
+		AAD745D21BDC1FA8003511FB /* Dlush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dlush.png; path = Images/Dlush.png; sourceTree = "<group>"; };
+		AAD745D31BDC1FA8003511FB /* FoodWorx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FoodWorx.png; path = Images/FoodWorx.png; sourceTree = "<group>"; };
+		AAD745D41BDC1FA8003511FB /* Goodys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Goodys.png; path = Images/Goodys.png; sourceTree = "<group>"; };
+		AAD745D51BDC1FA8003511FB /* Hi Thai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hi Thai.png"; path = "Images/Hi Thai.png"; sourceTree = "<group>"; };
+		AAD745D61BDC1FA8003511FB /* Jumba Juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jumba Juice.png"; path = "Images/Jumba Juice.png"; sourceTree = "<group>"; };
+		AAD745D71BDC1FA8003511FB /* Lemon Grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lemon Grass.png"; path = "Images/Lemon Grass.png"; sourceTree = "<group>"; };
+		AAD745D81BDC1FA8003511FB /* Panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda.png; path = Images/Panda.png; sourceTree = "<group>"; };
+		AAD745D91BDC1FA8003511FB /* Pines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pines.png; path = Images/Pines.png; sourceTree = "<group>"; };
+		AAD745DA1BDC1FA8003511FB /* Roots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Roots.png; path = Images/Roots.png; sourceTree = "<group>"; };
+		AAD745DB1BDC1FA8003511FB /* Round Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Round Table.png"; path = "Images/Round Table.png"; sourceTree = "<group>"; };
+		AAD745DC1BDC1FA8003511FB /* Rubios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rubios.png; path = Images/Rubios.png; sourceTree = "<group>"; };
+		AAD745DD1BDC1FA8003511FB /* Santorini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Santorini.png; path = Images/Santorini.png; sourceTree = "<group>"; };
+		AAD745DE1BDC1FA8003511FB /* Shogun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shogun.png; path = Images/Shogun.png; sourceTree = "<group>"; };
+		AAD745DF1BDC1FA8003511FB /* Sixty-Four Degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four Degrees.png"; path = "Images/Sixty-Four Degrees.png"; sourceTree = "<group>"; };
+		AAD745E01BDC1FA8003511FB /* Sixty-Four North.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four North.png"; path = "Images/Sixty-Four North.png"; sourceTree = "<group>"; };
+		AAD745E11BDC1FA8003511FB /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
+		AAD745E21BDC1FA8003511FB /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
+		AAD745FB1BDC22CF003511FB /* WTE_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WTE_120.png; path = Images/WTE_120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,18 +178,29 @@
 		AAD745B11BDC0589003511FB /* Rest_Image */ = {
 			isa = PBXGroup;
 			children = (
-				AAD745B21BDC0C8D003511FB /* Bombay Coast.png */,
-				AAD745B31BDC0C8D003511FB /* Burger King.png */,
-				AAD745B41BDC0C8D003511FB /* Dlush.png */,
-				AAD745B51BDC0C8D003511FB /* Hi Thai.png */,
-				AAD745B61BDC0C8D003511FB /* Jumba Juice.png */,
-				AAD745B71BDC0C8D003511FB /* Panda.png */,
-				AAD745B81BDC0C8D003511FB /* Round Table.png */,
-				AAD745B91BDC0C8D003511FB /* Rubios.png */,
-				AAD745BA1BDC0C8D003511FB /* Santorini.png */,
-				AAD745BB1BDC0C8D003511FB /* Shogun.png */,
-				AAD745BC1BDC0C8D003511FB /* Subway.png */,
-				AAD745BD1BDC0C8D003511FB /* Tapioca.png */,
+				AAD745FB1BDC22CF003511FB /* WTE_120.png */,
+				AAD745CD1BDC1FA8003511FB /* Bistro.png */,
+				AAD745CE1BDC1FA8003511FB /* Bombay Coast.png */,
+				AAD745CF1BDC1FA8003511FB /* Burger King.png */,
+				AAD745D01BDC1FA8003511FB /* Cafe Vetena.png */,
+				AAD745D11BDC1FA8003511FB /* Canyon Vista.png */,
+				AAD745D21BDC1FA8003511FB /* Dlush.png */,
+				AAD745D31BDC1FA8003511FB /* FoodWorx.png */,
+				AAD745D41BDC1FA8003511FB /* Goodys.png */,
+				AAD745D51BDC1FA8003511FB /* Hi Thai.png */,
+				AAD745D61BDC1FA8003511FB /* Jumba Juice.png */,
+				AAD745D71BDC1FA8003511FB /* Lemon Grass.png */,
+				AAD745D81BDC1FA8003511FB /* Panda.png */,
+				AAD745D91BDC1FA8003511FB /* Pines.png */,
+				AAD745DA1BDC1FA8003511FB /* Roots.png */,
+				AAD745DB1BDC1FA8003511FB /* Round Table.png */,
+				AAD745DC1BDC1FA8003511FB /* Rubios.png */,
+				AAD745DD1BDC1FA8003511FB /* Santorini.png */,
+				AAD745DE1BDC1FA8003511FB /* Shogun.png */,
+				AAD745DF1BDC1FA8003511FB /* Sixty-Four Degrees.png */,
+				AAD745E01BDC1FA8003511FB /* Sixty-Four North.png */,
+				AAD745E11BDC1FA8003511FB /* Subway.png */,
+				AAD745E21BDC1FA8003511FB /* Tapioca.png */,
 			);
 			name = Rest_Image;
 			sourceTree = "<group>";
@@ -275,21 +308,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD745E31BDC1FA8003511FB /* Bistro.png in Resources */,
 				AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */,
-				AAD745C21BDC0C8D003511FB /* Jumba Juice.png in Resources */,
+				AAD745E71BDC1FA8003511FB /* Canyon Vista.png in Resources */,
+				AAD745EF1BDC1FA8003511FB /* Pines.png in Resources */,
+				AAD745F61BDC1FA8003511FB /* Sixty-Four North.png in Resources */,
+				AAD745ED1BDC1FA8003511FB /* Lemon Grass.png in Resources */,
 				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
-				AAD745C71BDC0C8D003511FB /* Shogun.png in Resources */,
-				AAD745C31BDC0C8D003511FB /* Panda.png in Resources */,
-				AAD745C01BDC0C8D003511FB /* Dlush.png in Resources */,
-				AAD745C11BDC0C8D003511FB /* Hi Thai.png in Resources */,
+				AAD745EC1BDC1FA8003511FB /* Jumba Juice.png in Resources */,
+				AAD745F11BDC1FA8003511FB /* Round Table.png in Resources */,
+				AAD745F81BDC1FA8003511FB /* Tapioca.png in Resources */,
+				AAD745FC1BDC22CF003511FB /* WTE_120.png in Resources */,
+				AAD745F41BDC1FA8003511FB /* Shogun.png in Resources */,
+				AAD745F51BDC1FA8003511FB /* Sixty-Four Degrees.png in Resources */,
+				AAD745E51BDC1FA8003511FB /* Burger King.png in Resources */,
+				AAD745EE1BDC1FA8003511FB /* Panda.png in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
-				AAD745C81BDC0C8D003511FB /* Subway.png in Resources */,
-				AAD745C61BDC0C8D003511FB /* Santorini.png in Resources */,
-				AAD745C51BDC0C8D003511FB /* Rubios.png in Resources */,
-				AAD745BE1BDC0C8D003511FB /* Bombay Coast.png in Resources */,
-				AAD745C41BDC0C8D003511FB /* Round Table.png in Resources */,
-				AAD745C91BDC0C8D003511FB /* Tapioca.png in Resources */,
-				AAD745BF1BDC0C8D003511FB /* Burger King.png in Resources */,
+				AAD745E81BDC1FA8003511FB /* Dlush.png in Resources */,
+				AAD745F71BDC1FA8003511FB /* Subway.png in Resources */,
+				AAD745F01BDC1FA8003511FB /* Roots.png in Resources */,
+				AAD745EB1BDC1FA8003511FB /* Hi Thai.png in Resources */,
+				AAD745F31BDC1FA8003511FB /* Santorini.png in Resources */,
+				AAD745F21BDC1FA8003511FB /* Rubios.png in Resources */,
+				AAD745E61BDC1FA8003511FB /* Cafe Vetena.png in Resources */,
+				AAD745E91BDC1FA8003511FB /* FoodWorx.png in Resources */,
+				AAD745EA1BDC1FA8003511FB /* Goodys.png in Resources */,
+				AAD745E41BDC1FA8003511FB /* Bombay Coast.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,24 +499,26 @@
 		AA5906A91BD2D3B6007B43FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		AA5906AA1BD2D3B6007B43FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
