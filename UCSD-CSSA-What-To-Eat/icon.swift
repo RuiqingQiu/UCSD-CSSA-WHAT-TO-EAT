@@ -14,11 +14,15 @@ let iconSize = 250
 class icon {
     static var displacement:CGFloat = 125.0
     static var randomPool:[String] = [String]()
-    var n = -1
+    var n = -1 {
+        didSet
+        {
+            self.setImageWithFile(icon.randomPool[n])
+        }
+    }
     func shuffle() -> Void
     {
         n = Int(arc4random_uniform(UInt32(icon.randomPool.count)))
-        self.setImageWithFile(icon.randomPool[n])
     }
     func updateTransform() -> Void
     {
@@ -33,9 +37,9 @@ class icon {
         }
         t = CATransform3DTranslate(t, dx, dy, 0)
         t = CATransform3DRotate(t, rotate, 0, 0, 1.0)
-        self.view.transform = t
+        self.layer.transform = t
     }
-    var view:CALayer
+    var layer:CALayer
     var x:Int = 0 {
         didSet
         {
@@ -84,17 +88,15 @@ class icon {
     
     init(superframe:CGRect)
     {
-        view = CALayer()
-        view.frame = CGRect(x: 0.5*superframe.width-125, y: 0.5*superframe.height-125, width: 250, height: 250)
-        view.allowsEdgeAntialiasing = true
+        layer = CALayer()
+        layer.frame = CGRect(x: 0.5*superframe.width-125, y: 0.5*superframe.height-125, width: 250, height: 250)
+        layer.allowsEdgeAntialiasing = true
     }
     
     func setImageWithFile (file:String) -> Void
     {
-        NSLog(file)
         let i = UIImage(named: file)
-
-        self.view.contents =  i?.CGImage
+        self.layer.contents =  i?.CGImage
     }
     
     

@@ -52,7 +52,6 @@ class ViewController: UIViewController {
         pc_on.addTarget(self, action: Selector("switchIsChanged:"), forControlEvents: UIControlEvents.ValueChanged)
         json_helper();
         initMyLayer(pngs)
-        startAnimation()
     }
     
     func switchIsChanged(mySwitch: UISwitch) {
@@ -110,6 +109,8 @@ class ViewController: UIViewController {
     //For detect motion start event
     override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
         if motion == .MotionShake{
+            NSLog("started")
+            startAnimation()
         }
     }
     
@@ -117,7 +118,14 @@ class ViewController: UIViewController {
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         
         if motion == .MotionShake {
-            startAnimation()
+            
+            let delay = 0.5 * Double(NSEC_PER_SEC)
+            let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+            dispatch_after(time, dispatch_get_main_queue()) {
+                NSLog("ended")
+                self.stopAnimation()
+            }
+            
             
             if(using_pc){
                 i = Int(arc4random_uniform(UInt32(pc_rest.count)))
@@ -131,6 +139,9 @@ class ViewController: UIViewController {
             
         }
     }
+    
+    
+    
     
     var icons = [icon]()
     var chosen0 = icon(superframe: CGRect())
@@ -168,7 +179,7 @@ class ViewController: UIViewController {
                 i.x = x
                 i.y = y
                 icons.append(i)
-                myLayer.addSublayer(i.view)
+                myLayer.addSublayer(i.layer)
                 if (x==0 && y==0)
                 {
                     chosen0 = i
@@ -180,21 +191,28 @@ class ViewController: UIViewController {
             }
         }
         
-        chosen0.view.zPosition = 1
-        chosen1.view.zPosition = 1
+        chosen0.layer.zPosition = 1
+        chosen1.layer.zPosition = 1
         
-        chosen0.view.shadowColor = UIColor.blackColor().CGColor
-        chosen0.view.shadowOffset = CGSizeMake(5, 5)
-        chosen0.view.shadowRadius = 5
+        chosen0.layer.shadowColor = UIColor.blackColor().CGColor
+        chosen0.layer.shadowOffset = CGSizeMake(5, 5)
+        chosen0.layer.shadowRadius = 5
         
-        chosen1.view.shadowColor = UIColor.blackColor().CGColor
-        chosen1.view.shadowOffset = CGSizeMake(5, 5)
-        chosen1.view.shadowRadius = 5
+        chosen1.layer.shadowColor = UIColor.blackColor().CGColor
+        chosen1.layer.shadowOffset = CGSizeMake(5, 5)
+        chosen1.layer.shadowRadius = 5
         
         myview.layer.allowsEdgeAntialiasing = true
         
         let model:GLKMatrix4! = GLKMatrix4Identity
         myLayer.transform = getTransformWithModel(model)
+        
+        iconview = UIView(frame: CGRectMake(0, 0, self.view.frame.width, self.view.frame.height/2.0))
+        iconview.alpha = 0
+        iconviewObj = icon(superframe: iconview.frame)
+        iconview.layer.addSublayer(iconviewObj.layer)
+        iconviewObj.shuffle()
+        self.view.addSubview(iconview)
     }
     
     func getTransformWithModel(model:GLKMatrix4) -> CATransform3D
@@ -219,14 +237,29 @@ class ViewController: UIViewController {
         return cat
     }
     
+    func updatePool (randomPool:Array<String>) -> Void
+    {
+        icon.randomPool = randomPool
+        for i in icons
+        {
+            i.shuffle()
+        }
+    }
+    
     var timer = NSTimer()
     
     func startAnimation() -> Void
     {
         frameCount = 0
+        iconviewObj.layer.transform = self.getTransformWithModel(GLKMatrix4Identity)
+        UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.iconview.alpha = 0}, completion: nil)
         UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = CGRectMake(0, self.view.frame.height/2.0, self.view.frame.width, self.view.frame.height/2.0)}, completion: nil)
+        timer.invalidate()
         timer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: "animationUpdate", userInfo: nil, repeats: true)
     }
+    
+    var iconview = UIView()
+    var iconviewObj = icon(superframe: CGRect())
     
     func stopAnimation() -> Void
     {
@@ -238,11 +271,32 @@ class ViewController: UIViewController {
         chosen1.dx = 0.0
         chosen1.dy = 0.0
         chosen1.rotate = 0.0
-        UIView.animateWithDuration(0.3, delay: 0.5, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = self.view.frame}, completion: nil)
+        if (isMoved)
+        {
+            iconviewObj.n = chosen1.n
+        }
+        else
+        {
+            iconviewObj.n = chosen0.n
+        }
+        let delay = 0.5 * Double(NSEC_PER_SEC)
+        let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+        dispatch_after(time, dispatch_get_main_queue()) {
+            self.iconview.alpha = 1
+        }
+        
+        UIView.animateWithDuration(0.3, delay: 0.5, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = self.view.frame}, completion: chosenRotate)
+        
+    }
+    
+    func chosenRotate (_: Bool) -> Void
+    {
+        iconviewObj.layer.transform = CATransform3DMakeScale(1.1, 1.1, 1)
     }
     
     func getResult() -> String
     {
+        //返回选中图片的文件名
         if (isMoved)
         {
             return icon.randomPool[chosen1.n]
@@ -281,10 +335,6 @@ class ViewController: UIViewController {
         }
         
         frameCount += 1
-        if (frameCount > 20)
-        {
-            self.stopAnimation()
-        }
     }
     
 }
