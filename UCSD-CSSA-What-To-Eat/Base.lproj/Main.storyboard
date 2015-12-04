@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,34 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-HZ-PdZ" userLabel="Rest_Image">
-                                <rect key="frame" x="175" y="54" width="250" height="250"/>
-                                <animations/>
-                                <state key="normal" image="Subway.png"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dining Dollar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yci-NM-zd4">
-                                <rect key="frame" x="136" y="327" width="103" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q0S-m8-SIb" userLabel="http://www.douyutv.com/cms/zt/blizzcon.html">
-                                <rect key="frame" x="300" y="322" width="51" height="31"/>
-                                <animations/>
-                                <connections>
-                                    <action selector="diningDollarSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="sVI-5f-72T"/>
-                                </connections>
-                            </switch>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pae-f6-b1Z">
-                                <rect key="frame" x="180" y="409" width="240" height="128"/>
-=======
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Shake me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KA3-uT-n0t">
                                 <rect key="frame" x="104" y="486" width="375" height="44"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="32"/>
-                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.71862759732590542" blue="0.46304245514996001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="0.7281881262148896" blue="0.27006717106483535" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
@@ -57,45 +33,29 @@
                                 <rect key="frame" x="214" y="402" width="154" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O0s-ek-Zw3">
                                 <rect key="frame" x="376" y="431" width="51" height="31"/>
                                 <animations/>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EmW-ky-elT">
-                                <rect key="frame" x="240" y="570" width="102" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
-                                <state key="normal" title="Details"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dining Dollor?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-iU-hK2">
                                 <rect key="frame" x="214" y="436" width="154" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-HZ-PdZ" userLabel="Rest_Image">
+                            <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-HZ-PdZ" userLabel="Rest_Image">
                                 <rect key="frame" x="175" y="0.0" width="250" height="250"/>
->>>>>>> origin/master
                                 <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <state key="normal" image="Subway.png"/>
+                            </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-<<<<<<< HEAD
-                            <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-121" id="3Lz-Kk-7J2"/>
-                            <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4nU-4d-kBp"/>
-                            <constraint firstItem="pae-f6-b1Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ssi-84-wDg"/>
-                            <constraint firstItem="Yci-NM-zd4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="nh7-XW-fIj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="q0S-m8-SIb" secondAttribute="trailing" constant="90" id="wOc-2c-6em"/>
-=======
                             <constraint firstItem="QFP-ZJ-kOV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100.5" id="7aL-oX-yWT"/>
                             <constraint firstItem="O0s-ek-Zw3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100.5" id="9Ed-fe-b0M"/>
                             <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-175" id="Akv-sj-uV9"/>
@@ -106,52 +66,23 @@
                             <constraint firstItem="f20-2C-xMw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="112.5" id="K2f-dq-85t"/>
                             <constraint firstItem="TCf-iU-hK2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="146.5" id="QBo-hh-QOb"/>
                             <constraint firstItem="f20-2C-xMw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="QuA-v2-i3j"/>
-                            <constraint firstItem="EmW-ky-elT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="XmF-Bl-dD6"/>
-                            <constraint firstItem="EmW-ky-elT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="285" id="cUN-hU-SwN"/>
                             <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hgX-wV-kp3"/>
                             <constraint firstItem="QFP-ZJ-kOV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="112.5" id="jCB-lN-fsk"/>
                             <constraint firstItem="KA3-uT-n0t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-8.5" id="neY-tE-FIm"/>
                             <constraint firstItem="TCf-iU-hK2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="pE5-g3-LlS"/>
                             <constraint firstItem="O0s-ek-Zw3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="146.5" id="q94-9A-XE0"/>
                             <constraint firstItem="f20-2C-xMw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="sAJ-ww-OYk"/>
->>>>>>> origin/master
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="Rest_Image" destination="aSz-HZ-PdZ" id="F6I-4m-s1o"/>
-<<<<<<< HEAD
-                        <outlet property="descriptionTextView" destination="pae-f6-b1Z" id="EIt-ON-1Dq"/>
-                        <outlet property="diningDollarSelector" destination="q0S-m8-SIb" id="6Ke-Mw-Jrc"/>
-=======
                         <outlet property="pc_on" destination="QFP-ZJ-kOV" id="zR9-ao-ByB"/>
                         <outlet property="shakeLabel" destination="KA3-uT-n0t" id="0du-rk-bWR"/>
->>>>>>> origin/master
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="242" y="267"/>
-<<<<<<< HEAD
-=======
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="3Zd-hI-UNL">
-            <objects>
-                <viewController id="h7p-Qx-h3k" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cVM-8e-LYt"/>
-                        <viewControllerLayoutGuide type="bottom" id="6Qw-Ft-Se8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="brl-3H-msX">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gf3-3H-JeV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
->>>>>>> origin/master
         </scene>
     </scenes>
     <resources>

@@ -6,6 +6,7 @@
 //  Copyright © 2015 Ruiqing Qiu. All rights reserved.
 
 import UIKit
+import GLKit
 
 
 class ViewController: UIViewController {
@@ -15,13 +16,11 @@ class ViewController: UIViewController {
     //For displaying "shake me"
     @IBOutlet var shakeLabel: UILabel!
     
-<<<<<<< HEAD
     @IBOutlet weak var descriptionTextView: UITextView!
     @IBOutlet weak var diningDollarSelector: UISwitch!
     //For displaying the result resturant name
     @IBOutlet weak var button: UIButton!
-=======
->>>>>>> origin/master
+
     //For displaying the result resturant image
 
     @IBOutlet var Rest_Image: UIButton!
@@ -31,9 +30,10 @@ class ViewController: UIViewController {
     
     var i = Int(arc4random_uniform(10))
     var using_pc = true
+    //hard-coded pc restaurant names
     var pc_rest = ["Shogun", "Panda", "Tapioca", "Bombay Coast","Lemon Grass","Subway","Santorini","Burger King","Jumba Juice","Dlush"]
     
-    
+    //hard-coded non-pc restaurant names
     var other_rest = ["Perks", "Art of Espresso Café", "Bella Vista Social Club and Caffé",
         "Short Stop",
         "HomePlate",
@@ -50,18 +50,48 @@ class ViewController: UIViewController {
         "Roots",
         "The Bistro at The Strand"]
     
+    let pngs_pc = ["Shogun.png", "Panda.png", "Tapioca.png", "Bombay Coast.png","Lemon Grass.png","Subway.png","Santorini.png","Burger King.png","Jumba Juice.png","Dlush.png", "Round Table.png", "Rubios.png"]
+    //let pngs = ["Bistro.png", "Bombay Coast.png", "Burger King.png", "Dlush.png", "FoodWorx.png", "Goodys.png", "Hi Thai.png", "Jumba Juice.png", "Panda.png", "Pines.png", "Roots.png", "Round Table.png", "Rubios.png", "Santorini.png", "Shogun.png", "Subway.png", "Tapioca.png"]
+    let pngs_non_pc = [
+    "ZanziBar.png",
+    "Bistro.png",
+    "Cafe Vetena.png",
+    "Canyon Vista.png",
+    "FoodWorx.png",
+    "Goodys.png",
+    "Hi Thai.png",
+    "Pines.png",
+    "Roots.png",
+    "Sixty-Four Degrees.png",
+    "Sixty-Four North.png"
+    ];
+
+    
+    let others = ["Perks", "Art of Espresso Café", "Bella Vista Social Club and Caffé",
+        "Short Stop",
+        "HomePlate",
+        "Peets Coffee and Tea",
+        "Hi Thai",
+        "Sixty-Four Degrees",
+        "Sixty-Four North",
+        "Cafe Ventanas",
+        "Canyon Vista",
+        "FoodWorx",
+        "Pines",
+        "Goodys Coffee Window",
+        "Goodys",
+        "Roots",
+        "The Bistro at The Strand"];
     override func viewDidLoad() {
         super.viewDidLoad()
-        descriptionTextView.text = "Shake Me!"
-        
+        //descriptionTextView.text = "Shake Me!"
         
         // Do any additional setup after loading the view, typically from a nib.
         pc_on.addTarget(self, action: Selector("switchIsChanged:"), forControlEvents: UIControlEvents.ValueChanged)
         json_helper();
+        initMyLayer(pngs_pc)
     }
     
-<<<<<<< HEAD
-
     
 
     
@@ -69,13 +99,97 @@ class ViewController: UIViewController {
         
         if diningDollarSelector.on {
             print("UISwitch is ON")
-=======
+        }
+    }
     func switchIsChanged(mySwitch: UISwitch) {
         if mySwitch.on {
             using_pc = true
->>>>>>> origin/master
+            icon.randomPool = pngs_pc
+            frameCount = 0
+            iconviewObj.layer.transform = self.getTransformWithModel(GLKMatrix4Identity)
+            UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.iconview.alpha = 0}, completion: nil)
+            UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = CGRectMake(0, self.view.frame.height/2.0, self.view.frame.width, self.view.frame.height/2.0)}, completion: nil)
+            timer.invalidate()
+            icons.removeAll();
+            for layer in myLayer.sublayers!{
+                layer.removeFromSuperlayer();
+            }
+            for x in -6...3
+            {
+                for y in -3...3
+                {
+                    let i = icon(superframe: myview.frame)
+                    i.shuffle()
+                    i.x = x
+                    i.y = y
+                    icons.append(i)
+                    myLayer.addSublayer(i.layer)
+                    if (x==0 && y==0)
+                    {
+                        chosen0 = i
+                    }
+                    else if (x == -3 && y==0)
+                    {
+                        chosen1 = i
+                    }
+                }
+            }
+            
+            chosen0.layer.zPosition = 1
+            chosen1.layer.zPosition = 1
+            
+            chosen0.layer.shadowColor = UIColor.blackColor().CGColor
+            chosen0.layer.shadowOffset = CGSizeMake(5, 5)
+            chosen0.layer.shadowRadius = 5
+            
+            chosen1.layer.shadowColor = UIColor.blackColor().CGColor
+            chosen1.layer.shadowOffset = CGSizeMake(5, 5)
+            chosen1.layer.shadowRadius = 5
+
+
         } else {
             using_pc = false
+            icon.randomPool = pngs_non_pc;
+            frameCount = 0
+            iconviewObj.layer.transform = self.getTransformWithModel(GLKMatrix4Identity)
+            UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.iconview.alpha = 0}, completion: nil)
+            UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = CGRectMake(0, self.view.frame.height/2.0, self.view.frame.width, self.view.frame.height/2.0)}, completion: nil)
+            timer.invalidate()
+            icons.removeAll();
+            for layer in myLayer.sublayers!{
+                layer.removeFromSuperlayer();
+            }
+            for x in -6...3
+            {
+                for y in -3...3
+                {
+                    let i = icon(superframe: myview.frame)
+                    i.shuffle()
+                    i.x = x
+                    i.y = y
+                    icons.append(i)
+                    myLayer.addSublayer(i.layer)
+                    if (x==0 && y==0)
+                    {
+                        chosen0 = i
+                    }
+                    else if (x == -3 && y==0)
+                    {
+                        chosen1 = i
+                    }
+                }
+            }
+            
+            chosen0.layer.zPosition = 1
+            chosen1.layer.zPosition = 1
+            
+            chosen0.layer.shadowColor = UIColor.blackColor().CGColor
+            chosen0.layer.shadowOffset = CGSizeMake(5, 5)
+            chosen0.layer.shadowRadius = 5
+            
+            chosen1.layer.shadowColor = UIColor.blackColor().CGColor
+            chosen1.layer.shadowOffset = CGSizeMake(5, 5)
+            chosen1.layer.shadowRadius = 5
         }
     }
 
@@ -111,14 +225,10 @@ class ViewController: UIViewController {
             let hasDiscount = element["Discount"] as? Int
             let type = element["Type"] as? String
             let reservation = element["Reservation"] as? String
-            print("Name: \(name), Nickname: \(nickname), Location: \(location), Hours: \(hours), Can use dining dollor: \(isDiningDollor), Discount: \(hasDiscount), Type: \(type), Reservation: \(reservation)\n")
+            //print("Name: \(name), Nickname: \(nickname), Location: \(location), Hours: \(hours), Can use dining dollor: \(isDiningDollor), Discount: \(hasDiscount), Type: \(type), Reservation: \(reservation)\n")
         }
     }
-<<<<<<< HEAD
-    
-    
-=======
->>>>>>> origin/master
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -131,6 +241,8 @@ class ViewController: UIViewController {
     //For detect motion start event
     override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
         if motion == .MotionShake{
+            NSLog("started")
+            startAnimation()
         }
     }
     
@@ -138,6 +250,14 @@ class ViewController: UIViewController {
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         
         if motion == .MotionShake {
+            
+            let delay = 0.5 * Double(NSEC_PER_SEC)
+            let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+            dispatch_after(time, dispatch_get_main_queue()) {
+                NSLog("ended")
+                self.stopAnimation()
+            }
+            
             
             if(using_pc){
                 i = Int(arc4random_uniform(UInt32(pc_rest.count)))
@@ -150,7 +270,202 @@ class ViewController: UIViewController {
             }
             
         }
-
     }
+    
+    var icons = [icon]()
+    var chosen0 = icon(superframe: CGRect())
+    var chosen1 = icon(superframe: CGRect())
+    var myLayer = CALayer()
+    var blurView = UIVisualEffectView()
+    var myview = UIView()
+    func initMyLayer(randomPool:Array<String>) -> Void
+    {
+        icon.randomPool = randomPool
+        
+        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
+        blurView = UIVisualEffectView(effect: blurEffect)
+        blurView.frame = CGRectMake(0, self.view.frame.height/2.0, self.view.frame.width, self.view.frame.height/2.0)
+        self.view.insertSubview(blurView, atIndex: 0)
+        
+        myview = UIView(frame: CGRectMake(0, 0, self.view.frame.width, self.view.frame.height/2.0))
+        
+        //self.view.addSubview(myview)
+        
+        myLayer.frame = myview.frame
+        myview.layer.addSublayer(myLayer)
+
+        //self.view.sendSubviewToBack(myview)
+
+        self.view.insertSubview(myview, atIndex: 0)
+        
+        for x in -6...3
+        {
+            for y in -3...3
+            {
+                let i = icon(superframe: myview.frame)
+                i.shuffle()
+                i.x = x
+                i.y = y
+                icons.append(i)
+                myLayer.addSublayer(i.layer)
+                if (x==0 && y==0)
+                {
+                    chosen0 = i
+                }
+                else if (x == -3 && y==0)
+                {
+                    chosen1 = i
+                }
+            }
+        }
+        
+        chosen0.layer.zPosition = 1
+        chosen1.layer.zPosition = 1
+        
+        chosen0.layer.shadowColor = UIColor.blackColor().CGColor
+        chosen0.layer.shadowOffset = CGSizeMake(5, 5)
+        chosen0.layer.shadowRadius = 5
+        
+        chosen1.layer.shadowColor = UIColor.blackColor().CGColor
+        chosen1.layer.shadowOffset = CGSizeMake(5, 5)
+        chosen1.layer.shadowRadius = 5
+        
+        myview.layer.allowsEdgeAntialiasing = true
+        
+        let model:GLKMatrix4! = GLKMatrix4Identity
+        myLayer.transform = getTransformWithModel(model)
+        
+        //Icon view is the final big image displayed
+        iconview = UIView(frame: CGRectMake(0, 0, self.view.frame.width, self.view.frame.height/2.0))
+        iconview.alpha = 0
+        iconviewObj = icon(superframe: iconview.frame)
+        iconview.layer.addSublayer(iconviewObj.layer)
+        iconviewObj.shuffle()
+        self.view.addSubview(iconview)
+    }
+    
+    func getTransformWithModel(model:GLKMatrix4) -> CATransform3D
+    {
+        let view:GLKMatrix4! = GLKMatrix4MakeLookAt(-100, 300, 400, 0, 0, 0, 0, 0, -1)
+        let perspective:GLKMatrix4! = GLKMatrix4MakePerspective(Float(0.3 * M_PI), 1, 0.1, 10.0)
+        var ts:GLKMatrix4!
+        ts = GLKMatrix4MakeScale(2.0/Float(self.view.frame.width), 2.0/Float(self.view.frame.width), 2.0/Float(self.view.frame.width))
+        let tsi:GLKMatrix4! = GLKMatrix4Invert(ts, nil)
+        var mvp:GLKMatrix4! = GLKMatrix4Identity
+        
+        mvp = GLKMatrix4Multiply(model, mvp)
+        mvp = GLKMatrix4Multiply(view, mvp)
+        
+        mvp = GLKMatrix4Multiply(ts, mvp)
+        
+        mvp = GLKMatrix4Multiply(perspective, mvp)
+        mvp = GLKMatrix4Multiply(tsi, mvp)
+        
+        let cat = CATransform3D(m11: CGFloat(mvp.m00), m12: CGFloat(mvp.m01), m13: CGFloat(mvp.m02), m14: CGFloat(mvp.m03), m21: CGFloat(mvp.m10), m22: CGFloat(mvp.m11), m23: CGFloat(mvp.m12), m24: CGFloat(mvp.m13), m31: CGFloat(mvp.m20), m32: CGFloat(mvp.m21), m33: CGFloat(mvp.m22), m34: CGFloat(mvp.m23), m41: CGFloat(mvp.m30), m42: CGFloat(mvp.m31), m43: CGFloat(mvp.m32), m44: CGFloat(mvp.m33))
+        
+        return cat
+    }
+    
+    func updatePool (randomPool:Array<String>) -> Void
+    {
+        icon.randomPool = randomPool
+        for i in icons
+        {
+            i.shuffle()
+        }
+    }
+    
+    var timer = NSTimer()
+    
+    func startAnimation() -> Void
+    {
+        frameCount = 0
+        iconviewObj.layer.transform = self.getTransformWithModel(GLKMatrix4Identity)
+        UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.iconview.alpha = 0}, completion: nil)
+        UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = CGRectMake(0, self.view.frame.height/2.0, self.view.frame.width, self.view.frame.height/2.0)}, completion: nil)
+        timer.invalidate()
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: "animationUpdate", userInfo: nil, repeats: true)
+    }
+    
+    var iconview = UIView()
+    var iconviewObj = icon(superframe: CGRect())
+    
+    func stopAnimation() -> Void
+    {
+        timer.invalidate()
+        timer = NSTimer()
+        chosen0.dx = 0.0
+        chosen0.dy = 0.0
+        chosen0.rotate = 0.0
+        chosen1.dx = 0.0
+        chosen1.dy = 0.0
+        chosen1.rotate = 0.0
+        if (isMoved)
+        {
+            iconviewObj.n = chosen1.n
+        }
+        else
+        {
+            iconviewObj.n = chosen0.n
+        }
+        let delay = 0.5 * Double(NSEC_PER_SEC)
+        let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+        dispatch_after(time, dispatch_get_main_queue()) {
+            self.iconview.alpha = 1
+        }
+        
+        UIView.animateWithDuration(0.3, delay: 0.5, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = self.view.frame}, completion: chosenRotate)
+        
+    }
+    
+    func chosenRotate (_: Bool) -> Void
+    {
+        iconviewObj.layer.transform = CATransform3DMakeScale(1.1, 1.1, 1)
+    }
+    
+    func getResult() -> String
+    {
+        if (isMoved)
+        {
+            return icon.randomPool[chosen1.n]
+        }
+        else
+        {
+            return icon.randomPool[chosen0.n]
+        }
+    }
+    
+    var frameCount = 0
+    var isMoved = false
+    
+    func animationUpdate () -> Void
+    {
+        
+        for i in icons{
+            let r = Int(arc4random_uniform(12))
+            let dx = Int(arc4random_uniform(400))
+            let dy = Int(arc4random_uniform(400))
+            i.rotate = CGFloat(r-6)/2
+            i.dx = CGFloat(dx)-200
+            i.dy = CGFloat(dy)-200
+        }
+        
+        if (frameCount%4 == 0)
+        {
+            var model = GLKMatrix4Identity
+            if(!isMoved)
+            {
+                model = GLKMatrix4MakeTranslation(750, 0, 0)
+            }
+            myLayer.transform = getTransformWithModel(model)
+            chosen0.shuffle()
+            chosen1.shuffle()
+            isMoved = !isMoved
+        }
+        
+        frameCount += 1
+        
+    }
+    
 }
 
