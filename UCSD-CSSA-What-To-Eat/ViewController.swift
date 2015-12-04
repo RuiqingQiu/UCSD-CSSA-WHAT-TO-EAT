@@ -289,12 +289,8 @@ class ViewController: UIViewController {
         
         myview = UIView(frame: CGRectMake(0, 0, self.view.frame.width, self.view.frame.height/2.0))
         
-        //self.view.addSubview(myview)
-        
         myLayer.frame = myview.frame
         myview.layer.addSublayer(myLayer)
-
-        //self.view.sendSubviewToBack(myview)
 
         self.view.insertSubview(myview, atIndex: 0)
         
@@ -437,7 +433,7 @@ class ViewController: UIViewController {
     
     var frameCount = 0
     var isMoved = false
-    
+    //Function that supports icon moving
     func animationUpdate () -> Void
     {
         
