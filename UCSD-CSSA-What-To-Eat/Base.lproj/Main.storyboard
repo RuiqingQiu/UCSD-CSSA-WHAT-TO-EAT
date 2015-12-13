@@ -36,17 +36,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O0s-ek-Zw3">
-                                <rect key="frame" x="376" y="431" width="51" height="31"/>
-                                <animations/>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dining Dollor?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-iU-hK2">
-                                <rect key="frame" x="214" y="436" width="154" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-HZ-PdZ" userLabel="Rest_Image">
                                 <rect key="frame" x="175" y="0.0" width="250" height="250"/>
                                 <animations/>
@@ -57,20 +46,14 @@
                         <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="QFP-ZJ-kOV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100.5" id="7aL-oX-yWT"/>
-                            <constraint firstItem="O0s-ek-Zw3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100.5" id="9Ed-fe-b0M"/>
                             <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-175" id="Akv-sj-uV9"/>
-                            <constraint firstItem="TCf-iU-hK2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="146.5" id="Arq-3A-e80"/>
-                            <constraint firstItem="TCf-iU-hK2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="Cq4-tx-Jys"/>
                             <constraint firstItem="f20-2C-xMw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="112.5" id="Eh6-jx-gQk"/>
                             <constraint firstItem="KA3-uT-n0t" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="208" id="Hyw-tx-Z1m"/>
                             <constraint firstItem="f20-2C-xMw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="112.5" id="K2f-dq-85t"/>
-                            <constraint firstItem="TCf-iU-hK2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="146.5" id="QBo-hh-QOb"/>
                             <constraint firstItem="f20-2C-xMw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="QuA-v2-i3j"/>
                             <constraint firstItem="aSz-HZ-PdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hgX-wV-kp3"/>
                             <constraint firstItem="QFP-ZJ-kOV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="112.5" id="jCB-lN-fsk"/>
                             <constraint firstItem="KA3-uT-n0t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-8.5" id="neY-tE-FIm"/>
-                            <constraint firstItem="TCf-iU-hK2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="pE5-g3-LlS"/>
-                            <constraint firstItem="O0s-ek-Zw3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="146.5" id="q94-9A-XE0"/>
                             <constraint firstItem="f20-2C-xMw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="sAJ-ww-OYk"/>
                         </constraints>
                     </view>

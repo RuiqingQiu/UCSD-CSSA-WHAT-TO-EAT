@@ -41,7 +41,6 @@
 		AA727F6C1C11316600535116 /* Sixty-Four North.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F551C11316600535116 /* Sixty-Four North.png */; };
 		AA727F6D1C11316600535116 /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F561C11316600535116 /* Subway.png */; };
 		AA727F6E1C11316600535116 /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca.png */; };
-		AA727F701C11316D00535116 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F6F1C11316D00535116 /* ZanziBar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,7 +99,6 @@
 		AA727F551C11316600535116 /* Sixty-Four North.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four North.png"; path = "Images/Sixty-Four North.png"; sourceTree = "<group>"; };
 		AA727F561C11316600535116 /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
 		AA727F571C11316600535116 /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
-		AA727F6F1C11316D00535116 /* ZanziBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZanziBar.png; path = Images/ZanziBar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +183,6 @@
 		AAD745B11BDC0589003511FB /* Rest_Image */ = {
 			isa = PBXGroup;
 			children = (
-				AA727F6F1C11316D00535116 /* ZanziBar.png */,
 				AA727F411C11316600535116 /* Bistro.png */,
 				AA727F421C11316600535116 /* Bombay Coast.png */,
 				AA727F431C11316600535116 /* Burger King.png */,
@@ -321,7 +318,6 @@
 				AA727F661C11316600535116 /* Roots.png in Resources */,
 				AA727F631C11316600535116 /* Lemon Grass.png in Resources */,
 				AA727F5D1C11316600535116 /* Dice.png in Resources */,
-				AA727F701C11316D00535116 /* ZanziBar.png in Resources */,
 				AA727F691C11316600535116 /* Santorini.png in Resources */,
 				AA727F591C11316600535116 /* Bombay Coast.png in Resources */,
 				AA727F581C11316600535116 /* Bistro.png in Resources */,

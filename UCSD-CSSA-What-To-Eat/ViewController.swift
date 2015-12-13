@@ -53,7 +53,6 @@ class ViewController: UIViewController {
     let pngs_pc = ["Shogun.png", "Panda.png", "Tapioca.png", "Bombay Coast.png","Lemon Grass.png","Subway.png","Santorini.png","Burger King.png","Jumba Juice.png","Dlush.png", "Round Table.png", "Rubios.png"]
     //let pngs = ["Bistro.png", "Bombay Coast.png", "Burger King.png", "Dlush.png", "FoodWorx.png", "Goodys.png", "Hi Thai.png", "Jumba Juice.png", "Panda.png", "Pines.png", "Roots.png", "Round Table.png", "Rubios.png", "Santorini.png", "Shogun.png", "Subway.png", "Tapioca.png"]
     let pngs_non_pc = [
-    "ZanziBar.png",
     "Bistro.png",
     "Cafe Vetena.png",
     "Canyon Vista.png",
