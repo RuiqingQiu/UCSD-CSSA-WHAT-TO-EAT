@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     "Sixty-Four North.png"
     ];
 
-    
+
     let others = ["Perks", "Art of Espresso Café", "Bella Vista Social Club and Caffé",
         "Short Stop",
         "HomePlate",
@@ -256,8 +256,6 @@ class ViewController: UIViewController {
                 NSLog("ended")
                 self.stopAnimation()
             }
-            
-            
             if(using_pc){
                 i = Int(arc4random_uniform(UInt32(pc_rest.count)))
                 Rest_Image.setImage(UIImage(named: pc_rest[i] + ".png"), forState: UIControlState.Normal)
@@ -265,7 +263,7 @@ class ViewController: UIViewController {
             else{
                 i = Int(arc4random_uniform(UInt32(other_rest.count)))
                 Rest_Image.setImage(UIImage(named: other_rest[i] + ".png"), forState: UIControlState.Normal)
- 
+
             }
             
         }
@@ -417,7 +415,7 @@ class ViewController: UIViewController {
     {
         iconviewObj.layer.transform = CATransform3DMakeScale(1.1, 1.1, 1)
     }
-    
+
     func getResult() -> String
     {
         if (isMoved)
