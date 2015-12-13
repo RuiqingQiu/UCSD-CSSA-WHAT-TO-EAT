@@ -240,8 +240,7 @@ class ViewController: UIViewController {
     //For detect motion start event
     override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
         if motion == .MotionShake{
-            NSLog("started")
-            startAnimation()
+            
         }
     }
     
@@ -249,23 +248,7 @@ class ViewController: UIViewController {
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         
         if motion == .MotionShake {
-            
-            let delay = 0.5 * Double(NSEC_PER_SEC)
-            let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
-            dispatch_after(time, dispatch_get_main_queue()) {
-                NSLog("ended")
-                self.stopAnimation()
-            }
-            if(using_pc){
-                i = Int(arc4random_uniform(UInt32(pc_rest.count)))
-                Rest_Image.setImage(UIImage(named: pc_rest[i] + ".png"), forState: UIControlState.Normal)
-            }
-            else{
-                i = Int(arc4random_uniform(UInt32(other_rest.count)))
-                Rest_Image.setImage(UIImage(named: other_rest[i] + ".png"), forState: UIControlState.Normal)
-
-            }
-            
+                self.startAnimation()
         }
     }
     
@@ -457,6 +440,9 @@ class ViewController: UIViewController {
         }
         
         frameCount += 1
+        if frameCount>14{
+            stopAnimation()
+        }
         
     }
     
