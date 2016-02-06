@@ -9,10 +9,14 @@
 import Foundation
 import UIKit
 
-let iconSize = 250
-
 class icon {
-    static var displacement:CGFloat = 125.0
+    static var iconSize:CGFloat = 250.0
+    static var displacement:CGFloat
+    {
+        get {
+            return 0.5 * icon.iconSize
+        }
+    }
     static var randomPool:[String] = [String]()
     var n = -1 {
         didSet
@@ -29,11 +33,11 @@ class icon {
         var t = CATransform3DIdentity
         if (y%2 == 0)
         {
-            t = CATransform3DTranslate(t, CGFloat(x)*250.0, CGFloat(y)*250.0, 0)
+            t = CATransform3DTranslate(t, CGFloat(x)*icon.iconSize, CGFloat(y)*icon.iconSize, 0)
         }
         else
         {
-            t = CATransform3DTranslate(t, CGFloat(x)*250.0+icon.displacement, CGFloat(y)*250.0, 0)
+            t = CATransform3DTranslate(t, CGFloat(x)*icon.iconSize+icon.displacement, CGFloat(y)*icon.iconSize, 0)
         }
         t = CATransform3DTranslate(t, dx, dy, 0)
         t = CATransform3DRotate(t, rotate, 0, 0, 1.0)
@@ -89,7 +93,7 @@ class icon {
     init(superframe:CGRect)
     {
         layer = CALayer()
-        layer.frame = CGRect(x: 0.5*superframe.width-125, y: 0.5*superframe.height-125, width: 250, height: 250)
+        layer.frame = CGRect(x: 0.5*superframe.width-0.5*icon.iconSize, y: 0.5*superframe.height-0.5*icon.iconSize, width: icon.iconSize, height: icon.iconSize)
         layer.allowsEdgeAntialiasing = true
     }
     
