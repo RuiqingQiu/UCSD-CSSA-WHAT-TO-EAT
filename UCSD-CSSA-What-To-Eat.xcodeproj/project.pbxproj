@@ -10,6 +10,7 @@
 		48602B041C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		48602B051C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		48602B061C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
+		4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */; };
 		48E8ACD01C5D444200CE849B /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCE1C5D444200CE849B /* FilterButton.png */; };
 		48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCF1C5D444200CE849B /* ShakeMe.png */; };
 		48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACD21C5D54DE00CE849B /* ColoredDice.png */; };
@@ -25,7 +26,6 @@
 		AA727F591C11316600535116 /* Bombay Coast.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F421C11316600535116 /* Bombay Coast.png */; };
 		AA727F5A1C11316600535116 /* Burger King.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F431C11316600535116 /* Burger King.png */; };
 		AA727F5B1C11316600535116 /* Cafe Vetena.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F441C11316600535116 /* Cafe Vetena.png */; };
-		AA727F5C1C11316600535116 /* Canyon Vista.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F451C11316600535116 /* Canyon Vista.png */; };
 		AA727F5D1C11316600535116 /* Dice.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F461C11316600535116 /* Dice.png */; };
 		AA727F5E1C11316600535116 /* Dlush.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F471C11316600535116 /* Dlush.png */; };
 		AA727F5F1C11316600535116 /* FoodWorx.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F481C11316600535116 /* FoodWorx.png */; };
@@ -41,7 +41,6 @@
 		AA727F691C11316600535116 /* Santorini.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F521C11316600535116 /* Santorini.png */; };
 		AA727F6A1C11316600535116 /* Shogun.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F531C11316600535116 /* Shogun.png */; };
 		AA727F6B1C11316600535116 /* Sixty-Four Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F541C11316600535116 /* Sixty-Four Degrees.png */; };
-		AA727F6C1C11316600535116 /* Sixty-Four North.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F551C11316600535116 /* Sixty-Four North.png */; };
 		AA727F6D1C11316600535116 /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F561C11316600535116 /* Subway.png */; };
 		AA727F6E1C11316600535116 /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca.png */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
@@ -66,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		48602B031C01AAFE00688B11 /* icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icon.swift; sourceTree = "<group>"; };
+		4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		48E8ACCE1C5D444200CE849B /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = "UCSD-CSSA-What-To-Eat/FilterButton.png"; sourceTree = "<group>"; };
 		48E8ACCF1C5D444200CE849B /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = "UCSD-CSSA-What-To-Eat/ShakeMe.png"; sourceTree = "<group>"; };
 		48E8ACD21C5D54DE00CE849B /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = "UCSD-CSSA-What-To-Eat/ColoredDice.png"; sourceTree = "<group>"; };
@@ -87,7 +87,6 @@
 		AA727F421C11316600535116 /* Bombay Coast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bombay Coast.png"; path = "Images/Bombay Coast.png"; sourceTree = "<group>"; };
 		AA727F431C11316600535116 /* Burger King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Burger King.png"; path = "Images/Burger King.png"; sourceTree = "<group>"; };
 		AA727F441C11316600535116 /* Cafe Vetena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cafe Vetena.png"; path = "Images/Cafe Vetena.png"; sourceTree = "<group>"; };
-		AA727F451C11316600535116 /* Canyon Vista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Canyon Vista.png"; path = "Images/Canyon Vista.png"; sourceTree = "<group>"; };
 		AA727F461C11316600535116 /* Dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dice.png; path = Images/Dice.png; sourceTree = "<group>"; };
 		AA727F471C11316600535116 /* Dlush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dlush.png; path = Images/Dlush.png; sourceTree = "<group>"; };
 		AA727F481C11316600535116 /* FoodWorx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FoodWorx.png; path = Images/FoodWorx.png; sourceTree = "<group>"; };
@@ -103,7 +102,6 @@
 		AA727F521C11316600535116 /* Santorini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Santorini.png; path = Images/Santorini.png; sourceTree = "<group>"; };
 		AA727F531C11316600535116 /* Shogun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shogun.png; path = Images/Shogun.png; sourceTree = "<group>"; };
 		AA727F541C11316600535116 /* Sixty-Four Degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four Degrees.png"; path = "Images/Sixty-Four Degrees.png"; sourceTree = "<group>"; };
-		AA727F551C11316600535116 /* Sixty-Four North.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four North.png"; path = "Images/Sixty-Four North.png"; sourceTree = "<group>"; };
 		AA727F561C11316600535116 /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
 		AA727F571C11316600535116 /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
@@ -162,6 +160,7 @@
 				48602B031C01AAFE00688B11 /* icon.swift */,
 				AA5906801BD2D3B6007B43FB /* AppDelegate.swift */,
 				AA5906821BD2D3B6007B43FB /* ViewController.swift */,
+				4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */,
 				AA5906841BD2D3B6007B43FB /* Main.storyboard */,
 				AA59068A1BD2D3B6007B43FB /* Assets.xcassets */,
 				AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */,
@@ -207,7 +206,6 @@
 				AA727F421C11316600535116 /* Bombay Coast.png */,
 				AA727F431C11316600535116 /* Burger King.png */,
 				AA727F441C11316600535116 /* Cafe Vetena.png */,
-				AA727F451C11316600535116 /* Canyon Vista.png */,
 				AA727F461C11316600535116 /* Dice.png */,
 				AA727F471C11316600535116 /* Dlush.png */,
 				AA727F481C11316600535116 /* FoodWorx.png */,
@@ -223,7 +221,6 @@
 				AA727F521C11316600535116 /* Santorini.png */,
 				AA727F531C11316600535116 /* Shogun.png */,
 				AA727F541C11316600535116 /* Sixty-Four Degrees.png */,
-				AA727F551C11316600535116 /* Sixty-Four North.png */,
 				AA727F561C11316600535116 /* Subway.png */,
 				AA727F571C11316600535116 /* Tapioca.png */,
 			);
@@ -341,14 +338,12 @@
 				AA727F691C11316600535116 /* Santorini.png in Resources */,
 				AA727F591C11316600535116 /* Bombay Coast.png in Resources */,
 				AA727F581C11316600535116 /* Bistro.png in Resources */,
-				AA727F5C1C11316600535116 /* Canyon Vista.png in Resources */,
 				AA727F5B1C11316600535116 /* Cafe Vetena.png in Resources */,
 				AA727F5A1C11316600535116 /* Burger King.png in Resources */,
 				AA727F6B1C11316600535116 /* Sixty-Four Degrees.png in Resources */,
 				AA727F5E1C11316600535116 /* Dlush.png in Resources */,
 				48E8ACD01C5D444200CE849B /* FilterButton.png in Resources */,
 				AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */,
-				AA727F6C1C11316600535116 /* Sixty-Four North.png in Resources */,
 				AA727F6A1C11316600535116 /* Shogun.png in Resources */,
 				AA727F6E1C11316600535116 /* Tapioca.png in Resources */,
 				AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */,
@@ -391,6 +386,7 @@
 				AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */,
 				48602B041C01AAFE00688B11 /* icon.swift in Sources */,
 				AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */,
+				4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

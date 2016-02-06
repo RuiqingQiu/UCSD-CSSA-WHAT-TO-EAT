@@ -75,7 +75,48 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="336" y="347"/>
+            <point key="canvasLocation" x="114" y="353"/>
+        </scene>
+        <!--Filter View Controller-->
+        <scene sceneID="GTl-qg-Prh">
+            <objects>
+                <viewController id="e3H-2R-be7" customClass="FilterViewController" customModule="UCSD_CSSA_What_To_Eat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="boo-am-OLX"/>
+                        <viewControllerLayoutGuide type="bottom" id="teK-qP-9KP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sqd-LJ-zFR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tj0-7m-Th2">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Title" id="PpY-Zp-4eT">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="save" id="6fR-6j-d8j"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Settings" id="crZ-aw-vRE"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Tf-Iu-BQc">
+                                <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <barButtonItem title="Item" id="lop-E2-m5D"/>
+                                    <barButtonItem title="Item" id="ekn-2z-OTy"/>
+                                    <barButtonItem title="Item" id="L0S-Qe-w70"/>
+                                    <barButtonItem title="Item" id="zVd-65-hRh"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rhw-MH-rZ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752" y="354"/>
         </scene>
     </scenes>
     <resources>
