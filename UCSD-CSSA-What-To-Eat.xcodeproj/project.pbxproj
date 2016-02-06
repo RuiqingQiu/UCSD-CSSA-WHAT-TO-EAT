@@ -44,6 +44,7 @@
 		AA727F6D1C11316600535116 /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F561C11316600535116 /* Subway.png */; };
 		AA727F6E1C11316600535116 /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca.png */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
+		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		AA727F561C11316600535116 /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
 		AA727F571C11316600535116 /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
+		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		AA59067F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */ = {
 			isa = PBXGroup;
 			children = (
+				AAB7247E1C6696BB006F85BF /* SettingViewController.swift */,
 				48602B031C01AAFE00688B11 /* icon.swift */,
 				AA5906801BD2D3B6007B43FB /* AppDelegate.swift */,
 				AA5906821BD2D3B6007B43FB /* ViewController.swift */,
@@ -387,6 +390,7 @@
 				48602B041C01AAFE00688B11 /* icon.swift in Sources */,
 				AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */,
 				4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */,
+				AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
