@@ -7,6 +7,7 @@
 
 import UIKit
 import GLKit
+import AudioToolbox
 
 
 class ViewController: UIViewController {
@@ -61,7 +62,13 @@ class ViewController: UIViewController {
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         
         if motion == .MotionShake {
-                self.startAnimation()
+            if let soundURL = NSBundle.mainBundle().URLForResource("shotgun", withExtension: "mp3") {
+                var mySound: SystemSoundID = 0
+                AudioServicesCreateSystemSoundID(soundURL, &mySound)
+                // Play
+                AudioServicesPlaySystemSound(mySound);
+            }
+            self.startAnimation()
         }
     }
     

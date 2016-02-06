@@ -44,6 +44,7 @@
 		AA727F6C1C11316600535116 /* Sixty-Four North.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F551C11316600535116 /* Sixty-Four North.png */; };
 		AA727F6D1C11316600535116 /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F561C11316600535116 /* Subway.png */; };
 		AA727F6E1C11316600535116 /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca.png */; };
+		AAB724791C668232006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB724781C668232006F85BF /* shotgun.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		AA727F551C11316600535116 /* Sixty-Four North.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four North.png"; path = "Images/Sixty-Four North.png"; sourceTree = "<group>"; };
 		AA727F561C11316600535116 /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
 		AA727F571C11316600535116 /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
+		AAB724781C668232006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = "2095-shotgun-mossberg590-RA_The_Sun_God-451502290/mp3/shotgun.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		AA5906741BD2D3B6007B43FB = {
 			isa = PBXGroup;
 			children = (
+				AAB724771C66820F006F85BF /* Sound */,
 				AAD745B11BDC0589003511FB /* Rest_Image */,
 				AA59067F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */,
 				AA5906971BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests */,
@@ -184,6 +187,14 @@
 				AA5906A51BD2D3B6007B43FB /* Info.plist */,
 			);
 			path = "UCSD-CSSA-What-To-EatUITests";
+			sourceTree = "<group>";
+		};
+		AAB724771C66820F006F85BF /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				AAB724781C668232006F85BF /* shotgun.mp3 */,
+			);
+			name = Sound;
 			sourceTree = "<group>";
 		};
 		AAD745B11BDC0589003511FB /* Rest_Image */ = {
@@ -351,6 +362,7 @@
 				48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
 				AA727F611C11316600535116 /* Hi Thai.png in Resources */,
+				AAB724791C668232006F85BF /* shotgun.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
