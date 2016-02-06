@@ -10,6 +10,9 @@
 		48602B041C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		48602B051C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		48602B061C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
+		48E8ACD01C5D444200CE849B /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCE1C5D444200CE849B /* FilterButton.png */; };
+		48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCF1C5D444200CE849B /* ShakeMe.png */; };
+		48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACD21C5D54DE00CE849B /* ColoredDice.png */; };
 		AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906801BD2D3B6007B43FB /* AppDelegate.swift */; };
 		AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906821BD2D3B6007B43FB /* ViewController.swift */; };
 		AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5906841BD2D3B6007B43FB /* Main.storyboard */; };
@@ -62,6 +65,9 @@
 
 /* Begin PBXFileReference section */
 		48602B031C01AAFE00688B11 /* icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icon.swift; sourceTree = "<group>"; };
+		48E8ACCE1C5D444200CE849B /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = "UCSD-CSSA-What-To-Eat/FilterButton.png"; sourceTree = "<group>"; };
+		48E8ACCF1C5D444200CE849B /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = "UCSD-CSSA-What-To-Eat/ShakeMe.png"; sourceTree = "<group>"; };
+		48E8ACD21C5D54DE00CE849B /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = "UCSD-CSSA-What-To-Eat/ColoredDice.png"; sourceTree = "<group>"; };
 		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906801BD2D3B6007B43FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5906821BD2D3B6007B43FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -183,6 +189,9 @@
 		AAD745B11BDC0589003511FB /* Rest_Image */ = {
 			isa = PBXGroup;
 			children = (
+				48E8ACD21C5D54DE00CE849B /* ColoredDice.png */,
+				48E8ACCE1C5D444200CE849B /* FilterButton.png */,
+				48E8ACCF1C5D444200CE849B /* ShakeMe.png */,
 				AA727F411C11316600535116 /* Bistro.png */,
 				AA727F421C11316600535116 /* Bombay Coast.png */,
 				AA727F431C11316600535116 /* Burger King.png */,
@@ -326,6 +335,7 @@
 				AA727F5A1C11316600535116 /* Burger King.png in Resources */,
 				AA727F6B1C11316600535116 /* Sixty-Four Degrees.png in Resources */,
 				AA727F5E1C11316600535116 /* Dlush.png in Resources */,
+				48E8ACD01C5D444200CE849B /* FilterButton.png in Resources */,
 				AA727F6C1C11316600535116 /* Sixty-Four North.png in Resources */,
 				AA727F6A1C11316600535116 /* Shogun.png in Resources */,
 				AA727F6E1C11316600535116 /* Tapioca.png in Resources */,
@@ -336,7 +346,9 @@
 				AA727F671C11316600535116 /* Round Table.png in Resources */,
 				AA727F601C11316600535116 /* Goodys.png in Resources */,
 				AA727F621C11316600535116 /* Jumba Juice.png in Resources */,
+				48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */,
 				AA727F681C11316600535116 /* Rubios.png in Resources */,
+				48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
 				AA727F611C11316600535116 /* Hi Thai.png in Resources */,
 			);
