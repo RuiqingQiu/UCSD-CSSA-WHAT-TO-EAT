@@ -188,6 +188,17 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             }
             
             
+            if ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["isExpanded"] as! Bool == true
+            {
+                cell.categoryDownButton.setImage(UIImage(named: "DropDownArrow.png"), forState: .Normal)
+            }
+            else
+            {
+                cell.categoryDownButton.setImage(UIImage(named: "RightArrow.png"), forState: .Normal)
+            }
+
+                  
+            
         }
         else if currentCellDescriptor["cellIdentifier"] as! String == "idItemCell"
         {

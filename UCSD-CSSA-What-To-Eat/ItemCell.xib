@@ -63,6 +63,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="RadioButton_1.png" width="26" height="26"/>
+        <image name="RadioButton_1.png" width="43" height="43"/>
     </resources>
 </document>

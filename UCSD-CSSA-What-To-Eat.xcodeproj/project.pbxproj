@@ -14,6 +14,7 @@
 		48E8ACD01C5D444200CE849B /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCE1C5D444200CE849B /* FilterButton.png */; };
 		48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCF1C5D444200CE849B /* ShakeMe.png */; };
 		48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACD21C5D54DE00CE849B /* ColoredDice.png */; };
+		8F98DC0D1C79091F00BBFDD8 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */; };
 		8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */; };
 		8FB9CDA01C691AF500618CAB /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */; };
 		8FB9CDA21C691AF900618CAB /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA11C691AF900618CAB /* CellDescriptor.plist */; };
@@ -92,6 +93,7 @@
 		48E8ACCE1C5D444200CE849B /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = "UCSD-CSSA-What-To-Eat/FilterButton.png"; sourceTree = "<group>"; };
 		48E8ACCF1C5D444200CE849B /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = "UCSD-CSSA-What-To-Eat/ShakeMe.png"; sourceTree = "<group>"; };
 		48E8ACD21C5D54DE00CE849B /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = "UCSD-CSSA-What-To-Eat/ColoredDice.png"; sourceTree = "<group>"; };
+		8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightArrow.png; path = Images/UI/RightArrow.png; sourceTree = "<group>"; };
 		8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
 		8FB9CDA11C691AF900618CAB /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				8FB9CDA81C692A6600618CAB /* Back.png */,
 				8FB9CDA91C692A6600618CAB /* CheckBox_1.png */,
 				8FB9CDAA1C692A6600618CAB /* CheckBox_2.png */,
+				8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */,
 				8FB9CDAB1C692A6600618CAB /* CheckBox_3.png */,
 				8FB9CDAC1C692A6600618CAB /* ColoredDice.png */,
 				8FB9CDAD1C692A6600618CAB /* DropDownArrow.png */,
@@ -450,6 +453,7 @@
 				AA727F681C11316600535116 /* Rubios.png in Resources */,
 				48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */,
 				8FB9CDC61C692A6600618CAB /* Search.png in Resources */,
+				8F98DC0D1C79091F00BBFDD8 /* RightArrow.png in Resources */,
 				8FB9CDB91C692A6600618CAB /* Back_66.png in Resources */,
 				8FB9CDC11C692A6600618CAB /* FilterButton.png in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
