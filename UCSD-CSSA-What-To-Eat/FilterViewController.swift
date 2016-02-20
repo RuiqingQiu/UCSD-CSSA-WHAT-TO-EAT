@@ -203,11 +203,11 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             // ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as!
             if ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Bool == true
             {
-                cell.itemCheckButton.setImage(UIImage(named: "CheckBox_3.png"), forState: .Normal)
+                cell.itemCheckButton.setImage(UIImage(named: "RadioButton_2.png"), forState: .Normal)
             }
             else
             {
-                cell.itemCheckButton.setImage(UIImage(named: "CheckBox_1.png"), forState: .Normal)
+                cell.itemCheckButton.setImage(UIImage(named: "RadioButton_1.png"), forState: .Normal)
             }
             
         }
