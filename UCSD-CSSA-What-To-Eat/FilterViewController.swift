@@ -24,6 +24,8 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+
     }
     
     
@@ -42,6 +44,12 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
+        
+    }
     
     // MARK: Custom Functions
     
