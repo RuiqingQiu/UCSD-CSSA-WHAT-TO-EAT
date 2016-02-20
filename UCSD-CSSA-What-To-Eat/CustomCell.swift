@@ -52,12 +52,12 @@ class CustomCell: UITableViewCell, UITextFieldDelegate {
         
         if textLabel != nil {
             textLabel?.font = bigFont
-            textLabel?.textColor = primaryColor
+            //textLabel?.textColor = primaryColor
         }
         
         if detailTextLabel != nil {
             detailTextLabel?.font = smallFont
-            detailTextLabel?.textColor = secondaryColor
+            //detailTextLabel?.textColor = secondaryColor
         }
         
 
@@ -66,7 +66,7 @@ class CustomCell: UITableViewCell, UITextFieldDelegate {
 
     override func setSelected(selected: Bool, animated: Bool)
     {
-        super.setSelected(selected, animated: animated)
+        //super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }

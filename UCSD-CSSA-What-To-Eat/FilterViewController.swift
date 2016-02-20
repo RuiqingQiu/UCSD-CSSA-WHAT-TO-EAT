@@ -25,6 +25,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         UIApplication.sharedApplication().statusBarStyle = .LightContent
+        tblExpandable.separatorColor = UIColor.clearColor();
 
     }
     
@@ -34,6 +35,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         configureTableView()
         
+        tblExpandable.separatorColor = UIColor.clearColor();
         loadCellDescriptors()
         //print(cellDescriptors)
     }
@@ -314,8 +316,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         //((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as!
         
-        
-        
         while(indexOfTappedRow < cellDescriptors[indexPath!.section].count &&
             ((cellDescriptors[indexPath!.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["cellIdentifier"] as! String != "idCategoryCell")
         {
@@ -327,7 +327,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             indexOfTappedRow++
             
         }
-        
         
         if i == 0
         {
