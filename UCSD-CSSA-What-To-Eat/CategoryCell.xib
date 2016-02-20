@@ -77,6 +77,7 @@
                 </variation>
             </tableViewCellContentView>
             <animations/>
+            <color key="backgroundColor" red="0.090196078430000007" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
             <connections>
                 <outlet property="categoryCheckButton" destination="njd-2u-x8b" id="Bdx-db-X2V"/>
                 <outlet property="categoryDownButton" destination="Opx-aE-WxB" id="SAi-68-2pm"/>
@@ -87,6 +88,6 @@
     </objects>
     <resources>
         <image name="CheckBox_1.png" width="43" height="43"/>
-        <image name="DropDownArrow.png" width="24" height="18"/>
+        <image name="DropDownArrow.png" width="24" height="24"/>
     </resources>
 </document>
