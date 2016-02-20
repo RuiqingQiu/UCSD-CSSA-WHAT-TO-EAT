@@ -38,6 +38,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         tblExpandable.separatorColor = UIColor.clearColor();
         loadCellDescriptors()
         //print(cellDescriptors)
+        tblExpandable.separatorColor = UIColor.clearColor()
     }
     
     

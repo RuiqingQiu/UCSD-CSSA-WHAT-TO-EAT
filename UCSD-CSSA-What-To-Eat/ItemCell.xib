@@ -45,10 +45,10 @@
                     <constraint firstItem="xTH-IE-0eB" firstAttribute="leading" secondItem="mkL-rk-43h" secondAttribute="trailing" constant="24" id="TiR-1f-gVo"/>
                     <constraint firstItem="xTH-IE-0eB" firstAttribute="centerY" secondItem="K7y-YY-dQ9" secondAttribute="centerY" id="XWN-zG-IX7"/>
                     <constraint firstAttribute="bottomMargin" secondItem="JmJ-yJ-utU" secondAttribute="bottom" id="YRB-Dn-e4a"/>
-                    <constraint firstItem="xTH-IE-0eB" firstAttribute="trailing" secondItem="JmJ-yJ-utU" secondAttribute="trailing" constant="12" id="jU1-1C-be0"/>
+                    <constraint firstItem="xTH-IE-0eB" firstAttribute="trailing" secondItem="JmJ-yJ-utU" secondAttribute="trailing" id="jU1-1C-be0"/>
                     <constraint firstItem="JmJ-yJ-utU" firstAttribute="leading" secondItem="xTH-IE-0eB" secondAttribute="leading" constant="-12" id="t56-b5-78l"/>
                     <constraint firstItem="mkL-rk-43h" firstAttribute="centerY" secondItem="K7y-YY-dQ9" secondAttribute="centerY" id="uZO-Kp-502"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="xTH-IE-0eB" secondAttribute="trailing" constant="32" id="xFJ-95-1eW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xTH-IE-0eB" secondAttribute="trailing" constant="44" id="xFJ-95-1eW"/>
                     <constraint firstItem="mkL-rk-43h" firstAttribute="leading" secondItem="K7y-YY-dQ9" secondAttribute="leading" constant="60" id="ymW-ZL-Ohe"/>
                 </constraints>
             </tableViewCellContentView>
