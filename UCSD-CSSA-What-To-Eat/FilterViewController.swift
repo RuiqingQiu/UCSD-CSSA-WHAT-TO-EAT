@@ -25,7 +25,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         UIApplication.sharedApplication().statusBarStyle = .LightContent
-        tblExpandable.separatorColor = UIColor.clearColor();
+        //tblExpandable.separatorColor = UIColor.clearColor();
 
     }
     
@@ -35,10 +35,10 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         configureTableView()
         
-        tblExpandable.separatorColor = UIColor.clearColor();
+        //tblExpandable.separatorColor = UIColor.clearColor();
         loadCellDescriptors()
         //print(cellDescriptors)
-        tblExpandable.separatorColor = UIColor.clearColor()
+        //tblExpandable.separatorColor = UIColor.clearColor()
     }
     
     
