@@ -33,12 +33,27 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         icon.iconSize = 0.5*self.view.frame.width
         initMyLayer(["Shogun.png", "Panda.png", "Tapioca.png", "Bombay Coast.png","Lemon Grass.png","Subway.png","Santorini.png","Burger King.png","Jumba Juice.png","Dlush.png", "Round Table.png", "Rubios.png"])
+        self.filterButton.userInteractionEnabled = true
     }
     
-    override func viewDidAppear(animated: Bool) {
-        
-        filterName.frame=CGRectMake(filterButton.frame.origin.x + filterButton.frame.width * 0.2, filterButton.frame.origin.y + filterButton.frame.height * 0.5 - 10, filterButton.frame.width * 0.7, 20)
-
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?){
+        let touch: UITouch? = touches.first
+        if touch?.view == filterButton{
+            let FilterViewController = self.storyboard!.instantiateViewControllerWithIdentifier("FilterViewController")
+            
+            self.presentViewController(FilterViewController, animated: true, completion: nil)
+        }
+        super.touchesEnded(touches, withEvent: event)
     }
     
     override func didReceiveMemoryWarning() {
