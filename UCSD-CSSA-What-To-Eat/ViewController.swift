@@ -36,6 +36,16 @@ class ViewController: UIViewController {
         self.filterButton.userInteractionEnabled = true
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
+    }
+    
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?){
         let touch: UITouch? = touches.first
         if touch?.view == filterButton{

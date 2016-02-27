@@ -29,21 +29,16 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        UIApplication.sharedApplication().statusBarStyle = .LightContent
-        //tblExpandable.separatorColor = UIColor.clearColor();
 
     }
     
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
         
         configureTableView()
-        
-        //tblExpandable.separatorColor = UIColor.clearColor();
         loadCellDescriptors()
-        //print(cellDescriptors)
-        //tblExpandable.separatorColor = UIColor.clearColor()
     }
     
     
