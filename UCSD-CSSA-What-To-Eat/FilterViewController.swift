@@ -29,6 +29,11 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        self.tblExpandable.allowsSelection = true
+        self.tblExpandable.delegate = self
+        self.tblExpandable.dataSource = self
+        //tblExpandable.separatorColor = UIColor.clearColor();
 
     }
     
@@ -59,6 +64,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     func configureTableView() {
         tblExpandable.delegate = self
         tblExpandable.dataSource = self
+        
         tblExpandable.tableFooterView = UIView(frame: CGRectZero)
         
         
@@ -151,6 +157,87 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         }
     }
     
+    
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        
+        let currentCellDescriptor = getCellDescriptorForIndexPath(indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier(currentCellDescriptor["cellIdentifier"] as! String, forIndexPath: indexPath) as! CustomCell
+        
+        var indexOfTappedRow = visibleRowsPerSection[indexPath.section][indexPath.row]
+        
+        if currentCellDescriptor["cellIdentifier"] as! String == "idCategoryCell"
+        {
+            var checked = ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Int
+            if checked == 0
+            {
+                checked = 1
+            }
+            else if checked == 1
+            {
+                checked = 0
+            }
+            else if checked == 2
+            {
+                checked = 1
+            }
+            
+            cellDescriptors[indexPath.section][indexOfTappedRow].setValue(checked, forKey: "checked")
+            
+            while(indexOfTappedRow++ < cellDescriptors[indexPath.section].count - 1)
+            {
+                cellDescriptors[indexPath.section][indexOfTappedRow].setValue(checked, forKey: "checked")
+            }
+
+        }
+        else if currentCellDescriptor["cellIdentifier"] as! String == "idItemCell"
+        {
+            let checked  = ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Bool
+            cellDescriptors[indexPath.section][indexOfTappedRow].setValue(!checked, forKey: "checked")
+            
+            //let category = indexOfTappedRow
+            var i = 0
+            var c = 0
+            indexOfTappedRow = 1
+            
+            while(indexOfTappedRow < cellDescriptors[indexPath.section].count &&
+                ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["cellIdentifier"] as! String != "idCategoryCell")
+            {
+                if ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Bool == true
+                {
+                    i++
+                }
+                c++
+                indexOfTappedRow++
+                
+            }
+            
+            if i == 0
+            {
+                cellDescriptors[indexPath.section][0].setValue(0, forKey: "checked")
+            }
+            else if i == c
+            {
+                cellDescriptors[indexPath.section][0].setValue(1, forKey: "checked")
+                
+            }
+            else
+            {
+                cellDescriptors[indexPath.section][0].setValue(2, forKey: "checked")
+                
+            }
+
+        }
+        
+                      
+        getIndicesOfVisibleRows()
+        tblExpandable.reloadData()
+
+    }
+
+    
+ 
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
@@ -267,10 +354,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         let indexPath = self.tblExpandable.indexPathForRowAtPoint(pointInTable)
         var indexOfTappedRow = visibleRowsPerSection[indexPath!.section][indexPath!.row]
         
-        
-        // ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!
-        
-        //((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Bool
         var checked = ((cellDescriptors[indexPath!.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Int
         if checked == 0
         {
@@ -284,7 +367,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         {
             checked = 1
         }
-        
         
         
         cellDescriptors[indexPath!.section][indexOfTappedRow].setValue(checked, forKey: "checked")
@@ -308,25 +390,15 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         let pointInTable = sender.convertPoint(sender.bounds.origin, toView: self.tblExpandable)
         let indexPath = self.tblExpandable.indexPathForRowAtPoint(pointInTable)
         var indexOfTappedRow = visibleRowsPerSection[indexPath!.section][indexPath!.row]
-        
-        //((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Bool == true
-        
+    
         
         let checked  = ((cellDescriptors[indexPath!.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Bool
         cellDescriptors[indexPath!.section][indexOfTappedRow].setValue(!checked, forKey: "checked")
-        
-        // print(indexOfTappedRow)
-        //print(cellDescriptors[indexPath!.section][0]["label"] as! String)
-        
-        
         
         //let category = indexOfTappedRow
         var i = 0
         var c = 0
         indexOfTappedRow = 1
-        //indexOfTappedRow--
-        
-        //((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as!
         
         while(indexOfTappedRow < cellDescriptors[indexPath!.section].count &&
             ((cellDescriptors[indexPath!.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["cellIdentifier"] as! String != "idCategoryCell")
@@ -351,17 +423,15 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         }
         else
         {
-            //print("@@@@")
-            //print(cellDescriptors[indexPath!.section][0]["label"] as! String)
             cellDescriptors[indexPath!.section][0].setValue(2, forKey: "checked")
-            //print("!!!!!!!!")
+            
         }
-        
-        
         getIndicesOfVisibleRows()
         tblExpandable.reloadData()
         
     }
+    
+    
     
 
     /*

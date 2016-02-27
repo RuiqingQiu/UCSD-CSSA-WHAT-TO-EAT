@@ -39,8 +39,8 @@
                         <rect key="frame" x="256" y="10" width="24" height="24"/>
                         <animations/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="24" id="57b-vX-aNJ"/>
-                            <constraint firstAttribute="width" constant="24" id="BLI-BG-Zpm"/>
+                            <constraint firstAttribute="height" constant="17" id="57b-vX-aNJ"/>
+                            <constraint firstAttribute="width" constant="17" id="BLI-BG-Zpm"/>
                             <constraint firstAttribute="width" secondItem="Opx-aE-WxB" secondAttribute="height" id="Vwn-b5-LCA"/>
                         </constraints>
                         <state key="normal" title="Button" image="RightArrow.png"/>
