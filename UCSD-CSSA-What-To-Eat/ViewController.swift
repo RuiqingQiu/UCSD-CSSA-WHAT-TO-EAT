@@ -33,6 +33,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         icon.iconSize = 0.5*self.view.frame.width
         initMyLayer(["Shogun.png", "Panda.png", "Tapioca.png", "Bombay Coast.png","Lemon Grass.png","Subway.png","Santorini.png","Burger King.png","Jumba Juice.png","Dlush.png", "Round Table.png", "Rubios.png"])
+        self.filterButton.userInteractionEnabled = true
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?){
+        let touch: UITouch? = touches.first
+        if touch?.view == filterButton{
+            let FilterViewController = self.storyboard!.instantiateViewControllerWithIdentifier("FilterViewController")
+            
+            self.presentViewController(FilterViewController, animated: true, completion: nil)
+        }
+        super.touchesEnded(touches, withEvent: event)
     }
     
     override func viewDidAppear(animated: Bool) {

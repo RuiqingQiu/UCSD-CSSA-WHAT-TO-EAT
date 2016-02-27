@@ -10,9 +10,14 @@ import UIKit
 
 class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewDataSource, CustomCellDelegate {
     
+    @IBOutlet weak var Save: UIBarButtonItem!
     
     @IBOutlet weak var tblExpandable: UITableView!
     
+    
+    @IBAction func SaveAction(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
     
     // MARK: Variables
     
