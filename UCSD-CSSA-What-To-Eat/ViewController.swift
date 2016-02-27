@@ -46,12 +46,6 @@ class ViewController: UIViewController {
         super.touchesEnded(touches, withEvent: event)
     }
     
-    override func viewDidAppear(animated: Bool) {
-        
-        filterName.frame=CGRectMake(filterButton.frame.origin.x + filterButton.frame.width * 0.2, filterButton.frame.origin.y + filterButton.frame.height * 0.5 - 10, filterButton.frame.width * 0.7, 20)
-
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
