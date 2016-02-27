@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="e3H-2R-be7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -41,9 +41,12 @@
                                     <constraint firstAttribute="width" secondItem="rPJ-9J-bn7" secondAttribute="height" multiplier="56:11" id="Wed-a6-Fed"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ColoredDice.png" translatesAutoresizingMaskIntoConstraints="NO" id="0FA-0N-Qzo">
-                                <rect key="frame" x="0.0" y="0.0" width="269" height="275"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColoredDice.png" translatesAutoresizingMaskIntoConstraints="NO" id="0FA-0N-Qzo">
+                                <rect key="frame" x="150" y="0.0" width="300" height="300"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0FA-0N-Qzo" secondAttribute="height" multiplier="1:1" id="1Gg-G9-xLw"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fjoweijf wef" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzg-r5-Q1c">
                                 <rect key="frame" x="0.0" y="0.0" width="86" height="21"/>
@@ -61,7 +64,10 @@
                             <constraint firstItem="JAC-HI-fW8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hr8-GU-DfJ"/>
                             <constraint firstItem="rPJ-9J-bn7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IyX-2V-auj"/>
                             <constraint firstItem="rqB-hz-eiJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.9" id="OHY-H6-lnL"/>
+                            <constraint firstItem="0FA-0N-Qzo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="PuS-Nh-3pf"/>
+                            <constraint firstItem="0FA-0N-Qzo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dhS-es-hdb"/>
                             <constraint firstItem="JAC-HI-fW8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="oLK-n0-yfv"/>
+                            <constraint firstItem="0FA-0N-Qzo" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="x8Y-yd-jVf"/>
                             <constraint firstItem="JAC-HI-fW8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y0i-lD-fib"/>
                             <constraint firstItem="rqB-hz-eiJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z49-vU-E06" userLabel="Presented by 2015 UCSD CSSA.centerX = centerX + 30"/>
                         </constraints>
