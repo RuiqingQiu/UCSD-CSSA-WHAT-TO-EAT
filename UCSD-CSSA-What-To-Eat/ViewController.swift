@@ -38,7 +38,6 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         
         filterName.frame=CGRectMake(filterButton.frame.origin.x + filterButton.frame.width * 0.2, filterButton.frame.origin.y + filterButton.frame.height * 0.5 - 10, filterButton.frame.width * 0.7, 20)
-        dice.frame=CGRectMake(self.view.frame.width*0.25, self.view.frame.height*0.25-self.view.frame.width*0.25, self.view.frame.width*0.5, self.view.frame.width*0.5)
 
     }
     
