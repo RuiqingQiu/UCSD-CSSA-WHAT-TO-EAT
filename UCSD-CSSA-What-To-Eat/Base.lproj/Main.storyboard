@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UYz-lH-6PQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UCSD_CSSA_What_To_Eat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="UCSD_CSSA_What_To_Eat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -45,25 +45,36 @@
                                     <constraint firstAttribute="width" secondItem="0FA-0N-Qzo" secondAttribute="height" multiplier="1:1" id="1Gg-G9-xLw"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fjoweijf wef" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzg-r5-Q1c">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="fjoweijf wef" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzg-r5-Q1c">
                                 <rect key="frame" x="0.0" y="0.0" width="86" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.93725490196078431" green="0.5490196078431373" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hOT-gj-o0v">
+                                <rect key="frame" x="60" y="463" width="96" height="94"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.057956259426847651" green="0.061808369233189608" blue="0.067948717948717929" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="hOT-gj-o0v" firstAttribute="centerY" secondItem="rPJ-9J-bn7" secondAttribute="centerY" id="4Ge-RL-soM"/>
                             <constraint firstItem="rPJ-9J-bn7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.7" id="5yo-9r-GfC"/>
                             <constraint firstItem="rPJ-9J-bn7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="CVt-Hy-nb8"/>
                             <constraint firstItem="JAC-HI-fW8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hr8-GU-DfJ"/>
                             <constraint firstItem="rPJ-9J-bn7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IyX-2V-auj"/>
                             <constraint firstItem="rqB-hz-eiJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.9" id="OHY-H6-lnL"/>
                             <constraint firstItem="0FA-0N-Qzo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="PuS-Nh-3pf"/>
+                            <constraint firstItem="hOT-gj-o0v" firstAttribute="leading" secondItem="rPJ-9J-bn7" secondAttribute="leading" id="QZk-cB-ufh"/>
+                            <constraint firstItem="hOT-gj-o0v" firstAttribute="height" secondItem="rPJ-9J-bn7" secondAttribute="height" id="SrN-MS-7b4"/>
+                            <constraint firstItem="hOT-gj-o0v" firstAttribute="width" secondItem="rPJ-9J-bn7" secondAttribute="width" multiplier="0.2" id="bZD-x0-381"/>
                             <constraint firstItem="0FA-0N-Qzo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dhS-es-hdb"/>
                             <constraint firstItem="JAC-HI-fW8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="oLK-n0-yfv"/>
+                            <constraint firstItem="hzg-r5-Q1c" firstAttribute="width" secondItem="rPJ-9J-bn7" secondAttribute="width" multiplier="0.7" id="vhn-Qd-PVO"/>
                             <constraint firstItem="0FA-0N-Qzo" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="x8Y-yd-jVf"/>
+                            <constraint firstItem="hzg-r5-Q1c" firstAttribute="centerY" secondItem="rPJ-9J-bn7" secondAttribute="centerY" id="xZA-fz-rqP"/>
                             <constraint firstItem="JAC-HI-fW8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y0i-lD-fib"/>
+                            <constraint firstItem="hzg-r5-Q1c" firstAttribute="leading" secondItem="hOT-gj-o0v" secondAttribute="trailing" id="z2b-dK-wWc"/>
                             <constraint firstItem="rqB-hz-eiJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z49-vU-E06" userLabel="Presented by 2015 UCSD CSSA.centerX = centerX + 30"/>
                         </constraints>
                     </view>
@@ -81,7 +92,7 @@
         <!--Filter View Controller-->
         <scene sceneID="GTl-qg-Prh">
             <objects>
-                <viewController id="e3H-2R-be7" customClass="FilterViewController" customModule="UCSD_CSSA_What_To_Eat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FilterViewController" id="e3H-2R-be7" customClass="FilterViewController" customModule="UCSD_CSSA_What_To_Eat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="boo-am-OLX"/>
                         <viewControllerLayoutGuide type="bottom" id="teK-qP-9KP"/>
@@ -98,7 +109,11 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Filter" id="PpY-Zp-4eT">
-                                        <barButtonItem key="leftBarButtonItem" title="Save" id="6fR-6j-d8j"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Save" id="6fR-6j-d8j">
+                                            <connections>
+                                                <action selector="SaveAction:" destination="e3H-2R-be7" id="mEp-92-31Z"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Settings" id="crZ-aw-vRE"/>
                                     </navigationItem>
                                 </items>
@@ -139,6 +154,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Save" destination="6fR-6j-d8j" id="czd-f1-0un"/>
                         <outlet property="tblExpandable" destination="fhL-Az-65N" id="iCe-R1-uye"/>
                     </connections>
                 </viewController>
@@ -409,7 +425,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ColoredDice.png" width="269" height="275"/>
+        <image name="ColoredDice.png" width="280" height="280"/>
         <image name="FilterButton.png" width="448" height="88"/>
         <image name="ShakeMe.png" width="463" height="63"/>
     </resources>

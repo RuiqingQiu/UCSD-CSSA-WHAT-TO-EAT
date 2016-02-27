@@ -10,21 +10,21 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="Q8j-L1-sCe" customClass="CustomCell" customModule="UCSD_CSSA_What_To_Eat" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q8j-L1-sCe" id="K7y-YY-dQ9">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="35.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTH-IE-0eB">
-                        <rect key="frame" x="108" y="11" width="172" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTH-IE-0eB">
+                        <rect key="frame" x="108" y="8" width="160" height="20"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                         <color key="textColor" red="0.93725490199999995" green="0.54901960780000003" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkL-rk-43h">
-                        <rect key="frame" x="60" y="10" width="24" height="24"/>
+                        <rect key="frame" x="60" y="6" width="24" height="24"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="24" id="Hw6-Yf-Cvl"/>
                             <constraint firstAttribute="height" constant="24" id="VMo-Kl-xkd"/>
@@ -32,8 +32,8 @@
                         </constraints>
                         <state key="normal" image="RadioButton_1.png"/>
                     </button>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JmJ-yJ-utU">
-                        <rect key="frame" x="96" y="34" width="172" height="1"/>
+                    <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JmJ-yJ-utU">
+                        <rect key="frame" x="96" y="29.5" width="172" height="1"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.54901960780000003" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="noj-lA-nmY"/>
@@ -45,7 +45,7 @@
                 <constraints>
                     <constraint firstItem="xTH-IE-0eB" firstAttribute="leading" secondItem="mkL-rk-43h" secondAttribute="trailing" constant="24" id="TiR-1f-gVo"/>
                     <constraint firstItem="xTH-IE-0eB" firstAttribute="centerY" secondItem="K7y-YY-dQ9" secondAttribute="centerY" id="XWN-zG-IX7"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="JmJ-yJ-utU" secondAttribute="bottom" id="YRB-Dn-e4a"/>
+                    <constraint firstItem="JmJ-yJ-utU" firstAttribute="bottom" secondItem="K7y-YY-dQ9" secondAttribute="bottomMargin" constant="3" id="YRB-Dn-e4a"/>
                     <constraint firstItem="xTH-IE-0eB" firstAttribute="trailing" secondItem="JmJ-yJ-utU" secondAttribute="trailing" id="jU1-1C-be0"/>
                     <constraint firstItem="JmJ-yJ-utU" firstAttribute="leading" secondItem="xTH-IE-0eB" secondAttribute="leading" constant="-12" id="t56-b5-78l"/>
                     <constraint firstItem="mkL-rk-43h" firstAttribute="centerY" secondItem="K7y-YY-dQ9" secondAttribute="centerY" id="uZO-Kp-502"/>
