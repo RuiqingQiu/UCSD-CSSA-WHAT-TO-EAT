@@ -11,13 +11,13 @@
 			<key>isVisible</key>
 			<true/>
 			<key>label</key>
-			<string>1</string>
+			<string>Dining Hall</string>
 			<key>checked</key>
 			<integer>0</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>additionalRows</key>
-			<integer>2</integer>
+			<integer>6</integer>
 		</dict>
 		<dict>
 			<key>isExpandable</key>
@@ -27,7 +27,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>11</string>
+			<string>64 Degrees</string>
 			<key>png</key>
 			<string></string>
 			<key>list1</key>
@@ -44,8 +44,6 @@
 			<string>idItemCell</string>
 			<key>additionalRows</key>
 			<integer>0</integer>
-			<key>New item</key>
-			<string></string>
 		</dict>
 		<dict>
 			<key>isExpandable</key>
@@ -55,7 +53,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>12</string>
+			<string>Canyon Vista</string>
 			<key>png</key>
 			<string></string>
 			<key>list1</key>
@@ -72,8 +70,110 @@
 			<string>idItemCell</string>
 			<key>additionalRows</key>
 			<integer>0</integer>
-			<key>New item</key>
+		</dict>
+		<dict>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Club Med</string>
+			<key>png</key>
 			<string></string>
+			<key>list1</key>
+			<false/>
+			<key>list2</key>
+			<false/>
+			<key>list3</key>
+			<false/>
+			<key>list4</key>
+			<false/>
+			<key>checked</key>
+			<false/>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>additionalRows</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Foodworx</string>
+			<key>png</key>
+			<string></string>
+			<key>list1</key>
+			<false/>
+			<key>list2</key>
+			<false/>
+			<key>list3</key>
+			<false/>
+			<key>list4</key>
+			<false/>
+			<key>checked</key>
+			<false/>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>additionalRows</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Pines</string>
+			<key>png</key>
+			<string></string>
+			<key>list1</key>
+			<false/>
+			<key>list2</key>
+			<false/>
+			<key>list3</key>
+			<false/>
+			<key>list4</key>
+			<false/>
+			<key>checked</key>
+			<false/>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>additionalRows</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Roots</string>
+			<key>png</key>
+			<string></string>
+			<key>list1</key>
+			<false/>
+			<key>list2</key>
+			<false/>
+			<key>list3</key>
+			<false/>
+			<key>list4</key>
+			<false/>
+			<key>checked</key>
+			<false/>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>additionalRows</key>
+			<integer>0</integer>
 		</dict>
 	</array>
 	<array>

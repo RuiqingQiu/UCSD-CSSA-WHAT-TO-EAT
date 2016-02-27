@@ -142,8 +142,8 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         let currentCellDescriptor = getCellDescriptorForIndexPath(indexPath)
         
         switch currentCellDescriptor["cellIdentifier"] as! String {
-            //case "idCellNormal":
-            //return 60.0
+            case "idItemCell":
+                return 36.0
             
             
         default:
