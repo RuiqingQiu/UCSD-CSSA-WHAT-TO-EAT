@@ -17,7 +17,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUR-la-H2d">
-                        <rect key="frame" x="80" y="11" width="164" height="21"/>
+                        <rect key="frame" x="80" y="11.5" width="171" height="20.5"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -34,15 +34,15 @@
                         <state key="normal" title="Button" image="CheckBox_1.png"/>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opx-aE-WxB">
-                        <rect key="frame" x="256" y="10" width="24" height="24"/>
+                        <rect key="frame" x="263" y="13.5" width="17" height="17"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="24" id="57b-vX-aNJ"/>
-                            <constraint firstAttribute="width" constant="24" id="BLI-BG-Zpm"/>
+                            <constraint firstAttribute="height" constant="17" id="57b-vX-aNJ"/>
+                            <constraint firstAttribute="width" constant="17" id="BLI-BG-Zpm"/>
                             <constraint firstAttribute="width" secondItem="Opx-aE-WxB" secondAttribute="height" id="Vwn-b5-LCA"/>
                         </constraints>
                         <state key="normal" title="Button" image="RightArrow.png"/>
                     </button>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bc7-XF-HlK">
+                    <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bc7-XF-HlK">
                         <rect key="frame" x="68" y="34" width="224" height="1"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.54901960780000003" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
