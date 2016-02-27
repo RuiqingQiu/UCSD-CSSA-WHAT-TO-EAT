@@ -17,7 +17,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>additionalRows</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 		<dict>
 			<key>isExpandable</key>
@@ -29,7 +29,7 @@
 			<key>label</key>
 			<string>64 Degrees</string>
 			<key>png</key>
-			<string></string>
+			<string>Sixty-Four Degrees.png</string>
 			<key>list1</key>
 			<false/>
 			<key>list2</key>
@@ -55,33 +55,7 @@
 			<key>label</key>
 			<string>Canyon Vista</string>
 			<key>png</key>
-			<string></string>
-			<key>list1</key>
-			<false/>
-			<key>list2</key>
-			<false/>
-			<key>list3</key>
-			<false/>
-			<key>list4</key>
-			<false/>
-			<key>checked</key>
-			<false/>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>additionalRows</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>Club Med</string>
-			<key>png</key>
-			<string></string>
+			<string>Canyon Vista.png</string>
 			<key>list1</key>
 			<false/>
 			<key>list2</key>
@@ -107,7 +81,7 @@
 			<key>label</key>
 			<string>Foodworx</string>
 			<key>png</key>
-			<string></string>
+			<string>FoodWorx.png</string>
 			<key>list1</key>
 			<false/>
 			<key>list2</key>
@@ -133,7 +107,7 @@
 			<key>label</key>
 			<string>Pines</string>
 			<key>png</key>
-			<string></string>
+			<string>Pines.png</string>
 			<key>list1</key>
 			<false/>
 			<key>list2</key>
@@ -159,7 +133,7 @@
 			<key>label</key>
 			<string>Roots</string>
 			<key>png</key>
-			<string></string>
+			<string>Roots.png</string>
 			<key>list1</key>
 			<false/>
 			<key>list2</key>

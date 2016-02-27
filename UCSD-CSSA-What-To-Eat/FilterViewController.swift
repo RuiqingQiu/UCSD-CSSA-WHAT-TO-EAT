@@ -19,6 +19,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
+    
     // MARK: Variables
     
     var cellDescriptors: NSMutableArray!
@@ -78,8 +79,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     func loadCellDescriptors() {
         if let path = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
             cellDescriptors = NSMutableArray(contentsOfFile: path)
-            //print(cellDescriptors.dynamicType)
-            //print(cellDescriptors[0][0].dynamicType)
             getIndicesOfVisibleRows()
             tblExpandable.reloadData()
         }
@@ -92,15 +91,9 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         for currentSectionCells in cellDescriptors {
             var visibleRows = [Int]()
-            //print(cellDescriptors.dynamicType)
-            //print(currentSectionCells.dynamicType)
+            
             for row in 0...((currentSectionCells as! [[String: AnyObject]]).count - 1)
             {
-                //print((currentSectionCells as? NSArray)![0] as? NSDictionary)
-                //print("!!!")
-                //print(((currentSectionCells as? NSArray)![0] as? NSDictionary)!["isVisible"] as! Bool)
-                
-                
                 if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["isVisible"] as! Bool == true
                 {
                     visibleRows.append(row)
@@ -169,26 +162,26 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         if currentCellDescriptor["cellIdentifier"] as! String == "idCategoryCell"
         {
-            var checked = ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Int
-            if checked == 0
+            if ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["isExpandable"] as! Bool == true
             {
-                checked = 1
+                var shouldExpandAndShowSubRows = false
+                if ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["isExpanded"] as! Bool == false
+                {
+                    // In this case the cell should expand.
+                    shouldExpandAndShowSubRows = true
+                }
+                
+                cellDescriptors[indexPath.section][indexOfTappedRow].setValue(shouldExpandAndShowSubRows, forKey: "isExpanded")
+                
+                //((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as!
+                for i in (indexOfTappedRow + 1)...(indexOfTappedRow + (((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["additionalRows"] as! Int))
+                {
+                    cellDescriptors[indexPath.section][i].setValue(shouldExpandAndShowSubRows, forKey: "isVisible")
+                }
             }
-            else if checked == 1
-            {
-                checked = 0
-            }
-            else if checked == 2
-            {
-                checked = 1
-            }
+            getIndicesOfVisibleRows()
             
-            cellDescriptors[indexPath.section][indexOfTappedRow].setValue(checked, forKey: "checked")
-            
-            while(indexOfTappedRow++ < cellDescriptors[indexPath.section].count - 1)
-            {
-                cellDescriptors[indexPath.section][indexOfTappedRow].setValue(checked, forKey: "checked")
-            }
+            tblExpandable.reloadSections(NSIndexSet(index: indexPath.section), withRowAnimation: UITableViewRowAnimation.Fade)
 
         }
         else if currentCellDescriptor["cellIdentifier"] as! String == "idItemCell"
@@ -227,18 +220,15 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
                 cellDescriptors[indexPath.section][0].setValue(2, forKey: "checked")
                 
             }
+            getIndicesOfVisibleRows()
+            tblExpandable.reloadData()
 
         }
         
-                      
-        getIndicesOfVisibleRows()
-        tblExpandable.reloadData()
+
 
     }
-
-    
  
-    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
         let currentCellDescriptor = getCellDescriptorForIndexPath(indexPath)

@@ -12,11 +12,15 @@ import AudioToolbox
 
 class ViewController: UIViewController {
     var shaked = true
+    var cellDescriptors: NSMutableArray!
+    
 
     @IBOutlet weak var shakeMe: UIImageView!
     @IBOutlet weak var filterButton: UIImageView!
     @IBOutlet weak var filterName: UILabel!
     @IBOutlet weak var dice: UIImageView!
+    
+    
     
     //Prevent user from rotating the view
     override func shouldAutorotate() -> Bool {
@@ -34,11 +38,14 @@ class ViewController: UIViewController {
         icon.iconSize = 0.5*self.view.frame.width
         initMyLayer(["Shogun.png", "Panda.png", "Tapioca.png", "Bombay Coast.png","Lemon Grass.png","Subway.png","Santorini.png","Burger King.png","Jumba Juice.png","Dlush.png", "Round Table.png", "Rubios.png"])
         self.filterButton.userInteractionEnabled = true
+        //print("viewdidiload")
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         UIApplication.sharedApplication().statusBarStyle = .LightContent
+        print(getPngSelected());
+        
     }
     
     override func viewWillDisappear(animated: Bool) {
@@ -285,6 +292,42 @@ class ViewController: UIViewController {
         }
         
     }
+    
+    
+    func getPngSelected() -> Array<String>
+    {
+        if let path = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
+            cellDescriptors = NSMutableArray(contentsOfFile: path)
+            
+        }
+        
+        var returnArray = [String]()
+        for currentSectionCells in cellDescriptors
+        {
+            
+            for row in 0...((currentSectionCells as! [[String: AnyObject]]).count - 1)
+            {
+                if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["cellIdentifier"] as!
+                    String == "idItemCell"
+                {
+                    print(((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"])
+                    if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"] as! Bool == true
+                    {
+                        print("@@")
+                        returnArray.append(((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String)
+                    }
+                }
+            }
+            
+        }
+        print(returnArray);
+
+        return ["q","w"]
+    
+    }
+    
+    
+    
     
 }
 
