@@ -45,6 +45,7 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         UIApplication.sharedApplication().statusBarStyle = .LightContent
         print(getPngSelected());
+    
         
     }
     
@@ -296,11 +297,32 @@ class ViewController: UIViewController {
     
     func getPngSelected() -> Array<String>
     {
-        if let path = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
-            cellDescriptors = NSMutableArray(contentsOfFile: path)
-            
+        
+        let documentsURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
+        let fileURL = documentsURL.URLByAppendingPathComponent("CellDescriptor.plist")
+        let path = fileURL.path!
+        let fileManager = NSFileManager.defaultManager()
+        //check if file exists
+        if(!fileManager.fileExistsAtPath(path))
+        {
+            // If it doesn't, copy it from the default file in the Bundle
+            if let bundlePath = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
+                let resultDictionary = NSMutableDictionary(contentsOfFile: bundlePath)
+                print("Bundle GameData.plist file is --> \(resultDictionary?.description)")
+                do {
+                    try fileManager.copyItemAtPath(bundlePath, toPath: path)
+                } catch _ {
+                    print("error")
+                }
+                //fileManager.copyItemAtPath(bundlePath, toPath: path)
+                print("copy")
+            } else {
+                print("CellDescriptor.plist not found. Please, make sure it is part of the bundle.")
+            }
         }
         
+        cellDescriptors = NSMutableArray(contentsOfFile: path)
+ 
         var returnArray = [String]()
         for currentSectionCells in cellDescriptors
         {
@@ -310,19 +332,18 @@ class ViewController: UIViewController {
                 if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["cellIdentifier"] as!
                     String == "idItemCell"
                 {
-                    print(((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"])
+                    //print(((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"])
                     if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"] as! Bool == true
                     {
-                        print("@@")
+                        //print("@@")
                         returnArray.append(((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String)
                     }
                 }
             }
             
         }
-        print(returnArray);
-
-        return ["q","w"]
+    
+        return returnArray
     
     }
     

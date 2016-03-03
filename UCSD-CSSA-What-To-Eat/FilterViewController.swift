@@ -29,6 +29,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view, typically from a nib.
         UIApplication.sharedApplication().statusBarStyle = .LightContent
         self.tblExpandable.allowsSelection = true
@@ -76,13 +77,57 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     }
     
     
-    func loadCellDescriptors() {
-        if let path = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
-            cellDescriptors = NSMutableArray(contentsOfFile: path)
-            getIndicesOfVisibleRows()
-            tblExpandable.reloadData()
+    func loadCellDescriptors()
+    {
+        // getting path to GameData.plist
+        //let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) as NSArray
+        
+        
+        let documentsURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
+        let fileURL = documentsURL.URLByAppendingPathComponent("CellDescriptor.plist")
+        let path = fileURL.path!
+        //let documentsDirectory = paths[0] as! String
+        //let path = documentsDirectory.stringByAppendingPathComponent("CellDescriptor.plist")
+        let fileManager = NSFileManager.defaultManager()
+        //check if file exists
+        if(!fileManager.fileExistsAtPath(path))
+        {
+            // If it doesn't, copy it from the default file in the Bundle
+            if let bundlePath = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
+                let resultDictionary = NSMutableDictionary(contentsOfFile: bundlePath)
+                print("Bundle GameData.plist file is --> \(resultDictionary?.description)")
+                do {
+                    try fileManager.copyItemAtPath(bundlePath, toPath: path)
+                } catch _ {
+                    print("error")
+                }
+                //fileManager.copyItemAtPath(bundlePath, toPath: path)
+                print("copy")
+            } else {
+                print("CellDescriptor.plist not found. Please, make sure it is part of the bundle.")
+            }
         }
+        
+        cellDescriptors = NSMutableArray(contentsOfFile: path)
+        getIndicesOfVisibleRows()
+        tblExpandable.reloadData()
+        
+        
     }
+
+    func saveGameData()
+    {
+        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) as NSArray
+        let documentsDirectory = paths.objectAtIndex(0) as! NSString
+        let path = documentsDirectory.stringByAppendingPathComponent("CellDescriptor.plist")
+        
+        cellDescriptors.writeToFile(path, atomically: true)
+        //let resultDictionary = NSMutableDictionary(contentsOfFile: path)
+        //print("Saved cellDescriptors.plist file is --> \(resultDictionary?.description)")
+    }
+    
+    
+    
     
     
     func getIndicesOfVisibleRows()
@@ -156,7 +201,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     {
         
         let currentCellDescriptor = getCellDescriptorForIndexPath(indexPath)
-        let cell = tableView.dequeueReusableCellWithIdentifier(currentCellDescriptor["cellIdentifier"] as! String, forIndexPath: indexPath) as! CustomCell
         
         var indexOfTappedRow = visibleRowsPerSection[indexPath.section][indexPath.row]
         
@@ -180,6 +224,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
                 }
             }
             getIndicesOfVisibleRows()
+            saveGameData()
             
             tblExpandable.reloadSections(NSIndexSet(index: indexPath.section), withRowAnimation: UITableViewRowAnimation.Fade)
 
@@ -221,6 +266,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
                 
             }
             getIndicesOfVisibleRows()
+            saveGameData()
             tblExpandable.reloadData()
 
         }
@@ -274,7 +320,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
                 cell.categoryDownButton.setImage(UIImage(named: "RightArrow.png"), forState: .Normal)
             }
 
-                  
             
         }
         else if currentCellDescriptor["cellIdentifier"] as! String == "idItemCell"
@@ -300,13 +345,13 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             
         }
         cell.delegate = self
+        saveGameData()
         
         return cell
     }
     
     @IBAction func categoryDownTouchUpInside(sender: UIButton)
     {
-        print(sender.tag)
         
         let pointInTable = sender.convertPoint(sender.bounds.origin, toView: self.tblExpandable)
         let indexPath = self.tblExpandable.indexPathForRowAtPoint(pointInTable)
@@ -333,7 +378,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             }
         }
         getIndicesOfVisibleRows()
-        
+        saveGameData()
         tblExpandable.reloadSections(NSIndexSet(index: indexPath!.section), withRowAnimation: UITableViewRowAnimation.Fade)
         
     }
@@ -371,6 +416,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         getIndicesOfVisibleRows()
         tblExpandable.reloadData()
+        saveGameData()
         
     }
     
@@ -418,6 +464,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         }
         getIndicesOfVisibleRows()
         tblExpandable.reloadData()
+        saveGameData()
         
     }
     
