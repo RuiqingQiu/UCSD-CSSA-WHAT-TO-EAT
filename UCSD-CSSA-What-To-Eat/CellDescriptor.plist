@@ -13,7 +13,7 @@
 			<key>label</key>
 			<string>Dining Hall</string>
 			<key>checked</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>additionalRows</key>
@@ -30,16 +30,8 @@
 			<string>64 Degrees</string>
 			<key>png</key>
 			<string>Sixty-Four Degrees.png</string>
-			<key>list1</key>
-			<false/>
-			<key>list2</key>
-			<false/>
-			<key>list3</key>
-			<false/>
-			<key>list4</key>
-			<false/>
 			<key>checked</key>
-			<false/>
+			<true/>
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>additionalRows</key>
@@ -54,18 +46,10 @@
 			<false/>
 			<key>label</key>
 			<string>Canyon Vista</string>
+			<key>checked</key>
+			<true/>
 			<key>png</key>
 			<string>Canyon Vista.png</string>
-			<key>list1</key>
-			<false/>
-			<key>list2</key>
-			<false/>
-			<key>list3</key>
-			<false/>
-			<key>list4</key>
-			<false/>
-			<key>checked</key>
-			<false/>
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>additionalRows</key>
@@ -82,16 +66,8 @@
 			<string>Foodworx</string>
 			<key>png</key>
 			<string>FoodWorx.png</string>
-			<key>list1</key>
-			<false/>
-			<key>list2</key>
-			<false/>
-			<key>list3</key>
-			<false/>
-			<key>list4</key>
-			<false/>
 			<key>checked</key>
-			<false/>
+			<true/>
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>additionalRows</key>
@@ -108,16 +84,8 @@
 			<string>Pines</string>
 			<key>png</key>
 			<string>Pines.png</string>
-			<key>list1</key>
-			<false/>
-			<key>list2</key>
-			<false/>
-			<key>list3</key>
-			<false/>
-			<key>list4</key>
-			<false/>
 			<key>checked</key>
-			<false/>
+			<true/>
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>additionalRows</key>
@@ -134,16 +102,8 @@
 			<string>Roots</string>
 			<key>png</key>
 			<string>Roots.png</string>
-			<key>list1</key>
-			<false/>
-			<key>list2</key>
-			<false/>
-			<key>list3</key>
-			<false/>
-			<key>list4</key>
-			<false/>
 			<key>checked</key>
-			<false/>
+			<true/>
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>additionalRows</key>
@@ -163,7 +123,7 @@
 			<key>label</key>
 			<string>2</string>
 			<key>checked</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>additionalRows</key>
