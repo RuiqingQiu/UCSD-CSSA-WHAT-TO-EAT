@@ -72,7 +72,14 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             self.dismissViewControllerAnimated(true, completion: nil)
         }
     }
-    
+    @IBAction func SetSettings(sender: AnyObject) {
+        let SettingViewController = self.storyboard!.instantiateViewControllerWithIdentifier("SettingViewController")
+        
+        SettingViewController.modalTransitionStyle
+            = UIModalTransitionStyle.CrossDissolve
+        
+        self.presentViewController(SettingViewController, animated: true, completion: nil)
+    }
 
     func checkListNil() -> Bool
     {

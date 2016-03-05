@@ -176,6 +176,7 @@
                     </view>
                     <connections>
                         <outlet property="Save" destination="6fR-6j-d8j" id="czd-f1-0un"/>
+                        <outlet property="Settings" destination="crZ-aw-vRE" id="HjZ-qp-6oH"/>
                         <outlet property="defaultList" destination="lop-E2-m5D" id="a9l-qb-SuV"/>
                         <outlet property="list2" destination="ekn-2z-OTy" id="zWN-h5-Cze"/>
                         <outlet property="list3" destination="L0S-Qe-w70" id="34u-0V-KwO"/>
