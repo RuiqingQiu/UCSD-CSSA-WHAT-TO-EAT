@@ -12,11 +12,21 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var Save: UIBarButtonItem!
     
+    @IBOutlet weak var Settings: UIBarButtonItem!
     @IBOutlet weak var tblExpandable: UITableView!
     
     
     @IBAction func SaveAction(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    @IBAction func SetSettings(sender: AnyObject) {
+        let SettingViewController = self.storyboard!.instantiateViewControllerWithIdentifier("SettingViewController")
+        
+        SettingViewController.modalTransitionStyle
+        = UIModalTransitionStyle.CrossDissolve
+        
+        self.presentViewController(SettingViewController, animated: true, completion: nil)
     }
     
     
