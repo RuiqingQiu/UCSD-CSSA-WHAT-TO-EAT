@@ -10,6 +10,14 @@ import UIKit
 
 class SettingViewController: UIViewController {
     
+    
+    @IBOutlet weak var Save: UIBarButtonItem!
+    
+    @IBAction func SaveSettings(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

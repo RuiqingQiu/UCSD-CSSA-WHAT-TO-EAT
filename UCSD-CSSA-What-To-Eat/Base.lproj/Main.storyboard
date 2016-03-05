@@ -115,7 +115,11 @@
                                                 <action selector="SaveAction:" destination="e3H-2R-be7" id="mEp-92-31Z"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Settings" id="crZ-aw-vRE"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Settings" id="crZ-aw-vRE">
+                                            <connections>
+                                                <action selector="SetSettings:" destination="e3H-2R-be7" id="QAl-UJ-OJa"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -148,7 +152,7 @@
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="vyO-Dm-5bL"/>
                                 </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <color key="barTintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fhL-Az-65N">
                                 <rect key="frame" x="0.0" y="108" width="600" height="492"/>
@@ -186,7 +190,7 @@
         <!--Setting View Controller-->
         <scene sceneID="SLf-Rc-sNk">
             <objects>
-                <viewController id="UYz-lH-6PQ" customClass="SettingViewController" customModule="UCSD_CSSA_What_To_Eat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingViewController" id="UYz-lH-6PQ" customClass="SettingViewController" customModule="UCSD_CSSA_What_To_Eat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mDY-ZQ-G6T"/>
                         <viewControllerLayoutGuide type="bottom" id="Rom-3M-reW"/>
@@ -205,6 +209,9 @@
                                     <navigationItem title="Settings" id="eT6-PE-gTN">
                                         <barButtonItem key="leftBarButtonItem" title="Save" id="t0B-Zg-QkH">
                                             <color key="tintColor" red="0.93725490199999995" green="0.54901960780000003" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="SaveSettings:" destination="UYz-lH-6PQ" id="yZ4-Gh-KTy"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -284,6 +291,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="7o4-TF-0ui" secondAttribute="trailing" constant="-20" id="zs0-Jk-5ue"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Save" destination="t0B-Zg-QkH" id="dah-Lm-IOL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U31-bL-leZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -12,6 +12,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var Save: UIBarButtonItem!
     
+    @IBOutlet weak var Settings: UIBarButtonItem!
     @IBOutlet weak var tblExpandable: UITableView!
     
     @IBOutlet weak var defaultList: UIBarButtonItem!
