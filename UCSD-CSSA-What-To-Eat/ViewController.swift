@@ -48,6 +48,9 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         UIApplication.sharedApplication().statusBarStyle = .LightContent
         print(getPngSelected());
+        self.iconview.alpha = 0
+        self.shakeMe.alpha = 1
+        self.dice.alpha = 1
         updatePool (getPngSelected())
         filterName.text = currentListName
 

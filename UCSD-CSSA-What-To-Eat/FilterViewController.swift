@@ -65,7 +65,9 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         if checkListNil() == true
         {
-            print("all nil")
+            let alert = UIAlertController(title: "No restaurant selected", message: "You need to select at least one restaurant!", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
         }
         else
         {
@@ -95,7 +97,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
                     print(((currentSectionCells as? NSArray)![row] as? NSDictionary)!  ["checked"] as! Int != 0)
                     if((currentSectionCells as? NSArray)![row] as? NSDictionary)!  ["checked"] as! Int != 0
                     {
-                        //print(((currentSectionCells as? NSArray)![row] as? NSDictionary)!  ["checked"] as! Int != 0)
                         b = false
                     }
                     
@@ -193,7 +194,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
                 print("CellDescriptor.plist not found. Please, make sure it is part of the bundle.")
             }
         }
-        print("Success")
         
         cellDescriptors = NSMutableArray(contentsOfFile: path)
         getIndicesOfVisibleRows()
@@ -210,8 +210,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         let path = documentsDirectory.stringByAppendingPathComponent(fileName)
         
         cellDescriptors.writeToFile(path, atomically: true)
-        //let resultDictionary = NSMutableDictionary(contentsOfFile: path)
-        //print("Saved cellDescriptors.plist file is --> \(resultDictionary?.description)")
     }
     
 
@@ -239,7 +237,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     func getCellDescriptorForIndexPath(indexPath: NSIndexPath) -> [String: AnyObject] {
         let indexOfVisibleRow = visibleRowsPerSection[indexPath.section][indexPath.row]
         let cellDescriptor = (cellDescriptors[indexPath.section]as? NSArray)![indexOfVisibleRow] as! [String: AnyObject]
-        //print (cellDescriptor)
         return cellDescriptor
     }
     
@@ -250,9 +247,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     {
         if cellDescriptors != nil
         {
-            //print(cellDescriptors.count)
             return cellDescriptors.count
-            
         }
         else {
             return 0
@@ -491,9 +486,6 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         
         cellDescriptors[indexPath!.section][indexOfTappedRow].setValue(checked, forKey: "checked")
-        
-        
-        //print(cellDescriptors[indexPath!.section].count)
         
         while(indexOfTappedRow++ < cellDescriptors[indexPath!.section].count - 1)
         {
