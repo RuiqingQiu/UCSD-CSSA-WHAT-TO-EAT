@@ -18,6 +18,9 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.dismissViewControllerAnimated(true, completion: nil)
            }
     
+    var bar_color = UIColor(red: 128/256, green: 128/256, blue: 128/256, alpha: 0.66)
+    var entry_color = UIColor(red: 201/256, green: 176/256, blue: 151/256, alpha: 0.66)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "groupcell")
@@ -38,25 +41,25 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         if(indexPath.row == 0){
             cell.textLabel!.text = "SOUND"
             cell.textLabel!.font  = UIFont(name: "Avenir", size: 18);
-            cell.backgroundColor =  UIColor(red: 128/256, green: 128/256, blue: 128/256, alpha: 0.66);
+            cell.backgroundColor =  bar_color;
 
         }
         else if(indexPath.row == 1){
             cell.textLabel!.text = "Sound Effects"
-            cell.backgroundColor =  UIColor(red: 201/256, green: 176/256, blue: 151/256, alpha: 0.66);
+            cell.backgroundColor =  bar_color;
 
         }
         else if(indexPath.row == 2){
             cell.textLabel!.text = "CUSTOMIZE LIST NAME"
             cell.textLabel!.font  = UIFont(name: "Avenir", size: 18);
-            cell.backgroundColor =  UIColor(red: 128/256, green: 128/256, blue: 128/256, alpha: 0.66);
+            cell.backgroundColor =  bar_color;
 
         }
         else{
             let tmp = indexPath.row - 2;
             cell.textLabel!.text = "List " + String(tmp)
             cell.detailTextLabel!.text = "List " + String(tmp)
-            cell.backgroundColor =  UIColor(red: 201/256, green: 176/256, blue: 151/256, alpha: 0.66);
+            cell.backgroundColor =  entry_color;
         }
         return cell
     }
