@@ -8,6 +8,7 @@
 import UIKit
 import GLKit
 import AudioToolbox
+var currentListName = "1"
 
 
 class ViewController: UIViewController {
@@ -36,8 +37,10 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
         icon.iconSize = 0.5*self.view.frame.width
-        initMyLayer(["Shogun.png", "Panda.png", "Tapioca.png", "Bombay Coast.png","Lemon Grass.png","Subway.png","Santorini.png","Burger King.png","Jumba Juice.png","Dlush.png", "Round Table.png", "Rubios.png"])
+        initMyLayer(getPngSelected())
         self.filterButton.userInteractionEnabled = true
+        filterName.text = currentListName
+        
         //print("viewdidiload")
     }
     
@@ -45,6 +48,9 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         UIApplication.sharedApplication().statusBarStyle = .LightContent
         print(getPngSelected());
+        updatePool (getPngSelected())
+        filterName.text = currentListName
+
     
         
     }
@@ -299,7 +305,8 @@ class ViewController: UIViewController {
     {
         
         let documentsURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
-        let fileURL = documentsURL.URLByAppendingPathComponent("CellDescriptor.plist")
+        let fileName = "CellDescriptor" +  currentListName + ".plist"
+        let fileURL = documentsURL.URLByAppendingPathComponent(fileName)
         let path = fileURL.path!
         let fileManager = NSFileManager.defaultManager()
         //check if file exists
@@ -308,7 +315,7 @@ class ViewController: UIViewController {
             // If it doesn't, copy it from the default file in the Bundle
             if let bundlePath = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
                 let resultDictionary = NSMutableDictionary(contentsOfFile: bundlePath)
-                print("Bundle GameData.plist file is --> \(resultDictionary?.description)")
+                print("Bundle CellDescriptor.plist file is --> \(resultDictionary?.description)")
                 do {
                     try fileManager.copyItemAtPath(bundlePath, toPath: path)
                 } catch _ {
@@ -333,6 +340,7 @@ class ViewController: UIViewController {
                     String == "idItemCell"
                 {
                     //print(((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"])
+                    
                     if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"] as! Bool == true
                     {
                         //print("@@")
@@ -346,9 +354,7 @@ class ViewController: UIViewController {
         return returnArray
     
     }
-    
-    
-    
+       
     
 }
 

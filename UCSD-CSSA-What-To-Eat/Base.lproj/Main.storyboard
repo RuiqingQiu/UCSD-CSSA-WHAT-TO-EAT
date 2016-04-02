@@ -126,13 +126,29 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Z1X-op-2sS"/>
-                                    <barButtonItem title="Item" id="lop-E2-m5D"/>
+                                    <barButtonItem title="default" id="lop-E2-m5D">
+                                        <connections>
+                                            <action selector="defaultListClicked:" destination="e3H-2R-be7" id="Rj5-35-6uC"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Ime-BF-dVH"/>
-                                    <barButtonItem title="Item" id="ekn-2z-OTy"/>
+                                    <barButtonItem title="2" id="ekn-2z-OTy">
+                                        <connections>
+                                            <action selector="list2Clicked:" destination="e3H-2R-be7" id="IwE-4U-12S"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="b2P-rd-0ev"/>
-                                    <barButtonItem title="Item" id="L0S-Qe-w70"/>
+                                    <barButtonItem title="3" id="L0S-Qe-w70">
+                                        <connections>
+                                            <action selector="list3Clicked:" destination="e3H-2R-be7" id="xNl-uf-qN1"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Q6a-9O-Lwb"/>
-                                    <barButtonItem title="Item" id="zVd-65-hRh"/>
+                                    <barButtonItem title="4" id="zVd-65-hRh">
+                                        <connections>
+                                            <action selector="list4Clicked:" destination="e3H-2R-be7" id="qCk-VJ-Ort"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="vyO-Dm-5bL"/>
                                 </items>
                                 <color key="barTintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -160,6 +176,10 @@
                     <connections>
                         <outlet property="Save" destination="6fR-6j-d8j" id="czd-f1-0un"/>
                         <outlet property="Settings" destination="crZ-aw-vRE" id="HjZ-qp-6oH"/>
+                        <outlet property="defaultList" destination="lop-E2-m5D" id="a9l-qb-SuV"/>
+                        <outlet property="list2" destination="ekn-2z-OTy" id="zWN-h5-Cze"/>
+                        <outlet property="list3" destination="L0S-Qe-w70" id="34u-0V-KwO"/>
+                        <outlet property="list4" destination="zVd-65-hRh" id="9qM-P5-M0s"/>
                         <outlet property="tblExpandable" destination="fhL-Az-65N" id="iCe-R1-uye"/>
                     </connections>
                 </viewController>

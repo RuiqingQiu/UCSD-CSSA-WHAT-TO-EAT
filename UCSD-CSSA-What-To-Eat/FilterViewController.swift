@@ -15,26 +15,102 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet weak var Settings: UIBarButtonItem!
     @IBOutlet weak var tblExpandable: UITableView!
     
+    @IBOutlet weak var defaultList: UIBarButtonItem!
     
-    @IBAction func SaveAction(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBOutlet weak var list2: UIBarButtonItem!
+   
+    @IBOutlet weak var list3: UIBarButtonItem!
+    
+    @IBOutlet weak var list4: UIBarButtonItem!
+    
+    @IBAction func defaultListClicked(sender: AnyObject)
+    {
+        currentListName = "1"
+        configureTableView()
+        loadCellDescriptors()
+        getIndicesOfVisibleRows()
+        tblExpandable.reloadData()
     }
     
+    @IBAction func list2Clicked(sender: AnyObject)
+    {
+        currentListName = "2"
+        configureTableView()
+        loadCellDescriptors()
+        getIndicesOfVisibleRows()
+        tblExpandable.reloadData()
+    }
+    
+    
+    
+    @IBAction func list3Clicked(sender: AnyObject)
+    {
+        currentListName = "3"
+        configureTableView()
+        loadCellDescriptors()
+        getIndicesOfVisibleRows()
+        tblExpandable.reloadData()
+
+    }
+    @IBAction func list4Clicked(sender: AnyObject)
+    {
+        currentListName = "4"
+        configureTableView()
+        loadCellDescriptors()
+        getIndicesOfVisibleRows()
+        tblExpandable.reloadData()
+
+    }
+    @IBAction func SaveAction(sender: AnyObject) {
+        
+        if checkListNil() == true
+        {
+            print("all nil")
+        }
+        else
+        {
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
+    }
     @IBAction func SetSettings(sender: AnyObject) {
         let SettingViewController = self.storyboard!.instantiateViewControllerWithIdentifier("SettingViewController")
         
         SettingViewController.modalTransitionStyle
-        = UIModalTransitionStyle.CrossDissolve
+            = UIModalTransitionStyle.CrossDissolve
         
         self.presentViewController(SettingViewController, animated: true, completion: nil)
     }
+
+    func checkListNil() -> Bool
+    {
+        var b = true
+        
+        for currentSectionCells in cellDescriptors
+        {
+            
+            for row in 0...((currentSectionCells as! [[String: AnyObject]]).count - 1)
+            {
+                if ((currentSectionCells as? NSArray)![row] as? NSDictionary)! ["cellIdentifier"] as! String == "idCategoryCell"
+                {
+                    print(((currentSectionCells as? NSArray)![row] as? NSDictionary)!  ["checked"] as! Int != 0)
+                    if((currentSectionCells as? NSArray)![row] as? NSDictionary)!  ["checked"] as! Int != 0
+                    {
+                        //print(((currentSectionCells as? NSArray)![row] as? NSDictionary)!  ["checked"] as! Int != 0)
+                        b = false
+                    }
+                    
+                }
+            }
+            
+        }
+        return b
     
-    
-    // MARK: Variables
+    }
     
     var cellDescriptors: NSMutableArray!
     
     var visibleRowsPerSection = [[Int]]()
+        
     
     
     override func viewDidLoad() {
@@ -92,9 +168,9 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         // getting path to GameData.plist
         //let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) as NSArray
         
-        
         let documentsURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
-        let fileURL = documentsURL.URLByAppendingPathComponent("CellDescriptor.plist")
+        let fileName = "CellDescriptor" +  currentListName + ".plist"
+        let fileURL = documentsURL.URLByAppendingPathComponent(fileName)
         let path = fileURL.path!
         //let documentsDirectory = paths[0] as! String
         //let path = documentsDirectory.stringByAppendingPathComponent("CellDescriptor.plist")
@@ -105,7 +181,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             // If it doesn't, copy it from the default file in the Bundle
             if let bundlePath = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
                 let resultDictionary = NSMutableDictionary(contentsOfFile: bundlePath)
-                print("Bundle GameData.plist file is --> \(resultDictionary?.description)")
+                print("Bundle CellDescriptor.plist file is --> \(resultDictionary?.description)")
                 do {
                     try fileManager.copyItemAtPath(bundlePath, toPath: path)
                 } catch _ {
@@ -117,6 +193,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
                 print("CellDescriptor.plist not found. Please, make sure it is part of the bundle.")
             }
         }
+        print("Success")
         
         cellDescriptors = NSMutableArray(contentsOfFile: path)
         getIndicesOfVisibleRows()
@@ -125,20 +202,19 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
     }
 
-    func saveGameData()
+    func saveData()
     {
         let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) as NSArray
         let documentsDirectory = paths.objectAtIndex(0) as! NSString
-        let path = documentsDirectory.stringByAppendingPathComponent("CellDescriptor.plist")
+        let fileName = "CellDescriptor" +  currentListName + ".plist"
+        let path = documentsDirectory.stringByAppendingPathComponent(fileName)
         
         cellDescriptors.writeToFile(path, atomically: true)
         //let resultDictionary = NSMutableDictionary(contentsOfFile: path)
         //print("Saved cellDescriptors.plist file is --> \(resultDictionary?.description)")
     }
     
-    
-    
-    
+
     
     func getIndicesOfVisibleRows()
     {
@@ -234,7 +310,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
                 }
             }
             getIndicesOfVisibleRows()
-            saveGameData()
+            saveData()
             
             tblExpandable.reloadSections(NSIndexSet(index: indexPath.section), withRowAnimation: UITableViewRowAnimation.Fade)
 
@@ -276,7 +352,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
                 
             }
             getIndicesOfVisibleRows()
-            saveGameData()
+            saveData()
             tblExpandable.reloadData()
 
         }
@@ -355,7 +431,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             
         }
         cell.delegate = self
-        saveGameData()
+        saveData()
         
         return cell
     }
@@ -388,7 +464,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             }
         }
         getIndicesOfVisibleRows()
-        saveGameData()
+        saveData()
         tblExpandable.reloadSections(NSIndexSet(index: indexPath!.section), withRowAnimation: UITableViewRowAnimation.Fade)
         
     }
@@ -426,7 +502,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         getIndicesOfVisibleRows()
         tblExpandable.reloadData()
-        saveGameData()
+        saveData()
         
     }
     
@@ -474,11 +550,9 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         }
         getIndicesOfVisibleRows()
         tblExpandable.reloadData()
-        saveGameData()
+        saveData()
         
     }
-    
-    
     
 
     /*
