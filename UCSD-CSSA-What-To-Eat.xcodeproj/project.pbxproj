@@ -68,6 +68,9 @@
 		AA727F6E1C11316600535116 /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca.png */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
 		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
+		AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDC1CB0672C00433876 /* SettingHeader.xib */; };
+		AAE65FDF1CB0686300433876 /* SettingSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */; };
+		AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FE01CB069EE00433876 /* SettingListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +156,9 @@
 		AA727F571C11316600535116 /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
 		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingHeader.xib; path = "UCSD-CSSA-What-To-Eat/SettingHeader.xib"; sourceTree = "<group>"; };
+		AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingSwitchCell.xib; path = "UCSD-CSSA-What-To-Eat/SettingSwitchCell.xib"; sourceTree = "<group>"; };
+		AAE65FE01CB069EE00433876 /* SettingListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingListCell.xib; path = "UCSD-CSSA-What-To-Eat/SettingListCell.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +201,7 @@
 		AA5906741BD2D3B6007B43FB = {
 			isa = PBXGroup;
 			children = (
+				AAE65FDB1CB0666B00433876 /* Setting */,
 				8FB9CD9A1C691AAB00618CAB /* TableView */,
 				AAB724771C66820F006F85BF /* Sound */,
 				AAD745B11BDC0589003511FB /* Rest_Image */,
@@ -306,6 +313,16 @@
 				AA727F571C11316600535116 /* Tapioca.png */,
 			);
 			name = Rest_Image;
+			sourceTree = "<group>";
+		};
+		AAE65FDB1CB0666B00433876 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				AAE65FE01CB069EE00433876 /* SettingListCell.xib */,
+				AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */,
+				AAE65FDC1CB0672C00433876 /* SettingHeader.xib */,
+			);
+			name = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +441,7 @@
 				AA727F691C11316600535116 /* Santorini.png in Resources */,
 				AA727F591C11316600535116 /* Bombay Coast.png in Resources */,
 				8FB9CDBE1C692A6600618CAB /* ColoredDice.png in Resources */,
+				AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */,
 				8FB9CDC21C692A6600618CAB /* list_1.png in Resources */,
 				8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */,
 				AA727F581C11316600535116 /* Bistro.png in Resources */,
@@ -454,12 +472,14 @@
 				48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */,
 				8FB9CDC61C692A6600618CAB /* Search.png in Resources */,
 				8F98DC0D1C79091F00BBFDD8 /* RightArrow.png in Resources */,
+				AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */,
 				8FB9CDB91C692A6600618CAB /* Back_66.png in Resources */,
 				8FB9CDC11C692A6600618CAB /* FilterButton.png in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
 				8FB9CDC71C692A6600618CAB /* ShakeMe.png in Resources */,
 				AA727F611C11316600535116 /* Hi Thai.png in Resources */,
 				8FB9CDBD1C692A6600618CAB /* CheckBox_3.png in Resources */,
+				AAE65FDF1CB0686300433876 /* SettingSwitchCell.xib in Resources */,
 				8FB9CDA41C691B0300618CAB /* ItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

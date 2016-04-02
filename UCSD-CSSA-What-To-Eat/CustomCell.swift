@@ -25,6 +25,8 @@ class CustomCell: UITableViewCell, UITextFieldDelegate {
     @IBOutlet weak var itemCheckButton: UIButton!
     
     
+    @IBOutlet var EnableSound: UISwitch!
+    
     // MARK: Constants
     
     let bigFont = UIFont(name: "Avenir-Book", size: 17.0)
