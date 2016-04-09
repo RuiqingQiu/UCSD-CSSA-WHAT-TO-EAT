@@ -30,6 +30,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         self.tableView.registerNib(UINib(nibName: "SettingSwitchCell", bundle: nil), forCellReuseIdentifier: "idSettingSwitchCell")
         self.tableView.registerNib(UINib(nibName: "SettingListCell", bundle: nil), forCellReuseIdentifier: "idSettingListCell")
+        NSUserDefaults.standardUserDefaults().setObject(ListNames, forKey: "ListNames")
         
     }
     
