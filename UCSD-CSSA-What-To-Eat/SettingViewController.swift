@@ -97,12 +97,21 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         if(indexPath.row >= 3 && indexPath.row <= 6){
             var alert = UIAlertController(title: "Change List Name", message: "New Name for " + "List " + String(indexPath.row-2), preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler:nil))
+            //Create action button for empty string alert
+            var cancelAction = UIAlertAction(title: "Done", style: UIAlertActionStyle.Cancel, handler:nil)
             
             alert.addAction(UIAlertAction(title: "Done", style: UIAlertActionStyle.Default, handler:{ (UIAlertAction)in
-                self.ListNames[indexPath.row - 3] = alert.textFields![0].text!
-                cell.itemLabel.text = alert.textFields![0].text!
-                cell.reloadInputViews()
-                tableView.reloadData();
+                if ((alert.textFields![0].text!.isEmpty)){
+                    var alert1 = UIAlertController(title: "List Name Empty", message: "List Name can not be empty", preferredStyle: UIAlertControllerStyle.Alert)
+                    alert1.addAction(cancelAction)
+                    self.presentViewController(alert1, animated: true, completion: nil)
+                }
+                else{
+                    self.ListNames[indexPath.row - 3] = alert.textFields![0].text!
+                    cell.itemLabel.text = alert.textFields![0].text!
+                    cell.reloadInputViews()
+                    tableView.reloadData();
+                }
             }))
             alert.addTextFieldWithConfigurationHandler({(textField: UITextField!) in
                 textField.placeholder = "Enter List Name"
