@@ -80,9 +80,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         else{
             let cell = tableView.dequeueReusableCellWithIdentifier("idSettingListCell", forIndexPath: indexPath) as! CustomCell
             let tmp = indexPath.row - 2;
-            cell.itemLabel.text = "List " + String(tmp)
-            //cell.detailTextLabel!.text = "List " + String(tmp)
-            //cell.backgroundColor =  entry_color;
+            cell.itemLabel.text = ListNames[tmp-1];
             return cell
 
         }
@@ -103,12 +101,14 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
                 self.ListNames[indexPath.row - 3] = alert.textFields![0].text!
                 cell.itemLabel.text = alert.textFields![0].text!
                 cell.reloadInputViews()
+                tableView.reloadData();
             }))
             alert.addTextFieldWithConfigurationHandler({(textField: UITextField!) in
                 textField.placeholder = "Enter List Name"
             })
             self.presentViewController(alert, animated: true, completion: nil)
-        }        
+        }
+
     }
 
 }
