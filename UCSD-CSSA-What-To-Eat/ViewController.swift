@@ -93,7 +93,6 @@ class ViewController: UIViewController {
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         
         if motion == .MotionShake {
-            
             if let soundURL = NSBundle.mainBundle().URLForResource("shotgun", withExtension: "mp3") {
                 var mySound: SystemSoundID = 0
                 AudioServicesCreateSystemSoundID(soundURL, &mySound)

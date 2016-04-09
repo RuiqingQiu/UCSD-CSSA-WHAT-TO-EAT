@@ -108,7 +108,12 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
             })
             self.presentViewController(alert, animated: true, completion: nil)
         }
-
+        
+        NSUserDefaults.standardUserDefaults().setObject(ListNames, forKey: "ListNames")
+        
+        let tabledata = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")
+        print(tabledata)
+        
     }
 
 }
