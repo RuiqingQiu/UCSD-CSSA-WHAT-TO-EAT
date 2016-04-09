@@ -43,10 +43,14 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func stateChanged(switchState: UISwitch) {
+        print(NSUserDefaults.standardUserDefaults().boolForKey("EnableSound"))
         if switchState.on {
             print("The Switch is On")
+            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "EnableSound")
+
         } else {
             print("The Switch is Off")
+            NSUserDefaults.standardUserDefaults().setBool(false, forKey: "EnableSound")
         }
     }
     
@@ -66,6 +70,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
             cell.itemLabel.text = "Sound Effects"
             cell.EnableSound.on = false
             cell.EnableSound.addTarget(self, action: Selector("stateChanged:"), forControlEvents: UIControlEvents.ValueChanged)
+            cell.EnableSound.on = NSUserDefaults.standardUserDefaults().boolForKey("EnableSound")
             //cell.backgroundColor =  bar_color;
             return cell
         }
