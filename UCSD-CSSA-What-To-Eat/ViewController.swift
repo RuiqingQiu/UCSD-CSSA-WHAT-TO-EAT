@@ -14,7 +14,7 @@ var currentListName = "1"
 class ViewController: UIViewController {
     var shaked = true
     var cellDescriptors: NSMutableArray!
-    
+    var ListNames = ["List 1", "List 2", "List 3", "List 4"];
 
     @IBOutlet weak var shakeMe: UIImageView!
     @IBOutlet weak var filterButton: UIImageView!
@@ -39,7 +39,17 @@ class ViewController: UIViewController {
         icon.iconSize = 0.5*self.view.frame.width
         initMyLayer(getPngSelected())
         self.filterButton.userInteractionEnabled = true
-        filterName.text = currentListName
+        
+        if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
+        {
+            ListNames = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")as! [String]
+        }
+        else
+        {
+            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+        }
+        
+        filterName.text = ListNames[Int(currentListName)! - 1];
         
         //print("viewdidiload")
     }
@@ -52,7 +62,16 @@ class ViewController: UIViewController {
         self.shakeMe.alpha = 1
         self.dice.alpha = 1
         updatePool (getPngSelected())
-        filterName.text = currentListName
+        if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
+        {
+            ListNames = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")as! [String]
+        }
+        else
+        {
+            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+        }
+        
+        filterName.text = ListNames[Int(currentListName)! - 1];
 
     
         

@@ -14,6 +14,8 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var Save: UIBarButtonItem!
     
+    var ListNames = ["List 1", "List 2", "List 3", "List 4"];
+    
     @IBAction func SaveSettings(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
            }
@@ -30,7 +32,18 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         self.tableView.registerNib(UINib(nibName: "SettingSwitchCell", bundle: nil), forCellReuseIdentifier: "idSettingSwitchCell")
         self.tableView.registerNib(UINib(nibName: "SettingListCell", bundle: nil), forCellReuseIdentifier: "idSettingListCell")
-        NSUserDefaults.standardUserDefaults().setObject(ListNames, forKey: "ListNames")
+        
+        if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
+        {
+            ListNames = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")as! [String]
+        }
+        else
+        {
+            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+        }
+        
+
+        //NSUserDefaults.standardUserDefaults().setObject(ListNames, forKey: "ListNames")
         
     }
     
@@ -87,11 +100,9 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
     }
     
-    var ListNames = ["List 1", "List 2", "List 3", "List 4"];
-
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+        func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
-        print(ListNames);
+        //print(ListNames);
         print(String(indexPath.row) + " is clicked");
         let cell = tableView.dequeueReusableCellWithIdentifier("idSettingListCell", forIndexPath: indexPath) as! CustomCell
         if(indexPath.row >= 3 && indexPath.row <= 6){
@@ -108,6 +119,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
                 }
                 else{
                     self.ListNames[indexPath.row - 3] = alert.textFields![0].text!
+                    NSUserDefaults.standardUserDefaults().setObject(self.ListNames, forKey: "ListNames")
                     cell.itemLabel.text = alert.textFields![0].text!
                     cell.reloadInputViews()
                     tableView.reloadData();
@@ -119,11 +131,9 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
             self.presentViewController(alert, animated: true, completion: nil)
         }
         
+        
         NSUserDefaults.standardUserDefaults().setObject(ListNames, forKey: "ListNames")
         
-        let tabledata = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")
-        print(tabledata)
-        
-    }
+           }
 
 }
