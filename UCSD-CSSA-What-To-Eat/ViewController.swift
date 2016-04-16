@@ -131,7 +131,7 @@ class ViewController: UIViewController {
     var myLayer = CALayer()
     var blurView = UIVisualEffectView()
     var myview = UIView()
-    func initMyLayer(randomPool:Array<String>) -> Void
+    func initMyLayer(randomPool:Array<resinfo>) -> Void
     {
         icon.randomPool = randomPool
         
@@ -217,7 +217,7 @@ class ViewController: UIViewController {
     }
     
     //#TODO call updatePool from filter view
-    func updatePool (randomPool:Array<String>) -> Void
+    func updatePool (randomPool:Array<resinfo>) -> Void
     {
         icon.randomPool = randomPool
         for i in icons
@@ -277,7 +277,7 @@ class ViewController: UIViewController {
         iconviewObj.layer.transform = CATransform3DMakeScale(1.3, 1.3, 1)
     }
 
-    func getResult() -> String
+    func getResult() -> resinfo
     {
         if (isMoved)
         {
@@ -368,13 +368,13 @@ class ViewController: UIViewController {
                     if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"] as! Bool == true
                     {
                         
-                        var png = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String
+                        let png = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String
                         
-                        var englishName = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["englishName"] as! String
+                        let englishName = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["englishName"] as! String
                         
-                        var utf8Name = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["utf8Name"] as! String
+                        let utf8Name = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["utf8Name"] as! String
                         
-                        var r = resinfo(png:png, englishName:englishName, utf8Name:utf8Name)
+                        let r = resinfo(png:png, englishName:englishName, utf8Name:utf8Name)
                         
                         
                         returnArray.append(r)
