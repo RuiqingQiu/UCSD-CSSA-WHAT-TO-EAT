@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -13,18 +13,20 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q8j-L1-sCe" id="K7y-YY-dQ9">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="35.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTH-IE-0eB">
                         <rect key="frame" x="108" y="8" width="160" height="20"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                        <color key="textColor" red="0.93725490199999995" green="0.54901960780000003" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkL-rk-43h">
                         <rect key="frame" x="60" y="6" width="24" height="24"/>
+                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="24" id="Hw6-Yf-Cvl"/>
                             <constraint firstAttribute="height" constant="24" id="VMo-Kl-xkd"/>
@@ -33,7 +35,8 @@
                         <state key="normal" image="RadioButton_1.png"/>
                     </button>
                 </subviews>
-                <color key="backgroundColor" red="0.1926199566" green="0.18506623280000001" blue="0.18506623280000001" alpha="1" colorSpace="calibratedRGB"/>
+                <animations/>
+                <color key="backgroundColor" red="0.76470588235294112" green="0.66666666666666663" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
                     <constraint firstItem="xTH-IE-0eB" firstAttribute="leading" secondItem="mkL-rk-43h" secondAttribute="trailing" constant="24" id="TiR-1f-gVo"/>
@@ -43,7 +46,8 @@
                     <constraint firstItem="mkL-rk-43h" firstAttribute="leading" secondItem="K7y-YY-dQ9" secondAttribute="leading" constant="60" id="ymW-ZL-Ohe"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" red="0.1926199566" green="0.18506623280000001" blue="0.18506623280000001" alpha="1" colorSpace="calibratedRGB"/>
+            <animations/>
+            <color key="backgroundColor" red="0.76470588235294112" green="0.66666666666666663" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
             <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="itemCheckButton" destination="mkL-rk-43h" id="i0u-Dc-zos"/>
