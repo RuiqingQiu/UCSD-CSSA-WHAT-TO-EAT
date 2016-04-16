@@ -23,6 +23,8 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var list4: UIBarButtonItem!
     
+    var ListNames = ["List 1", "List 2", "List 3", "List 4"];
+    
     @IBAction func defaultListClicked(sender: AnyObject)
     {
         currentListName = "1"
@@ -123,7 +125,21 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         self.tblExpandable.delegate = self
         self.tblExpandable.dataSource = self
         //tblExpandable.separatorColor = UIColor.clearColor();
+        
+        if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
+        {
+            ListNames = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")as! [String]
+        }
+        else
+        {
+            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+        }
 
+        defaultList.title = ListNames[0];
+        list2.title = ListNames[1];
+        list3.title = ListNames[2];
+        list4.title = ListNames[3];
+        
     }
     
     
@@ -133,6 +149,21 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         
         configureTableView()
         loadCellDescriptors()
+        
+        if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
+        {
+            ListNames = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")as! [String]
+        }
+        else
+        {
+            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+        }
+        
+        defaultList.title = ListNames[0];
+        list2.title = ListNames[1];
+        list3.title = ListNames[2];
+        list4.title = ListNames[3];
+
     }
     
     

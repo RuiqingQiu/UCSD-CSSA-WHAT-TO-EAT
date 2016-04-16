@@ -126,25 +126,25 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Z1X-op-2sS"/>
-                                    <barButtonItem title="default" id="lop-E2-m5D">
+                                    <barButtonItem title="List 1" id="lop-E2-m5D">
                                         <connections>
                                             <action selector="defaultListClicked:" destination="e3H-2R-be7" id="Rj5-35-6uC"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Ime-BF-dVH"/>
-                                    <barButtonItem title="2" id="ekn-2z-OTy">
+                                    <barButtonItem title="List 2" id="ekn-2z-OTy">
                                         <connections>
                                             <action selector="list2Clicked:" destination="e3H-2R-be7" id="IwE-4U-12S"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="b2P-rd-0ev"/>
-                                    <barButtonItem title="3" id="L0S-Qe-w70">
+                                    <barButtonItem title="List 3" id="L0S-Qe-w70">
                                         <connections>
                                             <action selector="list3Clicked:" destination="e3H-2R-be7" id="xNl-uf-qN1"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Q6a-9O-Lwb"/>
-                                    <barButtonItem title="4" id="zVd-65-hRh">
+                                    <barButtonItem title="List 4" id="zVd-65-hRh">
                                         <connections>
                                             <action selector="list4Clicked:" destination="e3H-2R-be7" id="qCk-VJ-Ort"/>
                                         </connections>
