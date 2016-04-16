@@ -17,11 +17,16 @@ class icon {
             return 0.5 * icon.iconSize
         }
     }
-    static var randomPool:[String] = [String]()
+    static var randomPool:[resinfo] = [resinfo]()
+    var res:resinfo {
+        get {
+            return icon.randomPool[n]
+        }
+    }
     var n = -1 {
         didSet
         {
-            self.setImageWithFile(icon.randomPool[n])
+            self.setImageWithResInfo(icon.randomPool[n])
         }
     }
     func shuffle() -> Void
@@ -101,6 +106,12 @@ class icon {
     {
         let i = UIImage(named: file)
         self.layer.contents =  i?.CGImage
+    }
+    
+    func setImageWithResInfo (info:resinfo) -> Void
+    {
+        let i = UIImage(named: info.png)
+        self.layer.contents = i?.CGImage
     }
     
     

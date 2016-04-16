@@ -11,6 +11,9 @@
 		48602B051C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		48602B061C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */; };
+		48972FCB1CC2AEA500423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
+		48972FCC1CC2B7F900423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
+		48972FCD1CC2B7FA00423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
 		48E8ACD01C5D444200CE849B /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCE1C5D444200CE849B /* FilterButton.png */; };
 		48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCF1C5D444200CE849B /* ShakeMe.png */; };
 		48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACD21C5D54DE00CE849B /* ColoredDice.png */; };
@@ -93,6 +96,7 @@
 /* Begin PBXFileReference section */
 		48602B031C01AAFE00688B11 /* icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icon.swift; sourceTree = "<group>"; };
 		4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		48972FCA1CC2AEA500423601 /* resinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resinfo.swift; sourceTree = "<group>"; };
 		48E8ACCE1C5D444200CE849B /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = "UCSD-CSSA-What-To-Eat/FilterButton.png"; sourceTree = "<group>"; };
 		48E8ACCF1C5D444200CE849B /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = "UCSD-CSSA-What-To-Eat/ShakeMe.png"; sourceTree = "<group>"; };
 		48E8ACD21C5D54DE00CE849B /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = "UCSD-CSSA-What-To-Eat/ColoredDice.png"; sourceTree = "<group>"; };
@@ -227,6 +231,7 @@
 			children = (
 				AAB7247E1C6696BB006F85BF /* SettingViewController.swift */,
 				48602B031C01AAFE00688B11 /* icon.swift */,
+				48972FCA1CC2AEA500423601 /* resinfo.swift */,
 				AA5906801BD2D3B6007B43FB /* AppDelegate.swift */,
 				AA5906821BD2D3B6007B43FB /* ViewController.swift */,
 				4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */,
@@ -511,6 +516,7 @@
 				AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */,
 				4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */,
 				8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */,
+				48972FCB1CC2AEA500423601 /* resinfo.swift in Sources */,
 				AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +525,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48972FCC1CC2B7F900423601 /* resinfo.swift in Sources */,
 				48602B051C01AAFE00688B11 /* icon.swift in Sources */,
 				AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */,
 			);
@@ -528,6 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48972FCD1CC2B7FA00423601 /* resinfo.swift in Sources */,
 				48602B061C01AAFE00688B11 /* icon.swift in Sources */,
 				AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */,
 			);

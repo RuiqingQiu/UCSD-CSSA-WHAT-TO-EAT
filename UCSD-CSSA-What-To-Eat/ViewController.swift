@@ -134,7 +134,7 @@ class ViewController: UIViewController {
     var myLayer = CALayer()
     var blurView = UIVisualEffectView()
     var myview = UIView()
-    func initMyLayer(randomPool:Array<String>) -> Void
+    func initMyLayer(randomPool:Array<resinfo>) -> Void
     {
         icon.randomPool = randomPool
         
@@ -220,7 +220,7 @@ class ViewController: UIViewController {
     }
     
     //#TODO call updatePool from filter view
-    func updatePool (randomPool:Array<String>) -> Void
+    func updatePool (randomPool:Array<resinfo>) -> Void
     {
         icon.randomPool = randomPool
         for i in icons
@@ -280,7 +280,7 @@ class ViewController: UIViewController {
         iconviewObj.layer.transform = CATransform3DMakeScale(1.3, 1.3, 1)
     }
 
-    func getResult() -> String
+    func getResult() -> resinfo
     {
         if (isMoved)
         {
@@ -328,7 +328,7 @@ class ViewController: UIViewController {
     }
     
     
-    func getPngSelected() -> Array<String>
+    func getPngSelected() -> Array<resinfo>
     {
         
         let documentsURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
@@ -357,7 +357,7 @@ class ViewController: UIViewController {
         
         cellDescriptors = NSMutableArray(contentsOfFile: path)
  
-        var returnArray = [String]()
+        var returnArray = [resinfo]()
         for currentSectionCells in cellDescriptors
         {
             
@@ -370,8 +370,17 @@ class ViewController: UIViewController {
                     
                     if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"] as! Bool == true
                     {
-                        //print("@@")
-                        returnArray.append(((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String)
+                        
+                        let png = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String
+                        
+                        let englishName = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["englishName"] as! String
+                        
+                        let utf8Name = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["utf8Name"] as! String
+                        
+                        let r = resinfo(png:png, englishName:englishName, utf8Name:utf8Name)
+                        
+                        
+                        returnArray.append(r)
                     }
                 }
             }
