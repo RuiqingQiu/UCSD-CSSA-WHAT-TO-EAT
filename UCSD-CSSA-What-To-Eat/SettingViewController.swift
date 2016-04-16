@@ -15,7 +15,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet weak var Save: UIBarButtonItem!
     
     var ListNames = ["List 1", "List 2", "List 3", "List 4"];
-    
+    let def = NSUserDefaults.standardUserDefaults()
     @IBAction func SaveSettings(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
            }
@@ -58,8 +58,10 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     func stateChanged(switchState: UISwitch) {
         if switchState.on {
             print("The Switch is On")
+            def.setBool(true, forKey: "EnableSound")
         } else {
             print("The Switch is Off")
+            def.setBool(false, forKey: "EnableSound")
         }
     }
     
@@ -77,7 +79,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         else if(indexPath.row == 1){
             let cell = tableView.dequeueReusableCellWithIdentifier("idSettingSwitchCell", forIndexPath: indexPath) as! CustomCell
             cell.itemLabel.text = "Sound Effects"
-            cell.EnableSound.on = false
+            cell.EnableSound.on = def.boolForKey("EnableSound")
             cell.EnableSound.addTarget(self, action: Selector("stateChanged:"), forControlEvents: UIControlEvents.ValueChanged)
             //cell.backgroundColor =  bar_color;
             return cell
