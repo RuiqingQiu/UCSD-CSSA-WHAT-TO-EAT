@@ -28,6 +28,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     @IBAction func defaultListClicked(sender: AnyObject)
     {
         currentListName = "1"
+        NSUserDefaults.standardUserDefaults().setValue(currentListName, forKey: "currentListName")
         configureTableView()
         loadCellDescriptors()
         getIndicesOfVisibleRows()
@@ -37,6 +38,8 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     @IBAction func list2Clicked(sender: AnyObject)
     {
         currentListName = "2"
+        NSUserDefaults.standardUserDefaults().setValue(currentListName, forKey: "currentListName")
+
         configureTableView()
         loadCellDescriptors()
         getIndicesOfVisibleRows()
@@ -48,6 +51,8 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     @IBAction func list3Clicked(sender: AnyObject)
     {
         currentListName = "3"
+        NSUserDefaults.standardUserDefaults().setValue(currentListName, forKey: "currentListName")
+
         configureTableView()
         loadCellDescriptors()
         getIndicesOfVisibleRows()
@@ -57,6 +62,8 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     @IBAction func list4Clicked(sender: AnyObject)
     {
         currentListName = "4"
+        NSUserDefaults.standardUserDefaults().setValue(currentListName, forKey: "currentListName")
+
         configureTableView()
         loadCellDescriptors()
         getIndicesOfVisibleRows()

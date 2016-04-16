@@ -48,6 +48,21 @@ class ViewController: UIViewController {
         {
             ListNames = ["List 1", "List 2", "List 3", "List 4"];
         }
+        
+        if(NSUserDefaults.standardUserDefaults().stringForKey("currentListName") != nil)
+        {
+            currentListName = NSUserDefaults.standardUserDefaults().stringForKey("currentListName")!
+            print("HERE")
+        }
+            
+        else
+        {
+            NSUserDefaults.standardUserDefaults().setValue("1", forKey: "currentListName")
+        }
+        
+
+        
+        
         if def.objectForKey("EnableSound") == nil {
            def.setBool(true, forKey: "EnableSound")
            print("set")
@@ -73,6 +88,20 @@ class ViewController: UIViewController {
         {
             ListNames = ["List 1", "List 2", "List 3", "List 4"];
         }
+        
+        if(NSUserDefaults.standardUserDefaults().stringForKey("currentListName") != nil)
+        {
+            print("HERE")
+
+            currentListName = NSUserDefaults.standardUserDefaults().stringForKey("currentListName")!
+        }
+            
+        else
+        {
+            NSUserDefaults.standardUserDefaults().setValue("1", forKey: "currentListName")
+        }
+
+    
         
         filterName.text = ListNames[Int(currentListName)! - 1];
 
@@ -374,7 +403,7 @@ class ViewController: UIViewController {
                         let png = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String
                         //var tmp = (currentSectionCells as! NSArray)[row]
                         
-                        var englishName = ((currentSectionCells as! NSArray)[row] as! NSDictionary)["englishName"]
+                        var englishName = ((currentSectionCells as! NSArray)[row] as! NSDictionary)["label"]
                         if(englishName != nil){
                         }
                         else{
