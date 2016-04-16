@@ -115,13 +115,13 @@ class ViewController: UIViewController {
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         
         if motion == .MotionShake {
-            if def.boolForKey("EnableSound"){
-              if let soundURL = NSBundle.mainBundle().URLForResource("shotgun", withExtension: "mp3") {
-                var mySound: SystemSoundID = 0
-                AudioServicesCreateSystemSoundID(soundURL, &mySound)
-                // Play
-                AudioServicesPlaySystemSound(mySound);
-              }
+            if(NSUserDefaults.standardUserDefaults().boolForKey("EnableSound") == true){
+                if let soundURL = NSBundle.mainBundle().URLForResource("shotgun", withExtension: "mp3") {
+                    var mySound: SystemSoundID = 0
+                    AudioServicesCreateSystemSoundID(soundURL, &mySound)
+                    // Play
+                    AudioServicesPlaySystemSound(mySound);
+                }
             }
             self.startAnimation()
         }
@@ -372,12 +372,23 @@ class ViewController: UIViewController {
                     {
                         
                         let png = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String
+                        //var tmp = (currentSectionCells as! NSArray)[row]
                         
-                        let englishName = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["englishName"] as! String
-                        
-                        let utf8Name = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["utf8Name"] as! String
-                        
-                        let r = resinfo(png:png, englishName:englishName, utf8Name:utf8Name)
+                        var englishName = ((currentSectionCells as! NSArray)[row] as! NSDictionary)["englishName"]
+                        if(englishName != nil){
+                        }
+                        else{
+                            englishName = ""
+                        }
+                        var utf8Name = ((currentSectionCells as! NSArray)[row] as! NSDictionary)["utf8Name"]
+                        if(utf8Name != nil){
+                            print ("tmp1 is")
+                            print((currentSectionCells as! NSArray)[row]["a"])
+                        }
+                        else{
+                            utf8Name = ""
+                        }
+                        let r = resinfo(png:png, englishName:englishName as! String, utf8Name:utf8Name as! String)
                         
                         
                         returnArray.append(r)
@@ -386,7 +397,7 @@ class ViewController: UIViewController {
             }
             
         }
-    
+
         return returnArray
     
     }
