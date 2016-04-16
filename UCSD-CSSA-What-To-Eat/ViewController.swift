@@ -12,10 +12,10 @@ var currentListName = "1"
 
 
 class ViewController: UIViewController {
+    var def = NSUserDefaults.standardUserDefaults()
     var shaked = true
     var cellDescriptors: NSMutableArray!
     var ListNames = ["List 1", "List 2", "List 3", "List 4"];
-
     @IBOutlet weak var shakeMe: UIImageView!
     @IBOutlet weak var filterButton: UIImageView!
     @IBOutlet weak var filterName: UILabel!
@@ -48,9 +48,12 @@ class ViewController: UIViewController {
         {
             ListNames = ["List 1", "List 2", "List 3", "List 4"];
         }
-        
+        if def.objectForKey("EnableSound") == nil {
+           def.setBool(true, forKey: "EnableSound")
+           print("set")
+        }
+           
         filterName.text = ListNames[Int(currentListName)! - 1];
-        
         //print("viewdidiload")
     }
     
