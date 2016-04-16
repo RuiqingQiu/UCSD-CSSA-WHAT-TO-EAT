@@ -9,8 +9,20 @@
 import Foundation
 
 
-class resinfo {
+class resinfo
+{
     var png = ""
     var englishName = ""
     var utf8Name = ""
+    
+    init(png: String, englishName: String, utf8Name:String)
+    {
+        self.png = png
+        self.englishName = englishName
+        self.utf8Name = utf8Name
+        
+    }
 }
+
+
+

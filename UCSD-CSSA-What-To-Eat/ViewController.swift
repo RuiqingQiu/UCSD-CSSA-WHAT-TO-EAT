@@ -323,7 +323,7 @@ class ViewController: UIViewController {
     }
     
     
-    func getPngSelected() -> Array<String>
+    func getPngSelected() -> Array<resinfo>
     {
         
         let documentsURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
@@ -352,7 +352,7 @@ class ViewController: UIViewController {
         
         cellDescriptors = NSMutableArray(contentsOfFile: path)
  
-        var returnArray = [String]()
+        var returnArray = [resinfo]()
         for currentSectionCells in cellDescriptors
         {
             
@@ -365,8 +365,17 @@ class ViewController: UIViewController {
                     
                     if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"] as! Bool == true
                     {
-                        //print("@@")
-                        returnArray.append(((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String)
+                        
+                        var png = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String
+                        
+                        var englishName = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["englishName"] as! String
+                        
+                        var utf8Name = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["utf8Name"] as! String
+                        
+                        var r = resinfo(png:png, englishName:englishName, utf8Name:utf8Name)
+                        
+                        
+                        returnArray.append(r)
                     }
                 }
             }
