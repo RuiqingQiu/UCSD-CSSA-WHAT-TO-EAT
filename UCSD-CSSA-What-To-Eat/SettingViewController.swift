@@ -14,6 +14,25 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var Save: UIBarButtonItem!
     
+    //Prevent user from rotating the view
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
+    }
+    
     var ListNames = ["List 1", "List 2", "List 3", "List 4"];
     let def = NSUserDefaults.standardUserDefaults()
     @IBAction func SaveSettings(sender: AnyObject) {

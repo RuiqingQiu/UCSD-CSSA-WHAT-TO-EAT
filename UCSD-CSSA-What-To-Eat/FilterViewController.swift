@@ -23,6 +23,15 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var list4: UIBarButtonItem!
     
+    //Prevent user from rotating the view
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
+    
     var ListNames = ["List 1", "List 2", "List 3", "List 4"];
     
     @IBAction func defaultListClicked(sender: AnyObject)
