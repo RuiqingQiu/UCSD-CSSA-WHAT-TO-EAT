@@ -17,7 +17,7 @@ class icon {
             return 0.5 * icon.iconSize
         }
     }
-    static var randomPool:[String] = [String]()
+    static var randomPool:[resinfo] = [resinfo]()
     var n = -1 {
         didSet
         {
