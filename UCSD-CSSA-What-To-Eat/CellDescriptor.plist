@@ -5,6 +5,168 @@
 	<array>
 		<dict>
 			<key>additionalRows</key>
+			<integer>7</integer>
+			<key>cellIdentifier</key>
+			<string>idCategoryCell</string>
+			<key>checked</key>
+			<integer>1</integer>
+			<key>isExpandable</key>
+			<true/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<true/>
+			<key>label</key>
+			<string>Dining Hall</string>
+			<key>png</key>
+			<string></string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>64 Degrees</string>
+			<key>png</key>
+			<string>Sixty-Four-Degrees.png</string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>The Bistro</string>
+			<key>png</key>
+			<string>Bistro.png</string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Canyon Vista</string>
+			<key>png</key>
+			<string>Canyon Vista.png</string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Club Med</string>
+			<key>png</key>
+			<string></string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Foodworx</string>
+			<key>png</key>
+			<string>FoodWorx.png</string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Pines</string>
+			<key>png</key>
+			<string>Pines.png</string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Roots</string>
+			<key>png</key>
+			<string>Roots.png</string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>additionalRows</key>
 			<integer>13</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
@@ -17,7 +179,7 @@
 			<key>isVisible</key>
 			<true/>
 			<key>label</key>
-			<string>Restaurant</string>
+			<string>Campus - Restaurant</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -287,168 +449,6 @@
 	<array>
 		<dict>
 			<key>additionalRows</key>
-			<integer>7</integer>
-			<key>cellIdentifier</key>
-			<string>idCategoryCell</string>
-			<key>checked</key>
-			<integer>1</integer>
-			<key>isExpandable</key>
-			<true/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<true/>
-			<key>label</key>
-			<string>Dining Hall</string>
-			<key>png</key>
-			<string></string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<true/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>64 Degrees</string>
-			<key>png</key>
-			<string>Sixty-Four-Degrees.png</string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<true/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>The Bistro</string>
-			<key>png</key>
-			<string>Bistro.png</string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<true/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>Canyon Vista</string>
-			<key>png</key>
-			<string>Canyon Vista.png</string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<true/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>Club Med</string>
-			<key>png</key>
-			<string></string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<true/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>Foodworx</string>
-			<key>png</key>
-			<string>FoodWorx.png</string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<true/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>Pines</string>
-			<key>png</key>
-			<string>Pines.png</string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<true/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>Roots</string>
-			<key>png</key>
-			<string>Roots.png</string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-	</array>
-	<array>
-		<dict>
-			<key>additionalRows</key>
 			<integer>9</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
@@ -461,7 +461,7 @@
 			<key>isVisible</key>
 			<true/>
 			<key>label</key>
-			<string>Store</string>
+			<string>Campus - Store</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -663,7 +663,7 @@
 			<key>isVisible</key>
 			<true/>
 			<key>label</key>
-			<string>Cafe</string>
+			<string>Campus - Cafe</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
