@@ -445,13 +445,15 @@
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
+	</array>
+	<array>
 		<dict>
 			<key>additionalRows</key>
-			<string>9</string>
+			<integer>9</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<true/>
+			<integer>1</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -1191,13 +1193,15 @@
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
+	</array>
+	<array>
 		<dict>
 			<key>additionalRows</key>
-			<string>6</string>
+			<integer>6</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<true/>
+			<integer>1</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -1413,13 +1417,15 @@
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
+	</array>
+	<array>
 		<dict>
 			<key>additionalRows</key>
-			<string>7</string>
+			<integer>7</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<true/>
+			<integer>1</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
