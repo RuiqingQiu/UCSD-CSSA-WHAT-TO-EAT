@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UCSD-CSSA-What-To-Eat/FilterViewController.swift"
-            timestampString = "482528926.824961"
+            timestampString = "482559431.549037"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "278"
-            endingLineNumber = "278"
-            landmarkName = "getCellDescriptorForIndexPath(_:)"
-            landmarkType = "5">
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "FilterViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UCSD-CSSA-What-To-Eat/FilterViewController.swift"
-            timestampString = "482528926.824961"
+            timestampString = "482559431.549037"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "177"
-            endingLineNumber = "177"
-            landmarkName = "didReceiveMemoryWarning()"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "viewWillAppear(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -387,6 +387,7 @@ class ViewController: UIViewController {
         cellDescriptors = NSMutableArray(contentsOfFile: path)
  
         var returnArray = [resinfo]()
+        
         for currentSectionCells in cellDescriptors
         {
             
