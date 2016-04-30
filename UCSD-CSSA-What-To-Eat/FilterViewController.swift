@@ -42,6 +42,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         loadCellDescriptors()
         getIndicesOfVisibleRows()
         tblExpandable.reloadData()
+        reselectList()
     }
     
     @IBAction func list2Clicked(sender: AnyObject)
@@ -53,6 +54,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         loadCellDescriptors()
         getIndicesOfVisibleRows()
         tblExpandable.reloadData()
+        reselectList()
     }
     
     
@@ -66,6 +68,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         loadCellDescriptors()
         getIndicesOfVisibleRows()
         tblExpandable.reloadData()
+        reselectList()
 
     }
     @IBAction func list4Clicked(sender: AnyObject)
@@ -77,7 +80,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         loadCellDescriptors()
         getIndicesOfVisibleRows()
         tblExpandable.reloadData()
-
+        reselectList()
     }
     @IBAction func SaveAction(sender: AnyObject) {
         
@@ -142,6 +145,8 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         self.tblExpandable.dataSource = self
         //tblExpandable.separatorColor = UIColor.clearColor();
         
+        currentListName = NSUserDefaults.standardUserDefaults().stringForKey("currentListName")!
+        
         if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
         {
             ListNames = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")as! [String]
@@ -150,12 +155,74 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         {
             ListNames = ["List 1", "List 2", "List 3", "List 4"];
         }
-
-        defaultList.title = ListNames[0];
-        list2.title = ListNames[1];
-        list3.title = ListNames[2];
-        list4.title = ListNames[3];
+        let width = self.view.frame.width * 0.2
         
+        renderBarButton(defaultList, width: width, name: ListNames[0])
+        renderBarButton(list2, width: width, name: ListNames[1])
+        renderBarButton(list3, width: width, name: ListNames[2])
+        renderBarButton(list4, width: width, name: ListNames[3])
+        defaultList.customView?.userInteractionEnabled = true
+        list2.customView?.userInteractionEnabled = true
+        list3.customView?.userInteractionEnabled = true
+        list4.customView?.userInteractionEnabled = true
+        defaultList.customView?.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("defaultListClicked:")))
+        list2.customView?.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("list2Clicked:")))
+        list3.customView?.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("list3Clicked:")))
+        list4.customView?.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("list4Clicked:")))
+        reselectList()
+    }
+    let lcolor = UIColor(red: 242.0/255.0, green: 160.0/255.0, blue: 47.0/255.0, alpha: 1)
+    
+    func renderBarButton (b: UIBarButtonItem, width: CGFloat, name: String) -> Void
+    {
+        b.customView = UILabel(frame: CGRectMake(0, 0, width, 28))
+        (b.customView as! UILabel).text = name
+        (b.customView as! UILabel).textAlignment = NSTextAlignment.Center
+        (b.customView as! UILabel).font = UIFont(name: "Helvetica", size: 13)
+        (b.customView as! UILabel).layer.borderWidth = 1
+        (b.customView as! UILabel).layer.borderColor = lcolor.CGColor
+        (b.customView as! UILabel).layer.cornerRadius = 10
+        (b.customView as! UILabel).layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).CGColor
+        (b.customView as! UILabel).textColor = lcolor
+    }
+    
+    func changeBarButtonName (b: UIBarButtonItem, name: String) -> Void
+    {
+        (b.customView as! UILabel).text = name
+    }
+    
+    func selectList (b: UIBarButtonItem) -> Void
+    {
+        (b.customView as! UILabel).layer.cornerRadius = 10
+        (b.customView as! UILabel).layer.backgroundColor = lcolor.CGColor
+        (b.customView as! UILabel).textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+    }
+    
+    func deselectList (b: UIBarButtonItem) -> Void
+    {
+        (b.customView as! UILabel).layer.cornerRadius = 10
+        (b.customView as! UILabel).layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).CGColor
+        (b.customView as! UILabel).textColor = lcolor
+    }
+    
+    func reselectList () -> Void
+    {
+        deselectList(defaultList)
+        deselectList(list2)
+        deselectList(list3)
+        deselectList(list4)
+        switch (currentListName)
+        {
+            case "1":
+                selectList(defaultList)
+            case "2":
+                selectList(list2)
+            case "3":
+                selectList(list3)
+            case "4":
+                selectList(list4)
+            default: break
+        }
     }
     
     
@@ -175,11 +242,10 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             ListNames = ["List 1", "List 2", "List 3", "List 4"];
         }
         
-        defaultList.title = ListNames[0];
-        list2.title = ListNames[1];
-        list3.title = ListNames[2];
-        list4.title = ListNames[3];
-
+        changeBarButtonName(defaultList, name: ListNames[0])
+        changeBarButtonName(list2, name: ListNames[1])
+        changeBarButtonName(list3, name: ListNames[2])
+        changeBarButtonName(list4, name: ListNames[3])
     }
     
     
@@ -427,21 +493,21 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             
             if ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Int == 1
             {
-                cell.categoryCheckButton.setImage(UIImage(named: "CheckBox_3.png"), forState: .Normal)
+                cell.categoryCheckButton.setImage(UIImage(named: "LCheckBox_3.png"), forState: .Normal)
             }
             else if ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Int == 0
             {
-                cell.categoryCheckButton.setImage(UIImage(named: "CheckBox_1.png"), forState: .Normal)
+                cell.categoryCheckButton.setImage(UIImage(named: "LCheckBox_1.png"), forState: .Normal)
             }
             else
             {
-                cell.categoryCheckButton.setImage(UIImage(named: "CheckBox_2.png"), forState: .Normal)
+                cell.categoryCheckButton.setImage(UIImage(named: "LCheckBox_2.png"), forState: .Normal)
             }
             
             
             if ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["isExpanded"] as! Bool == true
             {
-                cell.categoryDownButton.setImage(UIImage(named: "DropDownArrow.png"), forState: .Normal)
+                cell.categoryDownButton.setImage(UIImage(named: "DownArrow.png"), forState: .Normal)
             }
             else
             {
@@ -464,11 +530,11 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
             // ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as!
             if ((cellDescriptors[indexPath.section]as? NSArray)![indexOfTappedRow]as? NSDictionary)!["checked"] as! Bool == true
             {
-                cell.itemCheckButton.setImage(UIImage(named: "RadioButton_2.png"), forState: .Normal)
+                cell.itemCheckButton.setImage(UIImage(named: "SCheckBox_2.png"), forState: .Normal)
             }
             else
             {
-                cell.itemCheckButton.setImage(UIImage(named: "RadioButton_1.png"), forState: .Normal)
+                cell.itemCheckButton.setImage(UIImage(named: "SCheckBox_1.png"), forState: .Normal)
             }
             
         }
