@@ -15,21 +15,31 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTH-IE-0eB">
-                        <rect key="frame" x="39" y="8" width="160" height="20"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTH-IE-0eB">
+                        <rect key="frame" x="52" y="8" width="216" height="20"/>
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                         <color key="textColor" red="0.87058823529999996" green="0.76078431369999999" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EditButton.png" translatesAutoresizingMaskIntoConstraints="NO" id="pEB-Bl-RJu">
+                        <rect key="frame" x="18" y="6" width="24" height="24"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="G0N-TD-LCU"/>
+                            <constraint firstAttribute="height" constant="24" id="c6G-FU-KgA"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <animations/>
                 <color key="backgroundColor" red="0.6705882353" green="0.58039215690000001" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
-                    <constraint firstItem="xTH-IE-0eB" firstAttribute="leading" secondItem="K7y-YY-dQ9" secondAttribute="leadingMargin" constant="30" id="7r6-ym-aSR"/>
+                    <constraint firstItem="pEB-Bl-RJu" firstAttribute="centerY" secondItem="K7y-YY-dQ9" secondAttribute="centerY" id="4Cv-Cy-8p3"/>
+                    <constraint firstItem="xTH-IE-0eB" firstAttribute="leading" secondItem="pEB-Bl-RJu" secondAttribute="trailing" constant="10" id="D4b-11-fQ9"/>
                     <constraint firstItem="xTH-IE-0eB" firstAttribute="centerY" secondItem="K7y-YY-dQ9" secondAttribute="centerY" id="XWN-zG-IX7"/>
+                    <constraint firstItem="pEB-Bl-RJu" firstAttribute="leading" secondItem="K7y-YY-dQ9" secondAttribute="leadingMargin" constant="10" id="gcr-8v-fhB"/>
                     <constraint firstAttribute="trailingMargin" secondItem="xTH-IE-0eB" secondAttribute="trailing" constant="44" id="xFJ-95-1eW"/>
                 </constraints>
             </tableViewCellContentView>
@@ -42,4 +52,7 @@
             <point key="canvasLocation" x="329" y="244"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="EditButton.png" width="46" height="44"/>
+    </resources>
 </document>

@@ -17,6 +17,12 @@
 		48E8ACD01C5D444200CE849B /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCE1C5D444200CE849B /* FilterButton.png */; };
 		48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCF1C5D444200CE849B /* ShakeMe.png */; };
 		48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACD21C5D54DE00CE849B /* ColoredDice.png */; };
+		48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F581CD5384D0080ED6A /* DownArrow.png */; };
+		48FF3F5F1CD538700080ED6A /* LCheckBox_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5A1CD538700080ED6A /* LCheckBox_1.png */; };
+		48FF3F601CD538700080ED6A /* LCheckBox_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5B1CD538700080ED6A /* LCheckBox_2.png */; };
+		48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */; };
+		48FF3F621CD538700080ED6A /* SCheckBox_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */; };
+		48FF3F631CD538700080ED6A /* SCheckBox_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */; };
 		8F8BE2781C8B6735001A73C3 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8BE2771C8B6735001A73C3 /* CellDescriptor.plist */; };
 		8F98DC0D1C79091F00BBFDD8 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */; };
 		8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */; };
@@ -30,13 +36,10 @@
 		8FB9CDBC1C692A6600618CAB /* CheckBox_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAA1C692A6600618CAB /* CheckBox_2.png */; };
 		8FB9CDBD1C692A6600618CAB /* CheckBox_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAB1C692A6600618CAB /* CheckBox_3.png */; };
 		8FB9CDBE1C692A6600618CAB /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAC1C692A6600618CAB /* ColoredDice.png */; };
-		8FB9CDBF1C692A6600618CAB /* DropDownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAD1C692A6600618CAB /* DropDownArrow.png */; };
 		8FB9CDC01C692A6600618CAB /* EditButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAE1C692A6600618CAB /* EditButton.png */; };
 		8FB9CDC11C692A6600618CAB /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAF1C692A6600618CAB /* FilterButton.png */; };
 		8FB9CDC21C692A6600618CAB /* list_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB01C692A6600618CAB /* list_1.png */; };
 		8FB9CDC31C692A6600618CAB /* list_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB11C692A6600618CAB /* list_2.png */; };
-		8FB9CDC41C692A6600618CAB /* RadioButton_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB21C692A6600618CAB /* RadioButton_1.png */; };
-		8FB9CDC51C692A6600618CAB /* RadioButton_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB31C692A6600618CAB /* RadioButton_2.png */; };
 		8FB9CDC61C692A6600618CAB /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB41C692A6600618CAB /* Search.png */; };
 		8FB9CDC71C692A6600618CAB /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB51C692A6600618CAB /* ShakeMe.png */; };
 		8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB61C692A6600618CAB /* Version2_36.png */; };
@@ -100,6 +103,12 @@
 		48E8ACCE1C5D444200CE849B /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = "UCSD-CSSA-What-To-Eat/FilterButton.png"; sourceTree = "<group>"; };
 		48E8ACCF1C5D444200CE849B /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = "UCSD-CSSA-What-To-Eat/ShakeMe.png"; sourceTree = "<group>"; };
 		48E8ACD21C5D54DE00CE849B /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = "UCSD-CSSA-What-To-Eat/ColoredDice.png"; sourceTree = "<group>"; };
+		48FF3F581CD5384D0080ED6A /* DownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DownArrow.png; path = Images/UI/DownArrow.png; sourceTree = "<group>"; };
+		48FF3F5A1CD538700080ED6A /* LCheckBox_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_1.png; path = Images/UI/LCheckBox_1.png; sourceTree = "<group>"; };
+		48FF3F5B1CD538700080ED6A /* LCheckBox_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_2.png; path = Images/UI/LCheckBox_2.png; sourceTree = "<group>"; };
+		48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_3.png; path = Images/UI/LCheckBox_3.png; sourceTree = "<group>"; };
+		48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_1.png; path = Images/UI/SCheckBox_1.png; sourceTree = "<group>"; };
+		48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_2.png; path = Images/UI/SCheckBox_2.png; sourceTree = "<group>"; };
 		8F8BE2771C8B6735001A73C3 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightArrow.png; path = Images/UI/RightArrow.png; sourceTree = "<group>"; };
 		8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
@@ -113,13 +122,10 @@
 		8FB9CDAA1C692A6600618CAB /* CheckBox_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckBox_2.png; path = Images/UI/CheckBox_2.png; sourceTree = "<group>"; };
 		8FB9CDAB1C692A6600618CAB /* CheckBox_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckBox_3.png; path = Images/UI/CheckBox_3.png; sourceTree = "<group>"; };
 		8FB9CDAC1C692A6600618CAB /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = Images/UI/ColoredDice.png; sourceTree = "<group>"; };
-		8FB9CDAD1C692A6600618CAB /* DropDownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DropDownArrow.png; path = Images/UI/DropDownArrow.png; sourceTree = "<group>"; };
 		8FB9CDAE1C692A6600618CAB /* EditButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EditButton.png; path = Images/UI/EditButton.png; sourceTree = "<group>"; };
 		8FB9CDAF1C692A6600618CAB /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = Images/UI/FilterButton.png; sourceTree = "<group>"; };
 		8FB9CDB01C692A6600618CAB /* list_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_1.png; path = Images/UI/list_1.png; sourceTree = "<group>"; };
 		8FB9CDB11C692A6600618CAB /* list_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_2.png; path = Images/UI/list_2.png; sourceTree = "<group>"; };
-		8FB9CDB21C692A6600618CAB /* RadioButton_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RadioButton_1.png; path = Images/UI/RadioButton_1.png; sourceTree = "<group>"; };
-		8FB9CDB31C692A6600618CAB /* RadioButton_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RadioButton_2.png; path = Images/UI/RadioButton_2.png; sourceTree = "<group>"; };
 		8FB9CDB41C692A6600618CAB /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Search.png; path = Images/UI/Search.png; sourceTree = "<group>"; };
 		8FB9CDB51C692A6600618CAB /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = Images/UI/ShakeMe.png; sourceTree = "<group>"; };
 		8FB9CDB61C692A6600618CAB /* Version2_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Version2_36.png; path = Images/UI/Version2_36.png; sourceTree = "<group>"; };
@@ -273,6 +279,11 @@
 		AAD745B11BDC0589003511FB /* Rest_Image */ = {
 			isa = PBXGroup;
 			children = (
+				48FF3F5A1CD538700080ED6A /* LCheckBox_1.png */,
+				48FF3F5B1CD538700080ED6A /* LCheckBox_2.png */,
+				48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */,
+				48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */,
+				48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */,
 				48E8ACD21C5D54DE00CE849B /* ColoredDice.png */,
 				48E8ACCE1C5D444200CE849B /* FilterButton.png */,
 				48E8ACCF1C5D444200CE849B /* ShakeMe.png */,
@@ -282,6 +293,7 @@
 				AA727F441C11316600535116 /* Cafe Vetena.png */,
 				AA727F461C11316600535116 /* Dice.png */,
 				AA727F471C11316600535116 /* Dlush.png */,
+				48FF3F581CD5384D0080ED6A /* DownArrow.png */,
 				AA727F481C11316600535116 /* FoodWorx.png */,
 				AA727F491C11316600535116 /* Goodys.png */,
 				AA727F4A1C11316600535116 /* Hi Thai.png */,
@@ -300,13 +312,10 @@
 				8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */,
 				8FB9CDAB1C692A6600618CAB /* CheckBox_3.png */,
 				8FB9CDAC1C692A6600618CAB /* ColoredDice.png */,
-				8FB9CDAD1C692A6600618CAB /* DropDownArrow.png */,
 				8FB9CDAE1C692A6600618CAB /* EditButton.png */,
 				8FB9CDAF1C692A6600618CAB /* FilterButton.png */,
 				8FB9CDB01C692A6600618CAB /* list_1.png */,
 				8FB9CDB11C692A6600618CAB /* list_2.png */,
-				8FB9CDB21C692A6600618CAB /* RadioButton_1.png */,
-				8FB9CDB31C692A6600618CAB /* RadioButton_2.png */,
 				8FB9CDB41C692A6600618CAB /* Search.png */,
 				8FB9CDB51C692A6600618CAB /* ShakeMe.png */,
 				8FB9CDB61C692A6600618CAB /* Version2_36.png */,
@@ -434,13 +443,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA727F641C11316600535116 /* Panda.png in Resources */,
+				48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */,
 				8FB9CDBC1C692A6600618CAB /* CheckBox_2.png in Resources */,
 				AA727F6D1C11316600535116 /* Subway.png in Resources */,
-				8FB9CDC51C692A6600618CAB /* RadioButton_2.png in Resources */,
 				8F8BE2781C8B6735001A73C3 /* CellDescriptor.plist in Resources */,
-				8FB9CDBF1C692A6600618CAB /* DropDownArrow.png in Resources */,
+				48FF3F601CD538700080ED6A /* LCheckBox_2.png in Resources */,
 				AA727F661C11316600535116 /* Roots.png in Resources */,
 				AA727F631C11316600535116 /* Lemon Grass.png in Resources */,
+				48FF3F621CD538700080ED6A /* SCheckBox_1.png in Resources */,
 				AA727F5D1C11316600535116 /* Dice.png in Resources */,
 				8FB9CDC01C692A6600618CAB /* EditButton.png in Resources */,
 				AA727F691C11316600535116 /* Santorini.png in Resources */,
@@ -462,14 +472,15 @@
 				AA727F6A1C11316600535116 /* Shogun.png in Resources */,
 				AA727F6E1C11316600535116 /* Tapioca.png in Resources */,
 				AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */,
+				48FF3F5F1CD538700080ED6A /* LCheckBox_1.png in Resources */,
 				8FB9CDB71C692A6600618CAB /* Back_22.png in Resources */,
 				AA727F5F1C11316600535116 /* FoodWorx.png in Resources */,
 				AA727F651C11316600535116 /* Pines.png in Resources */,
 				8FB9CDBA1C692A6600618CAB /* Back.png in Resources */,
-				8FB9CDC41C692A6600618CAB /* RadioButton_1.png in Resources */,
 				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
 				8FB9CDA01C691AF500618CAB /* CategoryCell.xib in Resources */,
 				AA727F671C11316600535116 /* Round Table.png in Resources */,
+				48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */,
 				AA727F601C11316600535116 /* Goodys.png in Resources */,
 				AA727F621C11316600535116 /* Jumba Juice.png in Resources */,
 				48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */,
@@ -483,6 +494,7 @@
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
 				8FB9CDC71C692A6600618CAB /* ShakeMe.png in Resources */,
 				AA727F611C11316600535116 /* Hi Thai.png in Resources */,
+				48FF3F631CD538700080ED6A /* SCheckBox_2.png in Resources */,
 				8FB9CDBD1C692A6600618CAB /* CheckBox_3.png in Resources */,
 				AAE65FDF1CB0686300433876 /* SettingSwitchCell.xib in Resources */,
 				8FB9CDA41C691B0300618CAB /* ItemCell.xib in Resources */,
