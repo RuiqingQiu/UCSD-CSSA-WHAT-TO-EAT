@@ -16,15 +16,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="35.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTH-IE-0eB">
-                        <rect key="frame" x="108" y="8" width="160" height="20"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkL-rk-43h">
-                        <rect key="frame" x="60" y="6" width="24" height="24"/>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkL-rk-43h">
+                        <rect key="frame" x="59" y="6" width="24" height="24"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="24" id="Hw6-Yf-Cvl"/>
                             <constraint firstAttribute="height" constant="24" id="VMo-Kl-xkd"/>
@@ -32,11 +25,18 @@
                         </constraints>
                         <state key="normal" image="RadioButton_1.png"/>
                     </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTH-IE-0eB">
+                        <rect key="frame" x="102" y="8" width="160" height="20"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </label>
                 </subviews>
                 <color key="backgroundColor" red="0.76470588235294112" green="0.66666666666666663" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
-                    <constraint firstItem="xTH-IE-0eB" firstAttribute="leading" secondItem="mkL-rk-43h" secondAttribute="trailing" constant="24" id="TiR-1f-gVo"/>
+                    <constraint firstItem="xTH-IE-0eB" firstAttribute="leading" secondItem="mkL-rk-43h" secondAttribute="trailing" constant="20" id="TiR-1f-gVo"/>
                     <constraint firstItem="xTH-IE-0eB" firstAttribute="centerY" secondItem="K7y-YY-dQ9" secondAttribute="centerY" id="XWN-zG-IX7"/>
                     <constraint firstItem="mkL-rk-43h" firstAttribute="centerY" secondItem="K7y-YY-dQ9" secondAttribute="centerY" id="uZO-Kp-502"/>
                     <constraint firstAttribute="trailingMargin" secondItem="xTH-IE-0eB" secondAttribute="trailing" constant="44" id="xFJ-95-1eW"/>

@@ -339,7 +339,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Rubio&apos;s Baja Fresh Mexican Grill</string>
+			<string>Rubio&apos;s</string>
 			<key>png</key>
 			<string>Rubios.png</string>
 			<key>utf8Name</key>
@@ -359,7 +359,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Santorini Greek Island Grill</string>
+			<string>Santorini</string>
 			<key>png</key>
 			<string>Santorini.png</string>
 			<key>utf8Name</key>
@@ -501,7 +501,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Goody&apos;s Place and Market</string>
+			<string>Goody&apos;s </string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -581,7 +581,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>The Village Market</string>
+			<string>Village Market</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -601,7 +601,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>The Food Co-op</string>
+			<string>Food Co-op</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -621,7 +621,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>The Sunshine Market</string>
+			<string>Sunshine Market</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -641,7 +641,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>The General Store Co-op</string>
+			<string>General Store Co-op</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -651,7 +651,7 @@
 	<array>
 		<dict>
 			<key>additionalRows</key>
-			<integer>12</integer>
+			<integer>13</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
@@ -803,7 +803,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Bella Vista Social Club and Caffe</string>
+			<string>Bella Vista</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -904,6 +904,26 @@
 			<false/>
 			<key>label</key>
 			<string>Perks</string>
+			<key>png</key>
+			<string></string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Starbucks</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1087,7 +1107,7 @@
 			<key>isVisible</key>
 			<true/>
 			<key>label</key>
-			<string>Convoy - Cantonese (Chinese)</string>
+			<string>Convoy - Cantonese</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1107,7 +1127,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Sam Woo BBQ Restaurant</string>
+			<string>Sam Woo BBQ</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1127,7 +1147,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Golden City Restaurant</string>
+			<string>Golden City </string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1147,7 +1167,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Jasmine Seafood Restaurant</string>
+			<string>Jasmine Seafood</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1167,7 +1187,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Emerald Chinese Cuisine</string>
+			<string>Emerald</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1209,7 +1229,7 @@
 			<key>isVisible</key>
 			<true/>
 			<key>label</key>
-			<string>Convoy - Szechuan (Chinese)</string>
+			<string>Convoy - Szechuan</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1249,7 +1269,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Spicy City Chinese Restaurant</string>
+			<string>Spicy City Chinese</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1433,7 +1453,7 @@
 			<key>isVisible</key>
 			<true/>
 			<key>label</key>
-			<string>Convoy - Other (Chinese)</string>
+			<string>Convoy - Other</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1533,7 +1553,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Little Sheep Mongolian Hot Pot</string>
+			<string>Little Sheep Hot Pot</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1635,7 +1655,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Yakitori Yakyudori &amp; Ramen</string>
+			<string>Yakitori </string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1655,7 +1675,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Rakiraki Ramen &amp; Tsukemen</string>
+			<string>Rakiraki </string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1695,7 +1715,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Yokohama Yakitori Koubou</string>
+			<string>Yokohama</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1715,7 +1735,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Tsuruhashi Japanese BBQ</string>
+			<string>Tsuruhashi  BBQ</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1775,7 +1795,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Sushi Dokoro Shirahama</string>
+			<string>Sushi Dokoro </string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1917,7 +1937,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Dae Jang Keum Korean BBQ</string>
+			<string>Dae Jang Keum</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
