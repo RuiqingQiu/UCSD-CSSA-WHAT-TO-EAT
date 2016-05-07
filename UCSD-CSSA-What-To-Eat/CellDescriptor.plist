@@ -39,7 +39,7 @@
 			<key>label</key>
 			<string>64 Degrees</string>
 			<key>png</key>
-			<string>Sixty-Four-Degrees.png</string>
+			<string>64_Degrees.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -59,7 +59,7 @@
 			<key>label</key>
 			<string>64 North</string>
 			<key>png</key>
-			<string>Sixty-Four-Degrees.png</string>
+			<string>64_North.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -79,7 +79,7 @@
 			<key>label</key>
 			<string>The Bistro</string>
 			<key>png</key>
-			<string>Bistro.png</string>
+			<string>The_Bistro.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -99,7 +99,7 @@
 			<key>label</key>
 			<string>Cafe Ventanas</string>
 			<key>png</key>
-			<string></string>
+			<string>Cafe_Ventanas.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -119,7 +119,7 @@
 			<key>label</key>
 			<string>Canyon Vista</string>
 			<key>png</key>
-			<string>Canyon Vista.png</string>
+			<string>Canyon_Vista.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -139,7 +139,7 @@
 			<key>label</key>
 			<string>Club Med</string>
 			<key>png</key>
-			<string></string>
+			<string>Club_Med.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -159,7 +159,7 @@
 			<key>label</key>
 			<string>Foodworx</string>
 			<key>png</key>
-			<string>FoodWorx.png</string>
+			<string>Foodworx.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -177,9 +177,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Goody&apos;s</string>
+			<string>Goody's</string>
 			<key>png</key>
-			<string></string>
+			<string>Goody's.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -261,7 +261,7 @@
 			<key>label</key>
 			<string>Bombay Coast</string>
 			<key>png</key>
-			<string>Bombay Coast.png</string>
+			<string>Bombay_Coast.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -281,7 +281,7 @@
 			<key>label</key>
 			<string>Burger King</string>
 			<key>png</key>
-			<string>Burger King.png</string>
+			<string>Burger_King.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -301,7 +301,7 @@
 			<key>label</key>
 			<string>Croutons</string>
 			<key>png</key>
-			<string></string>
+			<string>Croutons.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -321,7 +321,7 @@
 			<key>label</key>
 			<string>Hi Thai</string>
 			<key>png</key>
-			<string>Hi Thai.png</string>
+			<string>Hi_Thai.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -341,7 +341,7 @@
 			<key>label</key>
 			<string>Home Plate</string>
 			<key>png</key>
-			<string></string>
+			<string>Home_Plate.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -361,7 +361,7 @@
 			<key>label</key>
 			<string>Panda Express</string>
 			<key>png</key>
-			<string>Panda.png</string>
+			<string>Panda_Express.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -381,7 +381,7 @@
 			<key>label</key>
 			<string>Round Table Pizza</string>
 			<key>png</key>
-			<string>Round Table.png</string>
+			<string>Round_Table_Pizza.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -399,9 +399,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Rubio&apos;s</string>
+			<string>Rubio's</string>
 			<key>png</key>
-			<string>Rubios.png</string>
+			<string>Rubio's.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -481,7 +481,7 @@
 			<key>label</key>
 			<string>Tapioca Express</string>
 			<key>png</key>
-			<string>Tapioca.png</string>
+			<string>Tapioca_Express.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -501,7 +501,7 @@
 			<key>label</key>
 			<string>Zanzibar</string>
 			<key>png</key>
-			<string></string>
+			<string>Zanzibar.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -541,9 +541,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Earl&apos;s Market</string>
+			<string>Earl's Market</string>
 			<key>png</key>
-			<string></string>
+			<string>Earl's_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -561,9 +561,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Goody&apos;s Market</string>
+			<string>Goody's </string>
 			<key>png</key>
-			<string></string>
+			<string>Goody's_.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -581,9 +581,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>John&apos;s Market</string>
+			<string>John's Market</string>
 			<key>png</key>
-			<string></string>
+			<string>John's_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -601,9 +601,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Roger&apos;s Market</string>
+			<string>Roger's Market</string>
 			<key>png</key>
-			<string></string>
+			<string>Roger's_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -623,7 +623,7 @@
 			<key>label</key>
 			<string>Six College Market</string>
 			<key>png</key>
-			<string></string>
+			<string>Six_College_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -643,7 +643,7 @@
 			<key>label</key>
 			<string>Village Market</string>
 			<key>png</key>
-			<string></string>
+			<string>Village_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -663,7 +663,7 @@
 			<key>label</key>
 			<string>Food Co-op</string>
 			<key>png</key>
-			<string></string>
+			<string>Food_Co-op.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -683,7 +683,7 @@
 			<key>label</key>
 			<string>Sunshine Market</string>
 			<key>png</key>
-			<string></string>
+			<string>Sunshine_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -703,7 +703,7 @@
 			<key>label</key>
 			<string>General Store Co-op</string>
 			<key>png</key>
-			<string></string>
+			<string>General_Store_Co-op.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -745,7 +745,7 @@
 			<key>label</key>
 			<string>Art of Espresso Cafe</string>
 			<key>png</key>
-			<string></string>
+			<string>Art_of_Espresso_Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -765,7 +765,7 @@
 			<key>label</key>
 			<string>Cafe Ole</string>
 			<key>png</key>
-			<string></string>
+			<string>Cafe_Ole.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -785,7 +785,7 @@
 			<key>label</key>
 			<string>Cups Outdoor Cafe</string>
 			<key>png</key>
-			<string></string>
+			<string>Cups_Outdoor_Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -805,7 +805,7 @@
 			<key>label</key>
 			<string>Cups</string>
 			<key>png</key>
-			<string></string>
+			<string>Cups.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -823,9 +823,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Peet&apos;s Coffee &amp; Tea</string>
+			<string>Peet's Coffee &amp; Tea</string>
 			<key>png</key>
-			<string></string>
+			<string>Peet's_Coffee_&amp;_Tea.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -845,7 +845,7 @@
 			<key>label</key>
 			<string>Splash! Cafe</string>
 			<key>png</key>
-			<string></string>
+			<string>Splash!_Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -865,7 +865,7 @@
 			<key>label</key>
 			<string>Bella Vista</string>
 			<key>png</key>
-			<string></string>
+			<string>Bella_Vista.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -883,9 +883,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Caroline&apos;s Seaside</string>
+			<string>Caroline's Seaside Cafe</string>
 			<key>png</key>
-			<string></string>
+			<string>Caroline's_Seaside_Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -905,7 +905,27 @@
 			<key>label</key>
 			<string>Come On In! Cafe</string>
 			<key>png</key>
+			<string>Come_On_In!_Cafe.png</string>
+			<key>utf8Name</key>
 			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Cafe Ventanas</string>
+			<key>png</key>
+			<string>Cafe_Ventanas.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -925,7 +945,7 @@
 			<key>label</key>
 			<string>Muir Woods</string>
 			<key>png</key>
-			<string></string>
+			<string>Muir_Woods.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -945,7 +965,7 @@
 			<key>label</key>
 			<string>Perks</string>
 			<key>png</key>
-			<string></string>
+			<string>Perks.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -965,7 +985,7 @@
 			<key>label</key>
 			<string>Starbucks</string>
 			<key>png</key>
-			<string></string>
+			<string>Starbucks.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1007,7 +1027,7 @@
 			<key>label</key>
 			<string>Flavors of the World</string>
 			<key>png</key>
-			<string></string>
+			<string>Flavors_of_the_World.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1027,7 +1047,7 @@
 			<key>label</key>
 			<string>Incredi-Bowls</string>
 			<key>png</key>
-			<string></string>
+			<string>Incredi-Bowls.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1047,7 +1067,7 @@
 			<key>label</key>
 			<string>MOM College Center</string>
 			<key>png</key>
-			<string></string>
+			<string>MOM_College_Center.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1067,7 +1087,7 @@
 			<key>label</key>
 			<string>Jamba Juice</string>
 			<key>png</key>
-			<string></string>
+			<string>Jamba_Juice.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1087,7 +1107,7 @@
 			<key>label</key>
 			<string>Yogurt World</string>
 			<key>png</key>
-			<string></string>
+			<string>Yogurt_World.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1107,7 +1127,7 @@
 			<key>label</key>
 			<string>Dlush Lounge</string>
 			<key>png</key>
-			<string></string>
+			<string>Dlush_Lounge.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1127,7 +1147,7 @@
 			<key>label</key>
 			<string>The Faculty Club</string>
 			<key>png</key>
-			<string></string>
+			<string>The_Faculty_Club.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1169,9 +1189,9 @@
 			<key>label</key>
 			<string>Sam Woo BBQ</string>
 			<key>png</key>
-			<string></string>
+			<string>Sam_Woo_BBQ.png</string>
 			<key>utf8Name</key>
-			<string>三和烧腊</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1187,11 +1207,11 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Golden City </string>
+			<string>Golden City</string>
 			<key>png</key>
-			<string></string>
+			<string>Golden_City.png</string>
 			<key>utf8Name</key>
-			<string>金城酒家</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1209,9 +1229,9 @@
 			<key>label</key>
 			<string>Jasmine Seafood</string>
 			<key>png</key>
-			<string></string>
+			<string>Jasmine_Seafood.png</string>
 			<key>utf8Name</key>
-			<string>新乐宫酒楼</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1229,9 +1249,9 @@
 			<key>label</key>
 			<string>Emerald</string>
 			<key>png</key>
-			<string></string>
+			<string>Emerald.png</string>
 			<key>utf8Name</key>
-			<string>福临门</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1249,9 +1269,9 @@
 			<key>label</key>
 			<string>Noble Chef</string>
 			<key>png</key>
-			<string></string>
+			<string>Noble_Chef.png</string>
 			<key>utf8Name</key>
-			<string>豪记私房菜</string>
+			<string></string>
 		</dict>
 	</array>
 	<array>
@@ -1291,9 +1311,9 @@
 			<key>label</key>
 			<string>FuAn Garden</string>
 			<key>png</key>
-			<string></string>
+			<string>FuAn_Garden.png</string>
 			<key>utf8Name</key>
-			<string>福安花园</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1311,9 +1331,9 @@
 			<key>label</key>
 			<string>Spicy City Chinese</string>
 			<key>png</key>
-			<string></string>
+			<string>Spicy_City_Chinese.png</string>
 			<key>utf8Name</key>
-			<string>过桥园</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1331,9 +1351,9 @@
 			<key>label</key>
 			<string>Spicy House</string>
 			<key>png</key>
-			<string></string>
+			<string>Spicy_House.png</string>
 			<key>utf8Name</key>
-			<string>蜀百味</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1351,9 +1371,9 @@
 			<key>label</key>
 			<string>Szechuan Taste</string>
 			<key>png</key>
-			<string></string>
+			<string>Szechuan_Taste.png</string>
 			<key>utf8Name</key>
-			<string>滋味村</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1371,9 +1391,9 @@
 			<key>label</key>
 			<string>Szechuan Chef</string>
 			<key>png</key>
-			<string></string>
+			<string>Szechuan_Chef.png</string>
 			<key>utf8Name</key>
-			<string>川霸王</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1391,9 +1411,9 @@
 			<key>label</key>
 			<string>Qiwei Kitchen</string>
 			<key>png</key>
-			<string></string>
+			<string>Qiwei_Kitchen.png</string>
 			<key>utf8Name</key>
-			<string>香锅大王</string>
+			<string></string>
 		</dict>
 	</array>
 	<array>
@@ -1433,9 +1453,9 @@
 			<key>label</key>
 			<string>Infini Tea</string>
 			<key>png</key>
-			<string></string>
+			<string>Infini_Tea.png</string>
 			<key>utf8Name</key>
-			<string>无限茶</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1451,11 +1471,11 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>OOTea </string>
+			<string>OOTea</string>
 			<key>png</key>
-			<string></string>
+			<string>OOTea.png</string>
 			<key>utf8Name</key>
-			<string>圈圈茶</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1473,9 +1493,9 @@
 			<key>label</key>
 			<string>Tea Station</string>
 			<key>png</key>
-			<string></string>
+			<string>Tea_Station.png</string>
 			<key>utf8Name</key>
-			<string>加州茶棧</string>
+			<string></string>
 		</dict>
 	</array>
 	<array>
@@ -1515,9 +1535,9 @@
 			<key>label</key>
 			<string>Chef Chin Restaurant</string>
 			<key>png</key>
-			<string></string>
+			<string>Chef_Chin_Restaurant.png</string>
 			<key>utf8Name</key>
-			<string>御品</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1535,9 +1555,9 @@
 			<key>label</key>
 			<string>Tasty Noodle House</string>
 			<key>png</key>
-			<string></string>
+			<string>Tasty_Noodle_House.png</string>
 			<key>utf8Name</key>
-			<string>品味面家</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1553,11 +1573,11 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Xi&apos;an Kitchen</string>
+			<string>Xi'an Kitchen</string>
 			<key>png</key>
-			<string></string>
+			<string>Xi'an_Kitchen.png</string>
 			<key>utf8Name</key>
-			<string>西安食府</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1575,9 +1595,9 @@
 			<key>label</key>
 			<string>Gourmet City</string>
 			<key>png</key>
-			<string></string>
+			<string>Gourmet_City.png</string>
 			<key>utf8Name</key>
-			<string>大中华火锅城</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1595,9 +1615,9 @@
 			<key>label</key>
 			<string>Little Sheep Hot Pot</string>
 			<key>png</key>
-			<string></string>
+			<string>Little_Sheep_Hot_Pot.png</string>
 			<key>utf8Name</key>
-			<string>小肥羊火锅</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1615,9 +1635,9 @@
 			<key>label</key>
 			<string>Spot KTV</string>
 			<key>png</key>
-			<string></string>
+			<string>Spot_KTV.png</string>
 			<key>utf8Name</key>
-			<string>亮点KTV</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1635,9 +1655,9 @@
 			<key>label</key>
 			<string>Liangs Kitchen</string>
 			<key>png</key>
-			<string></string>
+			<string>Liangs_Kitchen.png</string>
 			<key>utf8Name</key>
-			<string>梁妈妈家</string>
+			<string></string>
 		</dict>
 	</array>
 	<array>
@@ -1677,9 +1697,9 @@
 			<key>label</key>
 			<string>Tajima Ramen House</string>
 			<key>png</key>
-			<string></string>
+			<string>Tajima_Ramen_House.png</string>
 			<key>utf8Name</key>
-			<string>但馬</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1695,11 +1715,11 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Yakitori </string>
+			<string>Yakitori</string>
 			<key>png</key>
-			<string></string>
+			<string>Yakitori.png</string>
 			<key>utf8Name</key>
-			<string>野球鳥</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1715,11 +1735,11 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Rakiraki </string>
+			<string>Rakiraki</string>
 			<key>png</key>
-			<string></string>
+			<string>Rakiraki.png</string>
 			<key>utf8Name</key>
-			<string>ラキラキ</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1737,9 +1757,9 @@
 			<key>label</key>
 			<string>Wa Dining OKAN</string>
 			<key>png</key>
-			<string></string>
+			<string>Wa_Dining_OKAN.png</string>
 			<key>utf8Name</key>
-			<string>おかん</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1757,9 +1777,9 @@
 			<key>label</key>
 			<string>Yokohama</string>
 			<key>png</key>
-			<string></string>
+			<string>Yokohama.png</string>
 			<key>utf8Name</key>
-			<string>横浜焼鳥</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1775,11 +1795,11 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Tsuruhashi  BBQ</string>
+			<string>Tsuruhashi BBQ</string>
 			<key>png</key>
-			<string></string>
+			<string>Tsuruhashi_BBQ.png</string>
 			<key>utf8Name</key>
-			<string>鶴橋</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1797,9 +1817,9 @@
 			<key>label</key>
 			<string>Shabu Shabu House</string>
 			<key>png</key>
-			<string></string>
+			<string>Shabu_Shabu_House.png</string>
 			<key>utf8Name</key>
-			<string>しゃぶしゃぶ</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1817,9 +1837,9 @@
 			<key>label</key>
 			<string>Izakaya Sakura</string>
 			<key>png</key>
-			<string></string>
+			<string>Izakaya_Sakura.png</string>
 			<key>utf8Name</key>
-			<string>居酒屋</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1835,11 +1855,11 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Sushi Dokoro </string>
+			<string>Sushi Dokoro</string>
 			<key>png</key>
-			<string></string>
+			<string>Sushi_Dokoro.png</string>
 			<key>utf8Name</key>
-			<string>鮨処白浜</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1857,9 +1877,9 @@
 			<key>label</key>
 			<string>Yakitori Taisho</string>
 			<key>png</key>
-			<string></string>
+			<string>Yakitori_Taisho.png</string>
 			<key>utf8Name</key>
-			<string>対処焼鳥</string>
+			<string></string>
 		</dict>
 	</array>
 	<array>
@@ -1899,9 +1919,9 @@
 			<key>label</key>
 			<string>Friends House Korean</string>
 			<key>png</key>
-			<string></string>
+			<string>Friends_House_Korean.png</string>
 			<key>utf8Name</key>
-			<string>친구의</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1919,9 +1939,9 @@
 			<key>label</key>
 			<string>Manna Korean BBQ</string>
 			<key>png</key>
-			<string></string>
+			<string>Manna_Korean_BBQ.png</string>
 			<key>utf8Name</key>
-			<string>만나 바베큐</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1939,9 +1959,9 @@
 			<key>label</key>
 			<string>Do Re Mi House</string>
 			<key>png</key>
-			<string></string>
+			<string>Do_Re_Mi_House.png</string>
 			<key>utf8Name</key>
-			<string>전통한삭</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1959,9 +1979,9 @@
 			<key>label</key>
 			<string>Convoy Tofu House</string>
 			<key>png</key>
-			<string></string>
+			<string>Convoy_Tofu_House.png</string>
 			<key>utf8Name</key>
-			<string>두부 집</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1979,9 +1999,9 @@
 			<key>label</key>
 			<string>Dae Jang Keum</string>
 			<key>png</key>
-			<string></string>
+			<string>Dae_Jang_Keum.png</string>
 			<key>utf8Name</key>
-			<string>대장금</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1999,9 +2019,9 @@
 			<key>label</key>
 			<string>Mapo Korean BBQ</string>
 			<key>png</key>
-			<string></string>
+			<string>Mapo_Korean_BBQ.png</string>
 			<key>utf8Name</key>
-			<string>마파 바베큐</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -2019,9 +2039,9 @@
 			<key>label</key>
 			<string>Grandma Tofu</string>
 			<key>png</key>
-			<string></string>
+			<string>Grandma_Tofu.png</string>
 			<key>utf8Name</key>
-			<string>할머니 두부</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -2039,9 +2059,9 @@
 			<key>label</key>
 			<string>Min Sok Chon</string>
 			<key>png</key>
-			<string></string>
+			<string>Min_Sok_Chon.png</string>
 			<key>utf8Name</key>
-			<string>민속 마을</string>
+			<string></string>
 		</dict>
 	</array>
 </array>

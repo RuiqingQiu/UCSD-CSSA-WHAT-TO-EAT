@@ -71,7 +71,7 @@
 		AA727F6B1C11316600535116 /* Sixty-Four Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F541C11316600535116 /* Sixty-Four Degrees.png */; };
 		AA727F6D1C11316600535116 /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F561C11316600535116 /* Subway.png */; };
 		AA727F6E1C11316600535116 /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca.png */; };
-		AAB7020D1CDE6F0100C75554 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAB7020C1CDE6F0100C75554 /* CellDescriptor.plist */; };
+		AAB7020F1CDE755800C75554 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAB7020E1CDE755800C75554 /* CellDescriptor.plist */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
 		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
 		AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDC1CB0672C00433876 /* SettingHeader.xib */; };
@@ -163,7 +163,7 @@
 		AA727F541C11316600535116 /* Sixty-Four Degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four Degrees.png"; path = "Images/Sixty-Four Degrees.png"; sourceTree = "<group>"; };
 		AA727F561C11316600535116 /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
 		AA727F571C11316600535116 /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
-		AAB7020C1CDE6F0100C75554 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		AAB7020E1CDE755800C75554 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
 		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingHeader.xib; path = "UCSD-CSSA-What-To-Eat/SettingHeader.xib"; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 		8FB9CD9A1C691AAB00618CAB /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				AAB7020C1CDE6F0100C75554 /* CellDescriptor.plist */,
+				AAB7020E1CDE755800C75554 /* CellDescriptor.plist */,
 				8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */,
 				8FB9CDA31C691B0300618CAB /* ItemCell.xib */,
 				8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */,
@@ -458,7 +458,7 @@
 				AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */,
 				8FB9CDC21C692A6600618CAB /* list_1.png in Resources */,
 				8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */,
-				AAB7020D1CDE6F0100C75554 /* CellDescriptor.plist in Resources */,
+				AAB7020F1CDE755800C75554 /* CellDescriptor.plist in Resources */,
 				AA727F581C11316600535116 /* Bistro.png in Resources */,
 				8FB9CDC31C692A6600618CAB /* list_2.png in Resources */,
 				8FB9CDB81C692A6600618CAB /* Back_44.png in Resources */,
