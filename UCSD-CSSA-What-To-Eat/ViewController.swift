@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         icon.iconSize = 0.5*self.view.frame.width
         initMyLayer(getPngSelected())
+        print("!!!");
+        print(getPngSelected());
         self.filterButton.userInteractionEnabled = true
         
         if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
@@ -77,6 +79,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         UIApplication.sharedApplication().statusBarStyle = .LightContent
+        print("!!!");
         print(getPngSelected());
         self.iconview.alpha = 0
         self.selectedName.alpha = 0
@@ -380,7 +383,7 @@ class ViewController: UIViewController {
         if(!fileManager.fileExistsAtPath(path))
         {
             // If it doesn't, copy it from the default file in the Bundle
-            if let bundlePath = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
+            if let bundlePath = NSBundle.mainBundle().pathForResource("CellDescriptor" + currentListName, ofType: "plist") {
                 let resultDictionary = NSMutableDictionary(contentsOfFile: bundlePath)
                 print("Bundle CellDescriptor.plist file is --> \(resultDictionary?.description)")
                 do {
@@ -424,12 +427,14 @@ class ViewController: UIViewController {
                         var utf8Name = ((currentSectionCells as! NSArray)[row] as! NSDictionary)["utf8Name"]
                         if(utf8Name != nil){
                             print ("tmp1 is")
-                            print((currentSectionCells as! NSArray)[row]["a"])
+                            //print((currentSectionCells as! NSArray)[row]["a"])
                         }
                         else{
                             utf8Name = ""
                         }
                         let r = resinfo(png:png, englishName:englishName as! String, utf8Name:utf8Name as! String)
+                        
+                        print(r.png)
                         
                         
                         returnArray.append(r)

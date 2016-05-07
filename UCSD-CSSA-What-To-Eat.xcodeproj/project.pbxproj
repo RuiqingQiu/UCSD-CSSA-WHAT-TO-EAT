@@ -48,6 +48,11 @@
 		8FB9CDC61C692A6600618CAB /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB41C692A6600618CAB /* Search.png */; };
 		8FB9CDC71C692A6600618CAB /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB51C692A6600618CAB /* ShakeMe.png */; };
 		8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB61C692A6600618CAB /* Version2_36.png */; };
+		8FC404331CDE69670061C817 /* CellDescriptor1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */; };
+		8FC404341CDE69670061C817 /* CellDescriptor2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404301CDE69670061C817 /* CellDescriptor2.plist */; };
+		8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404311CDE69670061C817 /* CellDescriptor3.plist */; };
+		8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404321CDE69670061C817 /* CellDescriptor4.plist */; };
+		8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */; };
 		AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906801BD2D3B6007B43FB /* AppDelegate.swift */; };
 		AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906821BD2D3B6007B43FB /* ViewController.swift */; };
 		AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5906841BD2D3B6007B43FB /* Main.storyboard */; };
@@ -77,7 +82,6 @@
 		AA727F6B1C11316600535116 /* Sixty-Four Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F541C11316600535116 /* Sixty-Four Degrees.png */; };
 		AA727F6D1C11316600535116 /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F561C11316600535116 /* Subway.png */; };
 		AA727F6E1C11316600535116 /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca.png */; };
-		AAB702111CDE789A00C75554 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAB702101CDE789A00C75554 /* CellDescriptor.plist */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
 		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
 		AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDC1CB0672C00433876 /* SettingHeader.xib */; };
@@ -136,6 +140,11 @@
 		8FB9CDB41C692A6600618CAB /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Search.png; path = Images/UI/Search.png; sourceTree = "<group>"; };
 		8FB9CDB51C692A6600618CAB /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = Images/UI/ShakeMe.png; sourceTree = "<group>"; };
 		8FB9CDB61C692A6600618CAB /* Version2_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Version2_36.png; path = Images/UI/Version2_36.png; sourceTree = "<group>"; };
+		8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor1.plist; sourceTree = "<group>"; };
+		8FC404301CDE69670061C817 /* CellDescriptor2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor2.plist; sourceTree = "<group>"; };
+		8FC404311CDE69670061C817 /* CellDescriptor3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor3.plist; sourceTree = "<group>"; };
+		8FC404321CDE69670061C817 /* CellDescriptor4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor4.plist; sourceTree = "<group>"; };
+		8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906801BD2D3B6007B43FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5906821BD2D3B6007B43FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -171,7 +180,6 @@
 		AA727F541C11316600535116 /* Sixty-Four Degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four Degrees.png"; path = "Images/Sixty-Four Degrees.png"; sourceTree = "<group>"; };
 		AA727F561C11316600535116 /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
 		AA727F571C11316600535116 /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
-		AAB702101CDE789A00C75554 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
 		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingHeader.xib; path = "UCSD-CSSA-What-To-Eat/SettingHeader.xib"; sourceTree = "<group>"; };
@@ -207,7 +215,11 @@
 		8FB9CD9A1C691AAB00618CAB /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				AAB702101CDE789A00C75554 /* CellDescriptor.plist */,
+				8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */,
+				8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */,
+				8FC404301CDE69670061C817 /* CellDescriptor2.plist */,
+				8FC404311CDE69670061C817 /* CellDescriptor3.plist */,
+				8FC404321CDE69670061C817 /* CellDescriptor4.plist */,
 				8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */,
 				8FB9CDA31C691B0300618CAB /* ItemCell.xib */,
 				8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */,
@@ -453,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA727F641C11316600535116 /* Panda.png in Resources */,
+				8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */,
 				48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */,
 				8FB9CDBC1C692A6600618CAB /* CheckBox_2.png in Resources */,
 				AA727F6D1C11316600535116 /* Subway.png in Resources */,
@@ -465,10 +478,10 @@
 				AA727F691C11316600535116 /* Santorini.png in Resources */,
 				AA727F591C11316600535116 /* Bombay Coast.png in Resources */,
 				8FB9CDBE1C692A6600618CAB /* ColoredDice.png in Resources */,
+				8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */,
 				AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */,
 				8FB9CDC21C692A6600618CAB /* list_1.png in Resources */,
 				8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */,
-				AAB702111CDE789A00C75554 /* CellDescriptor.plist in Resources */,
 				AA727F581C11316600535116 /* Bistro.png in Resources */,
 				8FB9CDC31C692A6600618CAB /* list_2.png in Resources */,
 				8FB9CDB81C692A6600618CAB /* Back_44.png in Resources */,
@@ -483,6 +496,7 @@
 				AA727F6E1C11316600535116 /* Tapioca.png in Resources */,
 				AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */,
 				48FF3F5F1CD538700080ED6A /* LCheckBox_1.png in Resources */,
+				8FC404341CDE69670061C817 /* CellDescriptor2.plist in Resources */,
 				8FB9CDB71C692A6600618CAB /* Back_22.png in Resources */,
 				AA727F5F1C11316600535116 /* FoodWorx.png in Resources */,
 				AA727F651C11316600535116 /* Pines.png in Resources */,
@@ -491,6 +505,7 @@
 				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
 				8FB9CDA01C691AF500618CAB /* CategoryCell.xib in Resources */,
 				AA727F671C11316600535116 /* Round Table.png in Resources */,
+				8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */,
 				48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */,
 				AA727F601C11316600535116 /* Goodys.png in Resources */,
 				48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
@@ -510,6 +525,7 @@
 				8FB9CDBD1C692A6600618CAB /* CheckBox_3.png in Resources */,
 				AAE65FDF1CB0686300433876 /* SettingSwitchCell.xib in Resources */,
 				8FB9CDA41C691B0300618CAB /* ItemCell.xib in Resources */,
+				8FC404331CDE69670061C817 /* CellDescriptor1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
