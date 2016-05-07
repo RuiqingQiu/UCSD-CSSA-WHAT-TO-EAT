@@ -47,6 +47,7 @@
 		8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404311CDE69670061C817 /* CellDescriptor3.plist */; };
 		8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404321CDE69670061C817 /* CellDescriptor4.plist */; };
 		8FC404381CDE707B0061C817 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404371CDE707B0061C817 /* CellDescriptor.plist */; };
+		8FC4043C1CDE79570061C817 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4043B1CDE79570061C817 /* CellDescriptor.plist */; };
 		AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906801BD2D3B6007B43FB /* AppDelegate.swift */; };
 		AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906821BD2D3B6007B43FB /* ViewController.swift */; };
 		AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5906841BD2D3B6007B43FB /* Main.storyboard */; };
@@ -137,6 +138,7 @@
 		8FC404311CDE69670061C817 /* CellDescriptor3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor3.plist; sourceTree = "<group>"; };
 		8FC404321CDE69670061C817 /* CellDescriptor4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor4.plist; sourceTree = "<group>"; };
 		8FC404371CDE707B0061C817 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		8FC4043B1CDE79570061C817 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906801BD2D3B6007B43FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5906821BD2D3B6007B43FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				8FC404371CDE707B0061C817 /* CellDescriptor.plist */,
+				8FC4043B1CDE79570061C817 /* CellDescriptor.plist */,
 				8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */,
 				8FC404301CDE69670061C817 /* CellDescriptor2.plist */,
 				8FC404311CDE69670061C817 /* CellDescriptor3.plist */,
@@ -507,6 +510,7 @@
 				8FB9CDB91C692A6600618CAB /* Back_66.png in Resources */,
 				8FB9CDC11C692A6600618CAB /* FilterButton.png in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
+				8FC4043C1CDE79570061C817 /* CellDescriptor.plist in Resources */,
 				8FB9CDC71C692A6600618CAB /* ShakeMe.png in Resources */,
 				AA727F611C11316600535116 /* Hi Thai.png in Resources */,
 				48FF3F631CD538700080ED6A /* SCheckBox_2.png in Resources */,
