@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UCSD-CSSA-What-To-Eat/FilterViewController.swift"
-            timestampString = "482559431.549037"
+            timestampString = "484344161.943669"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "282"
-            endingLineNumber = "282"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
             landmarkName = "loadCellDescriptors()"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UCSD-CSSA-What-To-Eat/FilterViewController.swift"
-            timestampString = "482559431.549037"
+            timestampString = "484344161.943669"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
             landmarkName = "renderBarButton(_:width:name:)"
             landmarkType = "5">
          </BreakpointContent>

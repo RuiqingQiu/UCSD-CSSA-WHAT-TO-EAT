@@ -32,7 +32,8 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         return UIInterfaceOrientationMask.Portrait
     }
     
-    var ListNames = ["List 1", "List 2", "List 3", "List 4"];
+    var ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
+
     
     @IBAction func defaultListClicked(sender: AnyObject)
     {
@@ -153,7 +154,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         }
         else
         {
-            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+            ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
         }
         let width = self.view.frame.width * 0.2
         
@@ -239,7 +240,7 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         }
         else
         {
-            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+            ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
         }
         
         changeBarButtonName(defaultList, name: ListNames[0])

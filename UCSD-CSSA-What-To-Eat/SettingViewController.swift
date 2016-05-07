@@ -33,7 +33,8 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
     }
     
-    var ListNames = ["List 1", "List 2", "List 3", "List 4"];
+    var ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
+
     let def = NSUserDefaults.standardUserDefaults()
     @IBAction func SaveSettings(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
@@ -58,7 +59,8 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
         else
         {
-            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+            ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
+
         }
         
 

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     var def = NSUserDefaults.standardUserDefaults()
     var shaked = true
     var cellDescriptors: NSMutableArray!
-    var ListNames = ["List 1", "List 2", "List 3", "List 4"];
+    var ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
     @IBOutlet weak var shakeMe: UIImageView!
     @IBOutlet weak var filterButton: UIImageView!
     @IBOutlet weak var filterName: UILabel!
@@ -50,7 +50,8 @@ class ViewController: UIViewController {
         }
         else
         {
-            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+            ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
+
         }
         
         if(NSUserDefaults.standardUserDefaults().stringForKey("currentListName") != nil)
@@ -93,7 +94,8 @@ class ViewController: UIViewController {
         }
         else
         {
-            ListNames = ["List 1", "List 2", "List 3", "List 4"];
+            ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
+
         }
         
         if(NSUserDefaults.standardUserDefaults().stringForKey("currentListName") != nil)
