@@ -29,7 +29,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<false/>
+			<true/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -177,9 +177,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Goody's</string>
+			<string>Goody&apos;s</string>
 			<key>png</key>
-			<string>Goody's.png</string>
+			<string>Goody&apos;s.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -231,7 +231,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -251,7 +251,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -271,7 +271,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -291,7 +291,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -311,7 +311,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -331,7 +331,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -351,7 +351,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -371,7 +371,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -391,7 +391,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -399,9 +399,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Rubio's</string>
+			<string>Rubio&apos;s</string>
 			<key>png</key>
-			<string>Rubio's.png</string>
+			<string>Rubio&apos;s.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -411,7 +411,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -431,7 +431,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -451,7 +451,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -471,7 +471,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -491,7 +491,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -513,7 +513,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -533,7 +533,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -541,9 +541,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Earl's Market</string>
+			<string>Earl&apos;s Market</string>
 			<key>png</key>
-			<string>Earl's_Market.png</string>
+			<string>Earl&apos;s_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -553,7 +553,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -561,9 +561,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Goody's </string>
+			<string>Goody&apos;s </string>
 			<key>png</key>
-			<string>Goody's_.png</string>
+			<string>Goody&apos;s_.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -573,7 +573,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -581,9 +581,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>John's Market</string>
+			<string>John&apos;s Market</string>
 			<key>png</key>
-			<string>John's_Market.png</string>
+			<string>John&apos;s_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -593,7 +593,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -601,9 +601,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Roger's Market</string>
+			<string>Roger&apos;s Market</string>
 			<key>png</key>
-			<string>Roger's_Market.png</string>
+			<string>Roger&apos;s_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -613,7 +613,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -633,7 +633,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -653,7 +653,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -673,7 +673,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -693,7 +693,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -715,7 +715,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -735,7 +735,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -755,7 +755,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -775,7 +775,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -795,7 +795,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -815,7 +815,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -823,9 +823,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Peet's Coffee &amp; Tea</string>
+			<string>Peet&apos;s Coffee &amp; Tea</string>
 			<key>png</key>
-			<string>Peet's_Coffee_&amp;_Tea.png</string>
+			<string>Peet&apos;s_Coffee_&amp;_Tea.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -835,7 +835,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -855,7 +855,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -875,7 +875,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -883,9 +883,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Caroline's Seaside Cafe</string>
+			<string>Caroline&apos;s Seaside Cafe</string>
 			<key>png</key>
-			<string>Caroline's_Seaside_Cafe.png</string>
+			<string>Caroline&apos;s_Seaside_Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -895,7 +895,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -915,7 +915,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -935,7 +935,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -955,7 +955,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -975,7 +975,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -997,7 +997,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -1017,7 +1017,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1037,7 +1037,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1057,7 +1057,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1077,7 +1077,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1097,7 +1097,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1117,7 +1117,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1137,7 +1137,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1159,7 +1159,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -1179,7 +1179,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1199,7 +1199,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1219,7 +1219,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1239,7 +1239,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1259,7 +1259,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1281,7 +1281,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -1301,7 +1301,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1321,7 +1321,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1341,7 +1341,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1361,7 +1361,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1381,7 +1381,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1401,7 +1401,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1423,7 +1423,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -1443,7 +1443,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1483,7 +1483,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1505,7 +1505,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -1525,7 +1525,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1545,7 +1545,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1565,7 +1565,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1573,9 +1573,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Xi'an Kitchen</string>
+			<string>Xi&apos;an Kitchen</string>
 			<key>png</key>
-			<string>Xi'an_Kitchen.png</string>
+			<string>Xi&apos;an_Kitchen.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1585,7 +1585,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1605,7 +1605,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1625,7 +1625,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1645,7 +1645,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1667,7 +1667,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -1687,7 +1687,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1707,7 +1707,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1727,7 +1727,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1747,7 +1747,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1767,7 +1767,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1787,7 +1787,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1807,7 +1807,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1827,7 +1827,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1847,7 +1847,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1867,7 +1867,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1889,7 +1889,7 @@
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>isExpandable</key>
 			<true/>
 			<key>isExpanded</key>
@@ -1909,7 +1909,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1929,7 +1929,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1949,7 +1949,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1969,7 +1969,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -1989,7 +1989,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -2009,7 +2009,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -2029,7 +2029,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
@@ -2049,7 +2049,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
