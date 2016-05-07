@@ -59,7 +59,7 @@
 			<key>label</key>
 			<string>64 North</string>
 			<key>png</key>
-			<string>Sixty-Four-Degrees.png</string>
+			<string>64_North.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -99,7 +99,7 @@
 			<key>label</key>
 			<string>Cafe Ventanas</string>
 			<key>png</key>
-			<string></string>
+			<string>Cafe_Ventanas.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -177,9 +177,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Goody&apos;s</string>
+			<string>Goody's</string>
 			<key>png</key>
-			<string></string>
+			<string>Goody's.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -1635,7 +1635,7 @@
 			<key>label</key>
 			<string>Spot KTV</string>
 			<key>png</key>
-			<string>Spot_KTV_&amp;_Restaurant.png</string>
+			<string>Spot_KTV.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -2039,7 +2039,7 @@
 			<key>label</key>
 			<string>Grandma Tofu</string>
 			<key>png</key>
-			<string>Grandma_Tofu_and_BBQ.png</string>
+			<string>Grandma_Tofu.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
