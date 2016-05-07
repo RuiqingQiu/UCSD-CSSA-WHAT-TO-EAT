@@ -1463,7 +1463,7 @@
 			<key>cellIdentifier</key>
 			<string>idItemCell</string>
 			<key>checked</key>
-			<true/>
+			<false/>
 			<key>isExpandable</key>
 			<false/>
 			<key>isExpanded</key>
