@@ -369,7 +369,7 @@ class ViewController: UIViewController {
         if(!fileManager.fileExistsAtPath(path))
         {
             // If it doesn't, copy it from the default file in the Bundle
-            if let bundlePath = NSBundle.mainBundle().pathForResource("CellDescriptor", ofType: "plist") {
+            if let bundlePath = NSBundle.mainBundle().pathForResource("CellDescriptor" + currentListName, ofType: "plist") {
                 let resultDictionary = NSMutableDictionary(contentsOfFile: bundlePath)
                 print("Bundle CellDescriptor.plist file is --> \(resultDictionary?.description)")
                 do {
