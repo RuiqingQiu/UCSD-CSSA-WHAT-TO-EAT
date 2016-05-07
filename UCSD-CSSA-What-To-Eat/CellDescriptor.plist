@@ -5,7 +5,7 @@
 	<array>
 		<dict>
 			<key>additionalRows</key>
-			<integer>7</integer>
+			<integer>10</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
@@ -57,9 +57,49 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
+			<string>64 North</string>
+			<key>png</key>
+			<string>Sixty-Four-Degrees.png</string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
 			<string>The Bistro</string>
 			<key>png</key>
 			<string>Bistro.png</string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Cafe Ventanas</string>
+			<key>png</key>
+			<string></string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -120,6 +160,26 @@
 			<string>Foodworx</string>
 			<key>png</key>
 			<string>FoodWorx.png</string>
+			<key>utf8Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>additionalRows</key>
+			<string>0</string>
+			<key>cellIdentifier</key>
+			<string>idItemCell</string>
+			<key>checked</key>
+			<true/>
+			<key>isExpandable</key>
+			<false/>
+			<key>isExpanded</key>
+			<false/>
+			<key>isVisible</key>
+			<false/>
+			<key>label</key>
+			<string>Goody&apos;s</string>
+			<key>png</key>
+			<string></string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -501,7 +561,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Goody&apos;s </string>
+			<string>Goody&apos;s Market</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -651,7 +711,7 @@
 	<array>
 		<dict>
 			<key>additionalRows</key>
-			<integer>13</integer>
+			<integer>12</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
@@ -823,7 +883,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Caroline&apos;s Seaside Cafe</string>
+			<string>Caroline&apos;s Seaside</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -844,26 +904,6 @@
 			<false/>
 			<key>label</key>
 			<string>Come On In! Cafe</string>
-			<key>png</key>
-			<string></string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<true/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>Cafe Ventanas</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1573,7 +1613,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Spot KTV &amp; Restaurant</string>
+			<string>Spot KTV</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
@@ -1977,7 +2017,7 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Grandma Tofu and BBQ</string>
+			<string>Grandma Tofu</string>
 			<key>png</key>
 			<string></string>
 			<key>utf8Name</key>
