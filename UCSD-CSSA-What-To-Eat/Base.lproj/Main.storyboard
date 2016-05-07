@@ -7,6 +7,12 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="LithosPro-Regular.otf">
+            <string>LithosPro-Regular</string>
+            <string>LithosPro-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -48,7 +54,7 @@
                                     <constraint firstAttribute="width" secondItem="0FA-0N-Qzo" secondAttribute="height" multiplier="1:1" id="1Gg-G9-xLw"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fjoweijf wef" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzg-r5-Q1c">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzg-r5-Q1c">
                                 <rect key="frame" x="180" y="500" width="280" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -60,22 +66,46 @@
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="eTh-XZ-oj9">
+                                <rect key="frame" x="113" y="231" width="375" height="137"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="LithosPro-Regular" family="Lithos Pro" pointSize="24"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.62745098040000002" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="utf8 name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="eNp-Bj-IVt">
+                                <rect key="frame" x="159" y="400" width="282" height="136"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="LithosPro-Regular" family="Lithos Pro" pointSize="24"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.62745098040000002" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.057956259426847651" green="0.061808369233189608" blue="0.067948717948717929" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="hOT-gj-o0v" firstAttribute="centerY" secondItem="rPJ-9J-bn7" secondAttribute="centerY" id="4Ge-RL-soM"/>
+                            <constraint firstItem="eNp-Bj-IVt" firstAttribute="width" secondItem="eTh-XZ-oj9" secondAttribute="width" multiplier="0.75" id="4Xd-Ie-j12"/>
                             <constraint firstItem="rPJ-9J-bn7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.7" id="5yo-9r-GfC"/>
+                            <constraint firstItem="eTh-XZ-oj9" firstAttribute="centerX" secondItem="JAC-HI-fW8" secondAttribute="centerX" id="Epo-6X-db4"/>
                             <constraint firstItem="rPJ-9J-bn7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="HNP-sI-8pT"/>
                             <constraint firstItem="JAC-HI-fW8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hr8-GU-DfJ"/>
                             <constraint firstItem="rPJ-9J-bn7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IyX-2V-auj"/>
+                            <constraint firstItem="eNp-Bj-IVt" firstAttribute="centerX" secondItem="eTh-XZ-oj9" secondAttribute="centerX" id="KMI-pv-TxP"/>
                             <constraint firstItem="rqB-hz-eiJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.9" id="OHY-H6-lnL"/>
+                            <constraint firstItem="eNp-Bj-IVt" firstAttribute="top" secondItem="eTh-XZ-oj9" secondAttribute="bottom" constant="32" id="Orj-96-wIJ"/>
                             <constraint firstItem="0FA-0N-Qzo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="PuS-Nh-3pf"/>
                             <constraint firstItem="hOT-gj-o0v" firstAttribute="leading" secondItem="rPJ-9J-bn7" secondAttribute="leading" id="QZk-cB-ufh"/>
                             <constraint firstItem="hOT-gj-o0v" firstAttribute="height" secondItem="rPJ-9J-bn7" secondAttribute="height" id="SrN-MS-7b4"/>
+                            <constraint firstItem="eNp-Bj-IVt" firstAttribute="height" secondItem="eTh-XZ-oj9" secondAttribute="height" id="ZJ5-eu-7xJ"/>
                             <constraint firstItem="hOT-gj-o0v" firstAttribute="width" secondItem="rPJ-9J-bn7" secondAttribute="width" multiplier="0.2" id="bZD-x0-381"/>
                             <constraint firstItem="0FA-0N-Qzo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dhS-es-hdb"/>
+                            <constraint firstItem="eTh-XZ-oj9" firstAttribute="width" secondItem="JAC-HI-fW8" secondAttribute="width" multiplier="0.75" id="ftG-6c-Noq"/>
+                            <constraint firstItem="eTh-XZ-oj9" firstAttribute="centerY" secondItem="JAC-HI-fW8" secondAttribute="centerY" id="gbD-GC-DTd"/>
                             <constraint firstItem="JAC-HI-fW8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="oLK-n0-yfv"/>
+                            <constraint firstItem="eTh-XZ-oj9" firstAttribute="height" secondItem="JAC-HI-fW8" secondAttribute="height" multiplier="2" id="qeL-z9-w3C"/>
                             <constraint firstItem="hzg-r5-Q1c" firstAttribute="width" secondItem="rPJ-9J-bn7" secondAttribute="width" multiplier="0.7" id="vhn-Qd-PVO"/>
                             <constraint firstItem="0FA-0N-Qzo" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="x8Y-yd-jVf"/>
                             <constraint firstItem="hzg-r5-Q1c" firstAttribute="centerY" secondItem="rPJ-9J-bn7" secondAttribute="centerY" id="xZA-fz-rqP"/>
@@ -88,7 +118,9 @@
                         <outlet property="dice" destination="0FA-0N-Qzo" id="2rU-18-CpB"/>
                         <outlet property="filterButton" destination="rPJ-9J-bn7" id="IeI-iQ-3jZ"/>
                         <outlet property="filterName" destination="hzg-r5-Q1c" id="YEJ-1I-FRm"/>
+                        <outlet property="selectedName" destination="eTh-XZ-oj9" id="16n-H2-G4U"/>
                         <outlet property="shakeMe" destination="JAC-HI-fW8" id="Gzj-HI-8iN"/>
+                        <outlet property="utf8Name" destination="eNp-Bj-IVt" id="ZMD-t4-iqY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

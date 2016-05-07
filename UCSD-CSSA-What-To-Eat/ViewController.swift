@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var filterButton: UIImageView!
     @IBOutlet weak var filterName: UILabel!
     @IBOutlet weak var dice: UIImageView!
+    @IBOutlet weak var selectedName: UILabel!
+    @IBOutlet weak var utf8Name: UILabel!
     
     
     
@@ -77,6 +79,8 @@ class ViewController: UIViewController {
         UIApplication.sharedApplication().statusBarStyle = .LightContent
         print(getPngSelected());
         self.iconview.alpha = 0
+        self.selectedName.alpha = 0
+        self.utf8Name.alpha = 0
         self.shakeMe.alpha = 1
         self.dice.alpha = 1
         updatePool (getPngSelected())
@@ -266,7 +270,9 @@ class ViewController: UIViewController {
         iconviewObj.layer.transform = self.getTransformWithModel(GLKMatrix4Identity)
         UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.iconview.alpha = 0
             self.shakeMe.alpha = 0
-            self.dice.alpha = 0}, completion: nil)
+            self.dice.alpha = 0
+            self.selectedName.alpha = 0
+            self.utf8Name.alpha = 0}, completion: nil)
         UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = CGRectMake(0, self.view.frame.height * 0.75, self.view.frame.width, self.view.frame.height * 0.25)}, completion: nil)
         timer.invalidate()
         timer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: "animationUpdate", userInfo: nil, repeats: true)
@@ -288,10 +294,14 @@ class ViewController: UIViewController {
         if (isMoved)
         {
             iconviewObj.n = chosen1.n
+            self.selectedName.text = icon.randomPool[chosen1.n].englishName
+            self.utf8Name.text = icon.randomPool[chosen1.n].utf8Name
         }
         else
         {
             iconviewObj.n = chosen0.n
+            self.selectedName.text = icon.randomPool[chosen0.n].englishName
+            self.utf8Name.text = icon.randomPool[chosen0.n].utf8Name
         }
         let delay = 0.5 * Double(NSEC_PER_SEC)
         let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
@@ -299,14 +309,15 @@ class ViewController: UIViewController {
             self.iconview.alpha = 1
         }
         
-        UIView.animateWithDuration(0.3, delay: 0.5, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = self.view.frame
-            self.shakeMe.alpha = 1}, completion: chosenRotate)
+        UIView.animateWithDuration(0.3, delay: 0.5, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = self.view.frame}, completion: chosenRotate)
         
     }
     
     func chosenRotate (_: Bool) -> Void
     {
         iconviewObj.layer.transform = CATransform3DMakeScale(1.3, 1.3, 1)
+        UIView.animateWithDuration(0.5, animations: {self.selectedName.alpha = 1
+            self.utf8Name.alpha = 1})
     }
 
     func getResult() -> resinfo
