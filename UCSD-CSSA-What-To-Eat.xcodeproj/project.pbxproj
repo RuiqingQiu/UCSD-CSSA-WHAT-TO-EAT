@@ -23,7 +23,6 @@
 		48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */; };
 		48FF3F621CD538700080ED6A /* SCheckBox_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */; };
 		48FF3F631CD538700080ED6A /* SCheckBox_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */; };
-		8F8BE2781C8B6735001A73C3 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8BE2771C8B6735001A73C3 /* CellDescriptor.plist */; };
 		8F98DC0D1C79091F00BBFDD8 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */; };
 		8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */; };
 		8FB9CDA01C691AF500618CAB /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */; };
@@ -72,6 +71,7 @@
 		AA727F6B1C11316600535116 /* Sixty-Four Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F541C11316600535116 /* Sixty-Four Degrees.png */; };
 		AA727F6D1C11316600535116 /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F561C11316600535116 /* Subway.png */; };
 		AA727F6E1C11316600535116 /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca.png */; };
+		AAB7020D1CDE6F0100C75554 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAB7020C1CDE6F0100C75554 /* CellDescriptor.plist */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
 		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
 		AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDC1CB0672C00433876 /* SettingHeader.xib */; };
@@ -109,7 +109,6 @@
 		48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_3.png; path = Images/UI/LCheckBox_3.png; sourceTree = "<group>"; };
 		48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_1.png; path = Images/UI/SCheckBox_1.png; sourceTree = "<group>"; };
 		48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_2.png; path = Images/UI/SCheckBox_2.png; sourceTree = "<group>"; };
-		8F8BE2771C8B6735001A73C3 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightArrow.png; path = Images/UI/RightArrow.png; sourceTree = "<group>"; };
 		8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
@@ -164,6 +163,7 @@
 		AA727F541C11316600535116 /* Sixty-Four Degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four Degrees.png"; path = "Images/Sixty-Four Degrees.png"; sourceTree = "<group>"; };
 		AA727F561C11316600535116 /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
 		AA727F571C11316600535116 /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
+		AAB7020C1CDE6F0100C75554 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
 		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingHeader.xib; path = "UCSD-CSSA-What-To-Eat/SettingHeader.xib"; sourceTree = "<group>"; };
@@ -199,8 +199,8 @@
 		8FB9CD9A1C691AAB00618CAB /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				AAB7020C1CDE6F0100C75554 /* CellDescriptor.plist */,
 				8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */,
-				8F8BE2771C8B6735001A73C3 /* CellDescriptor.plist */,
 				8FB9CDA31C691B0300618CAB /* ItemCell.xib */,
 				8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */,
 			);
@@ -446,7 +446,6 @@
 				48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */,
 				8FB9CDBC1C692A6600618CAB /* CheckBox_2.png in Resources */,
 				AA727F6D1C11316600535116 /* Subway.png in Resources */,
-				8F8BE2781C8B6735001A73C3 /* CellDescriptor.plist in Resources */,
 				48FF3F601CD538700080ED6A /* LCheckBox_2.png in Resources */,
 				AA727F661C11316600535116 /* Roots.png in Resources */,
 				AA727F631C11316600535116 /* Lemon Grass.png in Resources */,
@@ -459,6 +458,7 @@
 				AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */,
 				8FB9CDC21C692A6600618CAB /* list_1.png in Resources */,
 				8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */,
+				AAB7020D1CDE6F0100C75554 /* CellDescriptor.plist in Resources */,
 				AA727F581C11316600535116 /* Bistro.png in Resources */,
 				8FB9CDC31C692A6600618CAB /* list_2.png in Resources */,
 				8FB9CDB81C692A6600618CAB /* Back_44.png in Resources */,

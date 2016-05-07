@@ -130,7 +130,8 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         print(String(indexPath.row) + " is clicked");
         let cell = tableView.dequeueReusableCellWithIdentifier("idSettingListCell", forIndexPath: indexPath) as! CustomCell
         if(indexPath.row >= 3 && indexPath.row <= 6){
-            var alert = UIAlertController(title: "Change List Name", message: "New Name for " + "List " + String(indexPath.row-2), preferredStyle: UIAlertControllerStyle.Alert)
+            let lname = ListNames[indexPath.row - 3]
+            var alert = UIAlertController(title: "Change List Name", message: "New Name for " + lname, preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler:nil))
             //Create action button for empty string alert
             var cancelAction = UIAlertAction(title: "Done", style: UIAlertActionStyle.Cancel, handler:nil)
