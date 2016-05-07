@@ -10,7 +10,9 @@
     <customFonts key="customFonts">
         <mutableArray key="LithosPro-Regular.otf">
             <string>LithosPro-Regular</string>
-            <string>LithosPro-Regular</string>
+        </mutableArray>
+        <mutableArray key="myFont.ttf">
+            <string>FZQKBYSJW--GB1-0</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -75,10 +77,10 @@
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="utf8 name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="eNp-Bj-IVt">
-                                <rect key="frame" x="159" y="400" width="282" height="136"/>
+                                <rect key="frame" x="159" y="307" width="282" height="136"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" name="LithosPro-Regular" family="Lithos Pro" pointSize="24"/>
-                                <color key="textColor" red="0.94901960780000005" green="0.62745098040000002" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="FZQKBYSJW--GB1-0" family="FZQingKeBenYueSongS-R-GB" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
@@ -95,7 +97,6 @@
                             <constraint firstItem="rPJ-9J-bn7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IyX-2V-auj"/>
                             <constraint firstItem="eNp-Bj-IVt" firstAttribute="centerX" secondItem="eTh-XZ-oj9" secondAttribute="centerX" id="KMI-pv-TxP"/>
                             <constraint firstItem="rqB-hz-eiJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.9" id="OHY-H6-lnL"/>
-                            <constraint firstItem="eNp-Bj-IVt" firstAttribute="top" secondItem="eTh-XZ-oj9" secondAttribute="bottom" constant="32" id="Orj-96-wIJ"/>
                             <constraint firstItem="0FA-0N-Qzo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="PuS-Nh-3pf"/>
                             <constraint firstItem="hOT-gj-o0v" firstAttribute="leading" secondItem="rPJ-9J-bn7" secondAttribute="leading" id="QZk-cB-ufh"/>
                             <constraint firstItem="hOT-gj-o0v" firstAttribute="height" secondItem="rPJ-9J-bn7" secondAttribute="height" id="SrN-MS-7b4"/>
@@ -106,6 +107,7 @@
                             <constraint firstItem="eTh-XZ-oj9" firstAttribute="centerY" secondItem="JAC-HI-fW8" secondAttribute="centerY" id="gbD-GC-DTd"/>
                             <constraint firstItem="JAC-HI-fW8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="oLK-n0-yfv"/>
                             <constraint firstItem="eTh-XZ-oj9" firstAttribute="height" secondItem="JAC-HI-fW8" secondAttribute="height" multiplier="2" id="qeL-z9-w3C"/>
+                            <constraint firstItem="eNp-Bj-IVt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.25" id="t4f-I1-TfN"/>
                             <constraint firstItem="hzg-r5-Q1c" firstAttribute="width" secondItem="rPJ-9J-bn7" secondAttribute="width" multiplier="0.7" id="vhn-Qd-PVO"/>
                             <constraint firstItem="0FA-0N-Qzo" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="x8Y-yd-jVf"/>
                             <constraint firstItem="hzg-r5-Q1c" firstAttribute="centerY" secondItem="rPJ-9J-bn7" secondAttribute="centerY" id="xZA-fz-rqP"/>

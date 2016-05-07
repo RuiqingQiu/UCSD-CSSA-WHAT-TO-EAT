@@ -10,6 +10,9 @@
 		48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
+		48290EE61CDE7A0A0051DDB2 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE51CDE7A0A0051DDB2 /* myFont.ttf */; };
+		48290EE71CDE7A0A0051DDB2 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE51CDE7A0A0051DDB2 /* myFont.ttf */; };
+		48290EE81CDE7A0A0051DDB2 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE51CDE7A0A0051DDB2 /* myFont.ttf */; };
 		48602B041C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		48602B051C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		48602B061C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
@@ -101,6 +104,7 @@
 
 /* Begin PBXFileReference section */
 		48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LithosPro-Regular.otf"; sourceTree = "<group>"; };
+		48290EE51CDE7A0A0051DDB2 /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
 		48602B031C01AAFE00688B11 /* icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icon.swift; sourceTree = "<group>"; };
 		4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		48972FCA1CC2AEA500423601 /* resinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resinfo.swift; sourceTree = "<group>"; };
@@ -239,6 +243,7 @@
 		AA59067F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */ = {
 			isa = PBXGroup;
 			children = (
+				48290EE51CDE7A0A0051DDB2 /* myFont.ttf */,
 				48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */,
 				AAB7247E1C6696BB006F85BF /* SettingViewController.swift */,
 				48602B031C01AAFE00688B11 /* icon.swift */,
@@ -482,6 +487,7 @@
 				AA727F5F1C11316600535116 /* FoodWorx.png in Resources */,
 				AA727F651C11316600535116 /* Pines.png in Resources */,
 				8FB9CDBA1C692A6600618CAB /* Back.png in Resources */,
+				48290EE61CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
 				8FB9CDA01C691AF500618CAB /* CategoryCell.xib in Resources */,
 				AA727F671C11316600535116 /* Round Table.png in Resources */,
@@ -512,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
+				48290EE71CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
+				48290EE81CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
