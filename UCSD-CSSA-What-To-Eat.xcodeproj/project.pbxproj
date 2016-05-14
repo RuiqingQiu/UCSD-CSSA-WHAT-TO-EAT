@@ -53,6 +53,7 @@
 		8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404311CDE69670061C817 /* CellDescriptor3.plist */; };
 		8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404321CDE69670061C817 /* CellDescriptor4.plist */; };
 		8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */; };
+		AA4275281CE7A582005DDBA3 /* Pikachu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA4275271CE7A582005DDBA3 /* Pikachu.mp3 */; };
 		AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906801BD2D3B6007B43FB /* AppDelegate.swift */; };
 		AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906821BD2D3B6007B43FB /* ViewController.swift */; };
 		AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5906841BD2D3B6007B43FB /* Main.storyboard */; };
@@ -145,6 +146,7 @@
 		8FC404311CDE69670061C817 /* CellDescriptor3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor3.plist; sourceTree = "<group>"; };
 		8FC404321CDE69670061C817 /* CellDescriptor4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor4.plist; sourceTree = "<group>"; };
 		8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		AA4275271CE7A582005DDBA3 /* Pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Pikachu.mp3; path = Sound/Pikachu.mp3; sourceTree = "<group>"; };
 		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906801BD2D3B6007B43FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5906821BD2D3B6007B43FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 		AAB724771C66820F006F85BF /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				AA4275271CE7A582005DDBA3 /* Pikachu.mp3 */,
 				AAB7247A1C66873F006F85BF /* shotgun.mp3 */,
 			);
 			name = Sound;
@@ -525,6 +528,7 @@
 				8FB9CDBD1C692A6600618CAB /* CheckBox_3.png in Resources */,
 				AAE65FDF1CB0686300433876 /* SettingSwitchCell.xib in Resources */,
 				8FB9CDA41C691B0300618CAB /* ItemCell.xib in Resources */,
+				AA4275281CE7A582005DDBA3 /* Pikachu.mp3 in Resources */,
 				8FC404331CDE69670061C817 /* CellDescriptor1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
