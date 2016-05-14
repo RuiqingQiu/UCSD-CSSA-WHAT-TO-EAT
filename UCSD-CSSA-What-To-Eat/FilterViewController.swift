@@ -58,7 +58,20 @@ class FilterViewController:  UIViewController, UITableViewDelegate, UITableViewD
         reselectList()
     }
     
+    //For detect motion start event
+    override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        if motion == .MotionShake{
+            
+        }
+    }
     
+    //For detecting motion end evenet
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        
+        if motion == .MotionShake {
+            
+        }
+    }
     
     @IBAction func list3Clicked(sender: AnyObject)
     {

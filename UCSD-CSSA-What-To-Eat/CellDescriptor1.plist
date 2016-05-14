@@ -903,26 +903,6 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Come On In! Cafe</string>
-			<key>png</key>
-			<string>Come_On_In!_Cafe.png</string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<false/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
 			<string>Cafe Ventanas</string>
 			<key>png</key>
 			<string>Cafe_Ventanas.png</string>
