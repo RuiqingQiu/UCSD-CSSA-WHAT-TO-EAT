@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
@@ -12,12 +12,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q8j-L1-sCe" id="K7y-YY-dQ9">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="35.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTH-IE-0eB">
                         <rect key="frame" x="52" y="8" width="216" height="20"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                         <color key="textColor" red="0.87058823529999996" green="0.76078431369999999" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -25,14 +24,12 @@
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EditButton.png" translatesAutoresizingMaskIntoConstraints="NO" id="pEB-Bl-RJu">
                         <rect key="frame" x="18" y="6" width="24" height="24"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="24" id="G0N-TD-LCU"/>
                             <constraint firstAttribute="height" constant="24" id="c6G-FU-KgA"/>
                         </constraints>
                     </imageView>
                 </subviews>
-                <animations/>
                 <color key="backgroundColor" red="0.6705882353" green="0.58039215690000001" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
@@ -43,7 +40,6 @@
                     <constraint firstAttribute="trailingMargin" secondItem="xTH-IE-0eB" secondAttribute="trailing" constant="44" id="xFJ-95-1eW"/>
                 </constraints>
             </tableViewCellContentView>
-            <animations/>
             <color key="backgroundColor" red="0.6705882353" green="0.58039215690000001" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
             <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
