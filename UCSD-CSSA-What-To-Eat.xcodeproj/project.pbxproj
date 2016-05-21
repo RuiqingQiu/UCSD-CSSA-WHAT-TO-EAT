@@ -227,6 +227,7 @@
 		48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_1.png; path = Images/UI/SCheckBox_1.png; sourceTree = "<group>"; };
 		48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_2.png; path = Images/UI/SCheckBox_2.png; sourceTree = "<group>"; };
 		8F476B911CF0DE01006B21B7 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken.mp3; sourceTree = "<group>"; };
+		8F476B931CF0E080006B21B7 /* pangding.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = pangding.m4r; sourceTree = "<group>"; };
 		8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightArrow.png; path = Images/UI/RightArrow.png; sourceTree = "<group>"; };
 		8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
@@ -396,6 +397,7 @@
 				AA4275271CE7A582005DDBA3 /* Pikachu.mp3 */,
 				AAB7247A1C66873F006F85BF /* shotgun.mp3 */,
 				8F476B911CF0DE01006B21B7 /* chicken.mp3 */,
+				8F476B931CF0E080006B21B7 /* pangding.m4r */,
 			);
 			name = Sound;
 			sourceTree = "<group>";
