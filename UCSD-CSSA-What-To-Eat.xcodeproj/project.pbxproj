@@ -13,6 +13,84 @@
 		48290EE61CDE7A0A0051DDB2 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE51CDE7A0A0051DDB2 /* myFont.ttf */; };
 		48290EE71CDE7A0A0051DDB2 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE51CDE7A0A0051DDB2 /* myFont.ttf */; };
 		48290EE81CDE7A0A0051DDB2 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE51CDE7A0A0051DDB2 /* myFont.ttf */; };
+		482BD66F1CF0D58E00F2786E /* Chef_Chin_Restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6621CF0D58E00F2786E /* Chef_Chin_Restaurant.png */; };
+		482BD6701CF0D58E00F2786E /* Chef_Chin_Restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6621CF0D58E00F2786E /* Chef_Chin_Restaurant.png */; };
+		482BD6711CF0D58E00F2786E /* Chef_Chin_Restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6621CF0D58E00F2786E /* Chef_Chin_Restaurant.png */; };
+		482BD6721CF0D58E00F2786E /* Emerald.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6631CF0D58E00F2786E /* Emerald.png */; };
+		482BD6731CF0D58E00F2786E /* Emerald.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6631CF0D58E00F2786E /* Emerald.png */; };
+		482BD6741CF0D58E00F2786E /* Emerald.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6631CF0D58E00F2786E /* Emerald.png */; };
+		482BD6751CF0D58E00F2786E /* Golden_City.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6641CF0D58E00F2786E /* Golden_City.png */; };
+		482BD6761CF0D58E00F2786E /* Golden_City.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6641CF0D58E00F2786E /* Golden_City.png */; };
+		482BD6771CF0D58E00F2786E /* Golden_City.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6641CF0D58E00F2786E /* Golden_City.png */; };
+		482BD6781CF0D58E00F2786E /* Gourmet_City.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6651CF0D58E00F2786E /* Gourmet_City.png */; };
+		482BD6791CF0D58E00F2786E /* Gourmet_City.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6651CF0D58E00F2786E /* Gourmet_City.png */; };
+		482BD67A1CF0D58E00F2786E /* Gourmet_City.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6651CF0D58E00F2786E /* Gourmet_City.png */; };
+		482BD67B1CF0D58E00F2786E /* Jasmine_Seafood.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6661CF0D58E00F2786E /* Jasmine_Seafood.png */; };
+		482BD67C1CF0D58E00F2786E /* Jasmine_Seafood.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6661CF0D58E00F2786E /* Jasmine_Seafood.png */; };
+		482BD67D1CF0D58E00F2786E /* Jasmine_Seafood.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6661CF0D58E00F2786E /* Jasmine_Seafood.png */; };
+		482BD67E1CF0D58E00F2786E /* Liang's_Kitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6671CF0D58E00F2786E /* Liang's_Kitchen.png */; };
+		482BD67F1CF0D58E00F2786E /* Liang's_Kitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6671CF0D58E00F2786E /* Liang's_Kitchen.png */; };
+		482BD6801CF0D58E00F2786E /* Liang's_Kitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6671CF0D58E00F2786E /* Liang's_Kitchen.png */; };
+		482BD6811CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6681CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png */; };
+		482BD6821CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6681CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png */; };
+		482BD6831CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6681CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png */; };
+		482BD6841CF0D58E00F2786E /* Noble_Chef.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6691CF0D58E00F2786E /* Noble_Chef.png */; };
+		482BD6851CF0D58E00F2786E /* Noble_Chef.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6691CF0D58E00F2786E /* Noble_Chef.png */; };
+		482BD6861CF0D58E00F2786E /* Noble_Chef.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6691CF0D58E00F2786E /* Noble_Chef.png */; };
+		482BD6871CF0D58E00F2786E /* Sam_Woo_BBQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66A1CF0D58E00F2786E /* Sam_Woo_BBQ.png */; };
+		482BD6881CF0D58E00F2786E /* Sam_Woo_BBQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66A1CF0D58E00F2786E /* Sam_Woo_BBQ.png */; };
+		482BD6891CF0D58E00F2786E /* Sam_Woo_BBQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66A1CF0D58E00F2786E /* Sam_Woo_BBQ.png */; };
+		482BD68A1CF0D58E00F2786E /* Sizzling Pot King.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66B1CF0D58E00F2786E /* Sizzling Pot King.png */; };
+		482BD68B1CF0D58E00F2786E /* Sizzling Pot King.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66B1CF0D58E00F2786E /* Sizzling Pot King.png */; };
+		482BD68C1CF0D58E00F2786E /* Sizzling Pot King.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66B1CF0D58E00F2786E /* Sizzling Pot King.png */; };
+		482BD68D1CF0D58E00F2786E /* Spot_KTV.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66C1CF0D58E00F2786E /* Spot_KTV.png */; };
+		482BD68E1CF0D58E00F2786E /* Spot_KTV.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66C1CF0D58E00F2786E /* Spot_KTV.png */; };
+		482BD68F1CF0D58E00F2786E /* Spot_KTV.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66C1CF0D58E00F2786E /* Spot_KTV.png */; };
+		482BD6901CF0D58E00F2786E /* Tasty_Noodle_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66D1CF0D58E00F2786E /* Tasty_Noodle_House.png */; };
+		482BD6911CF0D58E00F2786E /* Tasty_Noodle_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66D1CF0D58E00F2786E /* Tasty_Noodle_House.png */; };
+		482BD6921CF0D58E00F2786E /* Tasty_Noodle_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66D1CF0D58E00F2786E /* Tasty_Noodle_House.png */; };
+		482BD6931CF0D58E00F2786E /* Xi'an_Kitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66E1CF0D58E00F2786E /* Xi'an_Kitchen.png */; };
+		482BD6941CF0D58E00F2786E /* Xi'an_Kitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66E1CF0D58E00F2786E /* Xi'an_Kitchen.png */; };
+		482BD6951CF0D58E00F2786E /* Xi'an_Kitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD66E1CF0D58E00F2786E /* Xi'an_Kitchen.png */; };
+		482BD69A1CF0D7F100F2786E /* FuAn_Garden.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6961CF0D7F100F2786E /* FuAn_Garden.png */; };
+		482BD69B1CF0D7F100F2786E /* FuAn_Garden.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6961CF0D7F100F2786E /* FuAn_Garden.png */; };
+		482BD69C1CF0D7F100F2786E /* FuAn_Garden.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6961CF0D7F100F2786E /* FuAn_Garden.png */; };
+		482BD69D1CF0D7F100F2786E /* Spicy_City_Chinses.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6971CF0D7F100F2786E /* Spicy_City_Chinses.png */; };
+		482BD69E1CF0D7F100F2786E /* Spicy_City_Chinses.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6971CF0D7F100F2786E /* Spicy_City_Chinses.png */; };
+		482BD69F1CF0D7F100F2786E /* Spicy_City_Chinses.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6971CF0D7F100F2786E /* Spicy_City_Chinses.png */; };
+		482BD6A01CF0D7F100F2786E /* Spicy_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6981CF0D7F100F2786E /* Spicy_House.png */; };
+		482BD6A11CF0D7F100F2786E /* Spicy_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6981CF0D7F100F2786E /* Spicy_House.png */; };
+		482BD6A21CF0D7F100F2786E /* Spicy_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6981CF0D7F100F2786E /* Spicy_House.png */; };
+		482BD6A31CF0D7F100F2786E /* Szechuan_Taste.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6991CF0D7F100F2786E /* Szechuan_Taste.png */; };
+		482BD6A41CF0D7F100F2786E /* Szechuan_Taste.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6991CF0D7F100F2786E /* Szechuan_Taste.png */; };
+		482BD6A51CF0D7F100F2786E /* Szechuan_Taste.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6991CF0D7F100F2786E /* Szechuan_Taste.png */; };
+		482BD6AC1CF0D80200F2786E /* Convoy_Tofu_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A61CF0D80200F2786E /* Convoy_Tofu_House.png */; };
+		482BD6AD1CF0D80200F2786E /* Convoy_Tofu_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A61CF0D80200F2786E /* Convoy_Tofu_House.png */; };
+		482BD6AE1CF0D80200F2786E /* Convoy_Tofu_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A61CF0D80200F2786E /* Convoy_Tofu_House.png */; };
+		482BD6AF1CF0D80200F2786E /* Dae_Jang_Keum.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A71CF0D80200F2786E /* Dae_Jang_Keum.png */; };
+		482BD6B01CF0D80200F2786E /* Dae_Jang_Keum.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A71CF0D80200F2786E /* Dae_Jang_Keum.png */; };
+		482BD6B11CF0D80200F2786E /* Dae_Jang_Keum.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A71CF0D80200F2786E /* Dae_Jang_Keum.png */; };
+		482BD6B21CF0D80200F2786E /* Do_Re_Mi_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A81CF0D80200F2786E /* Do_Re_Mi_House.png */; };
+		482BD6B31CF0D80200F2786E /* Do_Re_Mi_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A81CF0D80200F2786E /* Do_Re_Mi_House.png */; };
+		482BD6B41CF0D80200F2786E /* Do_Re_Mi_House.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A81CF0D80200F2786E /* Do_Re_Mi_House.png */; };
+		482BD6B51CF0D80200F2786E /* Friends_House_Korean.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A91CF0D80200F2786E /* Friends_House_Korean.png */; };
+		482BD6B61CF0D80200F2786E /* Friends_House_Korean.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A91CF0D80200F2786E /* Friends_House_Korean.png */; };
+		482BD6B71CF0D80200F2786E /* Friends_House_Korean.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6A91CF0D80200F2786E /* Friends_House_Korean.png */; };
+		482BD6B81CF0D80200F2786E /* Mana_Korean_BBQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6AA1CF0D80200F2786E /* Mana_Korean_BBQ.png */; };
+		482BD6B91CF0D80200F2786E /* Mana_Korean_BBQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6AA1CF0D80200F2786E /* Mana_Korean_BBQ.png */; };
+		482BD6BA1CF0D80200F2786E /* Mana_Korean_BBQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6AA1CF0D80200F2786E /* Mana_Korean_BBQ.png */; };
+		482BD6BB1CF0D80200F2786E /* Mapo_Korean_BBQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6AB1CF0D80200F2786E /* Mapo_Korean_BBQ.png */; };
+		482BD6BC1CF0D80200F2786E /* Mapo_Korean_BBQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6AB1CF0D80200F2786E /* Mapo_Korean_BBQ.png */; };
+		482BD6BD1CF0D80200F2786E /* Mapo_Korean_BBQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6AB1CF0D80200F2786E /* Mapo_Korean_BBQ.png */; };
+		482BD6C11CF0D87A00F2786E /* Infini_Tea.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6BE1CF0D87A00F2786E /* Infini_Tea.png */; };
+		482BD6C21CF0D87A00F2786E /* Infini_Tea.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6BE1CF0D87A00F2786E /* Infini_Tea.png */; };
+		482BD6C31CF0D87A00F2786E /* Infini_Tea.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6BE1CF0D87A00F2786E /* Infini_Tea.png */; };
+		482BD6C41CF0D87A00F2786E /* OOTea.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6BF1CF0D87A00F2786E /* OOTea.png */; };
+		482BD6C51CF0D87A00F2786E /* OOTea.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6BF1CF0D87A00F2786E /* OOTea.png */; };
+		482BD6C61CF0D87A00F2786E /* OOTea.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6BF1CF0D87A00F2786E /* OOTea.png */; };
+		482BD6C71CF0D87A00F2786E /* Tea_Station.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6C01CF0D87A00F2786E /* Tea_Station.png */; };
+		482BD6C81CF0D87A00F2786E /* Tea_Station.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6C01CF0D87A00F2786E /* Tea_Station.png */; };
+		482BD6C91CF0D87A00F2786E /* Tea_Station.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BD6C01CF0D87A00F2786E /* Tea_Station.png */; };
 		48602B041C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		48602B051C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		48602B061C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
@@ -20,7 +98,9 @@
 		48972FCB1CC2AEA500423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
 		48972FCC1CC2B7F900423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
 		48972FCD1CC2B7FA00423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
-		48E8ACD01C5D444200CE849B /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCE1C5D444200CE849B /* FilterButton.png */; };
+		48C286271CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C286261CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png */; };
+		48C286281CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C286261CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png */; };
+		48C286291CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C286261CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png */; };
 		48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCF1C5D444200CE849B /* ShakeMe.png */; };
 		48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACD21C5D54DE00CE849B /* ColoredDice.png */; };
 		48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F581CD5384D0080ED6A /* DownArrow.png */; };
@@ -37,14 +117,9 @@
 		8FB9CDB81C692A6600618CAB /* Back_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA61C692A6600618CAB /* Back_44.png */; };
 		8FB9CDB91C692A6600618CAB /* Back_66.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA71C692A6600618CAB /* Back_66.png */; };
 		8FB9CDBA1C692A6600618CAB /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA81C692A6600618CAB /* Back.png */; };
-		8FB9CDBB1C692A6600618CAB /* CheckBox_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA91C692A6600618CAB /* CheckBox_1.png */; };
-		8FB9CDBC1C692A6600618CAB /* CheckBox_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAA1C692A6600618CAB /* CheckBox_2.png */; };
-		8FB9CDBD1C692A6600618CAB /* CheckBox_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAB1C692A6600618CAB /* CheckBox_3.png */; };
 		8FB9CDBE1C692A6600618CAB /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAC1C692A6600618CAB /* ColoredDice.png */; };
 		8FB9CDC01C692A6600618CAB /* EditButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAE1C692A6600618CAB /* EditButton.png */; };
 		8FB9CDC11C692A6600618CAB /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAF1C692A6600618CAB /* FilterButton.png */; };
-		8FB9CDC21C692A6600618CAB /* list_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB01C692A6600618CAB /* list_1.png */; };
-		8FB9CDC31C692A6600618CAB /* list_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB11C692A6600618CAB /* list_2.png */; };
 		8FB9CDC61C692A6600618CAB /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB41C692A6600618CAB /* Search.png */; };
 		8FB9CDC71C692A6600618CAB /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB51C692A6600618CAB /* ShakeMe.png */; };
 		8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB61C692A6600618CAB /* Version2_36.png */; };
@@ -61,27 +136,25 @@
 		AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */; };
 		AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906981BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift */; };
 		AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */; };
-		AA727F581C11316600535116 /* Bistro.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F411C11316600535116 /* Bistro.png */; };
-		AA727F591C11316600535116 /* Bombay Coast.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F421C11316600535116 /* Bombay Coast.png */; };
-		AA727F5A1C11316600535116 /* Burger King.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F431C11316600535116 /* Burger King.png */; };
-		AA727F5B1C11316600535116 /* Cafe Vetena.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F441C11316600535116 /* Cafe Vetena.png */; };
-		AA727F5D1C11316600535116 /* Dice.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F461C11316600535116 /* Dice.png */; };
+		AA727F581C11316600535116 /* The_Bistro.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F411C11316600535116 /* The_Bistro.png */; };
+		AA727F591C11316600535116 /* Bombay_Coast.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F421C11316600535116 /* Bombay_Coast.png */; };
+		AA727F5A1C11316600535116 /* Burger_King.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F431C11316600535116 /* Burger_King.png */; };
+		AA727F5B1C11316600535116 /* Cafe_Ventanas.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F441C11316600535116 /* Cafe_Ventanas.png */; };
 		AA727F5E1C11316600535116 /* Dlush.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F471C11316600535116 /* Dlush.png */; };
-		AA727F5F1C11316600535116 /* FoodWorx.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F481C11316600535116 /* FoodWorx.png */; };
-		AA727F601C11316600535116 /* Goodys.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F491C11316600535116 /* Goodys.png */; };
-		AA727F611C11316600535116 /* Hi Thai.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F4A1C11316600535116 /* Hi Thai.png */; };
+		AA727F601C11316600535116 /* Goody's.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F491C11316600535116 /* Goody's.png */; };
+		AA727F611C11316600535116 /* Hi_Thai.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F4A1C11316600535116 /* Hi_Thai.png */; };
 		AA727F621C11316600535116 /* Jumba Juice.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F4B1C11316600535116 /* Jumba Juice.png */; };
 		AA727F631C11316600535116 /* Lemon Grass.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F4C1C11316600535116 /* Lemon Grass.png */; };
-		AA727F641C11316600535116 /* Panda.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F4D1C11316600535116 /* Panda.png */; };
+		AA727F641C11316600535116 /* Panda_Express.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F4D1C11316600535116 /* Panda_Express.png */; };
 		AA727F651C11316600535116 /* Pines.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F4E1C11316600535116 /* Pines.png */; };
 		AA727F661C11316600535116 /* Roots.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F4F1C11316600535116 /* Roots.png */; };
-		AA727F671C11316600535116 /* Round Table.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F501C11316600535116 /* Round Table.png */; };
+		AA727F671C11316600535116 /* Round_Table_Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F501C11316600535116 /* Round_Table_Pizza.png */; };
 		AA727F681C11316600535116 /* Rubios.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F511C11316600535116 /* Rubios.png */; };
 		AA727F691C11316600535116 /* Santorini.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F521C11316600535116 /* Santorini.png */; };
 		AA727F6A1C11316600535116 /* Shogun.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F531C11316600535116 /* Shogun.png */; };
-		AA727F6B1C11316600535116 /* Sixty-Four Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F541C11316600535116 /* Sixty-Four Degrees.png */; };
+		AA727F6B1C11316600535116 /* 64_Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F541C11316600535116 /* 64_Degrees.png */; };
 		AA727F6D1C11316600535116 /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F561C11316600535116 /* Subway.png */; };
-		AA727F6E1C11316600535116 /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca.png */; };
+		AA727F6E1C11316600535116 /* Tapioca_Express.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727F571C11316600535116 /* Tapioca_Express.png */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
 		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
 		AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDC1CB0672C00433876 /* SettingHeader.xib */; };
@@ -109,10 +182,36 @@
 /* Begin PBXFileReference section */
 		48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LithosPro-Regular.otf"; sourceTree = "<group>"; };
 		48290EE51CDE7A0A0051DDB2 /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
+		482BD6621CF0D58E00F2786E /* Chef_Chin_Restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chef_Chin_Restaurant.png; sourceTree = "<group>"; };
+		482BD6631CF0D58E00F2786E /* Emerald.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emerald.png; sourceTree = "<group>"; };
+		482BD6641CF0D58E00F2786E /* Golden_City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Golden_City.png; sourceTree = "<group>"; };
+		482BD6651CF0D58E00F2786E /* Gourmet_City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gourmet_City.png; sourceTree = "<group>"; };
+		482BD6661CF0D58E00F2786E /* Jasmine_Seafood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jasmine_Seafood.png; sourceTree = "<group>"; };
+		482BD6671CF0D58E00F2786E /* Liang's_Kitchen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liang's_Kitchen.png"; sourceTree = "<group>"; };
+		482BD6681CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Little_Sheep_Hot_Pot.png; sourceTree = "<group>"; };
+		482BD6691CF0D58E00F2786E /* Noble_Chef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Noble_Chef.png; sourceTree = "<group>"; };
+		482BD66A1CF0D58E00F2786E /* Sam_Woo_BBQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sam_Woo_BBQ.png; sourceTree = "<group>"; };
+		482BD66B1CF0D58E00F2786E /* Sizzling Pot King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sizzling Pot King.png"; sourceTree = "<group>"; };
+		482BD66C1CF0D58E00F2786E /* Spot_KTV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spot_KTV.png; sourceTree = "<group>"; };
+		482BD66D1CF0D58E00F2786E /* Tasty_Noodle_House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tasty_Noodle_House.png; sourceTree = "<group>"; };
+		482BD66E1CF0D58E00F2786E /* Xi'an_Kitchen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xi'an_Kitchen.png"; sourceTree = "<group>"; };
+		482BD6961CF0D7F100F2786E /* FuAn_Garden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FuAn_Garden.png; sourceTree = "<group>"; };
+		482BD6971CF0D7F100F2786E /* Spicy_City_Chinses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spicy_City_Chinses.png; sourceTree = "<group>"; };
+		482BD6981CF0D7F100F2786E /* Spicy_House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spicy_House.png; sourceTree = "<group>"; };
+		482BD6991CF0D7F100F2786E /* Szechuan_Taste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Szechuan_Taste.png; sourceTree = "<group>"; };
+		482BD6A61CF0D80200F2786E /* Convoy_Tofu_House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Convoy_Tofu_House.png; sourceTree = "<group>"; };
+		482BD6A71CF0D80200F2786E /* Dae_Jang_Keum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dae_Jang_Keum.png; sourceTree = "<group>"; };
+		482BD6A81CF0D80200F2786E /* Do_Re_Mi_House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Do_Re_Mi_House.png; sourceTree = "<group>"; };
+		482BD6A91CF0D80200F2786E /* Friends_House_Korean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Friends_House_Korean.png; sourceTree = "<group>"; };
+		482BD6AA1CF0D80200F2786E /* Mana_Korean_BBQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mana_Korean_BBQ.png; sourceTree = "<group>"; };
+		482BD6AB1CF0D80200F2786E /* Mapo_Korean_BBQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mapo_Korean_BBQ.png; sourceTree = "<group>"; };
+		482BD6BE1CF0D87A00F2786E /* Infini_Tea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Infini_Tea.png; sourceTree = "<group>"; };
+		482BD6BF1CF0D87A00F2786E /* OOTea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OOTea.png; sourceTree = "<group>"; };
+		482BD6C01CF0D87A00F2786E /* Tea_Station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tea_Station.png; sourceTree = "<group>"; };
 		48602B031C01AAFE00688B11 /* icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icon.swift; sourceTree = "<group>"; };
 		4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		48972FCA1CC2AEA500423601 /* resinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resinfo.swift; sourceTree = "<group>"; };
-		48E8ACCE1C5D444200CE849B /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = "UCSD-CSSA-What-To-Eat/FilterButton.png"; sourceTree = "<group>"; };
+		48C286261CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Art_of_Espresso_Cafe.png; sourceTree = "<group>"; };
 		48E8ACCF1C5D444200CE849B /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = "UCSD-CSSA-What-To-Eat/ShakeMe.png"; sourceTree = "<group>"; };
 		48E8ACD21C5D54DE00CE849B /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = "UCSD-CSSA-What-To-Eat/ColoredDice.png"; sourceTree = "<group>"; };
 		48FF3F581CD5384D0080ED6A /* DownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DownArrow.png; path = Images/UI/DownArrow.png; sourceTree = "<group>"; };
@@ -129,14 +228,9 @@
 		8FB9CDA61C692A6600618CAB /* Back_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_44.png; path = Images/UI/Back_44.png; sourceTree = "<group>"; };
 		8FB9CDA71C692A6600618CAB /* Back_66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_66.png; path = Images/UI/Back_66.png; sourceTree = "<group>"; };
 		8FB9CDA81C692A6600618CAB /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back.png; path = Images/UI/Back.png; sourceTree = "<group>"; };
-		8FB9CDA91C692A6600618CAB /* CheckBox_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckBox_1.png; path = Images/UI/CheckBox_1.png; sourceTree = "<group>"; };
-		8FB9CDAA1C692A6600618CAB /* CheckBox_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckBox_2.png; path = Images/UI/CheckBox_2.png; sourceTree = "<group>"; };
-		8FB9CDAB1C692A6600618CAB /* CheckBox_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckBox_3.png; path = Images/UI/CheckBox_3.png; sourceTree = "<group>"; };
 		8FB9CDAC1C692A6600618CAB /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = Images/UI/ColoredDice.png; sourceTree = "<group>"; };
 		8FB9CDAE1C692A6600618CAB /* EditButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EditButton.png; path = Images/UI/EditButton.png; sourceTree = "<group>"; };
 		8FB9CDAF1C692A6600618CAB /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = Images/UI/FilterButton.png; sourceTree = "<group>"; };
-		8FB9CDB01C692A6600618CAB /* list_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_1.png; path = Images/UI/list_1.png; sourceTree = "<group>"; };
-		8FB9CDB11C692A6600618CAB /* list_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_2.png; path = Images/UI/list_2.png; sourceTree = "<group>"; };
 		8FB9CDB41C692A6600618CAB /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Search.png; path = Images/UI/Search.png; sourceTree = "<group>"; };
 		8FB9CDB51C692A6600618CAB /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = Images/UI/ShakeMe.png; sourceTree = "<group>"; };
 		8FB9CDB61C692A6600618CAB /* Version2_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Version2_36.png; path = Images/UI/Version2_36.png; sourceTree = "<group>"; };
@@ -159,27 +253,25 @@
 		AA59069F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCSD-CSSA-What-To-EatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSD_CSSA_What_To_EatUITests.swift; sourceTree = "<group>"; };
 		AA5906A51BD2D3B6007B43FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA727F411C11316600535116 /* Bistro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bistro.png; path = Images/Bistro.png; sourceTree = "<group>"; };
-		AA727F421C11316600535116 /* Bombay Coast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bombay Coast.png"; path = "Images/Bombay Coast.png"; sourceTree = "<group>"; };
-		AA727F431C11316600535116 /* Burger King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Burger King.png"; path = "Images/Burger King.png"; sourceTree = "<group>"; };
-		AA727F441C11316600535116 /* Cafe Vetena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cafe Vetena.png"; path = "Images/Cafe Vetena.png"; sourceTree = "<group>"; };
-		AA727F461C11316600535116 /* Dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dice.png; path = Images/Dice.png; sourceTree = "<group>"; };
+		AA727F411C11316600535116 /* The_Bistro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = The_Bistro.png; path = Images/The_Bistro.png; sourceTree = "<group>"; };
+		AA727F421C11316600535116 /* Bombay_Coast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bombay_Coast.png; path = Images/Bombay_Coast.png; sourceTree = "<group>"; };
+		AA727F431C11316600535116 /* Burger_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Burger_King.png; path = Images/Burger_King.png; sourceTree = "<group>"; };
+		AA727F441C11316600535116 /* Cafe_Ventanas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cafe_Ventanas.png; path = Images/Cafe_Ventanas.png; sourceTree = "<group>"; };
 		AA727F471C11316600535116 /* Dlush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dlush.png; path = Images/Dlush.png; sourceTree = "<group>"; };
-		AA727F481C11316600535116 /* FoodWorx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FoodWorx.png; path = Images/FoodWorx.png; sourceTree = "<group>"; };
-		AA727F491C11316600535116 /* Goodys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Goodys.png; path = Images/Goodys.png; sourceTree = "<group>"; };
-		AA727F4A1C11316600535116 /* Hi Thai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hi Thai.png"; path = "Images/Hi Thai.png"; sourceTree = "<group>"; };
+		AA727F491C11316600535116 /* Goody's.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Goody's.png"; path = "Images/Goody's.png"; sourceTree = "<group>"; };
+		AA727F4A1C11316600535116 /* Hi_Thai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hi_Thai.png; path = Images/Hi_Thai.png; sourceTree = "<group>"; };
 		AA727F4B1C11316600535116 /* Jumba Juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jumba Juice.png"; path = "Images/Jumba Juice.png"; sourceTree = "<group>"; };
 		AA727F4C1C11316600535116 /* Lemon Grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lemon Grass.png"; path = "Images/Lemon Grass.png"; sourceTree = "<group>"; };
-		AA727F4D1C11316600535116 /* Panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda.png; path = Images/Panda.png; sourceTree = "<group>"; };
+		AA727F4D1C11316600535116 /* Panda_Express.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda_Express.png; path = Images/Panda_Express.png; sourceTree = "<group>"; };
 		AA727F4E1C11316600535116 /* Pines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pines.png; path = Images/Pines.png; sourceTree = "<group>"; };
 		AA727F4F1C11316600535116 /* Roots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Roots.png; path = Images/Roots.png; sourceTree = "<group>"; };
-		AA727F501C11316600535116 /* Round Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Round Table.png"; path = "Images/Round Table.png"; sourceTree = "<group>"; };
+		AA727F501C11316600535116 /* Round_Table_Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Round_Table_Pizza.png; path = Images/Round_Table_Pizza.png; sourceTree = "<group>"; };
 		AA727F511C11316600535116 /* Rubios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rubios.png; path = Images/Rubios.png; sourceTree = "<group>"; };
 		AA727F521C11316600535116 /* Santorini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Santorini.png; path = Images/Santorini.png; sourceTree = "<group>"; };
 		AA727F531C11316600535116 /* Shogun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shogun.png; path = Images/Shogun.png; sourceTree = "<group>"; };
-		AA727F541C11316600535116 /* Sixty-Four Degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four Degrees.png"; path = "Images/Sixty-Four Degrees.png"; sourceTree = "<group>"; };
+		AA727F541C11316600535116 /* 64_Degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 64_Degrees.png; path = Images/64_Degrees.png; sourceTree = "<group>"; };
 		AA727F561C11316600535116 /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
-		AA727F571C11316600535116 /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
+		AA727F571C11316600535116 /* Tapioca_Express.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca_Express.png; path = Images/Tapioca_Express.png; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
 		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingHeader.xib; path = "UCSD-CSSA-What-To-Eat/SettingHeader.xib"; sourceTree = "<group>"; };
@@ -301,52 +393,71 @@
 		AAD745B11BDC0589003511FB /* Rest_Image */ = {
 			isa = PBXGroup;
 			children = (
+				482BD6BE1CF0D87A00F2786E /* Infini_Tea.png */,
+				482BD6BF1CF0D87A00F2786E /* OOTea.png */,
+				482BD6C01CF0D87A00F2786E /* Tea_Station.png */,
+				482BD6A61CF0D80200F2786E /* Convoy_Tofu_House.png */,
+				482BD6A71CF0D80200F2786E /* Dae_Jang_Keum.png */,
+				482BD6A81CF0D80200F2786E /* Do_Re_Mi_House.png */,
+				482BD6A91CF0D80200F2786E /* Friends_House_Korean.png */,
+				482BD6AA1CF0D80200F2786E /* Mana_Korean_BBQ.png */,
+				482BD6AB1CF0D80200F2786E /* Mapo_Korean_BBQ.png */,
+				482BD6961CF0D7F100F2786E /* FuAn_Garden.png */,
+				482BD6971CF0D7F100F2786E /* Spicy_City_Chinses.png */,
+				482BD6981CF0D7F100F2786E /* Spicy_House.png */,
+				482BD6991CF0D7F100F2786E /* Szechuan_Taste.png */,
+				482BD6621CF0D58E00F2786E /* Chef_Chin_Restaurant.png */,
+				482BD6631CF0D58E00F2786E /* Emerald.png */,
+				482BD6641CF0D58E00F2786E /* Golden_City.png */,
+				482BD6651CF0D58E00F2786E /* Gourmet_City.png */,
+				482BD6661CF0D58E00F2786E /* Jasmine_Seafood.png */,
+				482BD6671CF0D58E00F2786E /* Liang's_Kitchen.png */,
+				482BD6681CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png */,
+				482BD6691CF0D58E00F2786E /* Noble_Chef.png */,
+				482BD66A1CF0D58E00F2786E /* Sam_Woo_BBQ.png */,
+				482BD66B1CF0D58E00F2786E /* Sizzling Pot King.png */,
+				482BD66C1CF0D58E00F2786E /* Spot_KTV.png */,
+				482BD66D1CF0D58E00F2786E /* Tasty_Noodle_House.png */,
+				482BD66E1CF0D58E00F2786E /* Xi'an_Kitchen.png */,
+				48C286261CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png */,
 				48FF3F5A1CD538700080ED6A /* LCheckBox_1.png */,
 				48FF3F5B1CD538700080ED6A /* LCheckBox_2.png */,
 				48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */,
 				48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */,
 				48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */,
 				48E8ACD21C5D54DE00CE849B /* ColoredDice.png */,
-				48E8ACCE1C5D444200CE849B /* FilterButton.png */,
 				48E8ACCF1C5D444200CE849B /* ShakeMe.png */,
-				AA727F411C11316600535116 /* Bistro.png */,
-				AA727F421C11316600535116 /* Bombay Coast.png */,
-				AA727F431C11316600535116 /* Burger King.png */,
-				AA727F441C11316600535116 /* Cafe Vetena.png */,
-				AA727F461C11316600535116 /* Dice.png */,
+				AA727F411C11316600535116 /* The_Bistro.png */,
+				AA727F421C11316600535116 /* Bombay_Coast.png */,
+				AA727F431C11316600535116 /* Burger_King.png */,
+				AA727F441C11316600535116 /* Cafe_Ventanas.png */,
 				AA727F471C11316600535116 /* Dlush.png */,
 				48FF3F581CD5384D0080ED6A /* DownArrow.png */,
-				AA727F481C11316600535116 /* FoodWorx.png */,
-				AA727F491C11316600535116 /* Goodys.png */,
-				AA727F4A1C11316600535116 /* Hi Thai.png */,
+				AA727F491C11316600535116 /* Goody's.png */,
+				AA727F4A1C11316600535116 /* Hi_Thai.png */,
 				AA727F4B1C11316600535116 /* Jumba Juice.png */,
 				AA727F4C1C11316600535116 /* Lemon Grass.png */,
-				AA727F4D1C11316600535116 /* Panda.png */,
+				AA727F4D1C11316600535116 /* Panda_Express.png */,
 				AA727F4E1C11316600535116 /* Pines.png */,
 				AA727F4F1C11316600535116 /* Roots.png */,
-				AA727F501C11316600535116 /* Round Table.png */,
+				AA727F501C11316600535116 /* Round_Table_Pizza.png */,
 				8FB9CDA51C692A6600618CAB /* Back_22.png */,
 				8FB9CDA61C692A6600618CAB /* Back_44.png */,
 				8FB9CDA71C692A6600618CAB /* Back_66.png */,
 				8FB9CDA81C692A6600618CAB /* Back.png */,
-				8FB9CDA91C692A6600618CAB /* CheckBox_1.png */,
-				8FB9CDAA1C692A6600618CAB /* CheckBox_2.png */,
 				8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */,
-				8FB9CDAB1C692A6600618CAB /* CheckBox_3.png */,
 				8FB9CDAC1C692A6600618CAB /* ColoredDice.png */,
 				8FB9CDAE1C692A6600618CAB /* EditButton.png */,
 				8FB9CDAF1C692A6600618CAB /* FilterButton.png */,
-				8FB9CDB01C692A6600618CAB /* list_1.png */,
-				8FB9CDB11C692A6600618CAB /* list_2.png */,
 				8FB9CDB41C692A6600618CAB /* Search.png */,
 				8FB9CDB51C692A6600618CAB /* ShakeMe.png */,
 				8FB9CDB61C692A6600618CAB /* Version2_36.png */,
 				AA727F511C11316600535116 /* Rubios.png */,
 				AA727F521C11316600535116 /* Santorini.png */,
 				AA727F531C11316600535116 /* Shogun.png */,
-				AA727F541C11316600535116 /* Sixty-Four Degrees.png */,
+				AA727F541C11316600535116 /* 64_Degrees.png */,
 				AA727F561C11316600535116 /* Subway.png */,
-				AA727F571C11316600535116 /* Tapioca.png */,
+				AA727F571C11316600535116 /* Tapioca_Express.png */,
 			);
 			name = Rest_Image;
 			sourceTree = "<group>";
@@ -464,51 +575,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA727F641C11316600535116 /* Panda.png in Resources */,
+				AA727F641C11316600535116 /* Panda_Express.png in Resources */,
 				8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */,
+				482BD6BB1CF0D80200F2786E /* Mapo_Korean_BBQ.png in Resources */,
 				48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */,
-				8FB9CDBC1C692A6600618CAB /* CheckBox_2.png in Resources */,
+				482BD67E1CF0D58E00F2786E /* Liang's_Kitchen.png in Resources */,
 				AA727F6D1C11316600535116 /* Subway.png in Resources */,
+				482BD6AF1CF0D80200F2786E /* Dae_Jang_Keum.png in Resources */,
 				48FF3F601CD538700080ED6A /* LCheckBox_2.png in Resources */,
 				AA727F661C11316600535116 /* Roots.png in Resources */,
 				AA727F631C11316600535116 /* Lemon Grass.png in Resources */,
 				48FF3F621CD538700080ED6A /* SCheckBox_1.png in Resources */,
-				AA727F5D1C11316600535116 /* Dice.png in Resources */,
+				48C286271CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png in Resources */,
 				8FB9CDC01C692A6600618CAB /* EditButton.png in Resources */,
 				AA727F691C11316600535116 /* Santorini.png in Resources */,
-				AA727F591C11316600535116 /* Bombay Coast.png in Resources */,
+				AA727F591C11316600535116 /* Bombay_Coast.png in Resources */,
+				482BD6A01CF0D7F100F2786E /* Spicy_House.png in Resources */,
 				8FB9CDBE1C692A6600618CAB /* ColoredDice.png in Resources */,
 				8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */,
 				AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */,
-				8FB9CDC21C692A6600618CAB /* list_1.png in Resources */,
+				482BD6C71CF0D87A00F2786E /* Tea_Station.png in Resources */,
+				482BD6B21CF0D80200F2786E /* Do_Re_Mi_House.png in Resources */,
+				482BD6721CF0D58E00F2786E /* Emerald.png in Resources */,
 				8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */,
-				AA727F581C11316600535116 /* Bistro.png in Resources */,
-				8FB9CDC31C692A6600618CAB /* list_2.png in Resources */,
+				AA727F581C11316600535116 /* The_Bistro.png in Resources */,
+				482BD6781CF0D58E00F2786E /* Gourmet_City.png in Resources */,
 				8FB9CDB81C692A6600618CAB /* Back_44.png in Resources */,
-				AA727F5B1C11316600535116 /* Cafe Vetena.png in Resources */,
-				AA727F5A1C11316600535116 /* Burger King.png in Resources */,
-				AA727F6B1C11316600535116 /* Sixty-Four Degrees.png in Resources */,
+				AA727F5B1C11316600535116 /* Cafe_Ventanas.png in Resources */,
+				482BD6AC1CF0D80200F2786E /* Convoy_Tofu_House.png in Resources */,
+				AA727F5A1C11316600535116 /* Burger_King.png in Resources */,
+				482BD69D1CF0D7F100F2786E /* Spicy_City_Chinses.png in Resources */,
+				AA727F6B1C11316600535116 /* 64_Degrees.png in Resources */,
 				AA727F5E1C11316600535116 /* Dlush.png in Resources */,
-				48E8ACD01C5D444200CE849B /* FilterButton.png in Resources */,
 				AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */,
-				8FB9CDBB1C692A6600618CAB /* CheckBox_1.png in Resources */,
 				AA727F6A1C11316600535116 /* Shogun.png in Resources */,
-				AA727F6E1C11316600535116 /* Tapioca.png in Resources */,
+				482BD6751CF0D58E00F2786E /* Golden_City.png in Resources */,
+				482BD67B1CF0D58E00F2786E /* Jasmine_Seafood.png in Resources */,
+				AA727F6E1C11316600535116 /* Tapioca_Express.png in Resources */,
+				482BD6A31CF0D7F100F2786E /* Szechuan_Taste.png in Resources */,
+				482BD6931CF0D58E00F2786E /* Xi'an_Kitchen.png in Resources */,
 				AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */,
 				48FF3F5F1CD538700080ED6A /* LCheckBox_1.png in Resources */,
+				482BD6C11CF0D87A00F2786E /* Infini_Tea.png in Resources */,
 				8FC404341CDE69670061C817 /* CellDescriptor2.plist in Resources */,
+				482BD6841CF0D58E00F2786E /* Noble_Chef.png in Resources */,
 				8FB9CDB71C692A6600618CAB /* Back_22.png in Resources */,
-				AA727F5F1C11316600535116 /* FoodWorx.png in Resources */,
+				482BD6B81CF0D80200F2786E /* Mana_Korean_BBQ.png in Resources */,
 				AA727F651C11316600535116 /* Pines.png in Resources */,
 				8FB9CDBA1C692A6600618CAB /* Back.png in Resources */,
+				482BD68A1CF0D58E00F2786E /* Sizzling Pot King.png in Resources */,
 				48290EE61CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
 				8FB9CDA01C691AF500618CAB /* CategoryCell.xib in Resources */,
-				AA727F671C11316600535116 /* Round Table.png in Resources */,
+				AA727F671C11316600535116 /* Round_Table_Pizza.png in Resources */,
+				482BD66F1CF0D58E00F2786E /* Chef_Chin_Restaurant.png in Resources */,
 				8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */,
 				48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */,
-				AA727F601C11316600535116 /* Goodys.png in Resources */,
+				AA727F601C11316600535116 /* Goody's.png in Resources */,
 				48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
+				482BD6901CF0D58E00F2786E /* Tasty_Noodle_House.png in Resources */,
 				AA727F621C11316600535116 /* Jumba Juice.png in Resources */,
 				48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */,
 				AA727F681C11316600535116 /* Rubios.png in Resources */,
@@ -516,13 +641,18 @@
 				8FB9CDC61C692A6600618CAB /* Search.png in Resources */,
 				8F98DC0D1C79091F00BBFDD8 /* RightArrow.png in Resources */,
 				AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */,
+				482BD69A1CF0D7F100F2786E /* FuAn_Garden.png in Resources */,
 				8FB9CDB91C692A6600618CAB /* Back_66.png in Resources */,
 				8FB9CDC11C692A6600618CAB /* FilterButton.png in Resources */,
+				482BD6B51CF0D80200F2786E /* Friends_House_Korean.png in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
 				8FB9CDC71C692A6600618CAB /* ShakeMe.png in Resources */,
-				AA727F611C11316600535116 /* Hi Thai.png in Resources */,
+				482BD6811CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png in Resources */,
+				AA727F611C11316600535116 /* Hi_Thai.png in Resources */,
+				482BD68D1CF0D58E00F2786E /* Spot_KTV.png in Resources */,
 				48FF3F631CD538700080ED6A /* SCheckBox_2.png in Resources */,
-				8FB9CDBD1C692A6600618CAB /* CheckBox_3.png in Resources */,
+				482BD6871CF0D58E00F2786E /* Sam_Woo_BBQ.png in Resources */,
+				482BD6C41CF0D87A00F2786E /* OOTea.png in Resources */,
 				AAE65FDF1CB0686300433876 /* SettingSwitchCell.xib in Resources */,
 				8FB9CDA41C691B0300618CAB /* ItemCell.xib in Resources */,
 				8FC404331CDE69670061C817 /* CellDescriptor1.plist in Resources */,
@@ -533,7 +663,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482BD6B61CF0D80200F2786E /* Friends_House_Korean.png in Resources */,
+				482BD6941CF0D58E00F2786E /* Xi'an_Kitchen.png in Resources */,
+				48C286281CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png in Resources */,
+				482BD6B91CF0D80200F2786E /* Mana_Korean_BBQ.png in Resources */,
+				482BD68E1CF0D58E00F2786E /* Spot_KTV.png in Resources */,
+				482BD69E1CF0D7F100F2786E /* Spicy_City_Chinses.png in Resources */,
+				482BD67F1CF0D58E00F2786E /* Liang's_Kitchen.png in Resources */,
+				482BD6851CF0D58E00F2786E /* Noble_Chef.png in Resources */,
+				482BD6BC1CF0D80200F2786E /* Mapo_Korean_BBQ.png in Resources */,
+				482BD6B31CF0D80200F2786E /* Do_Re_Mi_House.png in Resources */,
+				482BD6AD1CF0D80200F2786E /* Convoy_Tofu_House.png in Resources */,
+				482BD68B1CF0D58E00F2786E /* Sizzling Pot King.png in Resources */,
+				482BD69B1CF0D7F100F2786E /* FuAn_Garden.png in Resources */,
+				482BD6C21CF0D87A00F2786E /* Infini_Tea.png in Resources */,
+				482BD6761CF0D58E00F2786E /* Golden_City.png in Resources */,
+				482BD6821CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png in Resources */,
 				48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
+				482BD6731CF0D58E00F2786E /* Emerald.png in Resources */,
+				482BD6911CF0D58E00F2786E /* Tasty_Noodle_House.png in Resources */,
+				482BD6881CF0D58E00F2786E /* Sam_Woo_BBQ.png in Resources */,
+				482BD6791CF0D58E00F2786E /* Gourmet_City.png in Resources */,
+				482BD6B01CF0D80200F2786E /* Dae_Jang_Keum.png in Resources */,
+				482BD67C1CF0D58E00F2786E /* Jasmine_Seafood.png in Resources */,
+				482BD6A11CF0D7F100F2786E /* Spicy_House.png in Resources */,
+				482BD6C51CF0D87A00F2786E /* OOTea.png in Resources */,
+				482BD6C81CF0D87A00F2786E /* Tea_Station.png in Resources */,
+				482BD6701CF0D58E00F2786E /* Chef_Chin_Restaurant.png in Resources */,
+				482BD6A41CF0D7F100F2786E /* Szechuan_Taste.png in Resources */,
 				48290EE71CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,7 +699,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482BD6B71CF0D80200F2786E /* Friends_House_Korean.png in Resources */,
+				482BD6951CF0D58E00F2786E /* Xi'an_Kitchen.png in Resources */,
+				48C286291CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png in Resources */,
+				482BD6BA1CF0D80200F2786E /* Mana_Korean_BBQ.png in Resources */,
+				482BD68F1CF0D58E00F2786E /* Spot_KTV.png in Resources */,
+				482BD69F1CF0D7F100F2786E /* Spicy_City_Chinses.png in Resources */,
+				482BD6801CF0D58E00F2786E /* Liang's_Kitchen.png in Resources */,
+				482BD6861CF0D58E00F2786E /* Noble_Chef.png in Resources */,
+				482BD6BD1CF0D80200F2786E /* Mapo_Korean_BBQ.png in Resources */,
+				482BD6B41CF0D80200F2786E /* Do_Re_Mi_House.png in Resources */,
+				482BD6AE1CF0D80200F2786E /* Convoy_Tofu_House.png in Resources */,
+				482BD68C1CF0D58E00F2786E /* Sizzling Pot King.png in Resources */,
+				482BD69C1CF0D7F100F2786E /* FuAn_Garden.png in Resources */,
+				482BD6C31CF0D87A00F2786E /* Infini_Tea.png in Resources */,
+				482BD6771CF0D58E00F2786E /* Golden_City.png in Resources */,
+				482BD6831CF0D58E00F2786E /* Little_Sheep_Hot_Pot.png in Resources */,
 				48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
+				482BD6741CF0D58E00F2786E /* Emerald.png in Resources */,
+				482BD6921CF0D58E00F2786E /* Tasty_Noodle_House.png in Resources */,
+				482BD6891CF0D58E00F2786E /* Sam_Woo_BBQ.png in Resources */,
+				482BD67A1CF0D58E00F2786E /* Gourmet_City.png in Resources */,
+				482BD6B11CF0D80200F2786E /* Dae_Jang_Keum.png in Resources */,
+				482BD67D1CF0D58E00F2786E /* Jasmine_Seafood.png in Resources */,
+				482BD6A21CF0D7F100F2786E /* Spicy_House.png in Resources */,
+				482BD6C61CF0D87A00F2786E /* OOTea.png in Resources */,
+				482BD6C91CF0D87A00F2786E /* Tea_Station.png in Resources */,
+				482BD6711CF0D58E00F2786E /* Chef_Chin_Restaurant.png in Resources */,
+				482BD6A51CF0D7F100F2786E /* Szechuan_Taste.png in Resources */,
 				48290EE81CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

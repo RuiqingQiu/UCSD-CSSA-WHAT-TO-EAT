@@ -1207,9 +1207,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Golden City </string>
+			<string>Golden City</string>
 			<key>png</key>
-			<string>Golden_City_.png</string>
+			<string>Golden_City.png</string>
 			<key>utf8Name</key>
 			<string>金城酒家</string>
 		</dict>
@@ -1471,9 +1471,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>OOTea </string>
+			<string>OOTea</string>
 			<key>png</key>
-			<string>OOTea_.png</string>
+			<string>OOTea.png</string>
 			<key>utf8Name</key>
 			<string>圈圈茶</string>
 		</dict>
@@ -1653,9 +1653,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Liangs Kitchen</string>
+			<string>Liang&apos;s Kitchen</string>
 			<key>png</key>
-			<string>Liangs_Kitchen.png</string>
+			<string>Liang&apos;s_Kitchen.png</string>
 			<key>utf8Name</key>
 			<string>梁妈妈家</string>
 		</dict>
@@ -1715,9 +1715,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Yakitori </string>
+			<string>Yakyudori</string>
 			<key>png</key>
-			<string>Yakitori_.png</string>
+			<string>Yakyudori.png</string>
 			<key>utf8Name</key>
 			<string>野球鳥</string>
 		</dict>
@@ -1735,9 +1735,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Rakiraki </string>
+			<string>Rakiraki</string>
 			<key>png</key>
-			<string>Rakiraki_.png</string>
+			<string>Rakiraki.png</string>
 			<key>utf8Name</key>
 			<string>ラキラキ</string>
 		</dict>
