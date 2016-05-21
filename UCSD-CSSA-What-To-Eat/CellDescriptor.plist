@@ -1353,7 +1353,7 @@
 			<key>png</key>
 			<string>Szechuan_Taste.png</string>
 			<key>utf8Name</key>
-			<string>滋味村</string>
+			<string>川霸王</string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1373,7 +1373,7 @@
 			<key>png</key>
 			<string>Szechuan_Chef.png</string>
 			<key>utf8Name</key>
-			<string>川霸王</string>
+			<string>滋味村</string>
 		</dict>
 		<dict>
 			<key>additionalRows</key>
@@ -1389,9 +1389,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Qiwei Kitchen</string>
+			<string>Sizzling Pot King</string>
 			<key>png</key>
-			<string>Qiwei_Kitchen.png</string>
+			<string>Sizzling_Pot_King.png</string>
 			<key>utf8Name</key>
 			<string>香锅大王</string>
 		</dict>
@@ -1775,9 +1775,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Tsuruhashi  BBQ</string>
+			<string>Tsuruhashi BBQ</string>
 			<key>png</key>
-			<string>Tsuruhashi__BBQ.png</string>
+			<string>Tsuruhashi_BBQ.png</string>
 			<key>utf8Name</key>
 			<string>鶴橋</string>
 		</dict>
@@ -1835,9 +1835,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Sushi Dokoro </string>
+			<string>Sushi Dokoro</string>
 			<key>png</key>
-			<string>Sushi_Dokoro_.png</string>
+			<string>Sushi_Dokoro.png</string>
 			<key>utf8Name</key>
 			<string>鮨処白浜</string>
 		</dict>
