@@ -112,7 +112,7 @@
 		48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */; };
 		48FF3F621CD538700080ED6A /* SCheckBox_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */; };
 		48FF3F631CD538700080ED6A /* SCheckBox_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */; };
-		8F476B921CF0DE01006B21B7 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F476B911CF0DE01006B21B7 /* chicken.mp3 */; };
+		8F476B951CF0E0C8006B21B7 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F476B941CF0E0C8006B21B7 /* chicken.mp3 */; };
 		8F98DC0D1C79091F00BBFDD8 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */; };
 		8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */; };
 		8FB9CDA01C691AF500618CAB /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */; };
@@ -226,8 +226,8 @@
 		48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_3.png; path = Images/UI/LCheckBox_3.png; sourceTree = "<group>"; };
 		48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_1.png; path = Images/UI/SCheckBox_1.png; sourceTree = "<group>"; };
 		48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_2.png; path = Images/UI/SCheckBox_2.png; sourceTree = "<group>"; };
-		8F476B911CF0DE01006B21B7 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken.mp3; sourceTree = "<group>"; };
-		8F476B931CF0E080006B21B7 /* pangding.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = pangding.m4r; sourceTree = "<group>"; };
+		8F476B941CF0E0C8006B21B7 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chicken.mp3; path = Sound/chicken.mp3; sourceTree = "<group>"; };
+		8F476B961CF0E0CD006B21B7 /* pangding.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; name = pangding.m4r; path = Sound/pangding.m4r; sourceTree = "<group>"; };
 		8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightArrow.png; path = Images/UI/RightArrow.png; sourceTree = "<group>"; };
 		8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
@@ -394,10 +394,10 @@
 		AAB724771C66820F006F85BF /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				8F476B961CF0E0CD006B21B7 /* pangding.m4r */,
+				8F476B941CF0E0C8006B21B7 /* chicken.mp3 */,
 				AA4275271CE7A582005DDBA3 /* Pikachu.mp3 */,
 				AAB7247A1C66873F006F85BF /* shotgun.mp3 */,
-				8F476B911CF0DE01006B21B7 /* chicken.mp3 */,
-				8F476B931CF0E080006B21B7 /* pangding.m4r */,
 			);
 			name = Sound;
 			sourceTree = "<group>";
@@ -598,7 +598,7 @@
 				48FF3F601CD538700080ED6A /* LCheckBox_2.png in Resources */,
 				AA727F661C11316600535116 /* Roots.png in Resources */,
 				AA727F631C11316600535116 /* Lemon Grass.png in Resources */,
-				8F476B921CF0DE01006B21B7 /* chicken.mp3 in Resources */,
+				8F476B951CF0E0C8006B21B7 /* chicken.mp3 in Resources */,
 				48FF3F621CD538700080ED6A /* SCheckBox_1.png in Resources */,
 				48C286271CE7A6AD004BA7F3 /* Art_of_Espresso_Cafe.png in Resources */,
 				8FB9CDC01C692A6600618CAB /* EditButton.png in Resources */,
