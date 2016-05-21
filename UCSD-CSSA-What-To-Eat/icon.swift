@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 
 class icon {
-    static var iconSize:CGFloat = 250.0
+    static var iconSize:CGFloat = 200.0
     static var displacement:CGFloat
     {
         get {
-            return 0.5 * icon.iconSize
+            return 0.625 * icon.iconSize
         }
     }
     static var randomPool:[resinfo] = [resinfo]()

@@ -321,7 +321,7 @@ class ViewController: UIViewController {
     
     func chosenRotate (_: Bool) -> Void
     {
-        iconviewObj.layer.transform = CATransform3DMakeScale(1.3, 1.3, 1)
+        iconviewObj.layer.transform = CATransform3DMakeScale(1.04, 1.04, 1)
         UIView.animateWithDuration(0.5, animations: {self.selectedName.alpha = 1
             self.utf8Name.alpha = 1})
     }
