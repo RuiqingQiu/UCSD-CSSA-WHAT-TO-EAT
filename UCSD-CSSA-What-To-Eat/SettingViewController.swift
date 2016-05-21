@@ -8,8 +8,9 @@
 
 import UIKit
 
-class SettingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class SettingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIPickerViewDataSource, UIPickerViewDelegate {
     
+    @IBOutlet var pickerView: UIPickerView!
     @IBOutlet var tableView: UITableView!
     
     @IBOutlet weak var Save: UIBarButtonItem!
@@ -52,7 +53,8 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         self.tableView.registerNib(UINib(nibName: "SettingSwitchCell", bundle: nil), forCellReuseIdentifier: "idSettingSwitchCell")
         self.tableView.registerNib(UINib(nibName: "SettingListCell", bundle: nil), forCellReuseIdentifier: "idSettingListCell")
-        
+        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.None
+
         if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
         {
             ListNames = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")as! [String]
@@ -62,10 +64,39 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
             ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
 
         }
-        
+        self.pickerView.dataSource = self;
+        self.pickerView.delegate = self;
+        pickerView.hidden = true;
+        self.view.addSubview(pickerView)
+        let tmp = NSUserDefaults.standardUserDefaults().stringForKey("musicSelected")
+        if(tmp != nil){
+            var i = 0
+            for p in pickerDataSource{
+                if(p == tmp){
+                    pickerView.selectRow(i, inComponent: 0, animated: false)
+                    break
+                }
+                i += 1
+            }
+        }
 
         //NSUserDefaults.standardUserDefaults().setObject(ListNames, forKey: "ListNames")
         
+    }
+    var pickerDataSource = ["Pikachu", "shotgun"];
+    var musicSelected = "shotgun";
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerDataSource.count;
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String {
+        musicSelected = pickerDataSource[row]
+        NSUserDefaults.standardUserDefaults().setObject(musicSelected, forKey: "musicSelected")
+        return pickerDataSource[row]
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int{
@@ -131,6 +162,11 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         //print(ListNames);
         print(String(indexPath.row) + " is clicked");
         let cell = tableView.dequeueReusableCellWithIdentifier("idSettingListCell", forIndexPath: indexPath) as! CustomCell
+        if(indexPath.row == 0){
+            pickerView.hidden = !pickerView.hidden;
+            if(pickerView.hidden == true){
+            }
+        }
         if(indexPath.row >= 3 && indexPath.row <= 6){
             let lname = ListNames[indexPath.row - 3]
             var alert = UIAlertController(title: "Change List Name", message: "New Name for " + lname, preferredStyle: UIAlertControllerStyle.Alert)

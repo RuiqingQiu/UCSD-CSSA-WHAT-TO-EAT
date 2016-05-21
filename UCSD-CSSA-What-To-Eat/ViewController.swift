@@ -154,7 +154,8 @@ class ViewController: UIViewController {
         
         if motion == .MotionShake {
             if(NSUserDefaults.standardUserDefaults().boolForKey("EnableSound") == true){
-                if let soundURL = NSBundle.mainBundle().URLForResource("shotgun", withExtension: "mp3") {
+                var musicSelected  = NSUserDefaults.standardUserDefaults().stringForKey("musicSelected")
+                if let soundURL = NSBundle.mainBundle().URLForResource(musicSelected, withExtension: "mp3") {
                     var mySound: SystemSoundID = 0
                     AudioServicesCreateSystemSoundID(soundURL, &mySound)
                     // Play
