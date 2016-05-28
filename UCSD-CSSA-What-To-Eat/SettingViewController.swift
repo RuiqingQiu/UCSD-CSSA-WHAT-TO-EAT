@@ -83,7 +83,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         //NSUserDefaults.standardUserDefaults().setObject(ListNames, forKey: "ListNames")
         
     }
-    var pickerDataSource = ["Pikachu", "shotgun", "pangding", "chicken"];
+    var pickerDataSource = ["pikachu", "shotgun", "chicken"];
     var musicSelected = "shotgun";
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1
