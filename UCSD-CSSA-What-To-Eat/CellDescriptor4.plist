@@ -561,9 +561,9 @@
 			<key>isVisible</key>
 			<false/>
 			<key>label</key>
-			<string>Goody&apos;s </string>
+			<string>Goody&apos;s Market</string>
 			<key>png</key>
-			<string>Goody&apos;s_.png</string>
+			<string>Goody&apos;s_Market.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -711,7 +711,7 @@
 	<array>
 		<dict>
 			<key>additionalRows</key>
-			<integer>12</integer>
+			<integer>11</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
@@ -884,26 +884,6 @@
 			<false/>
 			<key>label</key>
 			<string>Caroline&apos;s Seaside Cafe</string>
-			<key>png</key>
-			<string>Cafe.png</string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<false/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>Cafe Ventanas</string>
 			<key>png</key>
 			<string>Cafe.png</string>
 			<key>utf8Name</key>

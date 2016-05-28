@@ -103,15 +103,24 @@
 		4810496F1CFA3B4A00109208 /* The_Faculty_Club.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049051CFA3B4900109208 /* The_Faculty_Club.png */; };
 		481049701CFA3B4A00109208 /* The_Faculty_Club.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049051CFA3B4900109208 /* The_Faculty_Club.png */; };
 		481049711CFA3B4A00109208 /* The_Faculty_Club.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049051CFA3B4900109208 /* The_Faculty_Club.png */; };
-		481049721CFA3B4A00109208 /* The_Village_Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049061CFA3B4900109208 /* The_Village_Market.png */; };
-		481049731CFA3B4A00109208 /* The_Village_Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049061CFA3B4900109208 /* The_Village_Market.png */; };
-		481049741CFA3B4A00109208 /* The_Village_Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049061CFA3B4900109208 /* The_Village_Market.png */; };
+		481049721CFA3B4A00109208 /* Village_Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049061CFA3B4900109208 /* Village_Market.png */; };
+		481049731CFA3B4A00109208 /* Village_Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049061CFA3B4900109208 /* Village_Market.png */; };
+		481049741CFA3B4A00109208 /* Village_Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049061CFA3B4900109208 /* Village_Market.png */; };
 		481049751CFA3B4A00109208 /* Yogurt_World.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049071CFA3B4900109208 /* Yogurt_World.png */; };
 		481049761CFA3B4A00109208 /* Yogurt_World.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049071CFA3B4900109208 /* Yogurt_World.png */; };
 		481049771CFA3B4A00109208 /* Yogurt_World.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049071CFA3B4900109208 /* Yogurt_World.png */; };
 		481049781CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
 		481049791CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
 		4810497A1CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
+		4816500D1CFA49E90094A5E3 /* Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4816500C1CFA49E90094A5E3 /* Cafe.png */; };
+		4816500E1CFA49E90094A5E3 /* Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4816500C1CFA49E90094A5E3 /* Cafe.png */; };
+		4816500F1CFA49E90094A5E3 /* Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4816500C1CFA49E90094A5E3 /* Cafe.png */; };
+		481650111CFA4EA50094A5E3 /* Food_Co-op.png in Resources */ = {isa = PBXBuildFile; fileRef = 481650101CFA4EA50094A5E3 /* Food_Co-op.png */; };
+		481650121CFA4EA50094A5E3 /* Food_Co-op.png in Resources */ = {isa = PBXBuildFile; fileRef = 481650101CFA4EA50094A5E3 /* Food_Co-op.png */; };
+		481650131CFA4EA50094A5E3 /* Food_Co-op.png in Resources */ = {isa = PBXBuildFile; fileRef = 481650101CFA4EA50094A5E3 /* Food_Co-op.png */; };
+		481650151CFA51A00094A5E3 /* General_Store_Co-op.png in Resources */ = {isa = PBXBuildFile; fileRef = 481650141CFA51A00094A5E3 /* General_Store_Co-op.png */; };
+		481650161CFA51A00094A5E3 /* General_Store_Co-op.png in Resources */ = {isa = PBXBuildFile; fileRef = 481650141CFA51A00094A5E3 /* General_Store_Co-op.png */; };
+		481650171CFA51A00094A5E3 /* General_Store_Co-op.png in Resources */ = {isa = PBXBuildFile; fileRef = 481650141CFA51A00094A5E3 /* General_Store_Co-op.png */; };
 		48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
@@ -354,9 +363,12 @@
 		481049031CFA3B4900109208 /* Tapioca_Express.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca_Express.png; path = Images/Campus/Tapioca_Express.png; sourceTree = "<group>"; };
 		481049041CFA3B4900109208 /* The_Bistro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = The_Bistro.png; path = Images/Campus/The_Bistro.png; sourceTree = "<group>"; };
 		481049051CFA3B4900109208 /* The_Faculty_Club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = The_Faculty_Club.png; path = Images/Campus/The_Faculty_Club.png; sourceTree = "<group>"; };
-		481049061CFA3B4900109208 /* The_Village_Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = The_Village_Market.png; path = Images/Campus/The_Village_Market.png; sourceTree = "<group>"; };
+		481049061CFA3B4900109208 /* Village_Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Village_Market.png; path = Images/Campus/Village_Market.png; sourceTree = "<group>"; };
 		481049071CFA3B4900109208 /* Yogurt_World.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yogurt_World.png; path = Images/Campus/Yogurt_World.png; sourceTree = "<group>"; };
 		481049081CFA3B4A00109208 /* ZanziBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZanziBar.png; path = Images/Campus/ZanziBar.png; sourceTree = "<group>"; };
+		4816500C1CFA49E90094A5E3 /* Cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cafe.png; path = Images/Campus/Cafe.png; sourceTree = "<group>"; };
+		481650101CFA4EA50094A5E3 /* Food_Co-op.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Food_Co-op.png"; path = "Images/Campus/Food_Co-op.png"; sourceTree = "<group>"; };
+		481650141CFA51A00094A5E3 /* General_Store_Co-op.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "General_Store_Co-op.png"; path = "Images/Campus/General_Store_Co-op.png"; sourceTree = "<group>"; };
 		48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LithosPro-Regular.otf"; sourceTree = "<group>"; };
 		48290EE51CDE7A0A0051DDB2 /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
 		482BD78B1CF0E80C00F2786E /* Chef_Chin_Restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chef_Chin_Restaurant.png; path = Images/Convoy/Chef_Chin_Restaurant.png; sourceTree = "<group>"; };
@@ -578,13 +590,16 @@
 				481048E61CFA3B4900109208 /* Bombay_Coast.png */,
 				481048E71CFA3B4900109208 /* Burger_King.png */,
 				481048E81CFA3B4900109208 /* Cafe_Ventanas.png */,
+				4816500C1CFA49E90094A5E3 /* Cafe.png */,
 				481048E91CFA3B4900109208 /* Canyon_Vista.png */,
 				481048EA1CFA3B4900109208 /* Club_Med.png */,
 				481048EB1CFA3B4900109208 /* Croutons.png */,
 				481048EC1CFA3B4900109208 /* Dlush_Lounge.png */,
 				481048ED1CFA3B4900109208 /* Earl's_Market.png */,
 				48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */,
+				481650101CFA4EA50094A5E3 /* Food_Co-op.png */,
 				483D58181CFA484100DAB880 /* Foodworx.png */,
+				481650141CFA51A00094A5E3 /* General_Store_Co-op.png */,
 				481048F01CFA3B4900109208 /* Goody's_Market.png */,
 				481048F11CFA3B4900109208 /* Goody's.png */,
 				481048F21CFA3B4900109208 /* Hi_Thai.png */,
@@ -609,7 +624,7 @@
 				481049031CFA3B4900109208 /* Tapioca_Express.png */,
 				481049041CFA3B4900109208 /* The_Bistro.png */,
 				481049051CFA3B4900109208 /* The_Faculty_Club.png */,
-				481049061CFA3B4900109208 /* The_Village_Market.png */,
+				481049061CFA3B4900109208 /* Village_Market.png */,
 				481049071CFA3B4900109208 /* Yogurt_World.png */,
 				481049081CFA3B4A00109208 /* ZanziBar.png */,
 				482BD81F1CF0E8E400F2786E /* Art_of_Espresso_Cafe.png */,
@@ -820,6 +835,7 @@
 				AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */,
 				8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */,
 				481049121CFA3B4A00109208 /* Bombay_Coast.png in Resources */,
+				481650151CFA51A00094A5E3 /* General_Store_Co-op.png in Resources */,
 				8FB9CDB81C692A6600618CAB /* Back_44.png in Resources */,
 				481049181CFA3B4A00109208 /* Cafe_Ventanas.png in Resources */,
 				482BD7CB1CF0E80C00F2786E /* Gourmet_City.png in Resources */,
@@ -848,6 +864,7 @@
 				8FB9CDB71C692A6600618CAB /* Back_22.png in Resources */,
 				8FB9CDBA1C692A6600618CAB /* Back.png in Resources */,
 				482BD7B61CF0E80C00F2786E /* Dae_Jang_Keum.png in Resources */,
+				481650111CFA4EA50094A5E3 /* Food_Co-op.png in Resources */,
 				4810493F1CFA3B4A00109208 /* Jamba_Juice.png in Resources */,
 				482BD8201CF0E8E400F2786E /* Art_of_Espresso_Cafe.png in Resources */,
 				4810496F1CFA3B4A00109208 /* The_Faculty_Club.png in Resources */,
@@ -862,6 +879,7 @@
 				481049091CFA3B4A00109208 /* 64_Degrees.png in Resources */,
 				482BD7D11CF0E80C00F2786E /* Izakaya_Sakura.png in Resources */,
 				8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */,
+				4816500D1CFA49E90094A5E3 /* Cafe.png in Resources */,
 				48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */,
 				481049241CFA3B4A00109208 /* Dlush_Lounge.png in Resources */,
 				483D58091CFA447600DAB880 /* MOM_College_Center.png in Resources */,
@@ -875,7 +893,7 @@
 				48A7A5D91CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */,
 				483D58111CFA45C800DAB880 /* Min_Sok_Chon.png in Resources */,
 				48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */,
-				481049721CFA3B4A00109208 /* The_Village_Market.png in Resources */,
+				481049721CFA3B4A00109208 /* Village_Market.png in Resources */,
 				8FB9CDC61C692A6600618CAB /* Search.png in Resources */,
 				482BD80A1CF0E80C00F2786E /* Tea_Station.png in Resources */,
 				8F98DC0D1C79091F00BBFDD8 /* RightArrow.png in Resources */,
@@ -917,7 +935,7 @@
 				481049701CFA3B4A00109208 /* The_Faculty_Club.png in Resources */,
 				482BD7CC1CF0E80C00F2786E /* Gourmet_City.png in Resources */,
 				481049521CFA3B4A00109208 /* Roots.png in Resources */,
-				481049731CFA3B4A00109208 /* The_Village_Market.png in Resources */,
+				481049731CFA3B4A00109208 /* Village_Market.png in Resources */,
 				4810491C1CFA3B4A00109208 /* Canyon_Vista.png in Resources */,
 				482BD7DB1CF0E80C00F2786E /* Little_Sheep_Hot_Pot.png in Resources */,
 				482BD8021CF0E80C00F2786E /* Szechuan_Taste.png in Resources */,
@@ -929,6 +947,7 @@
 				481049251CFA3B4A00109208 /* Dlush_Lounge.png in Resources */,
 				4810496A1CFA3B4A00109208 /* Tapioca_Express.png in Resources */,
 				482BD7C31CF0E80C00F2786E /* Friends_House_Korean.png in Resources */,
+				481650161CFA51A00094A5E3 /* General_Store_Co-op.png in Resources */,
 				481049341CFA3B4A00109208 /* Goody's.png in Resources */,
 				48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
 				481049161CFA3B4A00109208 /* Burger_King.png in Resources */,
@@ -942,6 +961,7 @@
 				482BD80B1CF0E80C00F2786E /* Tea_Station.png in Resources */,
 				4810495E1CFA3B4A00109208 /* Shogun.png in Resources */,
 				481049551CFA3B4A00109208 /* Round_Table_Pizza.png in Resources */,
+				4816500E1CFA49E90094A5E3 /* Cafe.png in Resources */,
 				482BD7D81CF0E80C00F2786E /* Liang's_Kitchen.png in Resources */,
 				481049281CFA3B4A00109208 /* Earl's_Market.png in Resources */,
 				482BD7BA1CF0E80C00F2786E /* Do_Re_Mi_House.png in Resources */,
@@ -985,6 +1005,7 @@
 				481049401CFA3B4A00109208 /* Jamba_Juice.png in Resources */,
 				482BD7ED1CF0E80C00F2786E /* Sam_Woo_BBQ.png in Resources */,
 				4810494F1CFA3B4A00109208 /* Roger's_Market.png in Resources */,
+				481650121CFA4EA50094A5E3 /* Food_Co-op.png in Resources */,
 				482BD7E71CF0E80C00F2786E /* OOTea.png in Resources */,
 				482BD7D51CF0E80C00F2786E /* Jasmine_Seafood.png in Resources */,
 				4810494C1CFA3B4A00109208 /* Pines.png in Resources */,
@@ -1006,7 +1027,7 @@
 				481049711CFA3B4A00109208 /* The_Faculty_Club.png in Resources */,
 				482BD7CD1CF0E80C00F2786E /* Gourmet_City.png in Resources */,
 				481049531CFA3B4A00109208 /* Roots.png in Resources */,
-				481049741CFA3B4A00109208 /* The_Village_Market.png in Resources */,
+				481049741CFA3B4A00109208 /* Village_Market.png in Resources */,
 				4810491D1CFA3B4A00109208 /* Canyon_Vista.png in Resources */,
 				482BD7DC1CF0E80C00F2786E /* Little_Sheep_Hot_Pot.png in Resources */,
 				482BD8031CF0E80C00F2786E /* Szechuan_Taste.png in Resources */,
@@ -1018,6 +1039,7 @@
 				481049261CFA3B4A00109208 /* Dlush_Lounge.png in Resources */,
 				4810496B1CFA3B4A00109208 /* Tapioca_Express.png in Resources */,
 				482BD7C41CF0E80C00F2786E /* Friends_House_Korean.png in Resources */,
+				481650171CFA51A00094A5E3 /* General_Store_Co-op.png in Resources */,
 				481049351CFA3B4A00109208 /* Goody's.png in Resources */,
 				48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
 				481049171CFA3B4A00109208 /* Burger_King.png in Resources */,
@@ -1031,6 +1053,7 @@
 				482BD80C1CF0E80C00F2786E /* Tea_Station.png in Resources */,
 				4810495F1CFA3B4A00109208 /* Shogun.png in Resources */,
 				481049561CFA3B4A00109208 /* Round_Table_Pizza.png in Resources */,
+				4816500F1CFA49E90094A5E3 /* Cafe.png in Resources */,
 				482BD7D91CF0E80C00F2786E /* Liang's_Kitchen.png in Resources */,
 				481049291CFA3B4A00109208 /* Earl's_Market.png in Resources */,
 				482BD7BB1CF0E80C00F2786E /* Do_Re_Mi_House.png in Resources */,
@@ -1074,6 +1097,7 @@
 				481049411CFA3B4A00109208 /* Jamba_Juice.png in Resources */,
 				482BD7EE1CF0E80C00F2786E /* Sam_Woo_BBQ.png in Resources */,
 				481049501CFA3B4A00109208 /* Roger's_Market.png in Resources */,
+				481650131CFA4EA50094A5E3 /* Food_Co-op.png in Resources */,
 				482BD7E81CF0E80C00F2786E /* OOTea.png in Resources */,
 				482BD7D61CF0E80C00F2786E /* Jasmine_Seafood.png in Resources */,
 				4810494D1CFA3B4A00109208 /* Pines.png in Resources */,
