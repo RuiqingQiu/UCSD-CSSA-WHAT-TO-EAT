@@ -765,7 +765,7 @@
 			<key>label</key>
 			<string>Cafe Ole</string>
 			<key>png</key>
-			<string>Cafe_Ole.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -785,7 +785,7 @@
 			<key>label</key>
 			<string>Cups Outdoor Cafe</string>
 			<key>png</key>
-			<string>Cups_Outdoor_Cafe.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -805,7 +805,7 @@
 			<key>label</key>
 			<string>Cups</string>
 			<key>png</key>
-			<string>Cups.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -825,7 +825,7 @@
 			<key>label</key>
 			<string>Peet&apos;s Coffee &amp; Tea</string>
 			<key>png</key>
-			<string>Peet&apos;s_Coffee_&amp;_Tea.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -845,7 +845,7 @@
 			<key>label</key>
 			<string>Splash! Cafe</string>
 			<key>png</key>
-			<string>Splash!_Cafe.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -865,7 +865,7 @@
 			<key>label</key>
 			<string>Bella Vista</string>
 			<key>png</key>
-			<string>Bella_Vista.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -885,7 +885,7 @@
 			<key>label</key>
 			<string>Caroline&apos;s Seaside Cafe</string>
 			<key>png</key>
-			<string>Caroline&apos;s_Seaside_Cafe.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -905,7 +905,7 @@
 			<key>label</key>
 			<string>Cafe Ventanas</string>
 			<key>png</key>
-			<string>Cafe_Ventanas.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -925,7 +925,7 @@
 			<key>label</key>
 			<string>Muir Woods</string>
 			<key>png</key>
-			<string>Muir_Woods.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
@@ -945,7 +945,7 @@
 			<key>label</key>
 			<string>Perks</string>
 			<key>png</key>
-			<string>Perks.png</string>
+			<string>Cafe.png</string>
 			<key>utf8Name</key>
 			<string></string>
 		</dict>
