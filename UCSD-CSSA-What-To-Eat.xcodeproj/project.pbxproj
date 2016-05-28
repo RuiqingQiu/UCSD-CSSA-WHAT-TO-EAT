@@ -112,6 +112,9 @@
 		481049781CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
 		481049791CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
 		4810497A1CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
+		4816500D1CFA49E90094A5E3 /* Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4816500C1CFA49E90094A5E3 /* Cafe.png */; };
+		4816500E1CFA49E90094A5E3 /* Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4816500C1CFA49E90094A5E3 /* Cafe.png */; };
+		4816500F1CFA49E90094A5E3 /* Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4816500C1CFA49E90094A5E3 /* Cafe.png */; };
 		48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
@@ -357,6 +360,7 @@
 		481049061CFA3B4900109208 /* The_Village_Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = The_Village_Market.png; path = Images/Campus/The_Village_Market.png; sourceTree = "<group>"; };
 		481049071CFA3B4900109208 /* Yogurt_World.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yogurt_World.png; path = Images/Campus/Yogurt_World.png; sourceTree = "<group>"; };
 		481049081CFA3B4A00109208 /* ZanziBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZanziBar.png; path = Images/Campus/ZanziBar.png; sourceTree = "<group>"; };
+		4816500C1CFA49E90094A5E3 /* Cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cafe.png; path = Images/Campus/Cafe.png; sourceTree = "<group>"; };
 		48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LithosPro-Regular.otf"; sourceTree = "<group>"; };
 		48290EE51CDE7A0A0051DDB2 /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
 		482BD78B1CF0E80C00F2786E /* Chef_Chin_Restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chef_Chin_Restaurant.png; path = Images/Convoy/Chef_Chin_Restaurant.png; sourceTree = "<group>"; };
@@ -578,6 +582,7 @@
 				481048E61CFA3B4900109208 /* Bombay_Coast.png */,
 				481048E71CFA3B4900109208 /* Burger_King.png */,
 				481048E81CFA3B4900109208 /* Cafe_Ventanas.png */,
+				4816500C1CFA49E90094A5E3 /* Cafe.png */,
 				481048E91CFA3B4900109208 /* Canyon_Vista.png */,
 				481048EA1CFA3B4900109208 /* Club_Med.png */,
 				481048EB1CFA3B4900109208 /* Croutons.png */,
@@ -861,6 +866,7 @@
 				481049091CFA3B4A00109208 /* 64_Degrees.png in Resources */,
 				482BD7D11CF0E80C00F2786E /* Izakaya_Sakura.png in Resources */,
 				8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */,
+				4816500D1CFA49E90094A5E3 /* Cafe.png in Resources */,
 				48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */,
 				481049241CFA3B4A00109208 /* Dlush_Lounge.png in Resources */,
 				483D58091CFA447600DAB880 /* MOM_College_Center.png in Resources */,
@@ -902,7 +908,6 @@
 				481049541CFA3B4A00109208 /* Round_Table_Pizza.png in Resources */,
 				481049631CFA3B4A00109208 /* Subway.png in Resources */,
 				8FB9CDA41C691B0300618CAB /* ItemCell.xib in Resources */,
-				AA4275281CE7A582005DDBA3 /* Pikachu.mp3 in Resources */,
 				483D58151CFA46D500DAB880 /* Grandma_Tofu.png in Resources */,
 				8FC404331CDE69670061C817 /* CellDescriptor1.plist in Resources */,
 				482BD7D71CF0E80C00F2786E /* Liang's_Kitchen.png in Resources */,
@@ -942,6 +947,7 @@
 				482BD80B1CF0E80C00F2786E /* Tea_Station.png in Resources */,
 				4810495E1CFA3B4A00109208 /* Shogun.png in Resources */,
 				481049551CFA3B4A00109208 /* Round_Table_Pizza.png in Resources */,
+				4816500E1CFA49E90094A5E3 /* Cafe.png in Resources */,
 				482BD7D81CF0E80C00F2786E /* Liang's_Kitchen.png in Resources */,
 				481049281CFA3B4A00109208 /* Earl's_Market.png in Resources */,
 				482BD7BA1CF0E80C00F2786E /* Do_Re_Mi_House.png in Resources */,
@@ -1031,6 +1037,7 @@
 				482BD80C1CF0E80C00F2786E /* Tea_Station.png in Resources */,
 				4810495F1CFA3B4A00109208 /* Shogun.png in Resources */,
 				481049561CFA3B4A00109208 /* Round_Table_Pizza.png in Resources */,
+				4816500F1CFA49E90094A5E3 /* Cafe.png in Resources */,
 				482BD7D91CF0E80C00F2786E /* Liang's_Kitchen.png in Resources */,
 				481049291CFA3B4A00109208 /* Earl's_Market.png in Resources */,
 				482BD7BB1CF0E80C00F2786E /* Do_Re_Mi_House.png in Resources */,
