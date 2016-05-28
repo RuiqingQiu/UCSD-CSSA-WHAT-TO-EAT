@@ -711,7 +711,7 @@
 	<array>
 		<dict>
 			<key>additionalRows</key>
-			<integer>12</integer>
+			<integer>11</integer>
 			<key>cellIdentifier</key>
 			<string>idCategoryCell</string>
 			<key>checked</key>
@@ -924,26 +924,6 @@
 			<false/>
 			<key>label</key>
 			<string>Perks</string>
-			<key>png</key>
-			<string>Cafe.png</string>
-			<key>utf8Name</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>additionalRows</key>
-			<string>0</string>
-			<key>cellIdentifier</key>
-			<string>idItemCell</string>
-			<key>checked</key>
-			<false/>
-			<key>isExpandable</key>
-			<false/>
-			<key>isExpanded</key>
-			<false/>
-			<key>isVisible</key>
-			<false/>
-			<key>label</key>
-			<string>Starbucks</string>
 			<key>png</key>
 			<string>Cafe.png</string>
 			<key>utf8Name</key>
