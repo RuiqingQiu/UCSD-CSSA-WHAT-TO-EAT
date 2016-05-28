@@ -288,7 +288,6 @@
 		8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404311CDE69670061C817 /* CellDescriptor3.plist */; };
 		8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404321CDE69670061C817 /* CellDescriptor4.plist */; };
 		8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */; };
-		AA4275281CE7A582005DDBA3 /* Pikachu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA4275271CE7A582005DDBA3 /* Pikachu.mp3 */; };
 		AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906801BD2D3B6007B43FB /* AppDelegate.swift */; };
 		AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906821BD2D3B6007B43FB /* ViewController.swift */; };
 		AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5906841BD2D3B6007B43FB /* Main.storyboard */; };
@@ -297,6 +296,7 @@
 		AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */; };
 		AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906981BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift */; };
 		AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */; };
+		AA599D941CFA449B001E7527 /* pikachu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA599D931CFA449B001E7527 /* pikachu.mp3 */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
 		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
 		AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDC1CB0672C00433876 /* SettingHeader.xib */; };
@@ -435,7 +435,6 @@
 		8FC404311CDE69670061C817 /* CellDescriptor3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor3.plist; sourceTree = "<group>"; };
 		8FC404321CDE69670061C817 /* CellDescriptor4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor4.plist; sourceTree = "<group>"; };
 		8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
-		AA4275271CE7A582005DDBA3 /* Pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Pikachu.mp3; path = Sound/Pikachu.mp3; sourceTree = "<group>"; };
 		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906801BD2D3B6007B43FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5906821BD2D3B6007B43FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -450,6 +449,7 @@
 		AA59069F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCSD-CSSA-What-To-EatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSD_CSSA_What_To_EatUITests.swift; sourceTree = "<group>"; };
 		AA5906A51BD2D3B6007B43FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA599D931CFA449B001E7527 /* pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pikachu.mp3; path = Sound/pikachu.mp3; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
 		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingHeader.xib; path = "UCSD-CSSA-What-To-Eat/SettingHeader.xib"; sourceTree = "<group>"; };
@@ -563,8 +563,8 @@
 		AAB724771C66820F006F85BF /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				AA599D931CFA449B001E7527 /* pikachu.mp3 */,
 				8F476B941CF0E0C8006B21B7 /* chicken.mp3 */,
-				AA4275271CE7A582005DDBA3 /* Pikachu.mp3 */,
 				AAB7247A1C66873F006F85BF /* shotgun.mp3 */,
 			);
 			name = Sound;
@@ -850,6 +850,7 @@
 				4810493F1CFA3B4A00109208 /* Jamba_Juice.png in Resources */,
 				482BD8201CF0E8E400F2786E /* Art_of_Espresso_Cafe.png in Resources */,
 				4810496F1CFA3B4A00109208 /* The_Faculty_Club.png in Resources */,
+				AA599D941CFA449B001E7527 /* pikachu.mp3 in Resources */,
 				48290EE61CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 				4810494E1CFA3B4A00109208 /* Roger's_Market.png in Resources */,
 				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
