@@ -37,9 +37,6 @@
 		481049271CFA3B4A00109208 /* Earl's_Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048ED1CFA3B4900109208 /* Earl's_Market.png */; };
 		481049281CFA3B4A00109208 /* Earl's_Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048ED1CFA3B4900109208 /* Earl's_Market.png */; };
 		481049291CFA3B4A00109208 /* Earl's_Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048ED1CFA3B4900109208 /* Earl's_Market.png */; };
-		4810492A1CFA3B4A00109208 /* Flavors_of_the_World.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048EE1CFA3B4900109208 /* Flavors_of_the_World.png */; };
-		4810492B1CFA3B4A00109208 /* Flavors_of_the_World.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048EE1CFA3B4900109208 /* Flavors_of_the_World.png */; };
-		4810492C1CFA3B4A00109208 /* Flavors_of_the_World.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048EE1CFA3B4900109208 /* Flavors_of_the_World.png */; };
 		4810492D1CFA3B4A00109208 /* Foodworx.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048EF1CFA3B4900109208 /* Foodworx.png */; };
 		4810492E1CFA3B4A00109208 /* Foodworx.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048EF1CFA3B4900109208 /* Foodworx.png */; };
 		4810492F1CFA3B4A00109208 /* Foodworx.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048EF1CFA3B4900109208 /* Foodworx.png */; };
@@ -118,6 +115,9 @@
 		481049781CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
 		481049791CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
 		4810497A1CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
+		4810497C1CFA418E00109208 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 4810497B1CFA418E00109208 /* Flavors_of_the_world.png */; };
+		4810497D1CFA418E00109208 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 4810497B1CFA418E00109208 /* Flavors_of_the_world.png */; };
+		4810497E1CFA418E00109208 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 4810497B1CFA418E00109208 /* Flavors_of_the_world.png */; };
 		48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
@@ -320,7 +320,6 @@
 		481048EB1CFA3B4900109208 /* Croutons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Croutons.png; path = Images/Campus/Croutons.png; sourceTree = "<group>"; };
 		481048EC1CFA3B4900109208 /* Dlush_Lounge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dlush_Lounge.png; path = Images/Campus/Dlush_Lounge.png; sourceTree = "<group>"; };
 		481048ED1CFA3B4900109208 /* Earl's_Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Earl's_Market.png"; path = "Images/Campus/Earl's_Market.png"; sourceTree = "<group>"; };
-		481048EE1CFA3B4900109208 /* Flavors_of_the_World.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flavors_of_the_World.png; path = Images/Campus/Flavors_of_the_World.png; sourceTree = "<group>"; };
 		481048EF1CFA3B4900109208 /* Foodworx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Foodworx.png; path = Images/Campus/Foodworx.png; sourceTree = "<group>"; };
 		481048F01CFA3B4900109208 /* Goody's_Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Goody's_Market.png"; path = "Images/Campus/Goody's_Market.png"; sourceTree = "<group>"; };
 		481048F11CFA3B4900109208 /* Goody's.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Goody's.png"; path = "Images/Campus/Goody's.png"; sourceTree = "<group>"; };
@@ -347,6 +346,7 @@
 		481049061CFA3B4900109208 /* The_Village_Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = The_Village_Market.png; path = Images/Campus/The_Village_Market.png; sourceTree = "<group>"; };
 		481049071CFA3B4900109208 /* Yogurt_World.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yogurt_World.png; path = Images/Campus/Yogurt_World.png; sourceTree = "<group>"; };
 		481049081CFA3B4A00109208 /* ZanziBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZanziBar.png; path = Images/Campus/ZanziBar.png; sourceTree = "<group>"; };
+		4810497B1CFA418E00109208 /* Flavors_of_the_world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flavors_of_the_world.png; path = Images/Campus/Flavors_of_the_world.png; sourceTree = "<group>"; };
 		48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LithosPro-Regular.otf"; sourceTree = "<group>"; };
 		48290EE51CDE7A0A0051DDB2 /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
 		482BD78B1CF0E80C00F2786E /* Chef_Chin_Restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chef_Chin_Restaurant.png; path = Images/Convoy/Chef_Chin_Restaurant.png; sourceTree = "<group>"; };
@@ -567,7 +567,7 @@
 				481048EB1CFA3B4900109208 /* Croutons.png */,
 				481048EC1CFA3B4900109208 /* Dlush_Lounge.png */,
 				481048ED1CFA3B4900109208 /* Earl's_Market.png */,
-				481048EE1CFA3B4900109208 /* Flavors_of_the_World.png */,
+				4810497B1CFA418E00109208 /* Flavors_of_the_world.png */,
 				481048EF1CFA3B4900109208 /* Foodworx.png */,
 				481048F01CFA3B4900109208 /* Goody's_Market.png */,
 				481048F11CFA3B4900109208 /* Goody's.png */,
@@ -849,6 +849,7 @@
 				48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */,
 				482BD7EF1CF0E80C00F2786E /* Shabu_Shabu_House.png in Resources */,
 				482BD8191CF0E80C00F2786E /* Yakyudori.png in Resources */,
+				4810497C1CFA418E00109208 /* Flavors_of_the_world.png in Resources */,
 				48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */,
 				481049721CFA3B4A00109208 /* The_Village_Market.png in Resources */,
 				8FB9CDC61C692A6600618CAB /* Search.png in Resources */,
@@ -875,7 +876,6 @@
 				4810490C1CFA3B4A00109208 /* 64_North.png in Resources */,
 				481049151CFA3B4A00109208 /* Burger_King.png in Resources */,
 				481049541CFA3B4A00109208 /* Round_Table_Pizza.png in Resources */,
-				4810492A1CFA3B4A00109208 /* Flavors_of_the_World.png in Resources */,
 				481049631CFA3B4A00109208 /* Subway.png in Resources */,
 				8FB9CDA41C691B0300618CAB /* ItemCell.xib in Resources */,
 				AA4275281CE7A582005DDBA3 /* Pikachu.mp3 in Resources */,
@@ -913,7 +913,6 @@
 				481049131CFA3B4A00109208 /* Bombay_Coast.png in Resources */,
 				482BD81A1CF0E80C00F2786E /* Yakyudori.png in Resources */,
 				482BD7CF1CF0E80C00F2786E /* Infini_Tea.png in Resources */,
-				4810492B1CFA3B4A00109208 /* Flavors_of_the_World.png in Resources */,
 				482BD80B1CF0E80C00F2786E /* Tea_Station.png in Resources */,
 				4810495E1CFA3B4A00109208 /* Shogun.png in Resources */,
 				481049551CFA3B4A00109208 /* Round_Table_Pizza.png in Resources */,
@@ -963,6 +962,7 @@
 				4810494C1CFA3B4A00109208 /* Pines.png in Resources */,
 				482BD8141CF0E80C00F2786E /* Xi'an_Kitchen.png in Resources */,
 				4810491F1CFA3B4A00109208 /* Club_Med.png in Resources */,
+				4810497D1CFA418E00109208 /* Flavors_of_the_world.png in Resources */,
 				482BD7B71CF0E80C00F2786E /* Dae_Jang_Keum.png in Resources */,
 				4810496D1CFA3B4A00109208 /* The_Bistro.png in Resources */,
 				481049611CFA3B4A00109208 /* Six_College_Market.png in Resources */,
@@ -998,7 +998,6 @@
 				481049141CFA3B4A00109208 /* Bombay_Coast.png in Resources */,
 				482BD81B1CF0E80C00F2786E /* Yakyudori.png in Resources */,
 				482BD7D01CF0E80C00F2786E /* Infini_Tea.png in Resources */,
-				4810492C1CFA3B4A00109208 /* Flavors_of_the_World.png in Resources */,
 				482BD80C1CF0E80C00F2786E /* Tea_Station.png in Resources */,
 				4810495F1CFA3B4A00109208 /* Shogun.png in Resources */,
 				481049561CFA3B4A00109208 /* Round_Table_Pizza.png in Resources */,
@@ -1048,6 +1047,7 @@
 				4810494D1CFA3B4A00109208 /* Pines.png in Resources */,
 				482BD8151CF0E80C00F2786E /* Xi'an_Kitchen.png in Resources */,
 				481049201CFA3B4A00109208 /* Club_Med.png in Resources */,
+				4810497E1CFA418E00109208 /* Flavors_of_the_world.png in Resources */,
 				482BD7B81CF0E80C00F2786E /* Dae_Jang_Keum.png in Resources */,
 				4810496E1CFA3B4A00109208 /* The_Bistro.png in Resources */,
 				481049621CFA3B4A00109208 /* Six_College_Market.png in Resources */,
