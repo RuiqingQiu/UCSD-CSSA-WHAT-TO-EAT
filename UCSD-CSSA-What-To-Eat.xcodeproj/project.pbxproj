@@ -115,9 +115,6 @@
 		481049781CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
 		481049791CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
 		4810497A1CFA3B4A00109208 /* ZanziBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 481049081CFA3B4A00109208 /* ZanziBar.png */; };
-		4810497C1CFA418E00109208 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 4810497B1CFA418E00109208 /* Flavors_of_the_world.png */; };
-		4810497D1CFA418E00109208 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 4810497B1CFA418E00109208 /* Flavors_of_the_world.png */; };
-		4810497E1CFA418E00109208 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 4810497B1CFA418E00109208 /* Flavors_of_the_world.png */; };
 		48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
 		48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
@@ -248,6 +245,9 @@
 		48972FCB1CC2AEA500423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
 		48972FCC1CC2B7F900423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
 		48972FCD1CC2B7FA00423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
+		48A7A5D91CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */; };
+		48A7A5DA1CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */; };
+		48A7A5DB1CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */; };
 		48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCF1C5D444200CE849B /* ShakeMe.png */; };
 		48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACD21C5D54DE00CE849B /* ColoredDice.png */; };
 		48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F581CD5384D0080ED6A /* DownArrow.png */; };
@@ -346,7 +346,6 @@
 		481049061CFA3B4900109208 /* The_Village_Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = The_Village_Market.png; path = Images/Campus/The_Village_Market.png; sourceTree = "<group>"; };
 		481049071CFA3B4900109208 /* Yogurt_World.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yogurt_World.png; path = Images/Campus/Yogurt_World.png; sourceTree = "<group>"; };
 		481049081CFA3B4A00109208 /* ZanziBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZanziBar.png; path = Images/Campus/ZanziBar.png; sourceTree = "<group>"; };
-		4810497B1CFA418E00109208 /* Flavors_of_the_world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flavors_of_the_world.png; path = Images/Campus/Flavors_of_the_world.png; sourceTree = "<group>"; };
 		48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LithosPro-Regular.otf"; sourceTree = "<group>"; };
 		48290EE51CDE7A0A0051DDB2 /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
 		482BD78B1CF0E80C00F2786E /* Chef_Chin_Restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chef_Chin_Restaurant.png; path = Images/Convoy/Chef_Chin_Restaurant.png; sourceTree = "<group>"; };
@@ -391,6 +390,7 @@
 		48602B031C01AAFE00688B11 /* icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icon.swift; sourceTree = "<group>"; };
 		4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		48972FCA1CC2AEA500423601 /* resinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resinfo.swift; sourceTree = "<group>"; };
+		48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flavors_of_the_world.png; path = Images/Campus/Flavors_of_the_world.png; sourceTree = "<group>"; };
 		48E8ACCF1C5D444200CE849B /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = "UCSD-CSSA-What-To-Eat/ShakeMe.png"; sourceTree = "<group>"; };
 		48E8ACD21C5D54DE00CE849B /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = "UCSD-CSSA-What-To-Eat/ColoredDice.png"; sourceTree = "<group>"; };
 		48FF3F581CD5384D0080ED6A /* DownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DownArrow.png; path = Images/UI/DownArrow.png; sourceTree = "<group>"; };
@@ -567,7 +567,7 @@
 				481048EB1CFA3B4900109208 /* Croutons.png */,
 				481048EC1CFA3B4900109208 /* Dlush_Lounge.png */,
 				481048ED1CFA3B4900109208 /* Earl's_Market.png */,
-				4810497B1CFA418E00109208 /* Flavors_of_the_world.png */,
+				48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */,
 				481048EF1CFA3B4900109208 /* Foodworx.png */,
 				481048F01CFA3B4900109208 /* Goody's_Market.png */,
 				481048F11CFA3B4900109208 /* Goody's.png */,
@@ -849,7 +849,7 @@
 				48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */,
 				482BD7EF1CF0E80C00F2786E /* Shabu_Shabu_House.png in Resources */,
 				482BD8191CF0E80C00F2786E /* Yakyudori.png in Resources */,
-				4810497C1CFA418E00109208 /* Flavors_of_the_world.png in Resources */,
+				48A7A5D91CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */,
 				48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */,
 				481049721CFA3B4A00109208 /* The_Village_Market.png in Resources */,
 				8FB9CDC61C692A6600618CAB /* Search.png in Resources */,
@@ -962,7 +962,7 @@
 				4810494C1CFA3B4A00109208 /* Pines.png in Resources */,
 				482BD8141CF0E80C00F2786E /* Xi'an_Kitchen.png in Resources */,
 				4810491F1CFA3B4A00109208 /* Club_Med.png in Resources */,
-				4810497D1CFA418E00109208 /* Flavors_of_the_world.png in Resources */,
+				48A7A5DA1CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */,
 				482BD7B71CF0E80C00F2786E /* Dae_Jang_Keum.png in Resources */,
 				4810496D1CFA3B4A00109208 /* The_Bistro.png in Resources */,
 				481049611CFA3B4A00109208 /* Six_College_Market.png in Resources */,
@@ -1047,7 +1047,7 @@
 				4810494D1CFA3B4A00109208 /* Pines.png in Resources */,
 				482BD8151CF0E80C00F2786E /* Xi'an_Kitchen.png in Resources */,
 				481049201CFA3B4A00109208 /* Club_Med.png in Resources */,
-				4810497E1CFA418E00109208 /* Flavors_of_the_world.png in Resources */,
+				48A7A5DB1CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */,
 				482BD7B81CF0E80C00F2786E /* Dae_Jang_Keum.png in Resources */,
 				4810496E1CFA3B4A00109208 /* The_Bistro.png in Resources */,
 				481049621CFA3B4A00109208 /* Six_College_Market.png in Resources */,
