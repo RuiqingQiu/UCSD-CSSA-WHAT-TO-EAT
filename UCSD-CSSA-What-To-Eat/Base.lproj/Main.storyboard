@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -46,7 +46,7 @@
                                     <constraint firstAttribute="width" secondItem="rPJ-9J-bn7" secondAttribute="height" multiplier="384:90" id="Wed-a6-Fed"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice.png" translatesAutoresizingMaskIntoConstraints="NO" id="0FA-0N-Qzo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColoredDice.png" translatesAutoresizingMaskIntoConstraints="NO" id="0FA-0N-Qzo">
                                 <rect key="frame" x="150" y="0.0" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0FA-0N-Qzo" secondAttribute="height" multiplier="1:1" id="1Gg-G9-xLw"/>
@@ -327,7 +327,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Dice.png" width="280" height="280"/>
+        <image name="ColoredDice.png" width="280" height="280"/>
         <image name="FilterButton.png" width="384" height="90"/>
         <image name="ShakeMe.png" width="463" height="63"/>
     </resources>

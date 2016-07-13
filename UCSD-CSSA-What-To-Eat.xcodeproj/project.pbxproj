@@ -306,7 +306,7 @@
 		AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906981BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift */; };
 		AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */; };
 		AA599D941CFA449B001E7527 /* pikachu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA599D931CFA449B001E7527 /* pikachu.mp3 */; };
-		AA8969311CFA5649007C598E /* Dice.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8969301CFA5649007C598E /* Dice.png */; };
+		AA8969331CFA5852007C598E /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8969321CFA5852007C598E /* ColoredDice.png */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
 		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
 		AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDC1CB0672C00433876 /* SettingHeader.xib */; };
@@ -463,7 +463,7 @@
 		AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSD_CSSA_What_To_EatUITests.swift; sourceTree = "<group>"; };
 		AA5906A51BD2D3B6007B43FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA599D931CFA449B001E7527 /* pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pikachu.mp3; path = Sound/pikachu.mp3; sourceTree = "<group>"; };
-		AA8969301CFA5649007C598E /* Dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dice.png; path = Images/Dice.png; sourceTree = "<group>"; };
+		AA8969321CFA5852007C598E /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = Images/UI/ColoredDice.png; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
 		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingHeader.xib; path = "UCSD-CSSA-What-To-Eat/SettingHeader.xib"; sourceTree = "<group>"; };
@@ -587,7 +587,7 @@
 		AAD745B11BDC0589003511FB /* Rest_Image */ = {
 			isa = PBXGroup;
 			children = (
-				AA8969301CFA5649007C598E /* Dice.png */,
+				AA8969321CFA5852007C598E /* ColoredDice.png */,
 				481048E31CFA3B4900109208 /* 64_Degrees.png */,
 				481048E41CFA3B4900109208 /* 64_North.png */,
 				481048E61CFA3B4900109208 /* Bombay_Coast.png */,
@@ -857,6 +857,7 @@
 				AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */,
 				481049361CFA3B4A00109208 /* Hi_Thai.png in Resources */,
 				481049751CFA3B4A00109208 /* Yogurt_World.png in Resources */,
+				AA8969331CFA5852007C598E /* ColoredDice.png in Resources */,
 				482BD7C81CF0E80C00F2786E /* Golden_City.png in Resources */,
 				48FF3F5F1CD538700080ED6A /* LCheckBox_1.png in Resources */,
 				8FC404341CDE69670061C817 /* CellDescriptor2.plist in Resources */,
@@ -873,7 +874,6 @@
 				4810496F1CFA3B4A00109208 /* The_Faculty_Club.png in Resources */,
 				AA599D941CFA449B001E7527 /* pikachu.mp3 in Resources */,
 				48290EE61CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
-				AA8969311CFA5649007C598E /* Dice.png in Resources */,
 				4810494E1CFA3B4A00109208 /* Roger's_Market.png in Resources */,
 				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
 				482BD7BC1CF0E80C00F2786E /* Emerald.png in Resources */,
