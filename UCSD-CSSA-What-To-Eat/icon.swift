@@ -102,16 +102,16 @@ class icon {
         layer.allowsEdgeAntialiasing = true
     }
     
-    func setImageWithFile (file:String) -> Void
+    func setImageWithFile (_ file:String) -> Void
     {
         let i = UIImage(named: file)
-        self.layer.contents =  i?.CGImage
+        self.layer.contents =  i?.cgImage
     }
     
-    func setImageWithResInfo (info:resinfo) -> Void
+    func setImageWithResInfo (_ info:resinfo) -> Void
     {
         let i = UIImage(named: info.png)
-        self.layer.contents = i?.CGImage
+        self.layer.contents = i?.cgImage
     }
     
     

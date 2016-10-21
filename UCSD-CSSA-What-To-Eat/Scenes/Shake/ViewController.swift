@@ -12,7 +12,7 @@ var currentListName = "1"
 
 
 class ViewController: UIViewController {
-    var def = NSUserDefaults.standardUserDefaults()
+    var def = UserDefaults.standard
     var shaked = true
     var cellDescriptors: NSMutableArray!
     var ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
@@ -26,12 +26,12 @@ class ViewController: UIViewController {
     
     
     //Prevent user from rotating the view
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate : Bool {
         return false
     }
     
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.Portrait
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
     }
     
     override func viewDidLoad() {
@@ -42,11 +42,11 @@ class ViewController: UIViewController {
         initMyLayer(getPngSelected())
         print("!!!");
         print(getPngSelected());
-        self.filterButton.userInteractionEnabled = true
+        self.filterButton.isUserInteractionEnabled = true
         
-        if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
+        if(UserDefaults.standard.array(forKey: "ListNames") != nil)
         {
-            ListNames = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")as! [String]
+            ListNames = UserDefaults.standard.array(forKey: "ListNames")as! [String]
         }
         else
         {
@@ -54,22 +54,22 @@ class ViewController: UIViewController {
 
         }
         
-        if(NSUserDefaults.standardUserDefaults().stringForKey("currentListName") != nil)
+        if(UserDefaults.standard.string(forKey: "currentListName") != nil)
         {
-            currentListName = NSUserDefaults.standardUserDefaults().stringForKey("currentListName")!
+            currentListName = UserDefaults.standard.string(forKey: "currentListName")!
             print("HERE")
         }
             
         else
         {
-            NSUserDefaults.standardUserDefaults().setValue("1", forKey: "currentListName")
+            UserDefaults.standard.setValue("1", forKey: "currentListName")
         }
         
 
         
         
-        if def.objectForKey("EnableSound") == nil {
-           def.setBool(true, forKey: "EnableSound")
+        if def.object(forKey: "EnableSound") == nil {
+           def.set(true, forKey: "EnableSound")
            print("set")
         }
            
@@ -77,9 +77,9 @@ class ViewController: UIViewController {
         //print("viewdidiload")
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        UIApplication.shared.statusBarStyle = .lightContent
         print("!!!");
         print(getPngSelected());
         self.iconview.alpha = 0
@@ -88,9 +88,9 @@ class ViewController: UIViewController {
         self.shakeMe.alpha = 1
         self.dice.alpha = 1
         updatePool (getPngSelected())
-        if(NSUserDefaults.standardUserDefaults().arrayForKey("ListNames") != nil)
+        if(UserDefaults.standard.array(forKey: "ListNames") != nil)
         {
-            ListNames = NSUserDefaults.standardUserDefaults().arrayForKey("ListNames")as! [String]
+            ListNames = UserDefaults.standard.array(forKey: "ListNames")as! [String]
         }
         else
         {
@@ -98,16 +98,16 @@ class ViewController: UIViewController {
 
         }
         
-        if(NSUserDefaults.standardUserDefaults().stringForKey("currentListName") != nil)
+        if(UserDefaults.standard.string(forKey: "currentListName") != nil)
         {
             print("HERE")
 
-            currentListName = NSUserDefaults.standardUserDefaults().stringForKey("currentListName")!
+            currentListName = UserDefaults.standard.string(forKey: "currentListName")!
         }
             
         else
         {
-            NSUserDefaults.standardUserDefaults().setValue("1", forKey: "currentListName")
+            UserDefaults.standard.setValue("1", forKey: "currentListName")
         }
 
     
@@ -118,19 +118,19 @@ class ViewController: UIViewController {
         
     }
     
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
     }
     
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?){
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?){
         let touch: UITouch? = touches.first
         if touch?.view == filterButton{
-            let FilterViewController = self.storyboard!.instantiateViewControllerWithIdentifier("FilterViewController")
+            let FilterViewController = self.storyboard!.instantiateViewController(withIdentifier: "FilterViewController")
             
-            self.presentViewController(FilterViewController, animated: true, completion: nil)
+            self.present(FilterViewController, animated: true, completion: nil)
         }
-        super.touchesEnded(touches, withEvent: event)
+        super.touchesEnded(touches, with: event)
     }
     
     override func didReceiveMemoryWarning() {
@@ -138,26 +138,26 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func canBecomeFirstResponder() -> Bool {
+    override var canBecomeFirstResponder : Bool {
         return true
     }
     
     //For detect motion start event
-    override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
-        if motion == .MotionShake{
-            
+    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake{
+
         }
     }
     
     //For detecting motion end evenet
-    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         
-        if motion == .MotionShake {
-            if(NSUserDefaults.standardUserDefaults().boolForKey("EnableSound") == true){
-                var musicSelected  = NSUserDefaults.standardUserDefaults().stringForKey("musicSelected")
-                if let soundURL = NSBundle.mainBundle().URLForResource(musicSelected, withExtension: "mp3") {
+        if motion == .motionShake {
+            if(UserDefaults.standard.bool(forKey: "EnableSound") == true){
+                let musicSelected  = UserDefaults.standard.string(forKey: "musicSelected")
+                if let soundURL = Bundle.main.url(forResource: musicSelected, withExtension: "mp3") {
                     var mySound: SystemSoundID = 0
-                    AudioServicesCreateSystemSoundID(soundURL, &mySound)
+                    AudioServicesCreateSystemSoundID(soundURL as CFURL, &mySound)
                     // Play
                     AudioServicesPlaySystemSound(mySound);
                 }
@@ -173,21 +173,21 @@ class ViewController: UIViewController {
     var myLayer = CALayer()
     var blurView = UIVisualEffectView()
     var myview = UIView()
-    func initMyLayer(randomPool:Array<resinfo>) -> Void
+    func initMyLayer(_ randomPool:Array<resinfo>) -> Void
     {
         icon.randomPool = randomPool
         
-        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
+        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.dark)
         blurView = UIVisualEffectView(effect: blurEffect)
-        blurView.frame = CGRectMake(0, 0, self.view.frame.width, self.view.frame.height)
-        self.view.insertSubview(blurView, atIndex: 0)
+        blurView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        self.view.insertSubview(blurView, at: 0)
         
-        myview = UIView(frame: CGRectMake(0, 0, self.view.frame.width, self.view.frame.height/2.0))
+        myview = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height/2.0))
         
         myLayer.frame = myview.frame
         myview.layer.addSublayer(myLayer)
 
-        self.view.insertSubview(myview, atIndex: 0)
+        self.view.insertSubview(myview, at: 0)
         
         for x in -6...3
         {
@@ -213,12 +213,12 @@ class ViewController: UIViewController {
         chosen0.layer.zPosition = 1
         chosen1.layer.zPosition = 1
         
-        chosen0.layer.shadowColor = UIColor.blackColor().CGColor
-        chosen0.layer.shadowOffset = CGSizeMake(5, 5)
+        chosen0.layer.shadowColor = UIColor.black.cgColor
+        chosen0.layer.shadowOffset = CGSize(width: 5, height: 5)
         chosen0.layer.shadowRadius = 5
         
-        chosen1.layer.shadowColor = UIColor.blackColor().CGColor
-        chosen1.layer.shadowOffset = CGSizeMake(5, 5)
+        chosen1.layer.shadowColor = UIColor.black.cgColor
+        chosen1.layer.shadowOffset = CGSize(width: 5, height: 5)
         chosen1.layer.shadowRadius = 5
         
         myview.layer.allowsEdgeAntialiasing = true
@@ -227,7 +227,7 @@ class ViewController: UIViewController {
         myLayer.transform = getTransformWithModel(model)
         
         //Icon view is the final big image displayed
-        iconview = UIView(frame: CGRectMake(0, 0, self.view.frame.width, self.view.frame.height/2.0))
+        iconview = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height/2.0))
         iconview.alpha = 0
         iconviewObj = icon(superframe: iconview.frame)
         iconview.layer.addSublayer(iconviewObj.layer)
@@ -235,7 +235,7 @@ class ViewController: UIViewController {
         self.view.addSubview(iconview)
     }
     
-    func getTransformWithModel(model:GLKMatrix4) -> CATransform3D
+    func getTransformWithModel(_ model:GLKMatrix4) -> CATransform3D
     {
         let ratio = Float(self.view.frame.width/500)
         let view:GLKMatrix4! = GLKMatrix4MakeLookAt(-100.0*ratio, 300.0*ratio, 400.0*ratio, 0, 0, 0, 0, 0, -1)
@@ -259,7 +259,7 @@ class ViewController: UIViewController {
     }
     
     //#TODO call updatePool from filter view
-    func updatePool (randomPool:Array<resinfo>) -> Void
+    func updatePool (_ randomPool:Array<resinfo>) -> Void
     {
         icon.randomPool = randomPool
         for i in icons
@@ -268,20 +268,20 @@ class ViewController: UIViewController {
         }
     }
     
-    var timer = NSTimer()
+    var timer = Timer()
     
     func startAnimation() -> Void
     {
         frameCount = 0
         iconviewObj.layer.transform = self.getTransformWithModel(GLKMatrix4Identity)
-        UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.iconview.alpha = 0
+        UIView.animate(withDuration: 0.3, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: {self.iconview.alpha = 0
             self.shakeMe.alpha = 0
             self.dice.alpha = 0
             self.selectedName.alpha = 0
             self.utf8Name.alpha = 0}, completion: nil)
-        UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = CGRectMake(0, self.view.frame.height * 0.75, self.view.frame.width, self.view.frame.height * 0.25)}, completion: nil)
+        UIView.animate(withDuration: 0.3, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: {self.blurView.frame = CGRect(x: 0, y: self.view.frame.height * 0.75, width: self.view.frame.width, height: self.view.frame.height * 0.25)}, completion: nil)
         timer.invalidate()
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: "animationUpdate", userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(ViewController.animationUpdate), userInfo: nil, repeats: true)
     }
     
     var iconview = UIView()
@@ -290,7 +290,7 @@ class ViewController: UIViewController {
     func stopAnimation() -> Void
     {
         timer.invalidate()
-        timer = NSTimer()
+        timer = Timer()
         chosen0.dx = 0.0
         chosen0.dy = 0.0
         chosen0.rotate = 0.0
@@ -310,19 +310,19 @@ class ViewController: UIViewController {
             self.utf8Name.text = icon.randomPool[chosen0.n].utf8Name
         }
         let delay = 0.5 * Double(NSEC_PER_SEC)
-        let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
-        dispatch_after(time, dispatch_get_main_queue()) {
+        let time = DispatchTime.now() + Double(Int64(delay)) / Double(NSEC_PER_SEC)
+        DispatchQueue.main.asyncAfter(deadline: time) {
             self.iconview.alpha = 1
         }
         
-        UIView.animateWithDuration(0.3, delay: 0.5, options: UIViewAnimationOptions.CurveEaseOut, animations: {self.blurView.frame = self.view.frame}, completion: chosenRotate)
+        UIView.animate(withDuration: 0.3, delay: 0.5, options: UIViewAnimationOptions.curveEaseOut, animations: {self.blurView.frame = self.view.frame}, completion: chosenRotate)
         
     }
     
     func chosenRotate (_: Bool) -> Void
     {
         iconviewObj.layer.transform = CATransform3DMakeScale(1.04, 1.04, 1)
-        UIView.animateWithDuration(0.5, animations: {self.selectedName.alpha = 1
+        UIView.animate(withDuration: 0.5, animations: {self.selectedName.alpha = 1
             self.utf8Name.alpha = 1})
     }
 
@@ -377,20 +377,20 @@ class ViewController: UIViewController {
     func getPngSelected() -> Array<resinfo>
     {
         
-        let documentsURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
+        let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
         let fileName = "CellDescriptor" +  currentListName + ".plist"
-        let fileURL = documentsURL.URLByAppendingPathComponent(fileName)
-        let path = fileURL.path!
-        let fileManager = NSFileManager.defaultManager()
+        let fileURL = documentsURL.appendingPathComponent(fileName)
+        let path = fileURL.path
+        let fileManager = FileManager.default
         //check if file exists
-        if(!fileManager.fileExistsAtPath(path))
+        if(!fileManager.fileExists(atPath: path))
         {
             // If it doesn't, copy it from the default file in the Bundle
-            if let bundlePath = NSBundle.mainBundle().pathForResource("CellDescriptor" + currentListName, ofType: "plist") {
+            if let bundlePath = Bundle.main.path(forResource: "CellDescriptor" + currentListName, ofType: "plist") {
                 let resultDictionary = NSMutableDictionary(contentsOfFile: bundlePath)
                 print("Bundle CellDescriptor.plist file is --> \(resultDictionary?.description)")
                 do {
-                    try fileManager.copyItemAtPath(bundlePath, toPath: path)
+                    try fileManager.copyItem(atPath: bundlePath, toPath: path)
                 } catch _ {
                     print("error")
                 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EAC34A930B5605E3955E172 /* Pods_UCSD_CSSA_What_To_Eat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BE6E8094D354AADBBA4133 /* Pods_UCSD_CSSA_What_To_Eat.framework */; };
 		481049091CFA3B4A00109208 /* 64_Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048E31CFA3B4900109208 /* 64_Degrees.png */; };
 		4810490A1CFA3B4A00109208 /* 64_Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048E31CFA3B4900109208 /* 64_Degrees.png */; };
 		4810490B1CFA3B4A00109208 /* 64_Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = 481048E31CFA3B4900109208 /* 64_Degrees.png */; };
@@ -272,16 +273,23 @@
 		48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCF1C5D444200CE849B /* ShakeMe.png */; };
 		48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACD21C5D54DE00CE849B /* ColoredDice.png */; };
 		48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F581CD5384D0080ED6A /* DownArrow.png */; };
-		48FF3F5F1CD538700080ED6A /* LCheckBox_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5A1CD538700080ED6A /* LCheckBox_1.png */; };
-		48FF3F601CD538700080ED6A /* LCheckBox_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5B1CD538700080ED6A /* LCheckBox_2.png */; };
-		48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */; };
-		48FF3F621CD538700080ED6A /* SCheckBox_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */; };
-		48FF3F631CD538700080ED6A /* SCheckBox_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */; };
+		48FF3F5F1CD538700080ED6A /* LCheckBox_Empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5A1CD538700080ED6A /* LCheckBox_Empty.png */; };
+		48FF3F601CD538700080ED6A /* LCheckBox_Half.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5B1CD538700080ED6A /* LCheckBox_Half.png */; };
+		48FF3F611CD538700080ED6A /* LCheckBox_Full.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5C1CD538700080ED6A /* LCheckBox_Full.png */; };
+		48FF3F621CD538700080ED6A /* SCheckBox_Empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5D1CD538700080ED6A /* SCheckBox_Empty.png */; };
+		48FF3F631CD538700080ED6A /* SCheckBox_Checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F5E1CD538700080ED6A /* SCheckBox_Checked.png */; };
+		4EE9DC8B45FC475CFC3A874C /* Pods_UCSD_CSSA_What_To_EatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */; };
+		577EB3C500ADA18D9AB27F7A /* Pods_UCSD_CSSA_What_To_EatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */; };
+		5B0B06C81DB9713D004AAD0F /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B06C71DB9713D004AAD0F /* ListButton.swift */; };
+		5B6E71441DB9B9C0008B1FD8 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */; };
+		5B6E71461DB9B9D0008B1FD8 /* CategoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */; };
+		5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */; };
+		5B6E714A1DB9BCB8008B1FD8 /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E71491DB9BCB8008B1FD8 /* RestaurantCell.xib */; };
+		5BB0739B1DBC236E000ADC99 /* ListButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB0739A1DBC236E000ADC99 /* ListButton.xib */; };
+		5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */; };
 		8F476B951CF0E0C8006B21B7 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F476B941CF0E0C8006B21B7 /* chicken.mp3 */; };
 		8F98DC0D1C79091F00BBFDD8 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */; };
 		8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */; };
-		8FB9CDA01C691AF500618CAB /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */; };
-		8FB9CDA41C691B0300618CAB /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA31C691B0300618CAB /* ItemCell.xib */; };
 		8FB9CDB71C692A6600618CAB /* Back_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA51C692A6600618CAB /* Back_22.png */; };
 		8FB9CDB81C692A6600618CAB /* Back_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA61C692A6600618CAB /* Back_44.png */; };
 		8FB9CDB91C692A6600618CAB /* Back_66.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA71C692A6600618CAB /* Back_66.png */; };
@@ -306,7 +314,6 @@
 		AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906981BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift */; };
 		AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */; };
 		AA599D941CFA449B001E7527 /* pikachu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA599D931CFA449B001E7527 /* pikachu.mp3 */; };
-		AA8969331CFA5852007C598E /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8969321CFA5852007C598E /* ColoredDice.png */; };
 		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
 		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
 		AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDC1CB0672C00433876 /* SettingHeader.xib */; };
@@ -332,6 +339,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FD74DB92645AA492624691 /* Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig"; sourceTree = "<group>"; };
+		47023FB4F02423896181EDFE /* Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatUITests/Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		481048E31CFA3B4900109208 /* 64_Degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 64_Degrees.png; path = Images/Campus/64_Degrees.png; sourceTree = "<group>"; };
 		481048E41CFA3B4900109208 /* 64_North.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 64_North.png; path = Images/Campus/64_North.png; sourceTree = "<group>"; };
 		481048E61CFA3B4900109208 /* Bombay_Coast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bombay_Coast.png; path = Images/Campus/Bombay_Coast.png; sourceTree = "<group>"; };
@@ -423,16 +432,24 @@
 		48E8ACCF1C5D444200CE849B /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = "UCSD-CSSA-What-To-Eat/ShakeMe.png"; sourceTree = "<group>"; };
 		48E8ACD21C5D54DE00CE849B /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = "UCSD-CSSA-What-To-Eat/ColoredDice.png"; sourceTree = "<group>"; };
 		48FF3F581CD5384D0080ED6A /* DownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DownArrow.png; path = Images/UI/DownArrow.png; sourceTree = "<group>"; };
-		48FF3F5A1CD538700080ED6A /* LCheckBox_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_1.png; path = Images/UI/LCheckBox_1.png; sourceTree = "<group>"; };
-		48FF3F5B1CD538700080ED6A /* LCheckBox_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_2.png; path = Images/UI/LCheckBox_2.png; sourceTree = "<group>"; };
-		48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_3.png; path = Images/UI/LCheckBox_3.png; sourceTree = "<group>"; };
-		48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_1.png; path = Images/UI/SCheckBox_1.png; sourceTree = "<group>"; };
-		48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_2.png; path = Images/UI/SCheckBox_2.png; sourceTree = "<group>"; };
+		48FF3F5A1CD538700080ED6A /* LCheckBox_Empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_Empty.png; path = Images/UI/LCheckBox_Empty.png; sourceTree = "<group>"; };
+		48FF3F5B1CD538700080ED6A /* LCheckBox_Half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_Half.png; path = Images/UI/LCheckBox_Half.png; sourceTree = "<group>"; };
+		48FF3F5C1CD538700080ED6A /* LCheckBox_Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCheckBox_Full.png; path = Images/UI/LCheckBox_Full.png; sourceTree = "<group>"; };
+		48FF3F5D1CD538700080ED6A /* SCheckBox_Empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_Empty.png; path = Images/UI/SCheckBox_Empty.png; sourceTree = "<group>"; };
+		48FF3F5E1CD538700080ED6A /* SCheckBox_Checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCheckBox_Checked.png; path = Images/UI/SCheckBox_Checked.png; sourceTree = "<group>"; };
+		54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_EatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567284BF17A960D334B1B8AC /* Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0B06C71DB9713D004AAD0F /* ListButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListButton.swift; sourceTree = "<group>"; };
+		5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
+		5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryHeaderView.xib; sourceTree = "<group>"; };
+		5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		5B6E71491DB9BCB8008B1FD8 /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantCell.xib; sourceTree = "<group>"; };
+		5BB0739A1DBC236E000ADC99 /* ListButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListButton.xib; sourceTree = "<group>"; };
+		5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FilterViewController+Delegates.swift"; sourceTree = "<group>"; };
+		84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_EatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F476B941CF0E0C8006B21B7 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chicken.mp3; path = Sound/chicken.mp3; sourceTree = "<group>"; };
 		8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightArrow.png; path = Images/UI/RightArrow.png; sourceTree = "<group>"; };
 		8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
-		8FB9CDA31C691B0300618CAB /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 		8FB9CDA51C692A6600618CAB /* Back_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_22.png; path = Images/UI/Back_22.png; sourceTree = "<group>"; };
 		8FB9CDA61C692A6600618CAB /* Back_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_44.png; path = Images/UI/Back_44.png; sourceTree = "<group>"; };
 		8FB9CDA71C692A6600618CAB /* Back_66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_66.png; path = Images/UI/Back_66.png; sourceTree = "<group>"; };
@@ -448,6 +465,8 @@
 		8FC404311CDE69670061C817 /* CellDescriptor3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor3.plist; sourceTree = "<group>"; };
 		8FC404321CDE69670061C817 /* CellDescriptor4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor4.plist; sourceTree = "<group>"; };
 		8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		A1F70C0B8DF7962187DF0BF1 /* Pods-UCSD-CSSA-What-To-Eat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-Eat.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat.release.xcconfig"; sourceTree = "<group>"; };
+		A25B677B3FA704C563EDCDCF /* Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig"; sourceTree = "<group>"; };
 		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906801BD2D3B6007B43FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5906821BD2D3B6007B43FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -465,10 +484,12 @@
 		AA599D931CFA449B001E7527 /* pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pikachu.mp3; path = Sound/pikachu.mp3; sourceTree = "<group>"; };
 		AA8969321CFA5852007C598E /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = Images/UI/ColoredDice.png; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
-		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingHeader.xib; path = "UCSD-CSSA-What-To-Eat/SettingHeader.xib"; sourceTree = "<group>"; };
-		AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingSwitchCell.xib; path = "UCSD-CSSA-What-To-Eat/SettingSwitchCell.xib"; sourceTree = "<group>"; };
-		AAE65FE01CB069EE00433876 /* SettingListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingListCell.xib; path = "UCSD-CSSA-What-To-Eat/SettingListCell.xib"; sourceTree = "<group>"; };
+		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = Setting/SettingViewController.swift; sourceTree = "<group>"; };
+		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingHeader.xib; sourceTree = "<group>"; };
+		AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingSwitchCell.xib; sourceTree = "<group>"; };
+		AAE65FE01CB069EE00433876 /* SettingListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingListCell.xib; sourceTree = "<group>"; };
+		AD595882CA3E7B3F15BABBF1 /* Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatUITests/Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7BE6E8094D354AADBBA4133 /* Pods_UCSD_CSSA_What_To_Eat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_Eat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -476,6 +497,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAC34A930B5605E3955E172 /* Pods_UCSD_CSSA_What_To_Eat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +505,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577EB3C500ADA18D9AB27F7A /* Pods_UCSD_CSSA_What_To_EatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,12 +513,119 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE9DC8B45FC475CFC3A874C /* Pods_UCSD_CSSA_What_To_EatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A162D20B547A88BA5F0E2CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A25B677B3FA704C563EDCDCF /* Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig */,
+				A1F70C0B8DF7962187DF0BF1 /* Pods-UCSD-CSSA-What-To-Eat.release.xcconfig */,
+				567284BF17A960D334B1B8AC /* Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig */,
+				04FD74DB92645AA492624691 /* Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig */,
+				AD595882CA3E7B3F15BABBF1 /* Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig */,
+				47023FB4F02423896181EDFE /* Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B0B06C11DB96273004AAD0F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B06C21DB9629C004AAD0F /* Filter */,
+				5B0B06C41DB9630E004AAD0F /* Setting */,
+				AAB7247E1C6696BB006F85BF /* SettingViewController.swift */,
+				5B0B06C31DB962A3004AAD0F /* Shake */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5B0B06C21DB9629C004AAD0F /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B06C61DB96E41004AAD0F /* Views */,
+				4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */,
+				5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		5B0B06C31DB962A3004AAD0F /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				AA5906821BD2D3B6007B43FB /* ViewController.swift */,
+			);
+			path = Shake;
+			sourceTree = "<group>";
+		};
+		5B0B06C41DB9630E004AAD0F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B06C51DB96343004AAD0F /* Views */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		5B0B06C51DB96343004AAD0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAE65FE01CB069EE00433876 /* SettingListCell.xib */,
+				AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */,
+				AAE65FDC1CB0672C00433876 /* SettingHeader.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B0B06C61DB96E41004AAD0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */,
+				5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */,
+				5B0B06C71DB9713D004AAD0F /* ListButton.swift */,
+				5BB0739A1DBC236E000ADC99 /* ListButton.xib */,
+				5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */,
+				5B6E71491DB9BCB8008B1FD8 /* RestaurantCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B6E713E1DB99552008B1FD8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5B6E71401DB9A649008B1FD8 /* DataProviders */,
+				5B6E713F1DB9A5B2008B1FD8 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5B6E713F1DB9A5B2008B1FD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B6E71401DB9A649008B1FD8 /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataProviders;
+			sourceTree = "<group>";
+		};
+		621EA7475A9C0FA0429C2DDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7BE6E8094D354AADBBA4133 /* Pods_UCSD_CSSA_What_To_Eat.framework */,
+				54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */,
+				84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FB9CD9A1C691AAB00618CAB /* TableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,8 +634,6 @@
 				8FC404301CDE69670061C817 /* CellDescriptor2.plist */,
 				8FC404311CDE69670061C817 /* CellDescriptor3.plist */,
 				8FC404321CDE69670061C817 /* CellDescriptor4.plist */,
-				8FB9CD9F1C691AF500618CAB /* CategoryCell.xib */,
-				8FB9CDA31C691B0300618CAB /* ItemCell.xib */,
 				8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */,
 			);
 			name = TableView;
@@ -515,7 +643,6 @@
 		AA5906741BD2D3B6007B43FB = {
 			isa = PBXGroup;
 			children = (
-				AAE65FDB1CB0666B00433876 /* Setting */,
 				8FB9CD9A1C691AAB00618CAB /* TableView */,
 				AAB724771C66820F006F85BF /* Sound */,
 				AAD745B11BDC0589003511FB /* Rest_Image */,
@@ -523,6 +650,8 @@
 				AA5906971BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests */,
 				AA5906A21BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests */,
 				AA59067E1BD2D3B6007B43FB /* Products */,
+				5A162D20B547A88BA5F0E2CE /* Pods */,
+				621EA7475A9C0FA0429C2DDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -539,14 +668,13 @@
 		AA59067F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */ = {
 			isa = PBXGroup;
 			children = (
+				5B6E713E1DB99552008B1FD8 /* Data */,
+				5B0B06C11DB96273004AAD0F /* Scenes */,
 				48290EE51CDE7A0A0051DDB2 /* myFont.ttf */,
 				48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */,
-				AAB7247E1C6696BB006F85BF /* SettingViewController.swift */,
 				48602B031C01AAFE00688B11 /* icon.swift */,
 				48972FCA1CC2AEA500423601 /* resinfo.swift */,
 				AA5906801BD2D3B6007B43FB /* AppDelegate.swift */,
-				AA5906821BD2D3B6007B43FB /* ViewController.swift */,
-				4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */,
 				AA5906841BD2D3B6007B43FB /* Main.storyboard */,
 				AA59068A1BD2D3B6007B43FB /* Assets.xcassets */,
 				AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */,
@@ -654,9 +782,9 @@
 				482BD7951CF0E80C00F2786E /* Infini_Tea.png */,
 				482BD7961CF0E80C00F2786E /* Izakaya_Sakura.png */,
 				482BD7971CF0E80C00F2786E /* Jasmine_Seafood.png */,
-				48FF3F5A1CD538700080ED6A /* LCheckBox_1.png */,
-				48FF3F5B1CD538700080ED6A /* LCheckBox_2.png */,
-				48FF3F5C1CD538700080ED6A /* LCheckBox_3.png */,
+				48FF3F5A1CD538700080ED6A /* LCheckBox_Empty.png */,
+				48FF3F5B1CD538700080ED6A /* LCheckBox_Half.png */,
+				48FF3F5C1CD538700080ED6A /* LCheckBox_Full.png */,
 				482BD7981CF0E80C00F2786E /* Liang's_Kitchen.png */,
 				482BD7991CF0E80C00F2786E /* Little_Sheep_Hot_Pot.png */,
 				482BD79A1CF0E80C00F2786E /* Manna_Korean_BBQ.png */,
@@ -667,8 +795,8 @@
 				482BD79E1CF0E80C00F2786E /* Rakiraki.png */,
 				8F98DC0C1C79091F00BBFDD8 /* RightArrow.png */,
 				482BD79F1CF0E80C00F2786E /* Sam_Woo_BBQ.png */,
-				48FF3F5D1CD538700080ED6A /* SCheckBox_1.png */,
-				48FF3F5E1CD538700080ED6A /* SCheckBox_2.png */,
+				48FF3F5D1CD538700080ED6A /* SCheckBox_Empty.png */,
+				48FF3F5E1CD538700080ED6A /* SCheckBox_Checked.png */,
 				8FB9CDB41C692A6600618CAB /* Search.png */,
 				482BD7A01CF0E80C00F2786E /* Shabu_Shabu_House.png */,
 				48E8ACCF1C5D444200CE849B /* ShakeMe.png */,
@@ -694,16 +822,6 @@
 			name = Rest_Image;
 			sourceTree = "<group>";
 		};
-		AAE65FDB1CB0666B00433876 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				AAE65FE01CB069EE00433876 /* SettingListCell.xib */,
-				AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */,
-				AAE65FDC1CB0672C00433876 /* SettingHeader.xib */,
-			);
-			name = Setting;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -711,9 +829,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5906A81BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-Eat" */;
 			buildPhases = (
+				15DE3BEDF2CDE61559658203 /* [CP] Check Pods Manifest.lock */,
 				AA5906791BD2D3B6007B43FB /* Sources */,
 				AA59067A1BD2D3B6007B43FB /* Frameworks */,
 				AA59067B1BD2D3B6007B43FB /* Resources */,
+				9DE7957A36AC805B91B7AD9C /* [CP] Embed Pods Frameworks */,
+				580BBC513BCE68EBBF22C056 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -728,9 +849,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5906AB1BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-EatTests" */;
 			buildPhases = (
+				431ED95C28EBFAC63CB8297E /* [CP] Check Pods Manifest.lock */,
 				AA5906901BD2D3B6007B43FB /* Sources */,
 				AA5906911BD2D3B6007B43FB /* Frameworks */,
 				AA5906921BD2D3B6007B43FB /* Resources */,
+				73061C09287EBFAA0F25E252 /* [CP] Embed Pods Frameworks */,
+				2AF5A2915AB5F8C40F4033C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -746,9 +870,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5906AE1BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-EatUITests" */;
 			buildPhases = (
+				BD076E5BB9FD1B640C577B1E /* [CP] Check Pods Manifest.lock */,
 				AA59069B1BD2D3B6007B43FB /* Sources */,
 				AA59069C1BD2D3B6007B43FB /* Frameworks */,
 				AA59069D1BD2D3B6007B43FB /* Resources */,
+				42588C0CA13DB4638E82A56F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -766,19 +892,21 @@
 		AA5906751BD2D3B6007B43FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Ruiqing Qiu";
 				TargetAttributes = {
 					AA59067C1BD2D3B6007B43FB = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = RC47RUQEKD;
+						LastSwiftMigration = 0800;
 					};
 					AA5906931BD2D3B6007B43FB = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = AA59067C1BD2D3B6007B43FB;
 					};
 					AA59069E1BD2D3B6007B43FB = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = AA59067C1BD2D3B6007B43FB;
 					};
 				};
@@ -812,6 +940,7 @@
 				482BD7DA1CF0E80C00F2786E /* Little_Sheep_Hot_Pot.png in Resources */,
 				481049661CFA3B4A00109208 /* Sunshine_Market.png in Resources */,
 				8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */,
+				5BB0739B1DBC236E000ADC99 /* ListButton.xib in Resources */,
 				48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */,
 				482BD7B31CF0E80C00F2786E /* Convoy_Tofu_House.png in Resources */,
 				482BD7B91CF0E80C00F2786E /* Do_Re_Mi_House.png in Resources */,
@@ -820,9 +949,9 @@
 				482BD7C51CF0E80C00F2786E /* FuAn_Garden.png in Resources */,
 				482BD7E31CF0E80C00F2786E /* Noble_Chef.png in Resources */,
 				481049391CFA3B4A00109208 /* Home_Plate.png in Resources */,
-				48FF3F601CD538700080ED6A /* LCheckBox_2.png in Resources */,
+				48FF3F601CD538700080ED6A /* LCheckBox_Half.png in Resources */,
 				8F476B951CF0E0C8006B21B7 /* chicken.mp3 in Resources */,
-				48FF3F621CD538700080ED6A /* SCheckBox_1.png in Resources */,
+				48FF3F621CD538700080ED6A /* SCheckBox_Empty.png in Resources */,
 				482BD7DD1CF0E80C00F2786E /* Manna_Korean_BBQ.png in Resources */,
 				481049421CFA3B4A00109208 /* John's_Market.png in Resources */,
 				8FB9CDC01C692A6600618CAB /* EditButton.png in Resources */,
@@ -857,9 +986,8 @@
 				AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */,
 				481049361CFA3B4A00109208 /* Hi_Thai.png in Resources */,
 				481049751CFA3B4A00109208 /* Yogurt_World.png in Resources */,
-				AA8969331CFA5852007C598E /* ColoredDice.png in Resources */,
 				482BD7C81CF0E80C00F2786E /* Golden_City.png in Resources */,
-				48FF3F5F1CD538700080ED6A /* LCheckBox_1.png in Resources */,
+				48FF3F5F1CD538700080ED6A /* LCheckBox_Empty.png in Resources */,
 				8FC404341CDE69670061C817 /* CellDescriptor2.plist in Resources */,
 				4810496C1CFA3B4A00109208 /* The_Bistro.png in Resources */,
 				4810494B1CFA3B4A00109208 /* Pines.png in Resources */,
@@ -871,20 +999,20 @@
 				481650111CFA4EA50094A5E3 /* Food_Co-op.png in Resources */,
 				4810493F1CFA3B4A00109208 /* Jamba_Juice.png in Resources */,
 				482BD8201CF0E8E400F2786E /* Art_of_Espresso_Cafe.png in Resources */,
+				5B6E714A1DB9BCB8008B1FD8 /* RestaurantCell.xib in Resources */,
 				4810496F1CFA3B4A00109208 /* The_Faculty_Club.png in Resources */,
 				AA599D941CFA449B001E7527 /* pikachu.mp3 in Resources */,
 				48290EE61CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 				4810494E1CFA3B4A00109208 /* Roger's_Market.png in Resources */,
 				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
 				482BD7BC1CF0E80C00F2786E /* Emerald.png in Resources */,
-				8FB9CDA01C691AF500618CAB /* CategoryCell.xib in Resources */,
 				481049781CFA3B4A00109208 /* ZanziBar.png in Resources */,
 				481049511CFA3B4A00109208 /* Roots.png in Resources */,
 				481049091CFA3B4A00109208 /* 64_Degrees.png in Resources */,
 				482BD7D11CF0E80C00F2786E /* Izakaya_Sakura.png in Resources */,
 				8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */,
 				4816500D1CFA49E90094A5E3 /* Cafe.png in Resources */,
-				48FF3F611CD538700080ED6A /* LCheckBox_3.png in Resources */,
+				48FF3F611CD538700080ED6A /* LCheckBox_Full.png in Resources */,
 				481049241CFA3B4A00109208 /* Dlush_Lounge.png in Resources */,
 				483D58091CFA447600DAB880 /* MOM_College_Center.png in Resources */,
 				482BD8161CF0E80C00F2786E /* Yakitori_Taisho.png in Resources */,
@@ -906,6 +1034,7 @@
 				8FB9CDB91C692A6600618CAB /* Back_66.png in Resources */,
 				483D580D1CFA450D00DAB880 /* Starbucks.png in Resources */,
 				481049211CFA3B4A00109208 /* Croutons.png in Resources */,
+				5B6E71461DB9B9D0008B1FD8 /* CategoryHeaderView.xib in Resources */,
 				8FB9CDC11C692A6600618CAB /* FilterButton.png in Resources */,
 				481049481CFA3B4A00109208 /* Panda_Express.png in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
@@ -914,7 +1043,7 @@
 				482BD8131CF0E80C00F2786E /* Xi'an_Kitchen.png in Resources */,
 				8FB9CDC71C692A6600618CAB /* ShakeMe.png in Resources */,
 				482BD7C21CF0E80C00F2786E /* Friends_House_Korean.png in Resources */,
-				48FF3F631CD538700080ED6A /* SCheckBox_2.png in Resources */,
+				48FF3F631CD538700080ED6A /* SCheckBox_Checked.png in Resources */,
 				481049451CFA3B4A00109208 /* Lemon_Grass.png in Resources */,
 				482BD7BF1CF0E80C00F2786E /* Foodworx.png in Resources */,
 				481049571CFA3B4A00109208 /* Rubio's.png in Resources */,
@@ -924,7 +1053,6 @@
 				481049151CFA3B4A00109208 /* Burger_King.png in Resources */,
 				481049541CFA3B4A00109208 /* Round_Table_Pizza.png in Resources */,
 				481049631CFA3B4A00109208 /* Subway.png in Resources */,
-				8FB9CDA41C691B0300618CAB /* ItemCell.xib in Resources */,
 				483D58151CFA46D500DAB880 /* Grandma_Tofu.png in Resources */,
 				8FC404331CDE69670061C817 /* CellDescriptor1.plist in Resources */,
 				482BD7D71CF0E80C00F2786E /* Liang's_Kitchen.png in Resources */,
@@ -1118,17 +1246,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15DE3BEDF2CDE61559658203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AF5A2915AB5F8C40F4033C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42588C0CA13DB4638E82A56F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatUITests/Pods-UCSD-CSSA-What-To-EatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		431ED95C28EBFAC63CB8297E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		580BBC513BCE68EBBF22C056 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73061C09287EBFAA0F25E252 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE7957A36AC805B91B7AD9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD076E5BB9FD1B640C577B1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA5906791BD2D3B6007B43FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA5906891BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodeld in Sources */,
+				5B6E71441DB9B9C0008B1FD8 /* CategoryHeaderView.swift in Sources */,
 				AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */,
 				48602B041C01AAFE00688B11 /* icon.swift in Sources */,
+				5B0B06C81DB9713D004AAD0F /* ListButton.swift in Sources */,
 				AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */,
 				4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */,
 				8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */,
+				5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */,
+				5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */,
 				48972FCB1CC2AEA500423601 /* resinfo.swift in Sources */,
 				AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */,
 			);
@@ -1202,8 +1457,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1247,8 +1504,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1268,73 +1527,86 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		AA5906A91BD2D3B6007B43FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25B677B3FA704C563EDCDCF /* Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		AA5906AA1BD2D3B6007B43FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F70C0B8DF7962187DF0BF1 /* Pods-UCSD-CSSA-What-To-Eat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		AA5906AC1BD2D3B6007B43FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567284BF17A960D334B1B8AC /* Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSD-CSSA-What-To-Eat.app/UCSD-CSSA-What-To-Eat";
 			};
 			name = Debug;
 		};
 		AA5906AD1BD2D3B6007B43FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FD74DB92645AA492624691 /* Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSD-CSSA-What-To-Eat.app/UCSD-CSSA-What-To-Eat";
 			};
 			name = Release;
 		};
 		AA5906AF1BD2D3B6007B43FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD595882CA3E7B3F15BABBF1 /* Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "UCSD-CSSA-What-To-Eat";
 				USES_XCTRUNNER = YES;
 			};
@@ -1342,11 +1614,13 @@
 		};
 		AA5906B01BD2D3B6007B43FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47023FB4F02423896181EDFE /* Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "UCSD-CSSA-What-To-Eat";
 				USES_XCTRUNNER = YES;
 			};

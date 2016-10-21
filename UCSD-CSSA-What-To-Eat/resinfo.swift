@@ -9,7 +9,7 @@
 import Foundation
 
 
-public class resinfo
+open class resinfo
 {
     var png = ""
     var englishName = ""
