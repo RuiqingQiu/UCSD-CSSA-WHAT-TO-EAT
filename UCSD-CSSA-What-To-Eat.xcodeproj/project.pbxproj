@@ -294,7 +294,6 @@
 		8FB9CDB81C692A6600618CAB /* Back_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA61C692A6600618CAB /* Back_44.png */; };
 		8FB9CDB91C692A6600618CAB /* Back_66.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA71C692A6600618CAB /* Back_66.png */; };
 		8FB9CDBA1C692A6600618CAB /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA81C692A6600618CAB /* Back.png */; };
-		8FB9CDBE1C692A6600618CAB /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAC1C692A6600618CAB /* ColoredDice.png */; };
 		8FB9CDC01C692A6600618CAB /* EditButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAE1C692A6600618CAB /* EditButton.png */; };
 		8FB9CDC11C692A6600618CAB /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAF1C692A6600618CAB /* FilterButton.png */; };
 		8FB9CDC61C692A6600618CAB /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB41C692A6600618CAB /* Search.png */; };
@@ -454,7 +453,6 @@
 		8FB9CDA61C692A6600618CAB /* Back_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_44.png; path = Images/UI/Back_44.png; sourceTree = "<group>"; };
 		8FB9CDA71C692A6600618CAB /* Back_66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_66.png; path = Images/UI/Back_66.png; sourceTree = "<group>"; };
 		8FB9CDA81C692A6600618CAB /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back.png; path = Images/UI/Back.png; sourceTree = "<group>"; };
-		8FB9CDAC1C692A6600618CAB /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = Images/UI/ColoredDice.png; sourceTree = "<group>"; };
 		8FB9CDAE1C692A6600618CAB /* EditButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EditButton.png; path = Images/UI/EditButton.png; sourceTree = "<group>"; };
 		8FB9CDAF1C692A6600618CAB /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = Images/UI/FilterButton.png; sourceTree = "<group>"; };
 		8FB9CDB41C692A6600618CAB /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Search.png; path = Images/UI/Search.png; sourceTree = "<group>"; };
@@ -765,7 +763,6 @@
 				8FB9CDA81C692A6600618CAB /* Back.png */,
 				482BD78B1CF0E80C00F2786E /* Chef_Chin_Restaurant.png */,
 				48E8ACD21C5D54DE00CE849B /* ColoredDice.png */,
-				8FB9CDAC1C692A6600618CAB /* ColoredDice.png */,
 				482BD78C1CF0E80C00F2786E /* Convoy_Tofu_House.png */,
 				482BD78D1CF0E80C00F2786E /* Dae_Jang_Keum.png */,
 				482BD78E1CF0E80C00F2786E /* Do_Re_Mi_House.png */,
@@ -875,6 +872,7 @@
 				AA59069C1BD2D3B6007B43FB /* Frameworks */,
 				AA59069D1BD2D3B6007B43FB /* Resources */,
 				42588C0CA13DB4638E82A56F /* [CP] Copy Pods Resources */,
+				239F5FF7277410CCCF78BA31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -962,7 +960,6 @@
 				4810491E1CFA3B4A00109208 /* Club_Med.png in Resources */,
 				482BD7D41CF0E80C00F2786E /* Jasmine_Seafood.png in Resources */,
 				4810495D1CFA3B4A00109208 /* Shogun.png in Resources */,
-				8FB9CDBE1C692A6600618CAB /* ColoredDice.png in Resources */,
 				8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */,
 				AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */,
 				8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */,
@@ -1259,7 +1256,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		239F5FF7277410CCCF78BA31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatUITests/Pods-UCSD-CSSA-What-To-EatUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2AF5A2915AB5F8C40F4033C6 /* [CP] Copy Pods Resources */ = {
@@ -1304,7 +1316,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		580BBC513BCE68EBBF22C056 /* [CP] Copy Pods Resources */ = {
@@ -1364,7 +1376,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
