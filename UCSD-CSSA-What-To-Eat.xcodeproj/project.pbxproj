@@ -294,7 +294,6 @@
 		8FB9CDB81C692A6600618CAB /* Back_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA61C692A6600618CAB /* Back_44.png */; };
 		8FB9CDB91C692A6600618CAB /* Back_66.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA71C692A6600618CAB /* Back_66.png */; };
 		8FB9CDBA1C692A6600618CAB /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDA81C692A6600618CAB /* Back.png */; };
-		8FB9CDBE1C692A6600618CAB /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAC1C692A6600618CAB /* ColoredDice.png */; };
 		8FB9CDC01C692A6600618CAB /* EditButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAE1C692A6600618CAB /* EditButton.png */; };
 		8FB9CDC11C692A6600618CAB /* FilterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDAF1C692A6600618CAB /* FilterButton.png */; };
 		8FB9CDC61C692A6600618CAB /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CDB41C692A6600618CAB /* Search.png */; };
@@ -454,7 +453,6 @@
 		8FB9CDA61C692A6600618CAB /* Back_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_44.png; path = Images/UI/Back_44.png; sourceTree = "<group>"; };
 		8FB9CDA71C692A6600618CAB /* Back_66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_66.png; path = Images/UI/Back_66.png; sourceTree = "<group>"; };
 		8FB9CDA81C692A6600618CAB /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back.png; path = Images/UI/Back.png; sourceTree = "<group>"; };
-		8FB9CDAC1C692A6600618CAB /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = Images/UI/ColoredDice.png; sourceTree = "<group>"; };
 		8FB9CDAE1C692A6600618CAB /* EditButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EditButton.png; path = Images/UI/EditButton.png; sourceTree = "<group>"; };
 		8FB9CDAF1C692A6600618CAB /* FilterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FilterButton.png; path = Images/UI/FilterButton.png; sourceTree = "<group>"; };
 		8FB9CDB41C692A6600618CAB /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Search.png; path = Images/UI/Search.png; sourceTree = "<group>"; };
@@ -482,7 +480,6 @@
 		AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSD_CSSA_What_To_EatUITests.swift; sourceTree = "<group>"; };
 		AA5906A51BD2D3B6007B43FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA599D931CFA449B001E7527 /* pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pikachu.mp3; path = Sound/pikachu.mp3; sourceTree = "<group>"; };
-		AA8969321CFA5852007C598E /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = Images/UI/ColoredDice.png; sourceTree = "<group>"; };
 		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
 		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = Setting/SettingViewController.swift; sourceTree = "<group>"; };
 		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingHeader.xib; sourceTree = "<group>"; };
@@ -715,7 +712,6 @@
 		AAD745B11BDC0589003511FB /* Rest_Image */ = {
 			isa = PBXGroup;
 			children = (
-				AA8969321CFA5852007C598E /* ColoredDice.png */,
 				481048E31CFA3B4900109208 /* 64_Degrees.png */,
 				481048E41CFA3B4900109208 /* 64_North.png */,
 				481048E61CFA3B4900109208 /* Bombay_Coast.png */,
@@ -765,7 +761,6 @@
 				8FB9CDA81C692A6600618CAB /* Back.png */,
 				482BD78B1CF0E80C00F2786E /* Chef_Chin_Restaurant.png */,
 				48E8ACD21C5D54DE00CE849B /* ColoredDice.png */,
-				8FB9CDAC1C692A6600618CAB /* ColoredDice.png */,
 				482BD78C1CF0E80C00F2786E /* Convoy_Tofu_House.png */,
 				482BD78D1CF0E80C00F2786E /* Dae_Jang_Keum.png */,
 				482BD78E1CF0E80C00F2786E /* Do_Re_Mi_House.png */,
@@ -963,7 +958,6 @@
 				4810491E1CFA3B4A00109208 /* Club_Med.png in Resources */,
 				482BD7D41CF0E80C00F2786E /* Jasmine_Seafood.png in Resources */,
 				4810495D1CFA3B4A00109208 /* Shogun.png in Resources */,
-				8FB9CDBE1C692A6600618CAB /* ColoredDice.png in Resources */,
 				8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */,
 				AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */,
 				8FB9CDC81C692A6600618CAB /* Version2_36.png in Resources */,
