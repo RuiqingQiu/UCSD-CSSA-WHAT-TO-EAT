@@ -260,16 +260,11 @@
 		483D58191CFA484100DAB880 /* Foodworx.png in Resources */ = {isa = PBXBuildFile; fileRef = 483D58181CFA484100DAB880 /* Foodworx.png */; };
 		483D581A1CFA484100DAB880 /* Foodworx.png in Resources */ = {isa = PBXBuildFile; fileRef = 483D58181CFA484100DAB880 /* Foodworx.png */; };
 		483D581B1CFA484100DAB880 /* Foodworx.png in Resources */ = {isa = PBXBuildFile; fileRef = 483D58181CFA484100DAB880 /* Foodworx.png */; };
-		48602B041C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
-		48602B051C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
-		48602B061C01AAFE00688B11 /* icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48602B031C01AAFE00688B11 /* icon.swift */; };
 		4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */; };
-		48972FCB1CC2AEA500423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
-		48972FCC1CC2B7F900423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
-		48972FCD1CC2B7FA00423601 /* resinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48972FCA1CC2AEA500423601 /* resinfo.swift */; };
 		48A7A5D91CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */; };
 		48A7A5DA1CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */; };
 		48A7A5DB1CFA42C600FF7F23 /* Flavors_of_the_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */; };
+		48E58A1F1DC67803002D59A9 /* ShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E58A1E1DC67803002D59A9 /* ShakeAnimation.swift */; };
 		48E8ACD11C5D444200CE849B /* ShakeMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACCF1C5D444200CE849B /* ShakeMe.png */; };
 		48E8ACD31C5D54DE00CE849B /* ColoredDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E8ACD21C5D54DE00CE849B /* ColoredDice.png */; };
 		48FF3F591CD5384D0080ED6A /* DownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF3F581CD5384D0080ED6A /* DownArrow.png */; };
@@ -424,10 +419,9 @@
 		483D58101CFA45C800DAB880 /* Min_Sok_Chon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Min_Sok_Chon.png; path = Images/Convoy/Min_Sok_Chon.png; sourceTree = "<group>"; };
 		483D58141CFA46D500DAB880 /* Grandma_Tofu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Grandma_Tofu.png; path = Images/Convoy/Grandma_Tofu.png; sourceTree = "<group>"; };
 		483D58181CFA484100DAB880 /* Foodworx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Foodworx.png; path = Images/Campus/Foodworx.png; sourceTree = "<group>"; };
-		48602B031C01AAFE00688B11 /* icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icon.swift; sourceTree = "<group>"; };
 		4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
-		48972FCA1CC2AEA500423601 /* resinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resinfo.swift; sourceTree = "<group>"; };
 		48A7A5D81CFA42C600FF7F23 /* Flavors_of_the_world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flavors_of_the_world.png; path = Images/Campus/Flavors_of_the_world.png; sourceTree = "<group>"; };
+		48E58A1E1DC67803002D59A9 /* ShakeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeAnimation.swift; sourceTree = "<group>"; };
 		48E8ACCF1C5D444200CE849B /* ShakeMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShakeMe.png; path = "UCSD-CSSA-What-To-Eat/ShakeMe.png"; sourceTree = "<group>"; };
 		48E8ACD21C5D54DE00CE849B /* ColoredDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColoredDice.png; path = "UCSD-CSSA-What-To-Eat/ColoredDice.png"; sourceTree = "<group>"; };
 		48FF3F581CD5384D0080ED6A /* DownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DownArrow.png; path = Images/UI/DownArrow.png; sourceTree = "<group>"; };
@@ -555,6 +549,7 @@
 			isa = PBXGroup;
 			children = (
 				AA5906821BD2D3B6007B43FB /* ViewController.swift */,
+				48E58A1E1DC67803002D59A9 /* ShakeAnimation.swift */,
 			);
 			path = Shake;
 			sourceTree = "<group>";
@@ -669,8 +664,6 @@
 				5B0B06C11DB96273004AAD0F /* Scenes */,
 				48290EE51CDE7A0A0051DDB2 /* myFont.ttf */,
 				48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */,
-				48602B031C01AAFE00688B11 /* icon.swift */,
-				48972FCA1CC2AEA500423601 /* resinfo.swift */,
 				AA5906801BD2D3B6007B43FB /* AppDelegate.swift */,
 				AA5906841BD2D3B6007B43FB /* Main.storyboard */,
 				AA59068A1BD2D3B6007B43FB /* Assets.xcassets */,
@@ -1387,14 +1380,13 @@
 				AA5906891BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodeld in Sources */,
 				5B6E71441DB9B9C0008B1FD8 /* CategoryHeaderView.swift in Sources */,
 				AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */,
-				48602B041C01AAFE00688B11 /* icon.swift in Sources */,
 				5B0B06C81DB9713D004AAD0F /* ListButton.swift in Sources */,
 				AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */,
 				4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */,
+				48E58A1F1DC67803002D59A9 /* ShakeAnimation.swift in Sources */,
 				8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */,
 				5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */,
 				5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */,
-				48972FCB1CC2AEA500423601 /* resinfo.swift in Sources */,
 				AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1403,8 +1395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48972FCC1CC2B7F900423601 /* resinfo.swift in Sources */,
-				48602B051C01AAFE00688B11 /* icon.swift in Sources */,
 				AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1413,8 +1403,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48972FCD1CC2B7FA00423601 /* resinfo.swift in Sources */,
-				48602B061C01AAFE00688B11 /* icon.swift in Sources */,
 				AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
