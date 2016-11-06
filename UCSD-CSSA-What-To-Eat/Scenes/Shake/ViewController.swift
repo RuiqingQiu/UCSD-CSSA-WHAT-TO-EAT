@@ -22,15 +22,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var dice: UIImageView!
     @IBOutlet weak var selectedName: UILabel!
     @IBOutlet weak var utf8Name: UILabel!
-    @IBOutlet weak var Address: UIButton!
-    @IBOutlet weak var Yelp: UIButton!
+    @IBOutlet weak var address: UIButton!
+    @IBOutlet weak var yelp: UIButton!
 
     
-    @IBAction func MapButtonPress(_ sender: AnyObject) {
+    @IBAction func mapButtonPress(_ sender: AnyObject) {
         
     }
     
-    @IBAction func YelpButtonPress(_ sender: AnyObject) {
+    @IBAction func yelpButtonPress(_ sender: AnyObject) {
         UIApplication.shared.openURL(URL(string: "http://www.yelp.com")!)
     }
 
