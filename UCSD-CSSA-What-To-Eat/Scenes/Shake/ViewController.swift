@@ -22,8 +22,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var dice: UIImageView!
     @IBOutlet weak var selectedName: UILabel!
     @IBOutlet weak var utf8Name: UILabel!
+    @IBOutlet weak var Address: UIButton!
+    @IBOutlet weak var Yelp: UIButton!
+
     
+    @IBAction func MapButtonPress(_ sender: AnyObject) {
+        
+    }
     
+    @IBAction func YelpButtonPress(_ sender: AnyObject) {
+        UIApplication.shared.openURL(URL(string: "http://www.yelp.com")!)
+    }
+
+
     
     //Prevent user from rotating the view
     override var shouldAutorotate : Bool {
@@ -36,7 +47,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view, typically from a nib.
         icon.iconSize = 0.5*self.view.frame.width
         initMyLayer(getPngSelected())

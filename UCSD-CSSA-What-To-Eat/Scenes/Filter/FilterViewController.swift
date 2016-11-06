@@ -17,8 +17,8 @@ struct SectionItem {
     let utf8Name: String
     let cellIdentifier: String
 
-    init(data: [String: AnyObject]) {
-        checked = (data["checked"] as? Int) ?? 0
+    init(data: [String: AnyObject]) { //data is a dictionay
+        checked = (data["checked"] as? Int) ?? 0   //is data["checked"] unless data["checked"] is nil
         isExpanded = (data["isExpanded"] as? Bool) ?? false
         label = (data["label"] as? String) ?? ""
         png = (data["png"] as? String) ?? ""
@@ -26,7 +26,7 @@ struct SectionItem {
         cellIdentifier = (data["cellIdentifier"] as? String) ?? ""
     }
 
-    func toDict() -> [String: AnyObject] {
+    func toDict() -> [String: AnyObject] {   //return a dictionary
 
         var dict = [String: AnyObject]()
         dict["checked"] = checked as AnyObject?
@@ -83,9 +83,9 @@ class FilterViewController:  UIViewController {
 
     var currentListName = ""
     var listNames = [String]()
-    var cellDescriptors = [[CellDescriptor]]()
-    var sectionItems = [SectionItem]()
-    var visibleRowsPerSection = [[Int]]()
+    var cellDescriptors = [[CellDescriptor]]()     // arr of arr of cellDescriptor?
+    var sectionItems = [SectionItem]()           //arr of SectionItem
+    var visibleRowsPerSection = [[Int]]()      // 2D int arr
 
     var currentListIndex: Int {
         return listNames.index(of: currentListName) ?? 0
@@ -96,6 +96,7 @@ class FilterViewController:  UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view, typically from a nib.
+        //nib: a file that desctibes UI
         UIApplication.shared.statusBarStyle = .lightContent
 
         setupTableView()
@@ -104,7 +105,7 @@ class FilterViewController:  UIViewController {
         loadCellDescriptors()
     }
 
-    override func viewWillAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {       // _ is the placeholder of external param name
         super.viewWillAppear(animated)
         UIApplication.shared.statusBarStyle = .lightContent
     }
