@@ -3,7 +3,7 @@
 //  UCSD-CSSA-What-To-Eat
 //
 //  Created by Ruiqing Qiu on 10/17/15.
-//  Copyright © 2015 Ruiqing Qiu. All rights reserved.
+//  Copyright © 2015 Ruiqing Qiu. All rights reserved./Users/jiaqiwu/Desktop/Project/UCSD-CSSA-WHAT-TO-EAT/UCSD-CSSA-What-To-Eat/Scenes/Shake/ViewController.swift
 
 import UIKit
 import GLKit
@@ -25,18 +25,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var dice: UIImageView!
     @IBOutlet weak var selectedName: UILabel!
     @IBOutlet weak var utf8Name: UILabel!
-    @IBOutlet weak var address: UIButton!
+    @IBOutlet weak var map: UIButton!
     @IBOutlet weak var yelp: UIButton!
 
+    @IBAction func mapButtonPress(_ sender: Any) {
+    }
     
-    @IBAction func mapButtonPress(_ sender: AnyObject) {
+    @IBAction func yelpButtonPress(_ sender: Any) {
+        let yelpUrl = URL(string: "http://www.yelp.com")
         
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(yelpUrl!, options: [:], completionHandler: nil)
+        }
+        else {
+            UIApplication.shared.openURL(yelpUrl!)
+        }
     }
-    
-    @IBAction func yelpButtonPress(_ sender: AnyObject) {
-        UIApplication.shared.openURL(URL(string: "http://www.yelp.com")!)
-    }
-
 
     
     //Prevent user from rotating the view
