@@ -25,6 +25,7 @@
 		5B6E714A1DB9BCB8008B1FD8 /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E71491DB9BCB8008B1FD8 /* RestaurantCell.xib */; };
 		5BB0739B1DBC236E000ADC99 /* ListButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB0739A1DBC236E000ADC99 /* ListButton.xib */; };
 		5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */; };
+		8F0C687D1DE22898005B6C9E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C687C1DE22898005B6C9E /* Category.swift */; };
 		8F476B951CF0E0C8006B21B7 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F476B941CF0E0C8006B21B7 /* chicken.mp3 */; };
 		8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */; };
 		8FC404331CDE69670061C817 /* CellDescriptor1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */; };
@@ -32,6 +33,7 @@
 		8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404311CDE69670061C817 /* CellDescriptor3.plist */; };
 		8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404321CDE69670061C817 /* CellDescriptor4.plist */; };
 		8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */; };
+		8FCC55FA1DE224260064A1FD /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC55F91DE224260064A1FD /* Restaurant.swift */; };
 		AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906801BD2D3B6007B43FB /* AppDelegate.swift */; };
 		AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906821BD2D3B6007B43FB /* ViewController.swift */; };
 		AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5906841BD2D3B6007B43FB /* Main.storyboard */; };
@@ -82,6 +84,7 @@
 		5BB0739A1DBC236E000ADC99 /* ListButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListButton.xib; sourceTree = "<group>"; };
 		5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FilterViewController+Delegates.swift"; sourceTree = "<group>"; };
 		84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_EatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0C687C1DE22898005B6C9E /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		8F476B941CF0E0C8006B21B7 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chicken.mp3; path = Sound/chicken.mp3; sourceTree = "<group>"; };
 		8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor1.plist; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 		8FC404311CDE69670061C817 /* CellDescriptor3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor3.plist; sourceTree = "<group>"; };
 		8FC404321CDE69670061C817 /* CellDescriptor4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor4.plist; sourceTree = "<group>"; };
 		8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		8FCC55F91DE224260064A1FD /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		A1F70C0B8DF7962187DF0BF1 /* Pods-UCSD-CSSA-What-To-Eat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-Eat.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat.release.xcconfig"; sourceTree = "<group>"; };
 		A25B677B3FA704C563EDCDCF /* Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig"; sourceTree = "<group>"; };
 		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,6 +233,8 @@
 		5B6E713F1DB9A5B2008B1FD8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8FCC55F91DE224260064A1FD /* Restaurant.swift */,
+				8F0C687C1DE22898005B6C9E /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -641,6 +647,8 @@
 				4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */,
 				48E58A1F1DC67803002D59A9 /* ShakeAnimation.swift in Sources */,
 				8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */,
+				8FCC55FA1DE224260064A1FD /* Restaurant.swift in Sources */,
+				8F0C687D1DE22898005B6C9E /* Category.swift in Sources */,
 				5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */,
 				5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */,
 				AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */,
