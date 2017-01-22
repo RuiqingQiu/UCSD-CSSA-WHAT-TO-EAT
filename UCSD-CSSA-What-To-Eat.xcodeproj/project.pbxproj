@@ -34,7 +34,7 @@
 		8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404321CDE69670061C817 /* CellDescriptor4.plist */; };
 		8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */; };
 		8FCC55FA1DE224260064A1FD /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC55F91DE224260064A1FD /* Restaurant.swift */; };
-		8FCF86EF1E3533BF006C270A /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF86EE1E3533BF006C270A /* UserPreference.swift */; };
+		8FCF86EF1E3533BF006C270A /* PreferenceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF86EE1E3533BF006C270A /* PreferenceList.swift */; };
 		AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906801BD2D3B6007B43FB /* AppDelegate.swift */; };
 		AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906821BD2D3B6007B43FB /* ViewController.swift */; };
 		AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5906841BD2D3B6007B43FB /* Main.storyboard */; };
@@ -94,7 +94,7 @@
 		8FC404321CDE69670061C817 /* CellDescriptor4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor4.plist; sourceTree = "<group>"; };
 		8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		8FCC55F91DE224260064A1FD /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
-		8FCF86EE1E3533BF006C270A /* UserPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreference.swift; sourceTree = "<group>"; };
+		8FCF86EE1E3533BF006C270A /* PreferenceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceList.swift; sourceTree = "<group>"; };
 		A1F70C0B8DF7962187DF0BF1 /* Pods-UCSD-CSSA-What-To-Eat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-Eat.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat.release.xcconfig"; sourceTree = "<group>"; };
 		A25B677B3FA704C563EDCDCF /* Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig"; sourceTree = "<group>"; };
 		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,7 +237,7 @@
 			children = (
 				8FCC55F91DE224260064A1FD /* Restaurant.swift */,
 				8F0C687C1DE22898005B6C9E /* Category.swift */,
-				8FCF86EE1E3533BF006C270A /* UserPreference.swift */,
+				8FCF86EE1E3533BF006C270A /* PreferenceList.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -653,7 +653,7 @@
 				8FCC55FA1DE224260064A1FD /* Restaurant.swift in Sources */,
 				8F0C687D1DE22898005B6C9E /* Category.swift in Sources */,
 				5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */,
-				8FCF86EF1E3533BF006C270A /* UserPreference.swift in Sources */,
+				8FCF86EF1E3533BF006C270A /* PreferenceList.swift in Sources */,
 				5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */,
 				AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */,
 			);

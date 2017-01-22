@@ -1,5 +1,5 @@
 //
-//  UserPreference.swift
+//  PreferenceList.swift
 //  UCSD-CSSA-What-To-Eat
 //
 //  Created by MI YUJIAN on 1/22/17.
@@ -9,12 +9,12 @@
 import Foundation
 import Parse
 
-class UserPreference : PFObject, PFSubclassing {
+class PreferenceList : PFObject, PFSubclassing {
     
     @NSManaged var name :String
-    @NSManaged var lists : PFRelation<Restaurant>
+    @NSManaged var restaurants : PFRelation<Restaurant>
     
     static func parseClassName() -> String {
-        return "UserPreference"
+        return "PreferenceList"
     }
 }
