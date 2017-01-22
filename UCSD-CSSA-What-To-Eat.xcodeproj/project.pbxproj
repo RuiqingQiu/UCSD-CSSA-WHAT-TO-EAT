@@ -19,6 +19,7 @@
 		4EE9DC8B45FC475CFC3A874C /* Pods_UCSD_CSSA_What_To_EatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */; };
 		577EB3C500ADA18D9AB27F7A /* Pods_UCSD_CSSA_What_To_EatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */; };
 		5B0B06C81DB9713D004AAD0F /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B06C71DB9713D004AAD0F /* ListButton.swift */; };
+		5B1F02271E35364800F26672 /* PreferenceListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F02261E35364800F26672 /* PreferenceListDataProvider.swift */; };
 		5B6E71441DB9B9C0008B1FD8 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */; };
 		5B6E71461DB9B9D0008B1FD8 /* CategoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */; };
 		5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */; };
@@ -78,6 +79,7 @@
 		54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_EatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		567284BF17A960D334B1B8AC /* Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B0B06C71DB9713D004AAD0F /* ListButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListButton.swift; sourceTree = "<group>"; };
+		5B1F02261E35364800F26672 /* PreferenceListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceListDataProvider.swift; sourceTree = "<group>"; };
 		5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
 		5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryHeaderView.xib; sourceTree = "<group>"; };
 		5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 		5B6E71401DB9A649008B1FD8 /* DataProviders */ = {
 			isa = PBXGroup;
 			children = (
+				5B1F02261E35364800F26672 /* PreferenceListDataProvider.swift */,
 			);
 			path = DataProviders;
 			sourceTree = "<group>";
@@ -646,6 +649,7 @@
 				5B6E71441DB9B9C0008B1FD8 /* CategoryHeaderView.swift in Sources */,
 				AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */,
 				5B0B06C81DB9713D004AAD0F /* ListButton.swift in Sources */,
+				5B1F02271E35364800F26672 /* PreferenceListDataProvider.swift in Sources */,
 				AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */,
 				4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */,
 				48E58A1F1DC67803002D59A9 /* ShakeAnimation.swift in Sources */,
