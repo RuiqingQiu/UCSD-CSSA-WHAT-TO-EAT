@@ -7,6 +7,7 @@
 
 import UIKit
 import GLKit
+import MapKit
 import AudioToolbox
 var currentListName = "1"
 
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var dice: UIImageView!
     @IBOutlet weak var selectedName: UILabel!
     @IBOutlet weak var utf8Name: UILabel!
+    @IBOutlet weak var mapButton: UIButton!
     
     
     
@@ -46,6 +48,7 @@ class ViewController: UIViewController {
         print("!!!");
         print(getPngSelected());
         self.filterButton.isUserInteractionEnabled = true
+        self.mapButton.isUserInteractionEnabled = true
         
         if(UserDefaults.standard.array(forKey: "ListNames") != nil)
         {
@@ -83,7 +86,6 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         UIApplication.shared.statusBarStyle = .lightContent
-        print("!!!");
         print(getPngSelected());
         self.myAnimation?.resetView()
         self.selectedName.alpha = 0
@@ -130,8 +132,11 @@ class ViewController: UIViewController {
         let touch: UITouch? = touches.first
         if touch?.view == filterButton{
             let FilterViewController = self.storyboard!.instantiateViewController(withIdentifier: "FilterViewController")
-            
             self.present(FilterViewController, animated: true, completion: nil)
+            openMapForPlace()
+        }
+        if touch?.view == mapButton{
+            print("???????????????????????")
         }
         super.touchesEnded(touches, with: event)
     }
@@ -245,6 +250,24 @@ class ViewController: UIViewController {
 
         return returnArray
     
+    }
+    
+    func openMapForPlace() {
+        
+        let latitude: CLLocationDegrees = 37.2
+        let longitude: CLLocationDegrees = 22.9
+        
+        let regionDistance:CLLocationDistance = 10000
+        let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
+        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
+        ]
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "Place Name"
+        mapItem.openInMaps(launchOptions: options)
     }
        
     
