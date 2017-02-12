@@ -17,11 +17,33 @@ class Restaurant : PFObject, PFSubclassing {
     @NSManaged var address : String
     @NSManaged var is_collaborate : Int
     @NSManaged var image : PFFile
-    @NSManaged var Category : PFRelation<PFObject>
+    @NSManaged var Category : PFRelation<Category>
     @NSManaged var phone : String
     @NSManaged var voucher : String
     @NSManaged var imageUpdateTime : NSDate
+    @NSManaged var categories: [Category]
+    
+    var pngName = ""
+    var loadFromInternet = true // set to false when load from plist
 
+    var location: String {
+        for category in categories {
+            if category.categoryType == .Location {
+                return category.name
+            }
+        }
+        return ""
+    }
+    
+    var style: String {
+        for category in categories {
+            if category.categoryType == .Style {
+                return category.name
+            }
+        }
+        return "Other"
+    }
+    
     static func parseClassName() -> String {
         return "Restaurant"
     }

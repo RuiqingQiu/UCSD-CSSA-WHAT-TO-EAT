@@ -15,6 +15,8 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var Save: UIBarButtonItem!
     
+    var preferenceLists = PreferenceListDataProvider.sharedInstance.preferenceListsSync()
+    
     //Prevent user from rotating the view
     override var shouldAutorotate : Bool {
         return false
@@ -55,15 +57,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.tableView.register(UINib(nibName: "SettingListCell", bundle: nil), forCellReuseIdentifier: "idSettingListCell")
         self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
 
-        if(UserDefaults.standard.array(forKey: "ListNames") != nil)
-        {
-            ListNames = UserDefaults.standard.array(forKey: "ListNames")as! [String]
-        }
-        else
-        {
-            ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
-
-        }
+        ListNames = preferenceLists.map( {$0.name} )
         self.pickerView.dataSource = self;
         self.pickerView.delegate = self;
         pickerView.isHidden = true;

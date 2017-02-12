@@ -12,7 +12,7 @@ import Parse
 class PreferenceList : PFObject, PFSubclassing {
     
     @NSManaged var name :String
-    @NSManaged var restaurants : PFRelation<Restaurant>
+    @NSManaged var restaurants : [Restaurant]
     
     static func parseClassName() -> String {
         return "PreferenceList"
