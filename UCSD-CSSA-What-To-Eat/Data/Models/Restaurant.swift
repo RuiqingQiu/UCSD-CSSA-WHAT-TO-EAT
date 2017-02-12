@@ -26,4 +26,6 @@ class Restaurant : PFObject, PFSubclassing {
         return "Restaurant"
     }
     
+    
+    
 }
