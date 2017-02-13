@@ -25,20 +25,18 @@ class RestaurantDataProvider: NSObject {
     func loadFromParse(lastUpdateDate: NSDate? = nil, callback: ((Bool)->Void)?) {
         
         var query = Restaurant.query()
-        query?.includeKey("categories")
         
         if let lastUpdateDate = lastUpdateDate {
             let createDateQuery = Restaurant.query()!
             createDateQuery.whereKey("createdAt", greaterThanOrEqualTo: lastUpdateDate)
-            createDateQuery.includeKey("categories")
             let updateDateQuery = Restaurant.query()!
             updateDateQuery.whereKey("updatedAt", greaterThanOrEqualTo: lastUpdateDate)
             query = PFQuery.orQuery(withSubqueries: [createDateQuery, updateDateQuery])
-            createDateQuery.includeKey("categories")
         } else {
             try? Restaurant.unpinAllObjects()
         }
         
+        query?.includeKey("categories")
         query?.findObjectsInBackground { restaurants, error in
             guard error == nil else {
                 DDLogError("RestaurantDataProvider: Error downloading \(error)")
@@ -51,23 +49,10 @@ class RestaurantDataProvider: NSObject {
                 callback?(false)
                 return
             }
-            
-            self.restaurants = restaurants
-            
-            let group = DispatchGroup()
-            
-            for restaurant in restaurants {
-                group.enter()
-                restaurant.pinInBackground { _ in group.leave() }
-                
-                for category in restaurant.categories {
-                    group.enter()
-                    category.pinInBackground { _ in group.leave() }
-                }
-            }
-            group.notify(queue: DispatchQueue.main) {
-                callback?(true)
-            }
+
+            Restaurant.pinAll(inBackground: restaurants, block: { (success, error) in
+                callback?(success)
+            })
         }
     }
     

@@ -22,8 +22,9 @@ class Restaurant : PFObject, PFSubclassing {
     @NSManaged var voucher : String
     @NSManaged var imageUpdateTime : NSDate
     @NSManaged var categories: [Category]
+    @NSManaged var pngName: String
     
-    var pngName = ""
+
     var loadFromInternet = true // set to false when load from plist
 
     var location: String {

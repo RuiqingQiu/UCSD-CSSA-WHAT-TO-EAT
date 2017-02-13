@@ -10,18 +10,21 @@ PODS:
   - Parse (1.14.2):
     - Bolts/Tasks (~> 1.8)
   - ReachabilitySwift (3)
+  - SwiftSpinner (1.1.0)
 
 DEPENDENCIES:
   - CocoaLumberjack/Swift
   - Parse
   - ReachabilitySwift (~> 3)
+  - SwiftSpinner
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
 
-PODFILE CHECKSUM: 32131c9ceb3a92aef5da8c96bc946333b830591c
+PODFILE CHECKSUM: 3009b880db8d59addec553d99a7a9ddb085b97bc
 
 COCOAPODS: 1.1.1

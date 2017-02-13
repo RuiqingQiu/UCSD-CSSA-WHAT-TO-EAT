@@ -40,7 +40,6 @@ class FilterViewController:  UIViewController {
 
     var currentListIndex = UserDefaultManager.sharedInstance.preferenceListIndex()
     var preferenceLists: [PreferenceList]!
-    var listNames = [String]()
     var sectionItems = [SectionItem]()
     var restaurantDataProvider = RestaurantDataProvider.sharedInstance
 
@@ -53,14 +52,14 @@ class FilterViewController:  UIViewController {
 
         setupPreferenceLists()
         setupTableView()
-        setupListNames()
-        setupListButtons()
         loadCellDescriptors()
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         UIApplication.shared.statusBarStyle = .lightContent
+        
+        setupListButtons()
     }
 
     // MARK: - Setup
@@ -69,14 +68,9 @@ class FilterViewController:  UIViewController {
         preferenceLists = PreferenceListDataProvider.sharedInstance.preferenceListsSync()
     }
 
-    func setupListNames() {
-
-        listNames.append(contentsOf: preferenceLists.map({ $0.name }))
-    }
-
     func setupListButtons() {
 
-        for (i, listName) in listNames.enumerated() {
+        for (i, listName) in preferenceLists.map({ $0.name }).enumerated() {
 
             listbuttons[i].setName(listName)
             listbuttons[i].onPressButton = { [weak self] _ in

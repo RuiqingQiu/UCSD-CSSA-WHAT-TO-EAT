@@ -438,6 +438,7 @@
 				TargetAttributes = {
 					AA59067C1BD2D3B6007B43FB = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CUD7MDQGHN;
 						LastSwiftMigration = 0800;
 					};
 					AA5906931BD2D3B6007B43FB = {
@@ -829,11 +830,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CUD7MDQGHN;
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
+				PRODUCT_BUNDLE_IDENTIFIER = "ucsdcssa.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -848,11 +849,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CUD7MDQGHN;
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
+				PRODUCT_BUNDLE_IDENTIFIER = "ucsdcssa.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;

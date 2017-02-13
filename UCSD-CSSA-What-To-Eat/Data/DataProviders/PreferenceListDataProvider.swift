@@ -32,8 +32,9 @@ class PreferenceListDataProvider: NSObject {
         
         guard let query = PreferenceList.query() else { return }
         query.fromLocalDatastore()
+        query.addAscendingOrder("index")
         query.findObjectsInBackground { (objects, error) in
-            guard error != nil else {
+            guard error == nil else {
                 DDLogError("PreferenceListDataProvider: \(error)")
                 return
             }
@@ -43,7 +44,6 @@ class PreferenceListDataProvider: NSObject {
             }
             
             self.preferenceLists = preferenceLists
-            self.preferenceLists.sort(by: { $0.0.name < $0.1.name })
             callback(preferenceLists)
         }
     }
@@ -55,9 +55,9 @@ class PreferenceListDataProvider: NSObject {
         
         let query = PreferenceList.query()
         query?.fromLocalDatastore()
+        query?.addAscendingOrder("index")
         preferenceLists = (try? query?.findObjects()) as? [PreferenceList] ?? [PreferenceList]()
         
-        preferenceLists.sort(by: { $0.0.name < $0.1.name } )
         return preferenceLists
     }
     
@@ -68,14 +68,8 @@ class PreferenceListDataProvider: NSObject {
             self.preferenceLists.append(self.campusPreferenceList(restaurants: restaurants!))
             self.preferenceLists.append(self.convoyPreferenceList(restaurants: restaurants!))
             self.preferenceLists.append(self.emptyPreferenceList(restaurants: restaurants!))
-            
-            let group = DispatchGroup()
-            for list in self.preferenceLists {
-                group.enter()
-                list.pinInBackground { _ in group.leave() }
-            }
-            group.notify(queue: DispatchQueue.main) {
-                callback?(true)
+            PreferenceList.pinAll(inBackground: self.preferenceLists) { (success, error) in
+                callback?(success)
             }
         }
     }
@@ -86,6 +80,7 @@ class PreferenceListDataProvider: NSObject {
         let list = PreferenceList()
         list.objectId = "Dining Hall"
         list.name = "Dining Hall"
+        list.index = 0.0
         list.restaurants.append(contentsOf: restaurants.filter { $0.style == "Dining Hall"})
         return list
     }
@@ -94,7 +89,8 @@ class PreferenceListDataProvider: NSObject {
         let list = PreferenceList()
         list.objectId = "Campus"
         list.name = "Campus"
-        list.restaurants.append(contentsOf: restaurants.filter { $0.location == "Campus" && ($0.style == "Resturant" || $0.style == "Dining Hall")})
+        list.index = 1.0
+        list.restaurants.append(contentsOf: restaurants.filter { $0.location == "Campus" && ($0.style == "Restaurant" || $0.style == "Dining Hall")})
         return list
     }
     
@@ -102,6 +98,7 @@ class PreferenceListDataProvider: NSObject {
         let list = PreferenceList()
         list.objectId = "Convoy"
         list.name = "Convoy"
+        list.index = 2.0
         list.restaurants.append(contentsOf: restaurants.filter { $0.location == "Convoy"})
         return list
     }
@@ -110,6 +107,7 @@ class PreferenceListDataProvider: NSObject {
         let list = PreferenceList()
         list.objectId = "Campus All"
         list.name = "Campus All"
+        list.index = 3.0
         list.restaurants.append(contentsOf: restaurants.filter { $0.location == "Campus"})
         return list
     }

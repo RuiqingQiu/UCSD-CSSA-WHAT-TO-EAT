@@ -7,6 +7,7 @@ target 'UCSD-CSSA-What-To-Eat' do
   pod 'Parse'
   pod 'CocoaLumberjack/Swift'
   pod 'ReachabilitySwift', '~> 3'
+  pod "SwiftSpinner"
 
   # Pods for UCSD-CSSA-What-To-Eat
 
