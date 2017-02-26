@@ -8,14 +8,19 @@
 import UIKit
 import GLKit
 import AudioToolbox
-var currentListName = "1"
-
+import SwiftSpinner
+import ReachabilitySwift
 
 class ViewController: UIViewController {
+    
+    let reachability = Reachability()!
     var def = UserDefaults.standard
     var shaked = true
     var cellDescriptors: NSMutableArray!
-    var ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
+    var listNames = ["Dining Hall", "Campus", "Convoy", "My List"];
+    
+    var preferenceLists = [PreferenceList]()
+    var currentListIndex = 0
     
     var myAnimation: ShakeAnimation?
     
@@ -25,8 +30,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var dice: UIImageView!
     @IBOutlet weak var selectedName: UILabel!
     @IBOutlet weak var utf8Name: UILabel!
-    
-    
     
     //Prevent user from rotating the view
     override var shouldAutorotate : Bool {
@@ -41,84 +44,34 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
-        myAnimation = ShakeAnimation(superViewController: self, randomPool: getPngSelected())
         
-        print("!!!");
-        print(getPngSelected());
         self.filterButton.isUserInteractionEnabled = true
-        
-        if(UserDefaults.standard.array(forKey: "ListNames") != nil)
-        {
-            ListNames = UserDefaults.standard.array(forKey: "ListNames")as! [String]
-        }
-        else
-        {
-            ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
-
-        }
-        
-        if(UserDefaults.standard.string(forKey: "currentListName") != nil)
-        {
-            currentListName = UserDefaults.standard.string(forKey: "currentListName")!
-            print("HERE")
-        }
-            
-        else
-        {
-            UserDefaults.standard.setValue("1", forKey: "currentListName")
-        }
-        
-
-        
-        
         if def.object(forKey: "EnableSound") == nil {
            def.set(true, forKey: "EnableSound")
-           print("set")
         }
-           
-        filterName.text = ListNames[Int(currentListName)! - 1];
-        //print("viewdidiload")
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         UIApplication.shared.statusBarStyle = .lightContent
-        print("!!!");
-        print(getPngSelected());
-        self.myAnimation?.resetView()
+        
         self.selectedName.alpha = 0
         self.utf8Name.alpha = 0
         self.shakeMe.alpha = 1
         self.dice.alpha = 1
-        self.myAnimation?.updatePool(getPngSelected())
-        if(UserDefaults.standard.array(forKey: "ListNames") != nil)
-        {
-            ListNames = UserDefaults.standard.array(forKey: "ListNames")as! [String]
-        }
-        else
-        {
-            ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
-
-        }
-        
-        if(UserDefaults.standard.string(forKey: "currentListName") != nil)
-        {
-            print("HERE")
-
-            currentListName = UserDefaults.standard.string(forKey: "currentListName")!
-        }
-            
-        else
-        {
-            UserDefaults.standard.setValue("1", forKey: "currentListName")
-        }
-
+        myAnimation?.resetView()
+    }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
-        filterName.text = ListNames[Int(currentListName)! - 1];
-
-    
-        
+        if needCheckUpdate() {
+            updateData {
+                self.setup()
+            }
+        } else {
+            setup()
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -169,84 +122,161 @@ class ViewController: UIViewController {
         }
     }
     
+    // MARK: - Setup
     
-    func getPngSelected() -> [Resinfo]
-    {
+    
+    func setup() {
+        setupData {
+            self.setupUI()
+            self.setupAnimation()
+        }
+    }
+
+    func setupData(completion: (()->Void)?) {
         
-        let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-        let fileName = "CellDescriptor" +  currentListName + ".plist"
-        let fileURL = documentsURL.appendingPathComponent(fileName)
-        let path = fileURL.path
-        let fileManager = FileManager.default
-        //check if file exists
-        if(!fileManager.fileExists(atPath: path))
-        {
-            // If it doesn't, copy it from the default file in the Bundle
-            if let bundlePath = Bundle.main.path(forResource: "CellDescriptor" + currentListName, ofType: "plist") {
-                let resultDictionary = NSMutableDictionary(contentsOfFile: bundlePath)
-                print("Bundle CellDescriptor.plist file is --> \(resultDictionary?.description)")
-                do {
-                    try fileManager.copyItem(atPath: bundlePath, toPath: path)
-                } catch _ {
-                    print("error")
-                }
-                //fileManager.copyItemAtPath(bundlePath, toPath: path)
-                print("copy")
-            } else {
-                print("CellDescriptor.plist not found. Please, make sure it is part of the bundle.")
-            }
+        let group = DispatchGroup()
+        
+        group.enter()
+        RestaurantDataProvider.sharedInstance.restaurants { _ in
+            group.leave() }
+        
+        group.enter()
+        PreferenceListDataProvider.sharedInstance.preferenceLists { [weak self] preferenceLists in
+            self?.preferenceLists = preferenceLists
+            self?.listNames = preferenceLists.map({ $0.name })
+            self?.currentListIndex = UserDefaultManager.sharedInstance.preferenceListIndex()
+            group.leave()
         }
         
-        cellDescriptors = NSMutableArray(contentsOfFile: path)
- 
-        var returnArray = [Resinfo]()
+        group.notify(queue: DispatchQueue.main) {
+            completion?()
+        }
+    }
+    
+    func setupUI() {
         
-        for currentSectionCells in cellDescriptors
-        {
+        filterName.text = listNames[currentListIndex]
+    }
+    
+    func setupAnimation() {
+    
+        myAnimation = ShakeAnimation(superViewController: self, randomPool: getPngSelected())
+        self.myAnimation?.resetView()
+        self.myAnimation?.updatePool(getPngSelected())
+    }
+    
+    func setupDownloadNotification() {
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(self.reachabilityChanged),name: ReachabilityChangedNotification,object: reachability)
+        do{
+            try reachability.startNotifier()
+        } catch {
+            print("could not start reachability notifier")
+        }
+    }
+    
+    // MARK: - Private Helpers
+    
+    func getPngSelected() -> [Resinfo] {
+        
+        var infos = [Resinfo]()
+        
+        for restaurant in preferenceLists[currentListIndex].restaurants {
+            infos.append(Resinfo(png: restaurant.pngName, englishName: restaurant.name, utf8Name: restaurant.nickname))
+        }
+
+        return infos
+    
+    }
+    
+    private func needCheckUpdate() -> Bool {
+
+        let date = UserDefaultManager.sharedInstance.lastUpdateDate() as? Date
+        guard let twoWeeksLater = date?.addingTimeInterval(60*60*24*14) else { return true }
+        let compareResult = NSDate().compare(twoWeeksLater)
+        return (compareResult != .orderedAscending) || needInit()
+    }
+    
+    private func needInit() -> Bool {
+        return !UserDefaultManager.sharedInstance.didInitPreferenceList() || !UserDefaultManager.sharedInstance.didInitRestaurant()
+    }
+    
+    // MARK: Update Data Methods
+    
+    func updateData( completion: (()->Void)? ) {
+        
+        if reachability.isReachable {
             
-            for row in 0...((currentSectionCells as! [[String: AnyObject]]).count - 1)
-            {
-                if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["cellIdentifier"] as!
-                    String == "idItemCell"
-                {
-                    //print(((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"])
-                    
-                    if ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["checked"] as! Bool == true
-                    {
-                        
-                        let png = ((currentSectionCells as? NSArray)![row] as? NSDictionary)!["png"] as! String
-                        //var tmp = (currentSectionCells as! NSArray)[row]
-                        
-                        var englishName = ((currentSectionCells as! NSArray)[row] as! NSDictionary)["label"]
-                        if(englishName != nil){
-                        }
-                        else{
-                            englishName = ""
-                        }
-                        var utf8Name = ((currentSectionCells as! NSArray)[row] as! NSDictionary)["utf8Name"]
-                        if(utf8Name != nil){
-                            print ("tmp1 is")
-                            //print((currentSectionCells as! NSArray)[row]["a"])
-                        }
-                        else{
-                            utf8Name = ""
-                        }
-                        let r = Resinfo(png:png, englishName:englishName as! String, utf8Name:utf8Name as! String)
-                        
-                        print(r.png)
-                        
-                        
-                        returnArray.append(r)
+            SwiftSpinner.show("Checking for update...")
+            updateRestaurants { _ in
+                if !UserDefaultManager.sharedInstance.didInitPreferenceList() {
+                    self.updatePreferenceLists { _ in
+                        SwiftSpinner.hide()
+                        completion?()
+                    }
+                } else {
+                    SwiftSpinner.hide()
+                    completion?()
+                }
+            }
+        } else {
+            
+            if !UserDefaultManager.sharedInstance.didInitRestaurant() {
+                
+                SwiftSpinner.show("Please connect Internet to download restaurants")
+                setupDownloadNotification()
+            } else {
+                
+                if !UserDefaultManager.sharedInstance.didInitPreferenceList() {
+                    SwiftSpinner.show("Initializing data...")
+                    updatePreferenceLists { _ in
+                        SwiftSpinner.hide()
+                        completion?()
                     }
                 }
             }
-            
         }
-
-        return returnArray
-    
     }
-       
     
+    func updateRestaurants(completion: ((Bool)->Void)?) {
+        
+        let date = UserDefaultManager.sharedInstance.lastUpdateDate()
+        RestaurantDataProvider.sharedInstance.loadFromParse(lastUpdateDate: date) { success in
+            if success {
+                UserDefaultManager.sharedInstance.setLastUpdateDate(date: NSDate())
+                UserDefaultManager.sharedInstance.setInitRestaurants(value: true)
+            }
+            completion?(success)
+        }
+    }
+    
+    func updatePreferenceLists(completion: ((Bool)->Void)?)  {
+        
+        PreferenceListDataProvider.sharedInstance.initPreferenceList { success in
+            if success {
+                UserDefaultManager.sharedInstance.setInitPreferenceList(value: true)
+            }
+            completion?(success)
+        }
+    }
+    
+    @objc private func reachabilityChanged(note: NSNotification) {
+        
+        let reachability = note.object as! Reachability
+        
+        if SwiftSpinner.sharedInstance.animating {
+            SwiftSpinner.show("Checking for update...")
+        }
+        if reachability.isReachable {
+            updateRestaurants { success in
+                reachability.stopNotifier()
+                if !UserDefaultManager.sharedInstance.didInitPreferenceList() {
+                    self.updatePreferenceLists { _ in SwiftSpinner.hide() }
+                } else {
+                    SwiftSpinner.hide()
+                }
+            }
+        }
+    }
 }
 

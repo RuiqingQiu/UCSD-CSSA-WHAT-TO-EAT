@@ -19,10 +19,14 @@
 		4EE9DC8B45FC475CFC3A874C /* Pods_UCSD_CSSA_What_To_EatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */; };
 		577EB3C500ADA18D9AB27F7A /* Pods_UCSD_CSSA_What_To_EatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */; };
 		5B0B06C81DB9713D004AAD0F /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B06C71DB9713D004AAD0F /* ListButton.swift */; };
+		5B1F02271E35364800F26672 /* PreferenceListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F02261E35364800F26672 /* PreferenceListDataProvider.swift */; };
 		5B6E71441DB9B9C0008B1FD8 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */; };
 		5B6E71461DB9B9D0008B1FD8 /* CategoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */; };
 		5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */; };
 		5B6E714A1DB9BCB8008B1FD8 /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E71491DB9BCB8008B1FD8 /* RestaurantCell.xib */; };
+		5B87A0311E4CFFDF006B9D83 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A0301E4CFFDF006B9D83 /* UserDefaultManager.swift */; };
+		5B87A0331E4D1264006B9D83 /* Restaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B87A0321E4D1264006B9D83 /* Restaurants.plist */; };
+		5B9309211E47AA9800A968B6 /* RestaurantDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9309201E47AA9800A968B6 /* RestaurantDataProvider.swift */; };
 		5BB0739B1DBC236E000ADC99 /* ListButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB0739A1DBC236E000ADC99 /* ListButton.xib */; };
 		5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */; };
 		8F0C687D1DE22898005B6C9E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C687C1DE22898005B6C9E /* Category.swift */; };
@@ -78,10 +82,14 @@
 		54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_EatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		567284BF17A960D334B1B8AC /* Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B0B06C71DB9713D004AAD0F /* ListButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListButton.swift; sourceTree = "<group>"; };
+		5B1F02261E35364800F26672 /* PreferenceListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceListDataProvider.swift; sourceTree = "<group>"; };
 		5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
 		5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryHeaderView.xib; sourceTree = "<group>"; };
 		5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
 		5B6E71491DB9BCB8008B1FD8 /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantCell.xib; sourceTree = "<group>"; };
+		5B87A0301E4CFFDF006B9D83 /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		5B87A0321E4D1264006B9D83 /* Restaurants.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Restaurants.plist; sourceTree = "<group>"; };
+		5B9309201E47AA9800A968B6 /* RestaurantDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDataProvider.swift; sourceTree = "<group>"; };
 		5BB0739A1DBC236E000ADC99 /* ListButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListButton.xib; sourceTree = "<group>"; };
 		5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FilterViewController+Delegates.swift"; sourceTree = "<group>"; };
 		84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_EatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				5B6E71401DB9A649008B1FD8 /* DataProviders */,
+				5B87A02F1E4CFFB9006B9D83 /* Managers */,
 				5B6E713F1DB9A5B2008B1FD8 /* Models */,
 			);
 			path = Data;
@@ -245,8 +254,18 @@
 		5B6E71401DB9A649008B1FD8 /* DataProviders */ = {
 			isa = PBXGroup;
 			children = (
+				5B1F02261E35364800F26672 /* PreferenceListDataProvider.swift */,
+				5B9309201E47AA9800A968B6 /* RestaurantDataProvider.swift */,
 			);
 			path = DataProviders;
+			sourceTree = "<group>";
+		};
+		5B87A02F1E4CFFB9006B9D83 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5B87A0301E4CFFDF006B9D83 /* UserDefaultManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		621EA7475A9C0FA0429C2DDB /* Frameworks */ = {
@@ -262,6 +281,7 @@
 		8FB9CD9A1C691AAB00618CAB /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				5B87A0321E4D1264006B9D83 /* Restaurants.plist */,
 				8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */,
 				8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */,
 				8FC404301CDE69670061C817 /* CellDescriptor2.plist */,
@@ -418,6 +438,7 @@
 				TargetAttributes = {
 					AA59067C1BD2D3B6007B43FB = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CUD7MDQGHN;
 						LastSwiftMigration = 0800;
 					};
 					AA5906931BD2D3B6007B43FB = {
@@ -472,6 +493,7 @@
 				8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */,
 				48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
 				AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */,
+				5B87A0331E4D1264006B9D83 /* Restaurants.plist in Resources */,
 				5B6E71461DB9B9D0008B1FD8 /* CategoryHeaderView.xib in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
 				AAE65FDF1CB0686300433876 /* SettingSwitchCell.xib in Resources */,
@@ -646,12 +668,15 @@
 				5B6E71441DB9B9C0008B1FD8 /* CategoryHeaderView.swift in Sources */,
 				AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */,
 				5B0B06C81DB9713D004AAD0F /* ListButton.swift in Sources */,
+				5B1F02271E35364800F26672 /* PreferenceListDataProvider.swift in Sources */,
+				5B9309211E47AA9800A968B6 /* RestaurantDataProvider.swift in Sources */,
 				AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */,
 				4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */,
 				48E58A1F1DC67803002D59A9 /* ShakeAnimation.swift in Sources */,
 				8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */,
 				8FCC55FA1DE224260064A1FD /* Restaurant.swift in Sources */,
 				8F0C687D1DE22898005B6C9E /* Category.swift in Sources */,
+				5B87A0311E4CFFDF006B9D83 /* UserDefaultManager.swift in Sources */,
 				5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */,
 				8FCF86EF1E3533BF006C270A /* PreferenceList.swift in Sources */,
 				5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */,
@@ -805,11 +830,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CUD7MDQGHN;
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
+				PRODUCT_BUNDLE_IDENTIFIER = "ucsdcssa.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -824,11 +849,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CUD7MDQGHN;
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
+				PRODUCT_BUNDLE_IDENTIFIER = "ucsdcssa.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
