@@ -15,6 +15,11 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var Save: UIBarButtonItem!
     
+    let preferenceLists = PreferenceListDataProvider.sharedInstance.preferenceListsSync()
+    var listNames = ["Dining Hall", "Campus", "Convoy", "My List"];
+    let def = UserDefaults.standard
+    
+    
     //Prevent user from rotating the view
     override var shouldAutorotate : Bool {
         return false
@@ -33,13 +38,11 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         super.viewWillDisappear(animated)
         UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
     }
-    
-    var ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
 
-    let def = UserDefaults.standard
     @IBAction func SaveSettings(_ sender: AnyObject) {
+        
         self.dismiss(animated: true, completion: nil)
-           }
+    }
     
     var bar_color = UIColor(red: 128/256, green: 128/256, blue: 128/256, alpha: 0.66)
     var entry_color = UIColor(red: 201/256, green: 176/256, blue: 151/256, alpha: 0.66)
@@ -55,15 +58,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.tableView.register(UINib(nibName: "SettingListCell", bundle: nil), forCellReuseIdentifier: "idSettingListCell")
         self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
 
-        if(UserDefaults.standard.array(forKey: "ListNames") != nil)
-        {
-            ListNames = UserDefaults.standard.array(forKey: "ListNames")as! [String]
-        }
-        else
-        {
-            ListNames = ["Dining Hall", "Campus", "Convoy", "My List"];
-
-        }
+        listNames = preferenceLists.map( {$0.name} )
         self.pickerView.dataSource = self;
         self.pickerView.delegate = self;
         pickerView.isHidden = true;
@@ -80,7 +75,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
         }
 
-        //NSUserDefaults.standardUserDefaults().setObject(ListNames, forKey: "ListNames")
+        //NSUserDefaults.standardUserDefaults().setObject(listNames, forKey: "listNames")
         
     }
     var pickerDataSource = ["pikachu", "shotgun", "chicken"];
@@ -151,7 +146,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
         else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "idSettingListCell", for: indexPath) as! CustomCell
             let tmp = indexPath.row - 2;
-            cell.itemLabel.text = ListNames[tmp-1];
+            cell.itemLabel.text = listNames[tmp-1];
             return cell
 
         }
@@ -159,7 +154,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        //print(ListNames);
+        //print(listNames);
         print(String(indexPath.row) + " is clicked");
         let cell = tableView.dequeueReusableCell(withIdentifier: "idSettingListCell", for: indexPath) as! CustomCell
         if(indexPath.row == 0){
@@ -168,7 +163,7 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
         }
         if(indexPath.row >= 3 && indexPath.row <= 6){
-            let lname = ListNames[indexPath.row - 3]
+            let lname = listNames[indexPath.row - 3]
             let alert = UIAlertController(title: "Change List Name", message: "New Name for " + lname, preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler:nil))
             //Create action button for empty string alert
@@ -181,8 +176,9 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
                     self.present(alert1, animated: true, completion: nil)
                 }
                 else{
-                    self.ListNames[indexPath.row - 3] = alert.textFields![0].text!
-                    UserDefaults.standard.set(self.ListNames, forKey: "ListNames")
+                    self.listNames[indexPath.row - 3] = alert.textFields![0].text!
+                    self.preferenceLists[indexPath.row - 3].name = alert.textFields![0].text!
+                    self.preferenceLists[indexPath.row - 3].pinInBackground()
                     cell.itemLabel.text = alert.textFields![0].text!
                     cell.reloadInputViews()
                     tableView.reloadData();
@@ -194,9 +190,6 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
             self.present(alert, animated: true, completion: nil)
         }
         
-        
-        UserDefaults.standard.set(ListNames, forKey: "ListNames")
-        
-           }
+    }
 
 }
