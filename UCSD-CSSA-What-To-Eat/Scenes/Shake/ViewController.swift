@@ -254,7 +254,6 @@ class ViewController: UIViewController {
     }
     
     func openMapForPlace() {
-        
         let address = "9500 Gilman Dr, La Jolla, CA, USA"
         let geocoder = CLGeocoder()
         geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
@@ -272,7 +271,6 @@ class ViewController: UIViewController {
                 mapItem.openInMaps(launchOptions: options)
             }
         })
-        
     }
        
     
