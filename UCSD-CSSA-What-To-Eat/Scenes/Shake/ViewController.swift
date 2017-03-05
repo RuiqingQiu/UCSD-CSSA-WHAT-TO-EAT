@@ -265,25 +265,6 @@ class ViewController: UIViewController {
         }
     }
     
-    func openMapForPlace() {
-        let address = "9500 Gilman Dr, La Jolla, CA, USA"
-        let geocoder = CLGeocoder()
-        geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
-            if let placemark = placemarks?.first {
-                let coordinates = placemark.location!.coordinate
-                let regionDistance:CLLocationDistance = 10000
-                let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
-                let options = [
-                    MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
-                    MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
-                ]
-                let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
-                let mapItem = MKMapItem(placemark: placemark)
-                mapItem.name = "Place Name"
-                mapItem.openInMaps(launchOptions: options)
-            }
-        })
-    }
        
     @objc private func reachabilityChanged(note: NSNotification) {
         
