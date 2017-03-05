@@ -7,9 +7,7 @@
 
 import UIKit
 import GLKit
-import MapKit
 import AudioToolbox
-import CoreLocation
 import SwiftSpinner
 import ReachabilitySwift
 
@@ -32,7 +30,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var dice: UIImageView!
     @IBOutlet weak var selectedName: UILabel!
     @IBOutlet weak var utf8Name: UILabel!
-    @IBOutlet weak var mapButton: UIButton!
     
     //Prevent user from rotating the view
     override var shouldAutorotate : Bool {
@@ -58,6 +55,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         UIApplication.shared.statusBarStyle = .lightContent
+        
         self.selectedName.alpha = 0
         self.utf8Name.alpha = 0
         self.shakeMe.alpha = 1
@@ -87,11 +85,8 @@ class ViewController: UIViewController {
         if touch?.view == filterButton{
             let FilterViewController = self.storyboard!.instantiateViewController(withIdentifier: "FilterViewController")
             self.present(FilterViewController, animated: true, completion: nil)
-//            openMapForPlace()
         }
-//        if touch?.view == mapButton{
-//            print("???????????????????????")
-//        }
+
         super.touchesEnded(touches, with: event)
     }
     
