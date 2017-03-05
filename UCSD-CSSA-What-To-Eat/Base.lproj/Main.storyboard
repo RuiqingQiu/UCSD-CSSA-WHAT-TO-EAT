@@ -79,12 +79,6 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkm-sO-XBd">
-                                <rect key="frame" x="181" y="463" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.16830512881278992" blue="0.10437420755624771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Map"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.057956259426847651" green="0.061808369233189608" blue="0.067948717948717929" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -120,7 +114,6 @@
                         <outlet property="dice" destination="0FA-0N-Qzo" id="2rU-18-CpB"/>
                         <outlet property="filterButton" destination="rPJ-9J-bn7" id="IeI-iQ-3jZ"/>
                         <outlet property="filterName" destination="hzg-r5-Q1c" id="YEJ-1I-FRm"/>
-                        <outlet property="mapButton" destination="dkm-sO-XBd" id="ndj-4S-YfJ"/>
                         <outlet property="selectedName" destination="eTh-XZ-oj9" id="16n-H2-G4U"/>
                         <outlet property="shakeMe" destination="JAC-HI-fW8" id="Gzj-HI-8iN"/>
                         <outlet property="utf8Name" destination="eNp-Bj-IVt" id="ZMD-t4-iqY"/>
@@ -268,7 +261,7 @@
                                         <rect key="frame" x="0.0" y="28" width="383" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VRy-E1-c9d" id="8R1-5X-E3t">
-                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -276,7 +269,7 @@
                                         <rect key="frame" x="0.0" y="72" width="383" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GZY-3D-WXv" id="af8-BZ-Khx">
-                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -284,7 +277,7 @@
                                         <rect key="frame" x="0.0" y="116" width="383" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="atS-7Q-YaB" id="Xo0-kN-Mnj">
-                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -292,7 +285,7 @@
                                         <rect key="frame" x="0.0" y="160" width="383" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Lb-l9-e38" id="Rc3-Us-3Yr">
-                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -300,7 +293,7 @@
                                         <rect key="frame" x="0.0" y="204" width="383" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="H0h-DD-6gx" id="Pic-DM-jUv">
-                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
