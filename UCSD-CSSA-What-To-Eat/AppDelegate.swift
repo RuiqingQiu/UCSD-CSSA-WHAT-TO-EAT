@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch
         
         let configuration = ParseClientConfiguration {
-            $0.applicationId = "CSSA Parse Server"
+            $0.applicationId = "CSSA_Parse_Server"
             $0.clientKey = ""
             $0.isLocalDatastoreEnabled = true
             $0.server = "https://parse.ucsdcssa.org/parse"

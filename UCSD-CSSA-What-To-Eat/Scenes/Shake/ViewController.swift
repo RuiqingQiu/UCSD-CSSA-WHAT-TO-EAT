@@ -86,7 +86,7 @@ class ViewController: UIViewController {
         if touch?.view == filterButton{
             let FilterViewController = self.storyboard!.instantiateViewController(withIdentifier: "FilterViewController")
             self.present(FilterViewController, animated: true, completion: nil)
-            openMapForPlace()
+//            openMapForPlace()
         }
 //        if touch?.view == mapButton{
 //            print("???????????????????????")

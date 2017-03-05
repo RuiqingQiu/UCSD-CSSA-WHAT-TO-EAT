@@ -50,10 +50,6 @@ class RestaurantDataProvider: NSObject {
                 return
             }
             
-//            let temp = restaurants[0]
-//            temp.saveImage()
-//            temp.getImage()
-
             Restaurant.pinAll(inBackground: restaurants, block: { (success, error) in
                 callback?(success)
             })
