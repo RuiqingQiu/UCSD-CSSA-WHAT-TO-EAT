@@ -43,6 +43,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        myAnimation = ShakeAnimation(superViewController: self, randomPool: [])
         // Do any additional setup after loading the view, typically from a nib.
         
         self.filterButton.isUserInteractionEnabled = true
@@ -160,7 +161,6 @@ class ViewController: UIViewController {
     
     func setupAnimation() {
     
-        myAnimation = ShakeAnimation(superViewController: self, randomPool: getPngSelected())
         self.myAnimation?.resetView()
         self.myAnimation?.updatePool(getPngSelected())
     }

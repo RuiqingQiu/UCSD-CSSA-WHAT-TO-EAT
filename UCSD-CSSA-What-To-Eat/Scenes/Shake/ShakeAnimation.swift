@@ -66,11 +66,13 @@ fileprivate class Icon
     }
     
     // Index of chosen restaurant of the randomPool
-    var n = -1
+    var n = 0
     {
         didSet
         {
-            self.setImage(Resinfo: Icon.randomPool[n])
+            if n < Icon.randomPool.count {
+                self.setImage(Resinfo: Icon.randomPool[n])
+            }
         }
     }
     
