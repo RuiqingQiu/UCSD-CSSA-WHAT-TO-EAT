@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EAC34A930B5605E3955E172 /* Pods_UCSD_CSSA_What_To_Eat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BE6E8094D354AADBBA4133 /* Pods_UCSD_CSSA_What_To_Eat.framework */; };
+		48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
+		48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
+		48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */; };
+		48290EE61CDE7A0A0051DDB2 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE51CDE7A0A0051DDB2 /* myFont.ttf */; };
+		48290EE71CDE7A0A0051DDB2 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE51CDE7A0A0051DDB2 /* myFont.ttf */; };
+		48290EE81CDE7A0A0051DDB2 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48290EE51CDE7A0A0051DDB2 /* myFont.ttf */; };
+		4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */; };
+		48E58A1F1DC67803002D59A9 /* ShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E58A1E1DC67803002D59A9 /* ShakeAnimation.swift */; };
+		4EE9DC8B45FC475CFC3A874C /* Pods_UCSD_CSSA_What_To_EatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */; };
+		577EB3C500ADA18D9AB27F7A /* Pods_UCSD_CSSA_What_To_EatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */; };
+		5B0B06C81DB9713D004AAD0F /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B06C71DB9713D004AAD0F /* ListButton.swift */; };
+		5B1F02271E35364800F26672 /* PreferenceListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F02261E35364800F26672 /* PreferenceListDataProvider.swift */; };
+		5B6E71441DB9B9C0008B1FD8 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */; };
+		5B6E71461DB9B9D0008B1FD8 /* CategoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */; };
+		5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */; };
+		5B6E714A1DB9BCB8008B1FD8 /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E71491DB9BCB8008B1FD8 /* RestaurantCell.xib */; };
+		5B87A0311E4CFFDF006B9D83 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87A0301E4CFFDF006B9D83 /* UserDefaultManager.swift */; };
+		5B87A0331E4D1264006B9D83 /* Restaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B87A0321E4D1264006B9D83 /* Restaurants.plist */; };
+		5B9309211E47AA9800A968B6 /* RestaurantDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9309201E47AA9800A968B6 /* RestaurantDataProvider.swift */; };
+		5BB0739B1DBC236E000ADC99 /* ListButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB0739A1DBC236E000ADC99 /* ListButton.xib */; };
+		5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */; };
+		8F0C687D1DE22898005B6C9E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C687C1DE22898005B6C9E /* Category.swift */; };
+		8F476B951CF0E0C8006B21B7 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F476B941CF0E0C8006B21B7 /* chicken.mp3 */; };
+		8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */; };
+		8FC404331CDE69670061C817 /* CellDescriptor1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */; };
+		8FC404341CDE69670061C817 /* CellDescriptor2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404301CDE69670061C817 /* CellDescriptor2.plist */; };
+		8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404311CDE69670061C817 /* CellDescriptor3.plist */; };
+		8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC404321CDE69670061C817 /* CellDescriptor4.plist */; };
+		8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */; };
+		8FCC55FA1DE224260064A1FD /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC55F91DE224260064A1FD /* Restaurant.swift */; };
+		8FCF86EF1E3533BF006C270A /* PreferenceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF86EE1E3533BF006C270A /* PreferenceList.swift */; };
 		AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906801BD2D3B6007B43FB /* AppDelegate.swift */; };
 		AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906821BD2D3B6007B43FB /* ViewController.swift */; };
 		AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5906841BD2D3B6007B43FB /* Main.storyboard */; };
@@ -15,29 +47,12 @@
 		AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */; };
 		AA5906991BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906981BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatTests.swift */; };
 		AA5906A41BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */; };
-		AAD745E31BDC1FA8003511FB /* Bistro.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745CD1BDC1FA8003511FB /* Bistro.png */; };
-		AAD745E41BDC1FA8003511FB /* Bombay Coast.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745CE1BDC1FA8003511FB /* Bombay Coast.png */; };
-		AAD745E51BDC1FA8003511FB /* Burger King.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745CF1BDC1FA8003511FB /* Burger King.png */; };
-		AAD745E61BDC1FA8003511FB /* Cafe Vetena.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D01BDC1FA8003511FB /* Cafe Vetena.png */; };
-		AAD745E71BDC1FA8003511FB /* Canyon Vista.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D11BDC1FA8003511FB /* Canyon Vista.png */; };
-		AAD745E81BDC1FA8003511FB /* Dlush.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D21BDC1FA8003511FB /* Dlush.png */; };
-		AAD745E91BDC1FA8003511FB /* FoodWorx.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D31BDC1FA8003511FB /* FoodWorx.png */; };
-		AAD745EA1BDC1FA8003511FB /* Goodys.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D41BDC1FA8003511FB /* Goodys.png */; };
-		AAD745EB1BDC1FA8003511FB /* Hi Thai.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D51BDC1FA8003511FB /* Hi Thai.png */; };
-		AAD745EC1BDC1FA8003511FB /* Jumba Juice.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D61BDC1FA8003511FB /* Jumba Juice.png */; };
-		AAD745ED1BDC1FA8003511FB /* Lemon Grass.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D71BDC1FA8003511FB /* Lemon Grass.png */; };
-		AAD745EE1BDC1FA8003511FB /* Panda.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D81BDC1FA8003511FB /* Panda.png */; };
-		AAD745EF1BDC1FA8003511FB /* Pines.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745D91BDC1FA8003511FB /* Pines.png */; };
-		AAD745F01BDC1FA8003511FB /* Roots.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DA1BDC1FA8003511FB /* Roots.png */; };
-		AAD745F11BDC1FA8003511FB /* Round Table.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DB1BDC1FA8003511FB /* Round Table.png */; };
-		AAD745F21BDC1FA8003511FB /* Rubios.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DC1BDC1FA8003511FB /* Rubios.png */; };
-		AAD745F31BDC1FA8003511FB /* Santorini.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DD1BDC1FA8003511FB /* Santorini.png */; };
-		AAD745F41BDC1FA8003511FB /* Shogun.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DE1BDC1FA8003511FB /* Shogun.png */; };
-		AAD745F51BDC1FA8003511FB /* Sixty-Four Degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745DF1BDC1FA8003511FB /* Sixty-Four Degrees.png */; };
-		AAD745F61BDC1FA8003511FB /* Sixty-Four North.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745E01BDC1FA8003511FB /* Sixty-Four North.png */; };
-		AAD745F71BDC1FA8003511FB /* Subway.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745E11BDC1FA8003511FB /* Subway.png */; };
-		AAD745F81BDC1FA8003511FB /* Tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745E21BDC1FA8003511FB /* Tapioca.png */; };
-		AAD745FC1BDC22CF003511FB /* WTE_120.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD745FB1BDC22CF003511FB /* WTE_120.png */; };
+		AA599D941CFA449B001E7527 /* pikachu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA599D931CFA449B001E7527 /* pikachu.mp3 */; };
+		AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAB7247A1C66873F006F85BF /* shotgun.mp3 */; };
+		AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7247E1C6696BB006F85BF /* SettingViewController.swift */; };
+		AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDC1CB0672C00433876 /* SettingHeader.xib */; };
+		AAE65FDF1CB0686300433876 /* SettingSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */; };
+		AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE65FE01CB069EE00433876 /* SettingListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +73,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FD74DB92645AA492624691 /* Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig"; sourceTree = "<group>"; };
+		47023FB4F02423896181EDFE /* Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatUITests/Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LithosPro-Regular.otf"; sourceTree = "<group>"; };
+		48290EE51CDE7A0A0051DDB2 /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
+		4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		48E58A1E1DC67803002D59A9 /* ShakeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeAnimation.swift; sourceTree = "<group>"; };
+		54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_EatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567284BF17A960D334B1B8AC /* Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0B06C71DB9713D004AAD0F /* ListButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListButton.swift; sourceTree = "<group>"; };
+		5B1F02261E35364800F26672 /* PreferenceListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceListDataProvider.swift; sourceTree = "<group>"; };
+		5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
+		5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryHeaderView.xib; sourceTree = "<group>"; };
+		5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		5B6E71491DB9BCB8008B1FD8 /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantCell.xib; sourceTree = "<group>"; };
+		5B87A0301E4CFFDF006B9D83 /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		5B87A0321E4D1264006B9D83 /* Restaurants.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Restaurants.plist; sourceTree = "<group>"; };
+		5B9309201E47AA9800A968B6 /* RestaurantDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDataProvider.swift; sourceTree = "<group>"; };
+		5BB0739A1DBC236E000ADC99 /* ListButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListButton.xib; sourceTree = "<group>"; };
+		5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FilterViewController+Delegates.swift"; sourceTree = "<group>"; };
+		84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_EatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0C687C1DE22898005B6C9E /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		8F476B941CF0E0C8006B21B7 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chicken.mp3; path = Sound/chicken.mp3; sourceTree = "<group>"; };
+		8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor1.plist; sourceTree = "<group>"; };
+		8FC404301CDE69670061C817 /* CellDescriptor2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor2.plist; sourceTree = "<group>"; };
+		8FC404311CDE69670061C817 /* CellDescriptor3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor3.plist; sourceTree = "<group>"; };
+		8FC404321CDE69670061C817 /* CellDescriptor4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor4.plist; sourceTree = "<group>"; };
+		8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		8FCC55F91DE224260064A1FD /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		8FCF86EE1E3533BF006C270A /* PreferenceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceList.swift; sourceTree = "<group>"; };
+		A1F70C0B8DF7962187DF0BF1 /* Pods-UCSD-CSSA-What-To-Eat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-Eat.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat.release.xcconfig"; sourceTree = "<group>"; };
+		A25B677B3FA704C563EDCDCF /* Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig"; sourceTree = "<group>"; };
 		AA59067D1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSD-CSSA-What-To-Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906801BD2D3B6007B43FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5906821BD2D3B6007B43FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,29 +119,14 @@
 		AA59069F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCSD-CSSA-What-To-EatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5906A31BD2D3B6007B43FB /* UCSD_CSSA_What_To_EatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSD_CSSA_What_To_EatUITests.swift; sourceTree = "<group>"; };
 		AA5906A51BD2D3B6007B43FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAD745CD1BDC1FA8003511FB /* Bistro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bistro.png; path = Images/Bistro.png; sourceTree = "<group>"; };
-		AAD745CE1BDC1FA8003511FB /* Bombay Coast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bombay Coast.png"; path = "Images/Bombay Coast.png"; sourceTree = "<group>"; };
-		AAD745CF1BDC1FA8003511FB /* Burger King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Burger King.png"; path = "Images/Burger King.png"; sourceTree = "<group>"; };
-		AAD745D01BDC1FA8003511FB /* Cafe Vetena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cafe Vetena.png"; path = "Images/Cafe Vetena.png"; sourceTree = "<group>"; };
-		AAD745D11BDC1FA8003511FB /* Canyon Vista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Canyon Vista.png"; path = "Images/Canyon Vista.png"; sourceTree = "<group>"; };
-		AAD745D21BDC1FA8003511FB /* Dlush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dlush.png; path = Images/Dlush.png; sourceTree = "<group>"; };
-		AAD745D31BDC1FA8003511FB /* FoodWorx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FoodWorx.png; path = Images/FoodWorx.png; sourceTree = "<group>"; };
-		AAD745D41BDC1FA8003511FB /* Goodys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Goodys.png; path = Images/Goodys.png; sourceTree = "<group>"; };
-		AAD745D51BDC1FA8003511FB /* Hi Thai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hi Thai.png"; path = "Images/Hi Thai.png"; sourceTree = "<group>"; };
-		AAD745D61BDC1FA8003511FB /* Jumba Juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jumba Juice.png"; path = "Images/Jumba Juice.png"; sourceTree = "<group>"; };
-		AAD745D71BDC1FA8003511FB /* Lemon Grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lemon Grass.png"; path = "Images/Lemon Grass.png"; sourceTree = "<group>"; };
-		AAD745D81BDC1FA8003511FB /* Panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda.png; path = Images/Panda.png; sourceTree = "<group>"; };
-		AAD745D91BDC1FA8003511FB /* Pines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pines.png; path = Images/Pines.png; sourceTree = "<group>"; };
-		AAD745DA1BDC1FA8003511FB /* Roots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Roots.png; path = Images/Roots.png; sourceTree = "<group>"; };
-		AAD745DB1BDC1FA8003511FB /* Round Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Round Table.png"; path = "Images/Round Table.png"; sourceTree = "<group>"; };
-		AAD745DC1BDC1FA8003511FB /* Rubios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rubios.png; path = Images/Rubios.png; sourceTree = "<group>"; };
-		AAD745DD1BDC1FA8003511FB /* Santorini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Santorini.png; path = Images/Santorini.png; sourceTree = "<group>"; };
-		AAD745DE1BDC1FA8003511FB /* Shogun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shogun.png; path = Images/Shogun.png; sourceTree = "<group>"; };
-		AAD745DF1BDC1FA8003511FB /* Sixty-Four Degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four Degrees.png"; path = "Images/Sixty-Four Degrees.png"; sourceTree = "<group>"; };
-		AAD745E01BDC1FA8003511FB /* Sixty-Four North.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sixty-Four North.png"; path = "Images/Sixty-Four North.png"; sourceTree = "<group>"; };
-		AAD745E11BDC1FA8003511FB /* Subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subway.png; path = Images/Subway.png; sourceTree = "<group>"; };
-		AAD745E21BDC1FA8003511FB /* Tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tapioca.png; path = Images/Tapioca.png; sourceTree = "<group>"; };
-		AAD745FB1BDC22CF003511FB /* WTE_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WTE_120.png; path = Images/WTE_120.png; sourceTree = "<group>"; };
+		AA599D931CFA449B001E7527 /* pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pikachu.mp3; path = Sound/pikachu.mp3; sourceTree = "<group>"; };
+		AAB7247A1C66873F006F85BF /* shotgun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shotgun.mp3; path = Sound/shotgun.mp3; sourceTree = "<group>"; };
+		AAB7247E1C6696BB006F85BF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = Setting/SettingViewController.swift; sourceTree = "<group>"; };
+		AAE65FDC1CB0672C00433876 /* SettingHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingHeader.xib; sourceTree = "<group>"; };
+		AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingSwitchCell.xib; sourceTree = "<group>"; };
+		AAE65FE01CB069EE00433876 /* SettingListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingListCell.xib; sourceTree = "<group>"; };
+		AD595882CA3E7B3F15BABBF1 /* Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatUITests/Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7BE6E8094D354AADBBA4133 /* Pods_UCSD_CSSA_What_To_Eat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCSD_CSSA_What_To_Eat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAC34A930B5605E3955E172 /* Pods_UCSD_CSSA_What_To_Eat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577EB3C500ADA18D9AB27F7A /* Pods_UCSD_CSSA_What_To_EatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,20 +150,160 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE9DC8B45FC475CFC3A874C /* Pods_UCSD_CSSA_What_To_EatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A162D20B547A88BA5F0E2CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A25B677B3FA704C563EDCDCF /* Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig */,
+				A1F70C0B8DF7962187DF0BF1 /* Pods-UCSD-CSSA-What-To-Eat.release.xcconfig */,
+				567284BF17A960D334B1B8AC /* Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig */,
+				04FD74DB92645AA492624691 /* Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig */,
+				AD595882CA3E7B3F15BABBF1 /* Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig */,
+				47023FB4F02423896181EDFE /* Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B0B06C11DB96273004AAD0F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B06C21DB9629C004AAD0F /* Filter */,
+				5B0B06C41DB9630E004AAD0F /* Setting */,
+				AAB7247E1C6696BB006F85BF /* SettingViewController.swift */,
+				5B0B06C31DB962A3004AAD0F /* Shake */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5B0B06C21DB9629C004AAD0F /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B06C61DB96E41004AAD0F /* Views */,
+				4865CE6D1C6688CD007C9CFA /* FilterViewController.swift */,
+				5BB607131DBAC9A3005429F5 /* FilterViewController+Delegates.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		5B0B06C31DB962A3004AAD0F /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				AA5906821BD2D3B6007B43FB /* ViewController.swift */,
+				48E58A1E1DC67803002D59A9 /* ShakeAnimation.swift */,
+			);
+			path = Shake;
+			sourceTree = "<group>";
+		};
+		5B0B06C41DB9630E004AAD0F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B06C51DB96343004AAD0F /* Views */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		5B0B06C51DB96343004AAD0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAE65FE01CB069EE00433876 /* SettingListCell.xib */,
+				AAE65FDE1CB0686300433876 /* SettingSwitchCell.xib */,
+				AAE65FDC1CB0672C00433876 /* SettingHeader.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B0B06C61DB96E41004AAD0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B6E71431DB9B9C0008B1FD8 /* CategoryHeaderView.swift */,
+				5B6E71451DB9B9D0008B1FD8 /* CategoryHeaderView.xib */,
+				5B0B06C71DB9713D004AAD0F /* ListButton.swift */,
+				5BB0739A1DBC236E000ADC99 /* ListButton.xib */,
+				5B6E71471DB9BC9D008B1FD8 /* RestaurantCell.swift */,
+				5B6E71491DB9BCB8008B1FD8 /* RestaurantCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B6E713E1DB99552008B1FD8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5B6E71401DB9A649008B1FD8 /* DataProviders */,
+				5B87A02F1E4CFFB9006B9D83 /* Managers */,
+				5B6E713F1DB9A5B2008B1FD8 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5B6E713F1DB9A5B2008B1FD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FCC55F91DE224260064A1FD /* Restaurant.swift */,
+				8F0C687C1DE22898005B6C9E /* Category.swift */,
+				8FCF86EE1E3533BF006C270A /* PreferenceList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B6E71401DB9A649008B1FD8 /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+				5B1F02261E35364800F26672 /* PreferenceListDataProvider.swift */,
+				5B9309201E47AA9800A968B6 /* RestaurantDataProvider.swift */,
+			);
+			path = DataProviders;
+			sourceTree = "<group>";
+		};
+		5B87A02F1E4CFFB9006B9D83 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5B87A0301E4CFFDF006B9D83 /* UserDefaultManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		621EA7475A9C0FA0429C2DDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7BE6E8094D354AADBBA4133 /* Pods_UCSD_CSSA_What_To_Eat.framework */,
+				54C7211FB9F87C0FD7645742 /* Pods_UCSD_CSSA_What_To_EatTests.framework */,
+				84D1383E3FC1EF77E7829E25 /* Pods_UCSD_CSSA_What_To_EatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FB9CD9A1C691AAB00618CAB /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				5B87A0321E4D1264006B9D83 /* Restaurants.plist */,
+				8FC4043D1CDE79A20061C817 /* CellDescriptor.plist */,
+				8FC4042F1CDE69670061C817 /* CellDescriptor1.plist */,
+				8FC404301CDE69670061C817 /* CellDescriptor2.plist */,
+				8FC404311CDE69670061C817 /* CellDescriptor3.plist */,
+				8FC404321CDE69670061C817 /* CellDescriptor4.plist */,
+				8FB9CD9D1C691AEE00618CAB /* CustomCell.swift */,
+			);
+			name = TableView;
+			path = "UCSD-CSSA-What-To-Eat";
+			sourceTree = "<group>";
+		};
 		AA5906741BD2D3B6007B43FB = {
 			isa = PBXGroup;
 			children = (
-				AAD745B11BDC0589003511FB /* Rest_Image */,
+				8FB9CD9A1C691AAB00618CAB /* TableView */,
+				AAB724771C66820F006F85BF /* Sound */,
 				AA59067F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */,
 				AA5906971BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatTests */,
 				AA5906A21BD2D3B6007B43FB /* UCSD-CSSA-What-To-EatUITests */,
 				AA59067E1BD2D3B6007B43FB /* Products */,
+				5A162D20B547A88BA5F0E2CE /* Pods */,
+				621EA7475A9C0FA0429C2DDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,8 +320,11 @@
 		AA59067F1BD2D3B6007B43FB /* UCSD-CSSA-What-To-Eat */ = {
 			isa = PBXGroup;
 			children = (
+				5B6E713E1DB99552008B1FD8 /* Data */,
+				5B0B06C11DB96273004AAD0F /* Scenes */,
+				48290EE51CDE7A0A0051DDB2 /* myFont.ttf */,
+				48290EE11CDE733A0051DDB2 /* LithosPro-Regular.otf */,
 				AA5906801BD2D3B6007B43FB /* AppDelegate.swift */,
-				AA5906821BD2D3B6007B43FB /* ViewController.swift */,
 				AA5906841BD2D3B6007B43FB /* Main.storyboard */,
 				AA59068A1BD2D3B6007B43FB /* Assets.xcassets */,
 				AA59068C1BD2D3B6007B43FB /* LaunchScreen.storyboard */,
@@ -175,34 +352,14 @@
 			path = "UCSD-CSSA-What-To-EatUITests";
 			sourceTree = "<group>";
 		};
-		AAD745B11BDC0589003511FB /* Rest_Image */ = {
+		AAB724771C66820F006F85BF /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				AAD745FB1BDC22CF003511FB /* WTE_120.png */,
-				AAD745CD1BDC1FA8003511FB /* Bistro.png */,
-				AAD745CE1BDC1FA8003511FB /* Bombay Coast.png */,
-				AAD745CF1BDC1FA8003511FB /* Burger King.png */,
-				AAD745D01BDC1FA8003511FB /* Cafe Vetena.png */,
-				AAD745D11BDC1FA8003511FB /* Canyon Vista.png */,
-				AAD745D21BDC1FA8003511FB /* Dlush.png */,
-				AAD745D31BDC1FA8003511FB /* FoodWorx.png */,
-				AAD745D41BDC1FA8003511FB /* Goodys.png */,
-				AAD745D51BDC1FA8003511FB /* Hi Thai.png */,
-				AAD745D61BDC1FA8003511FB /* Jumba Juice.png */,
-				AAD745D71BDC1FA8003511FB /* Lemon Grass.png */,
-				AAD745D81BDC1FA8003511FB /* Panda.png */,
-				AAD745D91BDC1FA8003511FB /* Pines.png */,
-				AAD745DA1BDC1FA8003511FB /* Roots.png */,
-				AAD745DB1BDC1FA8003511FB /* Round Table.png */,
-				AAD745DC1BDC1FA8003511FB /* Rubios.png */,
-				AAD745DD1BDC1FA8003511FB /* Santorini.png */,
-				AAD745DE1BDC1FA8003511FB /* Shogun.png */,
-				AAD745DF1BDC1FA8003511FB /* Sixty-Four Degrees.png */,
-				AAD745E01BDC1FA8003511FB /* Sixty-Four North.png */,
-				AAD745E11BDC1FA8003511FB /* Subway.png */,
-				AAD745E21BDC1FA8003511FB /* Tapioca.png */,
+				AA599D931CFA449B001E7527 /* pikachu.mp3 */,
+				8F476B941CF0E0C8006B21B7 /* chicken.mp3 */,
+				AAB7247A1C66873F006F85BF /* shotgun.mp3 */,
 			);
-			name = Rest_Image;
+			name = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +369,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5906A81BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-Eat" */;
 			buildPhases = (
+				15DE3BEDF2CDE61559658203 /* [CP] Check Pods Manifest.lock */,
 				AA5906791BD2D3B6007B43FB /* Sources */,
 				AA59067A1BD2D3B6007B43FB /* Frameworks */,
 				AA59067B1BD2D3B6007B43FB /* Resources */,
+				9DE7957A36AC805B91B7AD9C /* [CP] Embed Pods Frameworks */,
+				580BBC513BCE68EBBF22C056 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +389,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5906AB1BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-EatTests" */;
 			buildPhases = (
+				431ED95C28EBFAC63CB8297E /* [CP] Check Pods Manifest.lock */,
 				AA5906901BD2D3B6007B43FB /* Sources */,
 				AA5906911BD2D3B6007B43FB /* Frameworks */,
 				AA5906921BD2D3B6007B43FB /* Resources */,
+				73061C09287EBFAA0F25E252 /* [CP] Embed Pods Frameworks */,
+				2AF5A2915AB5F8C40F4033C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,9 +410,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5906AE1BD2D3B6007B43FB /* Build configuration list for PBXNativeTarget "UCSD-CSSA-What-To-EatUITests" */;
 			buildPhases = (
+				BD076E5BB9FD1B640C577B1E /* [CP] Check Pods Manifest.lock */,
 				AA59069B1BD2D3B6007B43FB /* Sources */,
 				AA59069C1BD2D3B6007B43FB /* Frameworks */,
 				AA59069D1BD2D3B6007B43FB /* Resources */,
+				42588C0CA13DB4638E82A56F /* [CP] Copy Pods Resources */,
+				239F5FF7277410CCCF78BA31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,18 +433,22 @@
 		AA5906751BD2D3B6007B43FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Ruiqing Qiu";
 				TargetAttributes = {
 					AA59067C1BD2D3B6007B43FB = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CUD7MDQGHN;
+						LastSwiftMigration = 0800;
 					};
 					AA5906931BD2D3B6007B43FB = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = AA59067C1BD2D3B6007B43FB;
 					};
 					AA59069E1BD2D3B6007B43FB = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = AA59067C1BD2D3B6007B43FB;
 					};
 				};
@@ -308,32 +478,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAD745E31BDC1FA8003511FB /* Bistro.png in Resources */,
+				8FC4043E1CDE79A20061C817 /* CellDescriptor.plist in Resources */,
+				5BB0739B1DBC236E000ADC99 /* ListButton.xib in Resources */,
+				8F476B951CF0E0C8006B21B7 /* chicken.mp3 in Resources */,
+				8FC404351CDE69670061C817 /* CellDescriptor3.plist in Resources */,
+				AAE65FE11CB069EE00433876 /* SettingListCell.xib in Resources */,
+				AAB7247B1C66873F006F85BF /* shotgun.mp3 in Resources */,
 				AA59068E1BD2D3B6007B43FB /* LaunchScreen.storyboard in Resources */,
-				AAD745E71BDC1FA8003511FB /* Canyon Vista.png in Resources */,
-				AAD745EF1BDC1FA8003511FB /* Pines.png in Resources */,
-				AAD745F61BDC1FA8003511FB /* Sixty-Four North.png in Resources */,
-				AAD745ED1BDC1FA8003511FB /* Lemon Grass.png in Resources */,
+				8FC404341CDE69670061C817 /* CellDescriptor2.plist in Resources */,
+				5B6E714A1DB9BCB8008B1FD8 /* RestaurantCell.xib in Resources */,
+				AA599D941CFA449B001E7527 /* pikachu.mp3 in Resources */,
+				48290EE61CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 				AA59068B1BD2D3B6007B43FB /* Assets.xcassets in Resources */,
-				AAD745EC1BDC1FA8003511FB /* Jumba Juice.png in Resources */,
-				AAD745F11BDC1FA8003511FB /* Round Table.png in Resources */,
-				AAD745F81BDC1FA8003511FB /* Tapioca.png in Resources */,
-				AAD745FC1BDC22CF003511FB /* WTE_120.png in Resources */,
-				AAD745F41BDC1FA8003511FB /* Shogun.png in Resources */,
-				AAD745F51BDC1FA8003511FB /* Sixty-Four Degrees.png in Resources */,
-				AAD745E51BDC1FA8003511FB /* Burger King.png in Resources */,
-				AAD745EE1BDC1FA8003511FB /* Panda.png in Resources */,
+				8FC404361CDE69670061C817 /* CellDescriptor4.plist in Resources */,
+				48290EE21CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
+				AAE65FDD1CB0672C00433876 /* SettingHeader.xib in Resources */,
+				5B87A0331E4D1264006B9D83 /* Restaurants.plist in Resources */,
+				5B6E71461DB9B9D0008B1FD8 /* CategoryHeaderView.xib in Resources */,
 				AA5906861BD2D3B6007B43FB /* Main.storyboard in Resources */,
-				AAD745E81BDC1FA8003511FB /* Dlush.png in Resources */,
-				AAD745F71BDC1FA8003511FB /* Subway.png in Resources */,
-				AAD745F01BDC1FA8003511FB /* Roots.png in Resources */,
-				AAD745EB1BDC1FA8003511FB /* Hi Thai.png in Resources */,
-				AAD745F31BDC1FA8003511FB /* Santorini.png in Resources */,
-				AAD745F21BDC1FA8003511FB /* Rubios.png in Resources */,
-				AAD745E61BDC1FA8003511FB /* Cafe Vetena.png in Resources */,
-				AAD745E91BDC1FA8003511FB /* FoodWorx.png in Resources */,
-				AAD745EA1BDC1FA8003511FB /* Goodys.png in Resources */,
-				AAD745E41BDC1FA8003511FB /* Bombay Coast.png in Resources */,
+				AAE65FDF1CB0686300433876 /* SettingSwitchCell.xib in Resources */,
+				8FC404331CDE69670061C817 /* CellDescriptor1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +505,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48290EE31CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
+				48290EE71CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,10 +514,150 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48290EE41CDE733A0051DDB2 /* LithosPro-Regular.otf in Resources */,
+				48290EE81CDE7A0A0051DDB2 /* myFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15DE3BEDF2CDE61559658203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		239F5FF7277410CCCF78BA31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatUITests/Pods-UCSD-CSSA-What-To-EatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AF5A2915AB5F8C40F4033C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42588C0CA13DB4638E82A56F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatUITests/Pods-UCSD-CSSA-What-To-EatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		431ED95C28EBFAC63CB8297E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		580BBC513BCE68EBBF22C056 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73061C09287EBFAA0F25E252 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-EatTests/Pods-UCSD-CSSA-What-To-EatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE7957A36AC805B91B7AD9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCSD-CSSA-What-To-Eat/Pods-UCSD-CSSA-What-To-Eat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD076E5BB9FD1B640C577B1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA5906791BD2D3B6007B43FB /* Sources */ = {
@@ -359,8 +665,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5906891BD2D3B6007B43FB /* UCSD_CSSA_What_To_Eat.xcdatamodeld in Sources */,
+				5B6E71441DB9B9C0008B1FD8 /* CategoryHeaderView.swift in Sources */,
 				AA5906831BD2D3B6007B43FB /* ViewController.swift in Sources */,
+				5B0B06C81DB9713D004AAD0F /* ListButton.swift in Sources */,
+				5B1F02271E35364800F26672 /* PreferenceListDataProvider.swift in Sources */,
+				5B9309211E47AA9800A968B6 /* RestaurantDataProvider.swift in Sources */,
 				AA5906811BD2D3B6007B43FB /* AppDelegate.swift in Sources */,
+				4865CE6E1C6688CD007C9CFA /* FilterViewController.swift in Sources */,
+				48E58A1F1DC67803002D59A9 /* ShakeAnimation.swift in Sources */,
+				8FB9CD9E1C691AEE00618CAB /* CustomCell.swift in Sources */,
+				8FCC55FA1DE224260064A1FD /* Restaurant.swift in Sources */,
+				8F0C687D1DE22898005B6C9E /* Category.swift in Sources */,
+				5B87A0311E4CFFDF006B9D83 /* UserDefaultManager.swift in Sources */,
+				5B6E71481DB9BC9D008B1FD8 /* RestaurantCell.swift in Sources */,
+				8FCF86EF1E3533BF006C270A /* PreferenceList.swift in Sources */,
+				5BB607141DBAC9A3005429F5 /* FilterViewController+Delegates.swift in Sources */,
+				AAB7247F1C6696BB006F85BF /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +748,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -454,6 +776,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -472,8 +795,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -491,68 +816,88 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		AA5906A91BD2D3B6007B43FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25B677B3FA704C563EDCDCF /* Pods-UCSD-CSSA-What-To-Eat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CUD7MDQGHN;
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
+				PRODUCT_BUNDLE_IDENTIFIER = "ucsdcssa.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		AA5906AA1BD2D3B6007B43FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F70C0B8DF7962187DF0BF1 /* Pods-UCSD-CSSA-What-To-Eat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = WTE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CUD7MDQGHN;
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-Eat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-Eat";
+				PRODUCT_BUNDLE_IDENTIFIER = "ucsdcssa.UCSD-CSSA-What-To-Eat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		AA5906AC1BD2D3B6007B43FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567284BF17A960D334B1B8AC /* Pods-UCSD-CSSA-What-To-EatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSD-CSSA-What-To-Eat.app/UCSD-CSSA-What-To-Eat";
 			};
 			name = Debug;
 		};
 		AA5906AD1BD2D3B6007B43FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FD74DB92645AA492624691 /* Pods-UCSD-CSSA-What-To-EatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSD-CSSA-What-To-Eat.app/UCSD-CSSA-What-To-Eat";
 			};
 			name = Release;
 		};
 		AA5906AF1BD2D3B6007B43FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD595882CA3E7B3F15BABBF1 /* Pods-UCSD-CSSA-What-To-EatUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "UCSD-CSSA-What-To-Eat";
 				USES_XCTRUNNER = YES;
 			};
@@ -560,11 +905,13 @@
 		};
 		AA5906B01BD2D3B6007B43FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47023FB4F02423896181EDFE /* Pods-UCSD-CSSA-What-To-EatUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "UCSD-CSSA-What-To-EatUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruiqingqiu.cssa.project.UCSD-CSSA-What-To-EatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "UCSD-CSSA-What-To-Eat";
 				USES_XCTRUNNER = YES;
 			};
