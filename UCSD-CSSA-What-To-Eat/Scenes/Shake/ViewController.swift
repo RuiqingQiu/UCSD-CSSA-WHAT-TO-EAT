@@ -84,9 +84,9 @@ class ViewController: UIViewController {
         let touch: UITouch? = touches.first
         if touch?.view == filterButton{
             let FilterViewController = self.storyboard!.instantiateViewController(withIdentifier: "FilterViewController")
-            
             self.present(FilterViewController, animated: true, completion: nil)
         }
+
         super.touchesEnded(touches, with: event)
     }
     
@@ -260,6 +260,7 @@ class ViewController: UIViewController {
         }
     }
     
+       
     @objc private func reachabilityChanged(note: NSNotification) {
         
         let reachability = note.object as! Reachability

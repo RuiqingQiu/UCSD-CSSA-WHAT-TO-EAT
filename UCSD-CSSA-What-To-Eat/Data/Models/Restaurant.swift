@@ -8,6 +8,7 @@
 
 import Foundation
 import Parse
+import UIKit
 
 class Restaurant : PFObject, PFSubclassing {
     
@@ -24,6 +25,8 @@ class Restaurant : PFObject, PFSubclassing {
     @NSManaged var categories: [Category]
     @NSManaged var pngName: String
     
+    var localImage : UIImage!
+    var imagePath : String!
 
     var loadFromInternet = true // set to false when load from plist
 
@@ -48,5 +51,45 @@ class Restaurant : PFObject, PFSubclassing {
     static func parseClassName() -> String {
         return "Restaurant"
     }
+    
+    func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {
+        URLSession.shared.dataTask(with: url) {
+            (data, response, error) in
+            completion(data, response, error)
+            }.resume()
+    }
+    
+    func loadLocalImage(url: URL) {
+        getDataFromUrl(url: url) { (data, response, error)  in
+            guard let data = data, error == nil else { return }
+            DispatchQueue.main.async() { () -> Void in
+                self.localImage = UIImage(data: data)!
+                let fileManager = FileManager.default
+                self.imagePath = (NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString).appendingPathComponent(self.name)
+                let image = self.localImage
+                let imageData = UIImageJPEGRepresentation(image!, 0.5)
+                fileManager.createFile(atPath: self.imagePath as String, contents: imageData, attributes: nil)
+            }
+        }
+    }
+    
+    func saveImage (){
+        loadLocalImage(url: NSURL(string:image.url!) as! URL)
+
+    }
+    
+    func isImagePathValid() -> Bool {
+        if((self.imagePath) != nil){ return true }
+        else{ return false }
+    }
+    
+    func readImageFromLocalPath() -> UIImage? {
+        if(isImagePathValid()){
+            let image = UIImage(contentsOfFile: self.imagePath)
+            return image!
+        }
+        return nil
+    }
+    
     
 }

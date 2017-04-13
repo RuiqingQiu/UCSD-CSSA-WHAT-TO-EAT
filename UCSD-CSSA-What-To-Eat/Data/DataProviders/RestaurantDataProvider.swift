@@ -49,7 +49,7 @@ class RestaurantDataProvider: NSObject {
                 callback?(false)
                 return
             }
-
+            
             Restaurant.pinAll(inBackground: restaurants, block: { (success, error) in
                 callback?(success)
             })
